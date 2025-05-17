@@ -28,7 +28,7 @@ class Journal
         for (int i = 0; i < parts.Length; i += 3)
         {
             JournalEntry job = new JournalEntry();
-            job.date = DateTime.Parse(parts[i]);
+            job.date = DateTime.Parse(parts[i]).Date;
             job.prompt = parts[i + 1];
             job.response = parts[i + 2];
 

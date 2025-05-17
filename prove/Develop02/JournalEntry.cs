@@ -17,7 +17,7 @@ class JournalEntry
 
     public void DisplayEntry()
     {
-        Console.WriteLine($"Date: {date} - Prompt: {prompt}");
+        Console.WriteLine($"Date: {date.ToShortDateString()} - Prompt: {prompt}");
         Console.WriteLine($"{response}");
         Console.WriteLine();
     }
@@ -25,7 +25,7 @@ class JournalEntry
     public string formatToFile()
     {
         String entry_str = "";
-        entry_str += $"\n{date}~~{prompt}~~{response}";
+        entry_str += $"\n{date.ToShortDateString()}~~{prompt}~~{response}";
         return entry_str;
     }
 }

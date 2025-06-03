@@ -11,6 +11,7 @@ class Program
         string fileName1 = "Proverbs_3_5-6.txt";
         string fileName2 = "2_Nephi_2_11-16.txt";
         // Reference\nVerse\nVerse\n...
+        //Reads scripture from a file Exceeding requirments
         string[] lines = File.ReadAllLines(fileName1);
         string reference = lines[0];
 

@@ -1,11 +1,18 @@
 public class Breathing : Activity
 {
-    // Inherits all base class attributes
-    // No additional fields, all inherited fields are now private in Activity
-
-    public Breathing(string name, string beginningMessage, string endMessage, string description)
-        : base(name, beginningMessage, endMessage, description)
+    public Breathing()
+        : base("Breathing", 0, "This activity will help you relax by walking your through breathing in and out slowly. Clear your mind and focus on your breathing.")
     {
-        // No additional fields to initialize
+        
+    }
+    
+        public string GetBreathingDescription()
+    {
+        return GetDescription();
+    }
+
+    public void breathingActivity()
+    {
+
     }
 }

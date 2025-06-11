@@ -5,8 +5,8 @@ public class Reflection : Activity
     private List<string> _prompts;
     private List<string> _questions;
 
-    public Reflection(string name, string beginningMessage, string endMessage, string description)
-        : base(name, beginningMessage, endMessage, description)
+    public Reflection()
+        : base("Reflection", 0, "This activity will help you reflect on times in your life when you have shown strength and resilience. This will help you recognize the power you have and how you can use it in other aspects of your life.")
     {
         _prompts = new List<string> {
             "Think of a time when you stood up for someone else.",
@@ -27,5 +27,13 @@ public class Reflection : Activity
         };
     }
 
+    public List<string> GetPrompts()
+    {
+        return _prompts;
+    }
 
+    public List<string> GetQuestions()
+    {
+        return _questions;
+    }
 }

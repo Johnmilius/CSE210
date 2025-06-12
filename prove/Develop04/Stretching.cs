@@ -38,7 +38,7 @@ public class Stretching : Activity
         {
             // Pick a random stretch for each round
             Console.Write($"Stretch and hold: {GetRandomStretch()}...");
-            CountDown(5);
+            CountDown(7);
             Console.WriteLine();
 
             Console.Write("Release and relax...");
@@ -54,5 +54,5 @@ public class Stretching : Activity
         int index = rand.Next(_stretches.Count);
         return _stretches[index];
     }
-    
+
 }

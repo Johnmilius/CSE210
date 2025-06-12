@@ -3,7 +3,6 @@ using System.Collections.Generic;
 public class Listing : Activity
 {
     private List<string> _prompts;
-    private int _numOfResponses;
 
     public Listing()
         : base("Listing", 0, "This activity will help you reflect on the good things in your life by having you list as many things as you can in a certain area.")
@@ -15,7 +14,6 @@ public class Listing : Activity
             "When have you felt the Holy Ghost this month?",
             "Who are some of your personal heroes?"
         };
-        _numOfResponses = 0;
     }
 
     public void ListingActivity()
@@ -39,17 +37,12 @@ public class Listing : Activity
             Console.ReadLine();
             NumOfItems++;
         }
-        
         Console.WriteLine($"You listed {NumOfItems}!");
     }
+
     public List<string> GetPrompts()
     {
         return _prompts;
-    }
-
-    public int GetNumOfResponses()
-    {
-        return _numOfResponses;
     }
 
     public string GetRandomPrompt()
@@ -59,7 +52,4 @@ public class Listing : Activity
         return _prompts[index];
     }
 
-    public int ListingGetDuration() {
-        return GetDuration();
-    }
 }

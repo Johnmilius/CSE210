@@ -1,8 +1,8 @@
 public class Activity
 {
     private string _name;
-    private int _duration;
     private string _description;
+    private int _duration;
 
     public Activity(string name, int duration, string description)
     {
@@ -15,23 +15,30 @@ public class Activity
     {
         Console.WriteLine($"Welcome to the {GetName()} Activity");
         Console.WriteLine();
+
         Console.WriteLine(GetDescription());
         Console.WriteLine();
 
         Console.Write("How long, in seconds, would you like for your session? ");
         int seconds = int.Parse(Console.ReadLine());
         SetDuration(seconds);
+
         Console.WriteLine();
         Console.WriteLine("Get ready...");
         loadingSpinner(2);
+
         Console.WriteLine();
     }
+
     public void DisplayActivityOutro()
     {
         Console.WriteLine("Well Done!");
         Console.WriteLine();
+
         loadingSpinner(2);
+
         Console.WriteLine($"You have completed another {_duration} seconds of the {_name} Activity");
+
         loadingSpinner(2);
 
     }
@@ -45,6 +52,7 @@ public class Activity
             Console.Write("\b \b");
         }
     }
+
     public string GetName()
     {
         return _name;

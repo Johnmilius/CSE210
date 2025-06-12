@@ -52,7 +52,6 @@ public class Reflection : Activity
             loadingSpinner(4);
             Console.WriteLine();
         }
-
         Console.WriteLine();
     }
 
@@ -62,12 +61,14 @@ public class Reflection : Activity
         int index = rand.Next(_questions.Count);
         return _questions[index];
     }
+
     public string GetRandomPrompt()
     {
         Random rand = new Random();
         int index = rand.Next(_prompts.Count);
         return _prompts[index];
     }
+
     public List<string> GetPrompts()
     {
         return _prompts;
@@ -77,9 +78,5 @@ public class Reflection : Activity
     {
         return _questions;
     }
-
-    public int ReflectionGetDuration()
-    {
-        return GetDuration();
-    }
+    
 }

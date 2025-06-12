@@ -4,7 +4,7 @@ public class Breathing : Activity
         : base("Breathing", 0, "This activity will help you relax by walking your through breathing in and out slowly. Clear your mind and focus on your breathing.") { }
 
 
-    public void breathingActivity()
+    public void BreathingActivity()
     {
         int durationInSeconds = GetDuration();
         DateTime endTime = DateTime.Now.AddSeconds(durationInSeconds);
@@ -20,5 +20,5 @@ public class Breathing : Activity
             Console.WriteLine();
         }
     }
-    
+
 }

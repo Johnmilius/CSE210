@@ -25,7 +25,7 @@ public class Activity
 
         Console.WriteLine();
         Console.WriteLine("Get ready...");
-        loadingSpinner(2);
+        LoadingSpinner(2);
 
         Console.WriteLine();
     }
@@ -35,11 +35,11 @@ public class Activity
         Console.WriteLine("Well Done!");
         Console.WriteLine();
 
-        loadingSpinner(2);
+        LoadingSpinner(2);
 
-        Console.WriteLine($"You have completed another {_duration} seconds of the {_name} Activity");
+        Console.WriteLine($"You have completed another {_duration} seconds of the {_name} Activity.");
 
-        loadingSpinner(2);
+        LoadingSpinner(2);
 
     }
 
@@ -73,7 +73,7 @@ public class Activity
         return _description;
     }
 
-    public void loadingSpinner(int times)
+    public void LoadingSpinner(int times)
     {
         int timeSleep = 500;
         for (int i = 0; i < times; i++)

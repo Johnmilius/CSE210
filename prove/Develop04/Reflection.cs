@@ -49,7 +49,7 @@ public class Reflection : Activity
         while (DateTime.Now < endTime)
         {
             Console.Write($"> {GetRandomQuestion()}  ");
-            loadingSpinner(4);
+            LoadingSpinner(4);
             Console.WriteLine();
         }
         Console.WriteLine();
@@ -78,5 +78,5 @@ public class Reflection : Activity
     {
         return _questions;
     }
-    
+
 }

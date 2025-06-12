@@ -8,10 +8,10 @@ class Program
         Console.WriteLine("Hello Develop04 World!");
 
         string userInput = "";
-        while (userInput != "4")
+        while (userInput != "5")
         {
             Console.WriteLine();
-            Console.WriteLine("Menu Options:\n   1. Start breathing activity\n   2. Start reflecting activity\n   3. Start listing activity\n   4. Quit");
+            Console.WriteLine("Menu Options:\n   1. Start breathing activity\n   2. Start reflecting activity\n   3. Start listing activity\n   4. Start stretching activity\n   5. Quit");
 
             Console.Write("Select a choice from the menu: ");
             userInput = Console.ReadLine();
@@ -27,7 +27,7 @@ class Program
                 Breathing breathing1 = new Breathing();
 
                 breathing1.DisplayActivityIntro();
-                breathing1.breathingActivity();
+                breathing1.BreathingActivity();
                 breathing1.DisplayActivityOutro();
             }
             else if (userInput == "2")
@@ -60,12 +60,25 @@ class Program
             }
             else if (userInput == "4")
             {
+                Console.WriteLine();
+                // Code to start stretching activity
+                Console.WriteLine("Starting stretching activity...");
+                Console.WriteLine();
+
+                Stretching stretching1 = new Stretching();
+
+                stretching1.DisplayActivityIntro();
+                stretching1.StretchingActivity();
+                stretching1.DisplayActivityOutro();
+            }
+            else if (userInput == "5")
+            {
                 Console.WriteLine("Quitting program. Goodbye!");
                 break;
             }
             else
             {
-                Console.WriteLine("Invalid option. Please select 1, 2, 3, or 4.");
+                Console.WriteLine("Invalid option. Please select 1, 2, 3, 4, or 5.");
             }
         }
     }

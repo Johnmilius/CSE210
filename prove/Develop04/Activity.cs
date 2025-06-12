@@ -7,10 +7,44 @@ public class Activity
     public Activity(string name, int duration, string description)
     {
         _name = name;
-        _duration = duration;
         _description = description;
+        _duration = duration;
     }
 
+    public void DisplayActivityIntro()
+    {
+        Console.WriteLine($"Welcome to the {GetName()} Activity");
+        Console.WriteLine();
+        Console.WriteLine(GetDescription());
+        Console.WriteLine();
+
+        Console.Write("How long, in seconds, would you like for your session? ");
+        int seconds = int.Parse(Console.ReadLine());
+        SetDuration(seconds);
+        Console.WriteLine();
+        Console.WriteLine("Get ready...");
+        loadingSpinner(2);
+        Console.WriteLine();
+    }
+    public void DisplayActivityOutro()
+    {
+        Console.WriteLine("Well Done!");
+        Console.WriteLine();
+        loadingSpinner(2);
+        Console.WriteLine($"You have completed another {_duration} seconds of the {_name} Activity");
+        loadingSpinner(2);
+
+    }
+
+    public void CountDown(int count)
+    {
+        for (int i = count; i > 0; i--)
+        {
+            Console.Write($"{i}");
+            Thread.Sleep(1000);
+            Console.Write("\b \b");
+        }
+    }
     public string GetName()
     {
         return _name;
@@ -31,48 +65,27 @@ public class Activity
         return _description;
     }
 
-    public void breathingCountDown(int count)
+    public void loadingSpinner(int times)
     {
-        for (int i = 1; i <= count; i++)
-        {
-            Console.Write($"{i}");
-            Thread.Sleep(1000);
-            Console.Write("\b \b");
-        }
-        Console.WriteLine();
-    }
-
-        public void loadingScreen()
-    {
-        Console.WriteLine("Get ready...");
-        for (int i = 0; i < 5; i++)
+        int timeSleep = 500;
+        for (int i = 0; i < times; i++)
         {
             Console.Write("|");
-            Thread.Sleep(300);
+            Thread.Sleep(timeSleep);
             Console.Write("\b \b");
 
             Console.Write($"\\");
-            Thread.Sleep(300);
+            Thread.Sleep(timeSleep);
             Console.Write("\b \b");
 
             Console.Write("-");
-            Thread.Sleep(300);
+            Thread.Sleep(timeSleep);
             Console.Write("\b \b");
 
             Console.Write("/");
-            Thread.Sleep(300);
+            Thread.Sleep(timeSleep);
             Console.Write("\b \b");
 
         }
-
-        Console.Write("Breath in...");
-        this.breathingCountDown(3);
-
     }
-
-
-
-
-
-
 }

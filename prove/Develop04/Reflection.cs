@@ -27,6 +27,47 @@ public class Reflection : Activity
         };
     }
 
+    public void ReflectionActivity()
+    {
+        Console.WriteLine("Consider the following prompt:");
+        Console.WriteLine();
+
+        Console.WriteLine($" --- {GetRandomPrompt()} ---");
+        Console.WriteLine();
+
+        Console.WriteLine("When you have something in mind, press enter to continue.");
+        Console.ReadLine();
+
+        Console.WriteLine("Now ponder on each of the following questions as they related to the experiance");
+        Console.WriteLine("you may begin in: ");
+        CountDown(5);
+        Console.WriteLine();
+
+        int durationInSeconds = GetDuration();
+        DateTime endTime = DateTime.Now.AddSeconds(durationInSeconds);
+
+        while (DateTime.Now < endTime)
+        {
+            Console.Write($"> {GetRandomQuestion()}  ");
+            loadingSpinner(4);
+            Console.WriteLine();
+        }
+
+        Console.WriteLine();
+    }
+
+    public string GetRandomQuestion()
+    {
+        Random rand = new Random();
+        int index = rand.Next(_questions.Count);
+        return _questions[index];
+    }
+    public string GetRandomPrompt()
+    {
+        Random rand = new Random();
+        int index = rand.Next(_prompts.Count);
+        return _prompts[index];
+    }
     public List<string> GetPrompts()
     {
         return _prompts;
@@ -35,5 +76,10 @@ public class Reflection : Activity
     public List<string> GetQuestions()
     {
         return _questions;
+    }
+
+    public int ReflectionGetDuration()
+    {
+        return GetDuration();
     }
 }

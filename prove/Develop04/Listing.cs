@@ -18,6 +18,30 @@ public class Listing : Activity
         _numOfResponses = 0;
     }
 
+    public void ListingActivity()
+    {
+        Console.WriteLine("List as many reponses you can to the following prompt: ");
+        Console.WriteLine();
+
+        Console.WriteLine($" --- {GetRandomPrompt()} ---");
+        Console.WriteLine();
+
+        Console.WriteLine("You may begin:");
+
+        int NumOfItems = 0;
+
+        int durationInSeconds = GetDuration();
+        DateTime endTime = DateTime.Now.AddSeconds(durationInSeconds);
+
+        while (DateTime.Now < endTime)
+        {
+            Console.Write("> ");
+            Console.ReadLine();
+            NumOfItems++;
+        }
+        
+        Console.WriteLine($"You listed {NumOfItems}!");
+    }
     public List<string> GetPrompts()
     {
         return _prompts;
@@ -26,5 +50,16 @@ public class Listing : Activity
     public int GetNumOfResponses()
     {
         return _numOfResponses;
+    }
+
+    public string GetRandomPrompt()
+    {
+        Random rand = new Random();
+        int index = rand.Next(_prompts.Count);
+        return _prompts[index];
+    }
+
+    public int ListingGetDuration() {
+        return GetDuration();
     }
 }

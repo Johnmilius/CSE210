@@ -15,6 +15,7 @@ class Program
         // goals.Add(new ChecklistGoal("Drink Water", "Drink 8 cups of water", 2, 8, 10));
         // // Example of an extra goal, you can use another SimpleGoal or a custom one
         // goals.Add(new SimpleGoal("Practice Piano", "Practice piano for 20 minutes", 15));
+        // goals.Add(new BadHabit("Bite Nails", "Bite your nails during the day", -5));
 
         bool running = true;
         int totalPoints = 0;
@@ -42,6 +43,7 @@ class Program
                 Console.WriteLine("  1. Simple Goal");
                 Console.WriteLine("  2. Eternal Goal");
                 Console.WriteLine("  3. Checklist Goal");
+                Console.WriteLine("  4. Bad Habit");
                 Console.Write("Which Type of Goal would you like to create? ");
                 string createGoalInput = Console.ReadLine();
 
@@ -55,7 +57,7 @@ class Program
                     int newGoalPoints = int.Parse(Console.ReadLine());
 
                     SimpleGoal newGoal = new SimpleGoal(newGoalName, newGoalDescription, newGoalPoints);
-                    goals.Append(newGoal);
+                    goals.Add(newGoal);
                 }
                 else if (createGoalInput == "2") // ETERNAL GOAL
                 {
@@ -67,7 +69,7 @@ class Program
                     int newGoalPoints = int.Parse(Console.ReadLine());
 
                     EternalGoal newGoal = new EternalGoal(newGoalName, newGoalDescription, newGoalPoints);
-                    goals.Append(newGoal);
+                    goals.Add(newGoal);
                 }
                 else if (createGoalInput == "3") // CHECKLIST GOAL
                 {
@@ -83,9 +85,20 @@ class Program
                     int newGoalBonusPoints = int.Parse(Console.ReadLine());
 
                     ChecklistGoal newGoal = new ChecklistGoal(newGoalName, newGoalDescription, newGoalPoints, newGoalTimesToComplete, newGoalBonusPoints);
-                    goals.Append(newGoal);
+                    goals.Add(newGoal);
                 }
+                else if (createGoalInput == "4") // BAD HABIT
+                {
+                    Console.Write("What is the name of your Bad Habit? > ");
+                    string newGoalName = Console.ReadLine();
+                    Console.Write("What is a short description of your bad habit? > ");
+                    string newGoalDescription = Console.ReadLine();
+                    Console.Write("What is the amount of negitive points associated with this Bad Habit? > ");
+                    int newGoalPoints = int.Parse(Console.ReadLine());
 
+                    BadHabit newGoal = new BadHabit(newGoalName, newGoalDescription, newGoalPoints);
+                    goals.Add(newGoal);
+                }
             }
             else if (menuInput == "2")
             {
@@ -162,6 +175,14 @@ class Program
                         goal.SetTimesCompleted(timesCompleted);
                         goals.Add(goal);
                     }
+                    else if (goalType == "BadHabit")
+                    {
+                        string name = lineSplit[1];
+                        string description = lineSplit[2];
+                        int points = int.Parse(lineSplit[3]);
+                        BadHabit goal = new BadHabit(name, description, points);
+                        goals.Add(goal);
+                    }
                 }
 
                 Console.WriteLine();
@@ -181,7 +202,7 @@ class Program
                 }
 
                 Console.WriteLine();
-                Console.Write("Which goal did you accomplish? > ");
+                Console.Write("Which goal did you accomplish or habit you did? > ");
                 int accomplishedGoalINDEX = int.Parse(Console.ReadLine()) - 1;
 
                 Goal accomplishedGoal = goals[accomplishedGoalINDEX];
@@ -199,6 +220,12 @@ class Program
                     {
                         totalPoints += checklistGoal.GetBonusPoints();
                     }
+                }
+                else if (accomplishedGoal is BadHabit badHabit)
+                {
+                    Console.WriteLine();
+                    Console.WriteLine("Try to avoid this habit next time!");
+                    totalPoints = totalPoints + badHabit.GetPoints();
                 }
             }
             else if (menuInput == "6")

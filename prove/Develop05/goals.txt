@@ -3,3 +3,4 @@ SimpleGoal~~Read Book~~Read 10 pages of a book~~10~~False
 EternalGoal~~Daily Walk~~Take a 30-minute walk~~5
 ChecklistGoal~~Drink Water~~Drink 8 cups of water~~2~~0~~2~~10
 SimpleGoal~~Practice Piano~~Practice piano for 20 minutes~~15~~False
+BadHabit~~Bite Nails~~Bite your nails during the day~~-5

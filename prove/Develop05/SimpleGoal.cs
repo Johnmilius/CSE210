@@ -2,7 +2,7 @@ public class SimpleGoal : Goal
 {
     private bool _isComplete;
 
-    public SimpleGoal(string name, string description, string points)
+    public SimpleGoal(string name, string description, int points)
         : base(name, description, points)
     {
         _isComplete = false;
@@ -13,9 +13,19 @@ public class SimpleGoal : Goal
         return _isComplete;
     }
 
-    public override void DisplayGoal()
+    public void SetToComplete()
+    {
+        _isComplete = true;
+    }
+
+    public override string DisplayGoal()
     {
         string status = _isComplete ? "[X]" : "[ ]";
-        Console.WriteLine($"{status} {_name} ({_description})");
+        return $"{status} {_name} ({_description})";
+    }
+
+    public override string FormatToFile()
+    {
+        return $"SimpleGoal~~{_name}~~{_description}~~{_points}~~{_isComplete}";
     }
 }

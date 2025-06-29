@@ -4,9 +4,9 @@ public abstract class Goal
 {
     protected string _name;
     protected string _description;
-    protected string _points;
+    protected int _points;
 
-    public Goal(string name, string description, string points)
+    public Goal(string name, string description, int points)
     {
         _name = name;
         _description = description;
@@ -14,5 +14,11 @@ public abstract class Goal
     }
 
     public abstract bool IsComplete();
-    public abstract void DisplayGoal();
+    public abstract string DisplayGoal();
+    public abstract string FormatToFile();
+
+    public int GetPoints()
+    {
+        return _points;
+    }
 }

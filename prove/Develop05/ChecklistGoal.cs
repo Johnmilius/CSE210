@@ -4,7 +4,7 @@ public class ChecklistGoal : Goal
     private int _maxTimesCompleted;
     private int _bonusPoints;
 
-    public ChecklistGoal(string name, string description, string points, int maxTimesCompleted, int bonusPoints)
+    public ChecklistGoal(string name, string description, int points, int maxTimesCompleted, int bonusPoints)
         : base(name, description, points)
     {
         _timesCompleted = 0;
@@ -20,14 +20,34 @@ public class ChecklistGoal : Goal
         }
     }
 
+    public int GetBonusPoints()
+    {
+        return _bonusPoints;
+    }
+
+    public bool FirstTimeCompleted()
+    {
+        return _timesCompleted == _maxTimesCompleted;
+    }
+
+    public void SetTimesCompleted(int times)
+    {
+        _timesCompleted = times;
+    }
+
     public override bool IsComplete()
     {
         return _timesCompleted >= _maxTimesCompleted;
     }
 
-    public override void DisplayGoal()
+    public override string DisplayGoal()
     {
         string status = IsComplete() ? "[X]" : "[ ]";
-        Console.WriteLine($"{status} {_name} ({_description}) -- Completed: {_timesCompleted}/{_maxTimesCompleted}");
+        return $"{status} {_name} ({_description}) -- Completed: {_timesCompleted}/{_maxTimesCompleted}";
+    }
+
+    public override string FormatToFile()
+    {
+        return $"ChecklistGoal~~{_name}~~{_description}~~{_points}~~{_timesCompleted}~~{_maxTimesCompleted}~~{_bonusPoints}";
     }
 }

@@ -1,6 +1,6 @@
 public class EternalGoal : Goal
 {
-    public EternalGoal(string name, string description, string points)
+    public EternalGoal(string name, string description, int points)
         : base(name, description, points)
     {
     }
@@ -11,8 +11,13 @@ public class EternalGoal : Goal
         return false;
     }
 
-    public override void DisplayGoal()
+    public override string DisplayGoal()
     {
-        Console.WriteLine($"[∞] {_name} ({_description})");
+        return $"[∞] {_name} ({_description})";
+    }
+
+    public override string FormatToFile()
+    {
+        return $"EternalGoal~~{_name}~~{_description}~~{_points}";
     }
 }

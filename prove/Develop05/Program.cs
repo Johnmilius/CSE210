@@ -8,15 +8,6 @@ class Program
     static void Main(string[] args)
     {
         List<Goal> goals = new List<Goal>();
-
-        // EXAMPLE TEST GOALS
-        // goals.Add(new SimpleGoal("Read Book", "Read 10 pages of a book", 10));
-        // goals.Add(new EternalGoal("Daily Walk", "Take a 30-minute walk", 5));
-        // goals.Add(new ChecklistGoal("Drink Water", "Drink 8 cups of water", 2, 8, 10));
-        // // Example of an extra goal, you can use another SimpleGoal or a custom one
-        // goals.Add(new SimpleGoal("Practice Piano", "Practice piano for 20 minutes", 15));
-        // goals.Add(new BadHabit("Bite Nails", "Bite your nails during the day", -5));
-
         bool running = true;
         int totalPoints = 0;
 

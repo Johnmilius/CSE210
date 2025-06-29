@@ -120,6 +120,7 @@ class Program
                 string fileName = Console.ReadLine();
 
                 List<string> lines = new List<string>();
+                lines.Add($"{totalPoints}");
                 foreach (Goal currentGoal in goals)
                 {
                     lines.Add(currentGoal.FormatToFile());
@@ -130,9 +131,9 @@ class Program
             {
                 // Load Goals logic here
                 Console.WriteLine("[Load Goals]");
-
                 Console.Write("What is the name of the file you wish to load from? > ");
                 string fileName = Console.ReadLine();
+                goals.Clear();
 
                 string[] lines = File.ReadAllLines(fileName);
                 totalPoints = int.Parse(lines[0]);
@@ -225,7 +226,6 @@ class Program
                 {
                     Console.WriteLine();
                     Console.WriteLine("Try to avoid this habit next time!");
-                    totalPoints = totalPoints + badHabit.GetPoints();
                 }
             }
             else if (menuInput == "6")

@@ -1,0 +1,82 @@
+
+
+
+
++-------------------+         +-------------------+         +-------------------+
+|     Card          |         |   PlayerProfile   |         |   ElementRules    |
++-------------------+         +-------------------+         +-------------------+
+| - name            |         | - playerName      |         | (static class)    |
+| - element         |         | - beltRank        |         +-------------------+
+| - power           |         | - level           |         | +Beats(a, b):bool |
++-------------------+         | - experiencePoints|         +-------------------+
+| +GetEffectiveness |         | - senseiDefeated  |
+|   Against(Card)   |         +-------------------+
++-------------------+         | +AddXP()          |
+                              | +CheckLevelUp()   |
+                              | +PromoteBelt()    |
+                              | +GetProfileSummary|
+                              +-------------------+
+                                      ^
+                                      |
+                                      |
++-------------------+         +-------------------+         +-------------------+
+|      Deck         |         |      Player       |<--------+     Sensei        |
++-------------------+         +-------------------+         +-------------------+
+| - cards: List<Card>|        | - profile         |         | - difficulty      |
++-------------------+         | - hand: List<Card>|         +-------------------+
+| +Shuffle()        |         +-------------------+         | +GenerateDeck()   |
+| +DrawCard()       |         | +PlayCard()       |         | +GiveChallengeText|
++-------------------+         | +AddCard()        |         +-------------------+
+                              | +ShowProfile()    |
+                              +-------------------+
+                                      ^
+                                      |
+                                      |
+                              +-------------------+
+                              |   GameManager     |
+                              +-------------------+
+                              | - player          |
+                              | - sensei          |
+                              | - deck            |
+                              | - cardPack        |
+                              +-------------------+
+                              | +StartGame()      |
+                              | +PlayRound()      |
+                              | +ChallengeSensei()|
+                              | +DetermineWinner()|
+                              +-------------------+
+
++-------------------+         +-------------------+
+|    CardPack       |         |   ActionPrompt    | (optional)
++-------------------+         +-------------------+
+| - allCards        |         | - promptType      |
+| - packSize        |         | - requiredActions |
++-------------------+         | - timeLimitSecs   |
+| +OpenPack()       |         +-------------------+
++-------------------+         | +Execute()        |
+                              +-------------------+
+                                      ^
+                                      |
+                              +-------------------+
+                              |  SpamKeyPrompt    |
+                              +-------------------+
+                              | - requiredKey     |
+                              | - requiredCount   |
+                              +-------------------+
+                              | +Execute()        |
+                              +-------------------+
+
+Enums:
++-------------------+    +-------------------+
+|   BeltRank        |    |   ElementType     |
++-------------------+    +-------------------+
+| White             |    | Fire              |
+| Yellow            |    | Water             |
+| Orange            |    | Snow              |
+| Green             |    +-------------------+
+| Blue              |
+| Brown             |
+| Black             |
++-------------------+
+
+Program (entry point): Main()

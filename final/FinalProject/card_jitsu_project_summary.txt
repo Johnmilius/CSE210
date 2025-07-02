@@ -1,0 +1,137 @@
+
+Card-Jitsu Inspired Game Project - Class Structure Summary
+===========================================================
+
+This text summarizes the object-oriented class structure, behaviors, and rationale behind the design of a Card-Jitsu-style card game built in C#. This is intended for a CSE 210 project that emphasizes OOP principles: Abstraction, Encapsulation, Inheritance, and Polymorphism.
+
+Core Classes (Minimum Requirement: 8 - Met and Exceeded)
+----------------------------------------------------------
+1. Card
+   - Fields: name, element (ElementType), power
+   - Methods: GetEffectivenessAgainst(Card)
+   - Role: Represents a single game card with basic combat logic
+
+2. Deck
+   - Fields: List<Card> cards
+   - Methods: Shuffle(), DrawCard()
+   - Role: Manages the full pool of available cards
+
+3. CardPack
+   - Fields: List<Card> allCards, int packSize
+   - Methods: OpenPack() => List<Card>
+   - Role: Simulates opening a random pack of cards like in trading card games
+
+4. Player
+   - Fields: PlayerProfile profile, List<Card> hand
+   - Methods: PlayCard(), AddCard(), ShowProfile()
+   - Role: A basic player with a hand of cards and profile information
+
+5. Sensei (inherits from Player)
+   - Fields: difficulty
+   - Methods: GenerateDeck(), GiveChallengeText()
+   - Role: Acts as a final boss or rank gatekeeper. Winning a duel against the Sensei advances your belt rank.
+
+6. PlayerProfile
+   - Fields: playerName, beltRank (BeltRank enum), level, experiencePoints, senseiDefeated
+   - Methods: AddXP(), CheckLevelUp(), PromoteBelt(), GetProfileSummary()
+   - Role: Encapsulates player progression logic (belts, XP, leveling)
+
+7. GameManager
+   - Fields: player, sensei, deck, cardPack
+   - Methods: StartGame(), PlayRound(), ChallengeSensei(), DetermineWinner()
+   - Role: Manages game flow, battles, and triggers Sensei challenges
+
+8. ElementRules (static utility class)
+   - Methods: Beats(Card a, Card b) => bool
+   - Role: Provides the Fire > Snow > Water > Fire logic
+
+9. Program
+   - Methods: Main()
+   - Role: Entry point to launch the game
+
+10. Enum: BeltRank
+    - Values: White, Yellow, Orange, Green, Blue, Brown, Black
+
+11. Enum: ElementType
+    - Values: Fire, Water, Snow
+
+OOP Principles Demonstrated
+-----------------------------
+- Abstraction: GameManager abstracts game rounds, Sensei logic, and flow
+- Encapsulation: PlayerProfile and CardPack control their own data updates
+- Inheritance: Sensei inherits from Player and overrides/extends behavior
+- Polymorphism: Sensei and Player may play cards differently or have unique methods (e.g., GiveChallengeText())
+
+Gameplay Overview
+------------------
+- Players start with a pack of cards (CardPack) and build a hand.
+- They battle through matches to gain XP.
+- Once enough XP is earned, the GameManager allows them to ChallengeSensei().
+- Winning the duel promotes the player’s belt rank via PlayerProfile.PromoteBelt().
+
+This system captures a nostalgic game concept while meeting all CSE 210 requirements.
+
+
+MORE IDEAS
+
+Overview:
+To increase player engagement and introduce real-time decision-making, an ActionPrompt system can be added. During a battle, if a player is about to take damage, they are presented with a quick challenge (e.g., spam the spacebar 10 times in 3 seconds). If successful, the player dodges or reduces the damage.
+
+This simulates a “quick-time event” mechanic found in many games.
+
+New Class:
+ActionPrompt (optional)
+
+Fields:
+
+promptType : string (e.g., "SpamSpace")
+
+requiredActions : int (e.g., 10 key presses)
+
+timeLimitSeconds : float
+
+Methods:
+
+Execute() → bool
+• Starts a short timer and listens for input
+• Returns true if the player completes the action in time
+
+Optional Subclass:
+SpamKeyPrompt : inherits from ActionPrompt
+
+Fields:
+
+requiredKey : char (e.g., ' ')
+
+requiredCount : int
+
+Override Execute() to handle spam-specific logic
+
+Integration:
+When a player loses a card battle and would take damage:
+
+GameManager triggers ActionPrompt.Execute()
+
+If success → player dodges or reduces damage
+
+If fail → player takes full damage
+
+OOP Principles Demonstrated:
+Abstraction: GameManager interacts with ActionPrompt via a single method call (Execute)
+
+Encapsulation: Prompt input handling is internal to ActionPrompt
+
+Inheritance & Polymorphism: Different prompt types can extend ActionPrompt and override Execute()
+
+This mechanic adds variety, skill-based interaction, and helps reinforce OOP concepts while improving game feel.
+
+
+
+
+
+
+
+
+
+
+

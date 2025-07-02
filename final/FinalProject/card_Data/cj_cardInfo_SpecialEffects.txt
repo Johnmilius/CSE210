@@ -1,0 +1,24 @@
+1. Next played card has value raised by 2 users 
+2. Next played card has value lowered by 2 opponents
+3. Lower value card wins (occurs if played)
+4. If played, a random fire card will be discarded
+5. If played, a random water card will be discarded
+6. If played, a random snow card will be discarded
+7. A random red card will be discarded
+8. All red cards in the opponents deck will be discarded
+9. A random blue card will be discarded
+10. All blue cards in the opponents deck will be discarded
+11. A random yellow card will be discarded
+12. All yellow cards in the opponents deck will be discarded
+13. A random green card will be discarded
+14. All green cards in the opponents deck will be discarded
+15. A random orange card will be discarded
+16. All orange cards in the opponents deck will be discarded
+17. A random purple card will be discarded
+18. All purple cards in the opponents deck will be discarded
+19. Change fire element cards to snow element cards for current turn (occurs if played)
+20. Change snow element cards to water element cards for current turn (occurs if played)
+21. Change water element cards to fire element cards for current turn (occurs if played)
+22. This will block fire element cards for next turn
+23. Block water element cards for next turn
+24. Block snow element cards for next turn

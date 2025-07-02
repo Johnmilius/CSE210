@@ -1,0 +1,42 @@
+[
+  {
+    "cardId": 1,
+    "name": "Cart Surfer",
+    "element": "Fire",
+    "value": 3,
+    "color": "Blue",
+    "effect": null,
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/2/23/Card-Jitsu_Cards_full_1.png",
+    "description": "\"Dude, I'm totally gonna get like 500 coins this time...\""
+  },
+  {
+    "cardId": 2,
+    "name": "Coffee Shop",
+    "element": "Fire",
+    "value": 2,
+    "color": "Green",
+    "effect": null,
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/e/eb/Card-Jitsu_Cards_full_2.png",
+    "description": "\"Many of our customers come here for some quiet while they read the latest newspaper...\""
+  },
+  {
+    "cardId": 71,
+    "name": "Flooring Upgrade",
+    "element": "Fire",
+    "value": 6,
+    "color": "Red",
+    "effect": "Opponent discards one random card",
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/b/bc/Card-Jitsu_Cards_full_71.png",
+    "description": "\"I'm rollin' out some burgundy style. It gives my igloo a nice vintage vibe.\""
+  },
+  {
+    "cardId": 72,
+    "name": "Gadget Room",
+    "element": "Water",
+    "value": 5,
+    "color": "Blue",
+    "effect": "Both players draw one card",
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/d/dc/Card-Jitsu_Cards_full_72.png",
+    "description": "\"This is my Gadget Room. Please don't touch the buttons. Or the levers. Or the lasers.\""
+  }
+]

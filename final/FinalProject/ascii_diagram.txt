@@ -1,4 +1,15 @@
+This is the diagram in ASCII text that I have created.
+I created a basic outline on paper and pencil then I had the AI write it out for me on the computer.
+The main part for inhertance is the player profile and sensi classes. 
+I also have some more potential inhertance down towards the bottom with an idea I have regarding some more game mechanincs but this is more of a stretch Idea and not apart of my MVP.
+For polymorhpism I plan on spliting the GameManager class to have two inhertance classes for one handling a game against the sensi and then a game against another user. 
+So they will have similer concepts but need to be done differently.
+I also can add more inehertiance to the card class by having a child class of powerCard to create the effects of a card that is a little better and has special effects rather than the regular cards.
 
+I am learning how static classes work in this project and how enum class or types work aswell. 
+
+Most attributes are included here should be able to work for basic functioning. 
+I'm sure I'm missing some things I'll realize later but this is a good foundation to start on. 
 
 
 
@@ -29,9 +40,9 @@
 +-------------------+         | +AddCard()        |         +-------------------+
                               | +ShowProfile()    |
                               +-------------------+
-                                      ^
-                                      |
-                                      |
+                                      
+                                      
+                                      
                               +-------------------+
                               |   GameManager     |
                               +-------------------+

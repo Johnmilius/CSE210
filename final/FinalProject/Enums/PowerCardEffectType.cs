@@ -2,6 +2,8 @@ public enum PowerCardEffectType
 {
     None,
 
+    PowerReverse,
+
     NextCardValueUp2User,
     NextCardValueDown2Opponent,
 

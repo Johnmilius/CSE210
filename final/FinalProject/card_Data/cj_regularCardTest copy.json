@@ -2,9 +2,9 @@
  {
     "cardId": 1,
     "name": "Cart Surfer",
-    "elementtype": "Fire",
+    "ElementType": "Fire",
     "value": 3,
-    "cardcolor": "Blue",
+    "CardColor": "Blue",
     "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/2/23/Card-Jitsu_Cards_full_1.png",
     "description": "Dude, I'm totally gonna get like 500 coins this time..."
   }

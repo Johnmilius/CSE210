@@ -1,0 +1,12 @@
+[
+  {
+    "cardId": 71,
+    "name": "Flooring Upgrade",
+    "ElementType": "Fire",
+    "value": 6,
+    "CardColor": "Red",
+    "PowerCardEffectType": "DiscardRandomRedCardOppenent",
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/b/bc/Card-Jitsu_Cards_full_71.png",
+    "description": "I'm rollin' out some burgundy style. It gives my igloo a nice vintage vibe."
+  }
+]

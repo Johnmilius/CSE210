@@ -2,18 +2,13 @@ public abstract class Card
 {
     private int _cardId;
     private string _name;
-    private string _element;
+    private ElementType _element;
     private int _value;
-    private string _color;
+    private CardColor _color;
     private string _imageUrl;
     private string _description;
 
-    public Card()
-    {
-
-    }
-
-    public Card(int cardId, string name, string element, int value, string color, string effect, string imageUrl, string description)
+    public Card(int cardId, string name, ElementType element, int value, CardColor color, string imageUrl, string description)
     {
         _cardId = cardId;
         _name = name;

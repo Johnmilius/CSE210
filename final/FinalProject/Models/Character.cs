@@ -7,16 +7,12 @@ public class Character
     public Character(string playerName) // new player
     {
         _playerName = playerName;
-        _beltRank = White;
-        _level = 0;
-        _experiencePoints = 0;
+        _beltRank = BeltRank.White;
     }
 
-    public Character(string playerName, BeltRank beltRank, int level, int experiencePoints) //player with stats saved somewhere. 
+    public Character(string playerName, BeltRank beltRank) //player with stats saved somewhere. 
     {
         _playerName = playerName;
         _beltRank = beltRank;
-        _level = level;
-        _experiencePoints = experiencePoints;
     }
 }

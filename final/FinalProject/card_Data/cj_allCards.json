@@ -1,0 +1,4687 @@
+[
+  {
+    "cardId": 1,
+    "name": "CART SURFER",
+    "ElementType": "Fire",
+    "value": 3,
+    "CardColor": "Blue",
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/2/23/Card-Jitsu_Cards_full_1.png",
+    "description": "Dude, I'm totally gonna get like 500 coins this time, says a penguin ripping down the track. I run through the cave and get sweet air with my 360s and backflips."
+  },
+  {
+    "cardId": 2,
+    "name": "COFFEE SHOP",
+    "ElementType": "Fire",
+    "value": 2,
+    "CardColor": "Green",
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/e/eb/Card-Jitsu_Cards_full_2.png",
+    "description": "Many of our customers come here for some quiet while they read the latest newspaper, explains a staff member. Ballistic biscotti is our most popular menu item."
+  },
+  {
+    "cardId": 3,
+    "name": "ASTRO-BARRIER",
+    "ElementType": "Fire",
+    "value": 8,
+    "CardColor": "Green",
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/a/a3/Card-Jitsu_Cards_full_3.png",
+    "description": "I remember when Astro-Barrier came out. It was the first arcade game on the island! recalls an avid gamer in the Lounge. Have you found the secret levels yet?"
+  },
+  {
+    "cardId": 4,
+    "name": "HOT CHOCOLATE",
+    "ElementType": "Fire",
+    "value": 3,
+    "CardColor": "Orange",
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/c/cd/Card-Jitsu_Cards_full_4.png",
+    "description": "The trick to a great cup of coffee is the time it takes to pour, explains the Coffee Stop staff. Not too fast but not too slow, then save some room for marshmallows!"
+  },
+  {
+    "cardId": 5,
+    "name": null,
+    "ElementType": "Fire",
+    "value": 4,
+    "CardColor": "Purple",
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/5/5d/Card-Jitsu_Cards_full_5.png",
+    "description": "The landing pads around the island are built out of special alloys that disable them from being adversely affected by jet pack heat, explains Gary. That means they're strong."
+  },
+  {
+    "cardId": 6,
+    "name": null,
+    "ElementType": "Fire",
+    "value": 6,
+    "CardColor": "Purple",
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/4/42/Card-Jitsu_Cards_full_6.png",
+    "description": "First you start with the pizza dough, which gets flattened into pans, the chef continues. Then it goes down the Pizzatron 3000 line and roasts in the oven."
+  },
+  {
+    "cardId": 7,
+    "name": "PAINT BY LETTERS",
+    "ElementType": "Fire",
+    "value": 2,
+    "CardColor": "Red",
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/9/95/Card-Jitsu_Cards_full_7.png",
+    "description": "This one's my favorite story in the Book Room because it's about my favorite day of the year, he says. Besides, I love any story that involves aliens and flashlights."
+  },
+  {
+    "cardId": 8,
+    "name": "MINE",
+    "ElementType": "Fire",
+    "value": 7,
+    "CardColor": "Red",
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/7/74/Card-Jitsu_Cards_full_8.png",
+    "description": "The Mine is so cool. I can see all kinds of stalactites on the ceiling, explains the scientist. Stalactites are those things that look like icicles. Oh wait... they're just icicles."
+  },
+  {
+    "cardId": 9,
+    "name": "red ones",
+    "ElementType": "Fire",
+    "value": 2,
+    "CardColor": "Yellow",
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/b/b4/Card-Jitsu_Cards_full_9.png",
+    "description": "It's amazing what you can do with a plain old drill, notes a worker on a job site near the coast. I've seen some nice red ones, but I like my trusty yellow drill. It does just the trick."
+  },
+  {
+    "cardId": 10,
+    "name": "JET PACK ADVENTURE",
+    "ElementType": "Fire",
+    "value": 5,
+    "CardColor": "Yellow",
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/7/78/Card-Jitsu_Cards_full_10.png",
+    "description": "I love going on adventures with my jet pack. I can almost navigate through the entire course without getting a single coin, boasts the proud pilot. It's not too easy, though..."
+  },
+  {
+    "cardId": 11,
+    "name": "GIFT SHOP",
+    "ElementType": "Snow",
+    "value": 3,
+    "CardColor": "Blue",
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/a/af/Card-Jitsu_Cards_full_11.png",
+    "description": "1"
+  },
+  {
+    "cardId": 12,
+    "name": "FOREST",
+    "ElementType": "Snow",
+    "value": 2,
+    "CardColor": "Green",
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/c/cb/Card-Jitsu_Cards_full_12.png",
+    "description": "It's the perfect day for a hike in the Forest, says the penguin, holding her backpack on her shoulders. Keeping active is really important, plus I love the great outdoors!"
+  },
+  {
+    "cardId": 13,
+    "name": null,
+    "ElementType": "Snow",
+    "value": 5,
+    "CardColor": "Green",
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/d/d8/Card-Jitsu_Cards_full_13.png",
+    "description": "When you've got a penguin who's stuck in the snow / Just tell 'em exactly where to go / To the Rescue Squad on top of the hill / We know how to help and ya know we will!"
+  },
+  {
+    "cardId": 14,
+    "name": "PET SHOP",
+    "ElementType": "Snow",
+    "value": 3,
+    "CardColor": "Orange",
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/6/66/Card-Jitsu_Cards_full_14.png",
+    "description": "This here is the puffle area, You'll be responsible for caring for these little critters, explains the Pet Shop owner. The black one over there is a bit of a firecracker."
+  },
+  {
+    "cardId": 15,
+    "name": "SKI VILLAGE",
+    "ElementType": "Snow",
+    "value": 4,
+    "CardColor": "Purple",
+    "imageUrl": null,
+    "description": "I usually start a tour here at the Ski Village because it's so close to my tour booth, explains a tour guide. It's a great place to build a group of tourists, too."
+  },
+  {
+    "cardId": 16,
+    "name": "ICE HOCKEY",
+    "ElementType": "Snow",
+    "value": 8,
+    "CardColor": "Purple",
+    "imageUrl": null,
+    "description": "1"
+  },
+  {
+    "cardId": 17,
+    "name": "SKI HILL",
+    "ElementType": "Snow",
+    "value": 2,
+    "CardColor": "Red",
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/2/24/Card-Jitsu_Cards_full_17.png",
+    "description": "This must be the place she was talking about with all the sledding penguins, says the red penguin. Now what on earth is that pointy thing up there for?"
+  },
+  {
+    "cardId": 18,
+    "name": "SNOWBALL",
+    "ElementType": "Snow",
+    "value": 6,
+    "CardColor": "Red",
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/5/5d/Card-Jitsu_Cards_full_18.png",
+    "description": "Here comes a long one! one penguin shouts. Yikes! That was close! shrieks the other penguin. Guess I'm better with water balloons..."
+  },
+  {
+    "cardId": 19,
+    "name": "SNOW FORTS",
+    "ElementType": "Snow",
+    "value": 2,
+    "CardColor": "Yellow",
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/5/5b/Card-Jitsu_Cards_full_19.png",
+    "description": "I'm practicing my snowball pitch. I pretend this is the pitcher's mound, then wind up and let it fly. The Snow Forts are the perfect place to test out your pitching arm."
+  },
+  {
+    "cardId": 20,
+    "name": "football",
+    "ElementType": "Snow",
+    "value": 7,
+    "CardColor": "Yellow",
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/e/ed/Card-Jitsu_Cards_full_20.png",
+    "description": "Okay, look. Let's get this straight. I know some penguins out west call it a soccer ball, but it's football. Now that you understand the game, ready to try and score a goal?"
+  },
+  {
+    "cardId": 21,
+    "name": "BEACH",
+    "ElementType": "Water",
+    "value": 3,
+    "CardColor": "Blue",
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/c/c5/Card-Jitsu_Cards_full_21.png",
+    "description": "I remember when the Beach opened as though it was yesterday, replies one island veteran. We threw a big barbecue with the fish we caught. Ahhh... those were golden days..."
+  },
+  {
+    "cardId": 22,
+    "name": "FOOTBALL",
+    "ElementType": "Water",
+    "value": 5,
+    "CardColor": "Blue",
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/e/e5/Card-Jitsu_Cards_full_22.png",
+    "description": "10... 24... 5... hut! shouts the quarterback as he makes a run for it across the field, racing for the 10-yard line. Team Red's not gonna win it this time, he thinks as he's running..."
+  },
+  {
+    "cardId": 23,
+    "name": null,
+    "ElementType": "Water",
+    "value": 2,
+    "CardColor": "Green",
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/b/b0/Card-Jitsu_Cards_full_23.png",
+    "description": "BATTER UP! shouts the umpire as Team Red's pitcher readies the first throw of the big ball game. This one's for the Blue Team! shouts the batter as the ball flies towards the plate..."
+  },
+  {
+    "cardId": 24,
+    "name": null,
+    "ElementType": "Water",
+    "value": 8,
+    "CardColor": "Green",
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/8/87/Card-Jitsu_Cards_full_24.png",
+    "description": "Welcome to my beautiful enchanted castle! beams the sparkly princess penguin. I'm looking for my wand, which I seem to have misplaced. Could you help me look for it?"
+  },
+  {
+    "cardId": 25,
+    "name": "BEAN COUNTERS",
+    "ElementType": "Water",
+    "value": 3,
+    "CardColor": "Orange",
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/1/17/Card-Jitsu_Cards_full_25.png",
+    "description": "Why do they insist on delivering more fish?! exclaims the employee catching the order from the delivery truck. Is it just me or are there more fish than java bags here?"
+  },
+  {
+    "cardId": 26,
+    "name": "pool",
+    "ElementType": "Water",
+    "value": 4,
+    "CardColor": "Purple",
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/f/f9/Card-Jitsu_Cards_full_26.png",
+    "description": "1"
+  },
+  {
+    "cardId": 27,
+    "name": "NEWSPAPER ARCHIVES",
+    "ElementType": "Water",
+    "value": 6,
+    "CardColor": "Purple",
+    "imageUrl": null,
+    "description": "Sometimes I don't get a chance to read the newspaper, so I catch up with the past issues in the Boiler Room, says the lime green penguin. I don't want to miss any comics!"
+  },
+  {
+    "cardId": 28,
+    "name": "UNDERGROUND POOL",
+    "ElementType": "Water",
+    "value": 2,
+    "CardColor": "Red",
+    "imageUrl": null,
+    "description": "Hey, do you remember when there wasn't a pool in here? asks one of the penguins. I remember a party where we were dancing on the ground in this very spot!"
+  },
+  {
+    "cardId": 29,
+    "name": "coral crown thing",
+    "ElementType": "Water",
+    "value": 7,
+    "CardColor": "Red",
+    "imageUrl": null,
+    "description": "While Rockhopper travels at seas to find treasures, I prefer to search at home, the diver explains. See! Check it out! A coral crown thing! Diving totally rules."
+  },
+  {
+    "cardId": 30,
+    "name": "ICE FISHING",
+    "ElementType": "Water",
+    "value": 2,
+    "CardColor": "Yellow",
+    "imageUrl": null,
+    "description": "I think the last time I was here, I caught about 10 fish, he replies. I'm not in a rush when I go fishing. To me, it's about fun, not finance. If I need coins, I help at the Pet Shop."
+  },
+  {
+    "cardId": 31,
+    "name": "CASE OF THE MISSING COINS",
+    "ElementType": "Fire",
+    "value": 2,
+    "CardColor": "Blue",
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/0/0e/Card-Jitsu_Cards_full_31.png",
+    "description": "1"
+  },
+  {
+    "cardId": 32,
+    "name": null,
+    "ElementType": "Fire",
+    "value": 5,
+    "CardColor": "Blue",
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/8/84/Card-Jitsu_Cards_full_32.png",
+    "description": "EVERYONE MAKE WAY FOR BOXMAN! shouts the penguin in the superhero mask. I shall put all evildoers into my superboxes for shipment to 'No More Bad Guys Land'!"
+  },
+  {
+    "cardId": 33,
+    "name": null,
+    "ElementType": "Fire",
+    "value": 4,
+    "CardColor": "Green",
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/8/81/Card-Jitsu_Cards_full_33.png",
+    "description": "The residents of Club Penguin appreciate a good anvil that's why so many are sent to the Coffee Shop every day. I'd say I make about 30 on a good day, replies one anvil smith."
+  },
+  {
+    "cardId": 34,
+    "name": "HALLOWEEN",
+    "ElementType": "Fire",
+    "value": 6,
+    "CardColor": "Orange",
+    "imageUrl": null,
+    "description": "Check it out! I'm a ghost bunny professor! explains the orange penguin. I want to have the coolest costume for this solar eclipse party at my buddy's igloo. Do you think I'll win?"
+  },
+  {
+    "cardId": 35,
+    "name": null,
+    "ElementType": "Fire",
+    "value": 3,
+    "CardColor": "Purple",
+    "imageUrl": null,
+    "description": "Let's pretend to be knights and princesses. I'll be the Knight of Light and you can be the Princess of Power, says the green penguin. Oh no! Here comes a dragon..."
+  },
+  {
+    "cardId": 36,
+    "name": "BLACK PUFFLE",
+    "ElementType": "Fire",
+    "value": 5,
+    "CardColor": "Red",
+    "imageUrl": null,
+    "description": "Turbo is my black puffle. It rolls its eyes a lot, replies the penguin as he feeds his pet a flipper full of Puffle O's. It really gets fired up when I take it out for a walk."
+  },
+  {
+    "cardId": 37,
+    "name": "MEDIEVAL PARTY",
+    "ElementType": "Fire",
+    "value": 4,
+    "CardColor": "Yellow",
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/f/f2/Card-Jitsu_Cards_full_37.png",
+    "description": "For this event we collaborated with Penguin Style's fashion designers to make an epic party, says one planner, dressed in a knight's garb. I still wear my party clothes today."
+  },
+  {
+    "cardId": 38,
+    "name": "BLUE PUFFLE",
+    "ElementType": "Snow",
+    "value": 2,
+    "CardColor": "Blue",
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/6/65/Card-Jitsu_Cards_full_38.png",
+    "description": "As an employee, I value the blue puffles, replies the staff member. They are loyal, easy to take care of, and fun to play ball with. You can't go wrong with a blue puffle."
+  },
+  {
+    "cardId": 39,
+    "name": "PINK PUFFLE",
+    "ElementType": "Snow",
+    "value": 5,
+    "CardColor": "Blue",
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/b/bd/Card-Jitsu_Cards_full_39.png",
+    "description": "This is my pink puffle, Cutie! I named it that because I think its eyes are sooo adorable, continues the ballet dancer. Plus it matches my outfit!"
+  },
+  {
+    "cardId": 40,
+    "name": "GREEN PUFFLE",
+    "ElementType": "Snow",
+    "value": 4,
+    "CardColor": "Green",
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/a/a8/Card-Jitsu_Cards_full_40.png",
+    "description": "My puffle Greenie is the silliest puffle I've ever met, which is why we get along so well, she giggles. I love it when it plays on its unicycle it's so funny!"
+  },
+  {
+    "cardId": 41,
+    "name": null,
+    "ElementType": "Snow",
+    "value": 6,
+    "CardColor": "Orange",
+    "imageUrl": null,
+    "description": "No igloo would be complete without accessories for your cute little puffle pets, the decorator explains. Puffles love having furniture just as much as penguins!"
+  },
+  {
+    "cardId": 42,
+    "name": "PURPLE PUFFLE",
+    "ElementType": "Snow",
+    "value": 3,
+    "CardColor": "Purple",
+    "imageUrl": null,
+    "description": "Oh! Look at that one over there blowing bubbles! That one is sooo cute it should be my pet, she exclaims. I'll name it Princess Purple because I love princesses and purple!"
+  },
+  {
+    "cardId": 43,
+    "name": "RED PUFFLE",
+    "ElementType": "Snow",
+    "value": 5,
+    "CardColor": "Red",
+    "imageUrl": null,
+    "description": "1"
+  },
+  {
+    "cardId": 44,
+    "name": "YELLOW PUFFLE",
+    "ElementType": "Snow",
+    "value": 4,
+    "CardColor": "Yellow",
+    "imageUrl": null,
+    "description": "I knew I wanted a yellow puffle from the moment I saw it in the Forest at Halloween, she replies. My puffle Lemon likes to paint just like I do."
+  },
+  {
+    "cardId": 45,
+    "name": "SUMMER PARTY",
+    "ElementType": "Water",
+    "value": 2,
+    "CardColor": "Blue",
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/e/e6/Card-Jitsu_Cards_full_45.png",
+    "description": "The Summer Party sticks out the most in my mind as the one to beat, proclaims one penguin. You can't top great buddies acting crazy and having fun."
+  },
+  {
+    "cardId": 46,
+    "name": "GRAY FISH",
+    "ElementType": "Water",
+    "value": 4,
+    "CardColor": "Green",
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/5/56/Card-Jitsu_Cards_full_46.png",
+    "description": "You ain't gonna get a bite without the Flashing Lure, sonny, the experienced brown fisherman explains. Them gray ones are only attracted to real bright light."
+  },
+  {
+    "cardId": 47,
+    "name": "O BERRY",
+    "ElementType": "Water",
+    "value": 6,
+    "CardColor": "Orange",
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/7/7b/Card-Jitsu_Cards_full_47.png",
+    "description": "These berries grow on shrubs in the forest clearing, explains our nature guide. Puffles love to eat them because of their tart sweetness."
+  },
+  {
+    "cardId": 48,
+    "name": "LIFE RING",
+    "ElementType": "Water",
+    "value": 3,
+    "CardColor": "Purple",
+    "imageUrl": null,
+    "description": "Having a life ring handy is really important to us, the lifeguard continues as she keeps watch over the Pool. Hey, that crab is knocking on the glass over there!"
+  },
+  {
+    "cardId": 49,
+    "name": null,
+    "ElementType": "Water",
+    "value": 5,
+    "CardColor": "Red",
+    "imageUrl": null,
+    "description": "Arrr, this be the black flag atop me ship, growls Rockhopper as we tour the Migrator. I be liking to name things, so I be callin' this one the Jolly Roger."
+  },
+  {
+    "cardId": 50,
+    "name": "COINS",
+    "ElementType": "Water",
+    "value": 5,
+    "CardColor": "Yellow",
+    "imageUrl": null,
+    "description": "Coins are the widely accepted monetary system around the island, explains the scholarly account penguin. That means penguins use them to buy stuff."
+  },
+  {
+    "cardId": 51,
+    "name": "GARY THE GADGET GUY",
+    "ElementType": "Fire",
+    "value": 6,
+    "CardColor": "Blue",
+    "imageUrl": null,
+    "description": "I have been conducting research on the combustion of hydrogen and oxygen, Gary continues. Jet pack fuel is important on the island as it allows penguins to adventure."
+  },
+  {
+    "cardId": 52,
+    "name": "BUOYS",
+    "ElementType": "Fire",
+    "value": 5,
+    "CardColor": "Green",
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/3/35/Card-Jitsu_Cards_full_52.png",
+    "description": "I'm trying to find the elusive Boo-Eee #4, replies the penguin sleuth. They're hidden all over, and I think they're supposed to protect the island from bad weather or something."
+  },
+  {
+    "cardId": 53,
+    "name": "YARR",
+    "ElementType": "Fire",
+    "value": 4,
+    "CardColor": "Orange",
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/2/20/Card-Jitsu_Cards_full_53.png",
+    "description": "Me beloved best buddy Yarr has been by me side e'er since we met on Rockhopper Island, the burly captain replies. It be a loyal friend, keepin' watch me Crow's Nest."
+  },
+  {
+    "cardId": 54,
+    "name": "KLUTZY",
+    "ElementType": "Fire",
+    "value": 8,
+    "CardColor": "Purple",
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/b/b5/Card-Jitsu_Cards_full_54.png",
+    "description": "1"
+  },
+  {
+    "cardId": 55,
+    "name": "HERBERT P. BEAR",
+    "ElementType": "Fire",
+    "value": 3,
+    "CardColor": "Red",
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/7/7a/Card-Jitsu_Cards_full_55.png",
+    "description": "Why hello there, penguin. It is I, Herbert P. Bear, Esquire. Aren't you fortunate to have discovered my magnificent card. I am confident that you will treasure this picture."
+  },
+  {
+    "cardId": 56,
+    "name": "HOT SAUCE",
+    "ElementType": "Fire",
+    "value": 7,
+    "CardColor": "Yellow",
+    "imageUrl": null,
+    "description": "It is I, the alien Dojo master, hai ya! I will reveal to you the hidden ingredient of my pizza masterpieces... the amazing Hot Sauce guaranteed to spice up any dish!"
+  },
+  {
+    "cardId": 57,
+    "name": null,
+    "ElementType": "Snow",
+    "value": 6,
+    "CardColor": "Blue",
+    "imageUrl": null,
+    "description": "I think it took like a day and a half to make this, recalls one snow artist. I don't really remember. I just know that we had to test to make sure penguins could walk on it."
+  },
+  {
+    "cardId": 58,
+    "name": "AUNT ARCTIC",
+    "ElementType": "Snow",
+    "value": 7,
+    "CardColor": "Green",
+    "imageUrl": null,
+    "description": "Hello! Aloha! Oi! I am so exhilarated to have my photograph taken for such a prestigious event. This is my desk, where I read the letters I receive and wrestle with writer's block."
+  },
+  {
+    "cardId": 59,
+    "name": null,
+    "ElementType": "Snow",
+    "value": 4,
+    "CardColor": "Orange",
+    "imageUrl": null,
+    "description": "Ooooh eee oooooh! sing the carolers as they practice their songs to serenade the town. During the holidays, the trees are trimmed with fresh snow and holiday cheer echoes throughout the island."
+  },
+  {
+    "cardId": 60,
+    "name": "BETA PARTY",
+    "ElementType": "Snow",
+    "value": 8,
+    "CardColor": "Orange",
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/8/8a/Card-Jitsu_Cards_full_60.png",
+    "description": "1"
+  },
+  {
+    "cardId": 61,
+    "name": "viking helmet",
+    "ElementType": "Snow",
+    "value": 6,
+    "CardColor": "Purple",
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/5/55/Card-Jitsu_Cards_full_61.png",
+    "description": "1"
+  },
+  {
+    "cardId": 62,
+    "name": "SECRET AGENT",
+    "ElementType": "Snow",
+    "value": 3,
+    "CardColor": "Red",
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/7/7d/Card-Jitsu_Cards_full_62.png",
+    "description": "One rule we have about being a secret agent is that you don't talk about secret agents, says the tight-billed penguin in the suit. No other comments at this time."
+  },
+  {
+    "cardId": 63,
+    "name": "SNOW SHOVEL",
+    "ElementType": "Snow",
+    "value": 5,
+    "CardColor": "Yellow",
+    "imageUrl": null,
+    "description": "I never go anywhere without my trusty shovel. I know a lot of penguins prefer their drills, but I get a sense of reward using my shovel to move the snow around."
+  },
+  {
+    "cardId": 64,
+    "name": "THE MIGRATOR",
+    "ElementType": "Water",
+    "value": 6,
+    "CardColor": "Blue",
+    "imageUrl": null,
+    "description": "Arrr mateys! Ye be gazin' at me good ship, the Migrator! It be a mighty ship of vim and vigor that has lasted many tumbles, replies Rockhopper. Nary a better boat there be."
+  },
+  {
+    "cardId": 65,
+    "name": "CAPTAIN ROCKHOPPER",
+    "ElementType": "Water",
+    "value": 5,
+    "CardColor": "Green",
+    "imageUrl": null,
+    "description": "Arrr... ye be gazin' at me glorious card. Ahhhh, a sight for sore eyes this fantastic photo be. It be remindin' me of many voyages across the seas with treasures seized!"
+  },
+  {
+    "cardId": 66,
+    "name": "ICE CREAM",
+    "ElementType": "Water",
+    "value": 4,
+    "CardColor": "Orange",
+    "imageUrl": null,
+    "description": "There I am eating ice cream at the Beach again! exclaims the penguin as she gets her beach towel ready. Yes, it's true, ice cream and the Beach are a great pair."
+  },
+  {
+    "cardId": 67,
+    "name": "MULLET",
+    "ElementType": "Water",
+    "value": 8,
+    "CardColor": "Purple",
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/c/cf/Card-Jitsu_Cards_full_67.png",
+    "description": "Penguins from far and wide come to this ice fishing hole to see if they can catch this legendary big fish. Someone told me I need bigger bait though, so I brought a pizza."
+  },
+  {
+    "cardId": 68,
+    "name": null,
+    "ElementType": "Water",
+    "value": 3,
+    "CardColor": "Red",
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/6/64/Card-Jitsu_Cards_full_68.png",
+    "description": "Oh no! That crab over there tapped the glass and now there's a leak and there's water pouring out and there's going to be water everywhere what are we going to do now!?"
+  },
+  {
+    "cardId": 69,
+    "name": "FLUFFY THE FISH",
+    "ElementType": "Water",
+    "value": 4,
+    "CardColor": "Yellow",
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/b/bd/Card-Jitsu_Cards_full_69.png",
+    "description": "Here fishy fishy fishy! calls the red penguin. I don't think Fluffy has ears, his friend replies. Neither do we, but I can hear you... Hmmm. Guess you've got a point there."
+  },
+  {
+    "cardId": 70,
+    "name": "SHARK",
+    "ElementType": "Water",
+    "value": 7,
+    "CardColor": "Yellow",
+    "imageUrl": null,
+    "description": "I know there's a big fish down there, but I don't think it's that one with the great big mean teeth and shark fin on top, the rookie fisherman says. That's not Mullet, is it?"
+  },
+  {
+    "cardId": 98,
+    "name": "BLAST",
+    "ElementType": "Fire",
+    "value": 8,
+    "CardColor": "Red",
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/c/ce/Card-Jitsu_Cards_full_98.png",
+    "description": "Dude. Soooo love the shades. They make me even stronger and more silent. Maybe later we can hang out and I'll eat a Puffle O to entertain 'ya."
+  },
+  {
+    "cardId": 99,
+    "name": "FLARE",
+    "ElementType": "Fire",
+    "value": 7,
+    "CardColor": "Orange",
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/6/6b/Card-Jitsu_Cards_full_99.png",
+    "description": "You think this is fast? You should see how I move when I get shot from a cannon! It's a riot! And I think, actually, it increases happiness."
+  },
+  {
+    "cardId": 100,
+    "name": "CHIRP",
+    "ElementType": "Snow",
+    "value": 6,
+    "CardColor": "Yellow",
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/c/c5/Card-Jitsu_Cards_full_100.png",
+    "description": "Paints, creativity, and music, Chirp replies with whimsy. Mix those together and you got a masterpiece, my friends, a masterpiece!"
+  },
+  {
+    "cardId": 101,
+    "name": "POP",
+    "ElementType": "Water",
+    "value": 5,
+    "CardColor": "Purple",
+    "imageUrl": null,
+    "description": "I love bubbles! They're beautiful to blow. Bouncy. Breathtaking. Transparent perfection, I say!"
+  },
+  {
+    "cardId": 102,
+    "name": "LOOP",
+    "ElementType": "Fire",
+    "value": 7,
+    "CardColor": "Orange",
+    "imageUrl": null,
+    "description": "Hmm... I wonder if my lasso would work the same under water. I mean, it'd be super cool to see if I could round up some pearls, wouldn't it?"
+  },
+  {
+    "cardId": 103,
+    "name": "FLIT",
+    "ElementType": "Snow",
+    "value": 6,
+    "CardColor": "Green",
+    "imageUrl": null,
+    "description": "Um, nope! Can't touch this propeller hat, Flit laughs loudly. It takes tons of practice... Even I need it! Recall Christmas 2008 when I got stuck sideways in a tree?!"
+  },
+  {
+    "cardId": 104,
+    "name": "BOUNCER",
+    "ElementType": "Water",
+    "value": 5,
+    "CardColor": "Blue",
+    "imageUrl": null,
+    "description": "It's so cool to bounce around like my ball, he declares. By the way... it rolled under a ginormous pile of snow and though I'm small, round and can roll, I'm a bit too puffy. Can you help?"
+  },
+  {
+    "cardId": 105,
+    "name": "ED MCCOOL",
+    "ElementType": "Fire",
+    "value": 4,
+    "CardColor": "Blue",
+    "imageUrl": null,
+    "description": "Dear Gary, met two very talented puffles on an important PSA mission today. Will have to keep a look out for them in the future. They may be useful someday..."
+  },
+  {
+    "cardId": 106,
+    "name": "NIBLET",
+    "ElementType": "Water",
+    "value": 2,
+    "CardColor": "Green",
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/c/c2/Card-Jitsu_Cards_full_106.png",
+    "description": "From this snowman emerges the almighty Niblet, the might green puffle! He's been trying to become a white puffle by hiding in the snow."
+  },
+  {
+    "cardId": 107,
+    "name": null,
+    "ElementType": "Snow",
+    "value": 3,
+    "CardColor": "Purple",
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/8/85/Card-Jitsu_Cards_full_107.png",
+    "description": "Penguins and puffles never get tired of the snow falling in Club Penguin. Best friends like to take some timeout from their busy life to watch it fall together."
+  },
+  {
+    "cardId": 108,
+    "name": null,
+    "ElementType": "Fire",
+    "value": 4,
+    "CardColor": "Green",
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/c/c6/Card-Jitsu_Cards_full_108.png",
+    "description": "Sometimes rounding up puffles feels a little like chasing a rainbow. Lots of colors, but the closer you get the farther away it seems."
+  },
+  {
+    "cardId": 109,
+    "name": "KEEPER",
+    "ElementType": "Water",
+    "value": 3,
+    "CardColor": "Green",
+    "imageUrl": null,
+    "description": "Yeah, this little green guy is an epic win, Cadence grinned. He's got all the right moves. He usually knows where the party's at. He's definitely a Keeper, lolz!"
+  },
+  {
+    "cardId": 110,
+    "name": "GOLDEN PUFFLE",
+    "ElementType": "Snow",
+    "value": 2,
+    "CardColor": "Yellow",
+    "imageUrl": null,
+    "description": "Such a popular myth, they made a Stage play about it. Does this puffle really live under the 'berg?"
+  },
+  {
+    "cardId": 111,
+    "name": null,
+    "ElementType": "Fire",
+    "value": 5,
+    "CardColor": "Red",
+    "imageUrl": null,
+    "description": "Swoosh, the mysterious meteor puffle flies through the air with the greatest of ease..."
+  },
+  {
+    "cardId": 112,
+    "name": "RAINBOW PUFFLE",
+    "ElementType": "Water",
+    "value": 4,
+    "CardColor": "Purple",
+    "imageUrl": null,
+    "description": "A multi-colored legend, or just a creative little yellow puffle who has been playing with paint?"
+  },
+  {
+    "cardId": 113,
+    "name": "crab",
+    "ElementType": "Snow",
+    "value": 3,
+    "CardColor": "Orange",
+    "imageUrl": null,
+    "description": "I'm telling ya, it was huge! Twice the size of a penguin and it had claws like a crab. I was shaking in my snow boots!"
+  },
+  {
+    "cardId": 201,
+    "name": "Club Penguin Times",
+    "ElementType": "Fire",
+    "value": 2,
+    "CardColor": "Blue",
+    "imageUrl": null,
+    "description": "Extra! Extra! Every Thursday the Club Penguin Times delivers the latest scoop on everything that's happening on the island. From fun art to stories to games, there's something new every week!"
+  },
+  {
+    "cardId": 202,
+    "name": "Worms",
+    "ElementType": "Fire",
+    "value": 3,
+    "CardColor": "Blue",
+    "imageUrl": null,
+    "description": "Anyone who's planning to go ice fishing behind the Ski Lodge needs a can of worms. Having this squirmy bait ready is the first step to catching a fishy treat."
+  },
+  {
+    "cardId": 203,
+    "name": "first Winter Fiesta",
+    "ElementType": "Fire",
+    "value": 4,
+    "CardColor": "Purple",
+    "imageUrl": null,
+    "description": "3"
+  },
+  {
+    "cardId": 204,
+    "name": "Martial Artworks",
+    "ElementType": "Fire",
+    "value": 5,
+    "CardColor": "Orange",
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/6/6d/Card-Jitsu_Cards_full_204.png",
+    "description": "The Invisibility Suit is one of the tools of the ninja. Available only from the Martial Artworks store, it allows ninja to vanish into the shadows. Useful AND cool."
+  },
+  {
+    "cardId": 205,
+    "name": "Penguin Mail",
+    "ElementType": "Fire",
+    "value": 6,
+    "CardColor": "Red",
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/6/69/Card-Jitsu_Cards_full_205.png",
+    "description": "Through rain, sleet, and snow, the Penguin Mail will always get through. But mostly through snow... and actually they've never seen rain, but still."
+  },
+  {
+    "cardId": 206,
+    "name": "Gift Shop",
+    "ElementType": "Fire",
+    "value": 6,
+    "CardColor": "Yellow",
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/2/27/Card-Jitsu_Cards_full_206.png",
+    "description": "This is my favorite Halloween costume, the Bumble Bee! I picked this one up last year when they were on sale at the Gift Shop."
+  },
+  {
+    "cardId": 207,
+    "name": "Pizzatron 3000",
+    "ElementType": "Fire",
+    "value": 7,
+    "CardColor": "Orange",
+    "imageUrl": null,
+    "description": "Making pizzas in the Pizza Parlor can be tricky. Chefs need a steady hand and concentration of steel to prepare pizza pies perfectly for all their hungry costumers!"
+  },
+  {
+    "cardId": 208,
+    "name": "Card-Jitsu",
+    "ElementType": "Fire",
+    "value": 8,
+    "CardColor": "Red",
+    "imageUrl": null,
+    "description": "To become a ninja, one must first learn to master the elements. It all begins with Card-Jitsu, and this card you hold in your hand. Proceed to the Dojo, and take your first step on a legendary path..."
+  },
+  {
+    "cardId": 209,
+    "name": "Aqua Grabber",
+    "ElementType": "Snow",
+    "value": 4,
+    "CardColor": "Blue",
+    "imageUrl": null,
+    "description": "Puffles are the cute little furballs you see penguins waddling around with next to them. You can even take them into games like Aqua Grabber! Drop by the Pet Shop in the Plaza to adopt one of your very own."
+  },
+  {
+    "cardId": 210,
+    "name": "Music Jam '08",
+    "ElementType": "Snow",
+    "value": 4,
+    "CardColor": "Orange",
+    "imageUrl": null,
+    "description": "This trendy outfit is popular for its sparkle and \"pizzazz!\" It was first released in the Gift Shop, just before Music Jam '08, one of the biggest parties of the year."
+  },
+  {
+    "cardId": 211,
+    "name": null,
+    "ElementType": "Snow",
+    "value": 5,
+    "CardColor": "Purple",
+    "imageUrl": null,
+    "description": "There's construction going on all over the place in Club Penguin all the time. Penguins on the island love to build and create, so construction is a pretty popular job around here!"
+  },
+  {
+    "cardId": 212,
+    "name": "Pins",
+    "ElementType": "Snow",
+    "value": 6,
+    "CardColor": "Green",
+    "imageUrl": null,
+    "description": "These charming, limited edition collector's items are a must have for any treasure hunter... a brand new one is hidden every two weeks somewhere on the island!"
+  },
+  {
+    "cardId": 213,
+    "name": "Treasure Hunt",
+    "ElementType": "Snow",
+    "value": 7,
+    "CardColor": "Yellow",
+    "imageUrl": null,
+    "description": "Rockhopper's Treasure Hunt game is kinda rare. You can only play it when his ship, the Migrator, is docked on the Beach. Remember, you need his key from that book to get into the Quarters on the ship."
+  },
+  {
+    "cardId": 214,
+    "name": "DJ3K",
+    "ElementType": "Snow",
+    "value": 8,
+    "CardColor": "Green",
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/4/45/Card-Jitsu_Cards_full_214.png",
+    "description": "DJ3K at the Night Club is a music-makin' penguin's favorite game. \"It's simple, yo. Just start pushin' buttons and the groove kicks in. Every good beat needs a little cowbell, so I like to mix that into my sets.\""
+  },
+  {
+    "cardId": 215,
+    "name": null,
+    "ElementType": "Water",
+    "value": 2,
+    "CardColor": "Green",
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/b/b1/Card-Jitsu_Cards_full_215.png",
+    "description": "The only thing you need to 'catch some waves' down at the Cove; penguins can borrow a board or buy their own at the Surf Shack. Then they just need to catch a 'gnarly' wave and 'hang ten!'"
+  },
+  {
+    "cardId": 216,
+    "name": null,
+    "ElementType": "Water",
+    "value": 3,
+    "CardColor": "Green",
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/2/2b/Card-Jitsu_Cards_full_216.png",
+    "description": "Chilling out at the Beach is even easier when the beach is made of snow. Sun glasses are optional, but you add that touch of cool while you chill."
+  },
+  {
+    "cardId": 217,
+    "name": "Telescope",
+    "ElementType": "Water",
+    "value": 4,
+    "CardColor": "Red",
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/1/1f/Card-Jitsu_Cards_full_217.png",
+    "description": "If you look through the telescope at the Beacon, you can see all the way out to sea. It's a good place to keep a close eye out for Rockhopper."
+  },
+  {
+    "cardId": 218,
+    "name": "Fish Costume",
+    "ElementType": "Water",
+    "value": 4,
+    "CardColor": "Yellow",
+    "imageUrl": null,
+    "description": "Don't give me that look... said the penguin. It's just a costume. I'm trying to get a part in a play at the Stage, and I need expert advice. Now are you going to help me or not?"
+  },
+  {
+    "cardId": 219,
+    "name": "Crow's Nest",
+    "ElementType": "Water",
+    "value": 5,
+    "CardColor": "Orange",
+    "imageUrl": null,
+    "description": "Yarr's favorite place on the Migrator is up in the Crow's Net. You can see for miles, and take out any rogue icebergs with the ship's snowball cannon."
+  },
+  {
+    "cardId": 220,
+    "name": "Cove",
+    "ElementType": "Water",
+    "value": 6,
+    "CardColor": "Blue",
+    "imageUrl": null,
+    "description": "Other penguins like to come to the Cove to surf, but I just love to gaze out at the water. I was the first one to spot a huge storm one time through the binoculars! The ocean can tell you a lot."
+  },
+  {
+    "cardId": 221,
+    "name": "his key",
+    "ElementType": "Water",
+    "value": 6,
+    "CardColor": "Orange",
+    "imageUrl": null,
+    "description": "Rockhopper used to keep his quarters locked, the tour guide says. But now you just need to find his key to get in..."
+  },
+  {
+    "cardId": 222,
+    "name": "Iceberg",
+    "ElementType": "Water",
+    "value": 8,
+    "CardColor": "Blue",
+    "imageUrl": null,
+    "description": "If we tipped this over, what do you think we'd find on the other side? one penguin inquires. It's the biggest mystery of all, they replied. We've got to find a way to tip it."
+  },
+  {
+    "cardId": 223,
+    "name": null,
+    "ElementType": "Fire",
+    "value": 3,
+    "CardColor": "Purple",
+    "imageUrl": null,
+    "description": "The Lounge is located upstairs from the Night Club, and it's the perfect place to chill and play arcade games. Can you master the tricky Thin Ice or pilot the Astro Barrier to victory?"
+  },
+  {
+    "cardId": 224,
+    "name": "somewhere",
+    "ElementType": "Fire",
+    "value": 4,
+    "CardColor": "Green",
+    "imageUrl": null,
+    "description": "3"
+  },
+  {
+    "cardId": 225,
+    "name": "Penguins That Time Forgot",
+    "ElementType": "Fire",
+    "value": 5,
+    "CardColor": "Yellow",
+    "imageUrl": null,
+    "description": "Dinosaurs, lava, time-traveling... this was one of my favorite plays, she explained. Watch this, I'll be a cave penguin... 'GRUB! FIRE ROAST MARSHMALLOW!'"
+  },
+  {
+    "cardId": 226,
+    "name": "Team Blue Rally",
+    "ElementType": "Fire",
+    "value": 6,
+    "CardColor": "Orange",
+    "imageUrl": null,
+    "description": "Rallying at the Stage for epic competitions, the Red Team and Blue Team wrote another chapter of their rivalry with the introduction of their moose mascots."
+  },
+  {
+    "cardId": 227,
+    "name": null,
+    "ElementType": "Fire",
+    "value": 7,
+    "CardColor": "Red",
+    "imageUrl": null,
+    "description": "For those looking to experience the thrill of flying, look no further than Jet Pack Adventure, said the Tour Guide. Just head to the top of the Lighthouse, strap on a pack, and take off! Parachutes provided!"
+  },
+  {
+    "cardId": 228,
+    "name": "Ruby and the Ruby",
+    "ElementType": "Snow",
+    "value": 2,
+    "CardColor": "Red",
+    "imageUrl": null,
+    "description": "3"
+  },
+  {
+    "cardId": 229,
+    "name": null,
+    "ElementType": "Snow",
+    "value": 3,
+    "CardColor": "Orange",
+    "imageUrl": null,
+    "description": "Snowballs can be used for all types of purposes, from snowball fights to tennis matches. I like to throw rapid-fire by hitting 'T' on my keyboard constantly. TURBO THROW!"
+  },
+  {
+    "cardId": 230,
+    "name": "Snowball Press",
+    "ElementType": "Snow",
+    "value": 5,
+    "CardColor": "Purple",
+    "imageUrl": null,
+    "description": "3"
+  },
+  {
+    "cardId": 231,
+    "name": "Music Jam",
+    "ElementType": "Snow",
+    "value": 6,
+    "CardColor": "Yellow",
+    "imageUrl": null,
+    "description": "I love a good music festival, he responded. Music Jam 2008 was probably my favorite party. I finally got to meet Penguin Band, and DJ3K came out for the first time!"
+  },
+  {
+    "cardId": 232,
+    "name": "scratching post",
+    "ElementType": "Snow",
+    "value": 7,
+    "CardColor": "Green",
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/e/e4/Card-Jitsu_Cards_full_232.png",
+    "description": "My black puffle just loves the scratching post I bought him from the Pet Shop. But I can't figure out why he keeps trying to eat it! Maybe I need to feed him some Puffle O's."
+  },
+  {
+    "cardId": 233,
+    "name": "Fairy Fables",
+    "ElementType": "Water",
+    "value": 2,
+    "CardColor": "Green",
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/4/4d/Card-Jitsu_Cards_full_233.png",
+    "description": "3"
+  },
+  {
+    "cardId": 234,
+    "name": "Jelly Fish",
+    "ElementType": "Water",
+    "value": 3,
+    "CardColor": "Yellow",
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/4/49/Card-Jitsu_Cards_full_234.png",
+    "description": "These rare Antarctic jelly fish can produce a small electric charge that can make for a 'shocking' experience for Ice Fishing experts who may snag one on their line."
+  },
+  {
+    "cardId": 235,
+    "name": null,
+    "ElementType": "Water",
+    "value": 4,
+    "CardColor": "Red",
+    "imageUrl": null,
+    "description": "Arr! Only the bravest penguins join me pirate crew! says Rockhopper. Smartly now, sailors where be yer sea flippers?"
+  },
+  {
+    "cardId": 236,
+    "name": null,
+    "ElementType": "Water",
+    "value": 5,
+    "CardColor": "Purple",
+    "imageUrl": null,
+    "description": "The fish around Club Penguin won't just up and eat and old bait. In fact, each kind of fish has their own favorite food. Fishing experts recommend trying different types of bait for best results."
+  },
+  {
+    "cardId": 237,
+    "name": "Hydro Hopper",
+    "ElementType": "Water",
+    "value": 7,
+    "CardColor": "Blue",
+    "imageUrl": null,
+    "description": "Catchin' a ride on the ol' Hydro Hopper at the Dock is sweet, the Tour Guide explained. Catching air and sailing over obstacles is not only fun, but will earn you extra coins. Come on, give it a try!"
+  },
+  {
+    "cardId": 238,
+    "name": "Puffle Handler",
+    "ElementType": "Water",
+    "value": 7,
+    "CardColor": "Blue",
+    "imageUrl": null,
+    "description": "Though puffles enjoy cookies, and a stick of gum now and then, their favorite food is Puffle O's, without a doubt, said the Puffle Handler. Make sure not to overfeed them though, because they might get a tummy ache."
+  },
+  {
+    "cardId": 239,
+    "name": "Fall Fair",
+    "ElementType": "Fire",
+    "value": 4,
+    "CardColor": "Purple",
+    "imageUrl": null,
+    "description": "Once a year the Fall Fair comes to Club Penguin with a whole bunch of special games, said the Tour Guide. These games award tickets you can trade for sweet prizes. And I mean 'sweet.' Their cotton candy is delicious!"
+  },
+  {
+    "cardId": 240,
+    "name": "Thinga-ma-jig 3000",
+    "ElementType": "Fire",
+    "value": 5,
+    "CardColor": "Green",
+    "imageUrl": null,
+    "description": "Oh, you've heard of the Thing-ma-jig 3000? Gary asked. Oh yes, it's quite a clever little device, but it's hidden away in my Gadget Room. It's so well hidden in that you'd have to be some kind of secret agent to find it."
+  },
+  {
+    "cardId": 241,
+    "name": "Monster Maker 3000",
+    "ElementType": "Snow",
+    "value": 3,
+    "CardColor": "Red",
+    "imageUrl": null,
+    "description": "3"
+  },
+  {
+    "cardId": 242,
+    "name": "Quip and Qua",
+    "ElementType": "Snow",
+    "value": 5,
+    "CardColor": "Blue",
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/d/d8/Card-Jitsu_Cards_full_242.png",
+    "description": "Truly we are the most bizarre costumes that can be purchased from the Stage... scoffed Qua. I don't know... answered Quip. I saw a squid monster with a sheep face walking around. Well, replies Qua, other than that guy..."
+  },
+  {
+    "cardId": 243,
+    "name": "Twee",
+    "ElementType": "Snow",
+    "value": 6,
+    "CardColor": "Purple",
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/7/70/Card-Jitsu_Cards_full_243.png",
+    "description": "The fairy storyteller from the Fairy Fables play at the Stage. Twee loves to mix things up to keep it fresh from colors to stories, things are never quite ordinary in her library!"
+  },
+  {
+    "cardId": 244,
+    "name": "Coins For Change",
+    "ElementType": "Snow",
+    "value": 8,
+    "CardColor": "Green",
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/1/17/Card-Jitsu_Cards_full_244.png",
+    "description": "They say it's better to give than to receive and that's totally tree with Coins for Change. There's always amazing amounts of generosity when penguins decide to change the world! Waddle around and make difference!"
+  },
+  {
+    "cardId": 245,
+    "name": null,
+    "ElementType": "Water",
+    "value": 5,
+    "CardColor": "Red",
+    "imageUrl": null,
+    "description": "And I was like, woah, it's a shark! And it was like 'RAH!' and then I was like whoa, it's a shark! And you shoulda seen it man. I mean, it was huge it was mahoosive!"
+  },
+  {
+    "cardId": 246,
+    "name": "Dance Contest",
+    "ElementType": "Water",
+    "value": 6,
+    "CardColor": "Purple",
+    "imageUrl": null,
+    "description": "Any penguin brave enough to stand up, talk the talk, walk the walk, and bust out their icy best moves is an epic win here in the Dance Club."
+  },
+  {
+    "cardId": 247,
+    "name": "Purple Octopus",
+    "ElementType": "Water",
+    "value": 7,
+    "CardColor": "Purple",
+    "imageUrl": null,
+    "description": "What's wackier than an octopus showing up in the middle of a party? Nothing! That's epic wacky! This inflatable octopus tends to show up at the strangest of times, so keep your eyes open for other appearances!"
+  },
+  {
+    "cardId": 248,
+    "name": "Giant Squid",
+    "ElementType": "Water",
+    "value": 8,
+    "CardColor": "Blue",
+    "imageUrl": null,
+    "description": "I'm telling you, the Squid is totally real. I was deep below the Iceberg in the Aqua Grabber one day when it went zipping past me going 'EAAAUUUUURGGGGH!'. We need to find it!"
+  },
+  {
+    "cardId": 301,
+    "name": "Camera",
+    "ElementType": "Fire",
+    "value": 2,
+    "CardColor": "Orange",
+    "imageUrl": null,
+    "description": "This item is sometimes found in the Costume Trunk at the Stage. Once you have a camera, wave to snap award-winning photos all over the island."
+  },
+  {
+    "cardId": 302,
+    "name": "Wigs",
+    "ElementType": "Fire",
+    "value": 3,
+    "CardColor": "Blue",
+    "imageUrl": null,
+    "description": "4"
+  },
+  {
+    "cardId": 303,
+    "name": null,
+    "ElementType": "Fire",
+    "value": 4,
+    "CardColor": "Red",
+    "imageUrl": null,
+    "description": "Be a chef! Make pizzas in the Pizzatron 3000 game in the kitchen. Put on your red apron and dance to serve customers in the restaurant."
+  },
+  {
+    "cardId": 304,
+    "name": "Coffee Machine",
+    "ElementType": "Fire",
+    "value": 5,
+    "CardColor": "Orange",
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/b/bf/Card-Jitsu_Cards_full_304.png",
+    "description": "Secret Agents will find this machine in the Coffee Shop during the Secret of the Fur mission. It will help you save the island."
+  },
+  {
+    "cardId": 305,
+    "name": "a brave explorer",
+    "ElementType": "Fire",
+    "value": 6,
+    "CardColor": "Red",
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/2/23/Card-Jitsu_Cards_full_305.png",
+    "description": "4"
+  },
+  {
+    "cardId": 306,
+    "name": "orange apron",
+    "ElementType": "Fire",
+    "value": 6,
+    "CardColor": "Yellow",
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/2/2e/Card-Jitsu_Cards_full_306.png",
+    "description": "4"
+  },
+  {
+    "cardId": 307,
+    "name": "Stompin' Bob",
+    "ElementType": "Fire",
+    "value": 7,
+    "CardColor": "Orange",
+    "imageUrl": null,
+    "description": "The laid back bass player of Penguin Band. He keeps the beat with bandmate G Billy and loves to play the jazzy stuff."
+  },
+  {
+    "cardId": 308,
+    "name": "G Billy",
+    "ElementType": "Fire",
+    "value": 8,
+    "CardColor": "Red",
+    "imageUrl": null,
+    "description": "The founder of and drummer for Penguin Band. If you ever get the chance to meet him Backstage during Music Jam be sure to get an autographed background by clicking his player card!"
+  },
+  {
+    "cardId": 309,
+    "name": "Outdoor Igloo",
+    "ElementType": "Snow",
+    "value": 4,
+    "CardColor": "Blue",
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/9/92/Card-Jitsu_Cards_full_309.png",
+    "description": "4"
+  },
+  {
+    "cardId": 310,
+    "name": "Ticket Booth",
+    "ElementType": "Snow",
+    "value": 4,
+    "CardColor": "Orange",
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/e/e5/Card-Jitsu_Cards_full_310.png",
+    "description": "You never know who will sell you a ticket for the latest Stage performance at the Plaza. Sometimes actors man the booth between shows!"
+  },
+  {
+    "cardId": 311,
+    "name": null,
+    "ElementType": "Snow",
+    "value": 5,
+    "CardColor": "Purple",
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/3/3f/Card-Jitsu_Cards_full_311.png",
+    "description": "It's the toughest Sled Racing run on the Ski Hill. Up to four penguins can race together, so if you're serious about challenging your buddies, this is the way to do it!"
+  },
+  {
+    "cardId": 312,
+    "name": "Clock Tower",
+    "ElementType": "Snow",
+    "value": 6,
+    "CardColor": "Green",
+    "imageUrl": null,
+    "description": "Ready, set, throw snow! Find this snowball-powered clock in the Snow Forts. Throw snowballs at the target to help keep it powered. Just press T on your keyboard and click the red target!"
+  },
+  {
+    "cardId": 313,
+    "name": "White Puffles",
+    "ElementType": "Snow",
+    "value": 7,
+    "CardColor": "Yellow",
+    "imageUrl": null,
+    "description": "First discovered in February '09, these critters are known to be gentle but powerful. Adopt one from the Pet Shop and discover what it can turn to ice with a single breath!"
+  },
+  {
+    "cardId": 314,
+    "name": "Dojo Courtyard",
+    "ElementType": "Snow",
+    "value": 8,
+    "CardColor": "Green",
+    "imageUrl": null,
+    "description": "This is the outside of the Dojo and it was uncovered by penguins in November 2008. To get here, you must use your map."
+  },
+  {
+    "cardId": 315,
+    "name": null,
+    "ElementType": "Water",
+    "value": 2,
+    "CardColor": "Green",
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/5/55/Card-Jitsu_Cards_full_315.png",
+    "description": "This ginormous rocking horse somehow found itself upstairs in the Lodge Attic. To see it for yourself, go to the Ski Village and climb the ladder inside the Ski Lodge."
+  },
+  {
+    "cardId": 316,
+    "name": null,
+    "ElementType": "Water",
+    "value": 3,
+    "CardColor": "Green",
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/2/2e/Card-Jitsu_Cards_full_316.png",
+    "description": "There's new stuff in this catalog every month! Why not get your friends together in the Gift Shop and check it out? Pick out new outfits, then hold a fashion show in your igloo!"
+  },
+  {
+    "cardId": 317,
+    "name": null,
+    "ElementType": "Fire",
+    "value": 4,
+    "CardColor": "Red",
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/0/03/Card-Jitsu_Cards_full_317.png",
+    "description": "Directors needed! Located in the Plaza, the Stage has new plays every month and always needs actors, stagehands, and even directors to make every performance a success. Grab a costume from the catalog and break a leg!"
+  },
+  {
+    "cardId": 318,
+    "name": "This outfit",
+    "ElementType": "Water",
+    "value": 4,
+    "CardColor": "Yellow",
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/3/3d/Card-Jitsu_Cards_full_318.png",
+    "description": "4"
+  },
+  {
+    "cardId": 319,
+    "name": null,
+    "ElementType": "Water",
+    "value": 5,
+    "CardColor": "Orange",
+    "imageUrl": null,
+    "description": "From the top of the Lighthouse, you can look through the telescope to see if there's sign of Rockhopper's ship or play the game Jet Pack Adventure."
+  },
+  {
+    "cardId": 320,
+    "name": "the room with the best beats",
+    "ElementType": "Fire",
+    "value": 6,
+    "CardColor": "Orange",
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/5/56/Card-Jitsu_Cards_full_320.png",
+    "description": "There's two secret passages to the underground. You'll find this one in the Plaza. To find the other passage, head to the room with the best beats and pay attention to the speaker on the far right."
+  },
+  {
+    "cardId": 321,
+    "name": "Franky",
+    "ElementType": "Water",
+    "value": 6,
+    "CardColor": "Orange",
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/f/f7/Card-Jitsu_Cards_full_321.png",
+    "description": "This cool lead guitarist of Penguin Band loves to hang out with other music fans around the island. Find him with his bandmates Backstage during Music Jam and receive an autographed background."
+  },
+  {
+    "cardId": 322,
+    "name": "Petey K",
+    "ElementType": "Water",
+    "value": 8,
+    "CardColor": "Blue",
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/7/7e/Card-Jitsu_Cards_full_322.png",
+    "description": "The talented pianist and accordion player in the Penguin Band. He's always bursting with new song ideas and loves to share them with audiences around the island."
+  },
+  {
+    "cardId": 323,
+    "name": "Boombox",
+    "ElementType": "Fire",
+    "value": 3,
+    "CardColor": "Purple",
+    "imageUrl": null,
+    "description": "Penguins learned a new dance with this item when Cadence showed up with it during a party in the Night Club. If you have the item, wear it and press D on your keyboard and see what you can do!"
+  },
+  {
+    "cardId": 324,
+    "name": null,
+    "ElementType": "Fire",
+    "value": 4,
+    "CardColor": "Green",
+    "imageUrl": null,
+    "description": "4"
+  },
+  {
+    "cardId": 325,
+    "name": "The Twelfth Fish",
+    "ElementType": "Fire",
+    "value": 5,
+    "CardColor": "Yellow",
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/b/b8/Card-Jitsu_Cards_full_325.png",
+    "description": "4"
+  },
+  {
+    "cardId": 326,
+    "name": "dimensions",
+    "ElementType": "Fire",
+    "value": 6,
+    "CardColor": "Orange",
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/4/4f/Card-Jitsu_Cards_full_326.png",
+    "description": "It's a celebration where things happen that can't happen! Discover the wacky and unexpected with friends across the island at this party from surprise-filled boxes to new dimensions!"
+  },
+  {
+    "cardId": 327,
+    "name": null,
+    "ElementType": "Fire",
+    "value": 7,
+    "CardColor": "Red",
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/7/75/Card-Jitsu_Cards_full_327.png",
+    "description": "4"
+  },
+  {
+    "cardId": 328,
+    "name": "Cowbell",
+    "ElementType": "Snow",
+    "value": 2,
+    "CardColor": "Red",
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/0/0a/Card-Jitsu_Cards_full_328.png",
+    "description": "First available at the Music Jam '09 party, this item is still a hit across the island! To join in the fun, press D on your keyboard while wearing the item."
+  },
+  {
+    "cardId": 329,
+    "name": null,
+    "ElementType": "Snow",
+    "value": 3,
+    "CardColor": "Orange",
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/0/0d/Card-Jitsu_Cards_full_329.png",
+    "description": "Puffles love them and it's a good thing too! When they get hungry it's the best meal to recharge their energy. O'Berries grow in the wild and are always in full supply on your puffle's player card."
+  },
+  {
+    "cardId": 330,
+    "name": "Chester The Time Traveler",
+    "ElementType": "Snow",
+    "value": 3,
+    "CardColor": "Red",
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/d/d6/Card-Jitsu_Cards_full_330.png",
+    "description": "4"
+  },
+  {
+    "cardId": 331,
+    "name": "101 Days of Fun",
+    "ElementType": "Snow",
+    "value": 5,
+    "CardColor": "Red",
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/9/99/Card-Jitsu_Cards_full_331.png",
+    "description": "There's always a lot to discover around the island and in 2009, for 101 days straight, penguins had fun completing a new activity every day!"
+  },
+  {
+    "cardId": 332,
+    "name": "Color Vote",
+    "ElementType": "Snow",
+    "value": 6,
+    "CardColor": "Yellow",
+    "imageUrl": null,
+    "description": "4"
+  },
+  {
+    "cardId": 333,
+    "name": null,
+    "ElementType": "Snow",
+    "value": 7,
+    "CardColor": "Green",
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/e/ec/Card-Jitsu_Cards_full_333.png",
+    "description": "Holiday spirit takes over the island during this party! This is the Photo Booth in the Forest where penguins posed for pictures with Santa."
+  },
+  {
+    "cardId": 334,
+    "name": "Viking Opera",
+    "ElementType": "Water",
+    "value": 2,
+    "CardColor": "Green",
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/0/0d/Card-Jitsu_Cards_full_334.png",
+    "description": "Be part of this popular Stage show, as a detective, ghost, or even the Viking Opera singer. Put on the Viking wig and dance, following along to the script."
+  },
+  {
+    "cardId": 335,
+    "name": "Water Party",
+    "ElementType": "Water",
+    "value": 3,
+    "CardColor": "Yellow",
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/0/01/Card-Jitsu_Cards_full_335.png",
+    "description": "Most penguins have had a snowball fight at the Snow Forts. But at the Water Party, the splat of water balloons replacing the thud of snow. Too cool!"
+  },
+  {
+    "cardId": 336,
+    "name": "Tuba",
+    "ElementType": "Water",
+    "value": 4,
+    "CardColor": "Red",
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/e/e6/Card-Jitsu_Cards_full_336.png",
+    "description": "At the Music Jam '09 party, this item was popular at the Lighthouse stage. When you wore it and danced, you could even hear it playing!"
+  },
+  {
+    "cardId": 337,
+    "name": null,
+    "ElementType": "Water",
+    "value": 5,
+    "CardColor": "Purple",
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/1/13/Card-Jitsu_Cards_full_337.png",
+    "description": "4"
+  },
+  {
+    "cardId": 338,
+    "name": "Adventure Party",
+    "ElementType": "Water",
+    "value": 7,
+    "CardColor": "Blue",
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/f/f4/Card-Jitsu_Cards_full_338.png",
+    "description": "During this June 2009 party, after Rockhopper's plants took over the island, penguin explorers discovered rare flowers some that changed colors and others that liked to eat snowballs!"
+  },
+  {
+    "cardId": 339,
+    "name": "Penguin Play Awards",
+    "ElementType": "Fire",
+    "value": 7,
+    "CardColor": "Orange",
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/6/6d/Card-Jitsu_Cards_full_339.png",
+    "description": "Penguins called this one of 2009's coolest events. They voted for their favorite stage plays, got to meet Penguin Band and Aunt Arctic, and enjoyed dressing up to receive their own awards!"
+  },
+  {
+    "cardId": 340,
+    "name": "All-Access Pass",
+    "ElementType": "Fire",
+    "value": 4,
+    "CardColor": "Purple",
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/7/79/Card-Jitsu_Cards_full_340.png",
+    "description": "During Music Jam '09 party, this pass got penguins into the Backstage and Night Club Rooftop where they hung out with friends and had a chance to meet Penguin Band and Cadence."
+  },
+  {
+    "cardId": 341,
+    "name": "Cadence's Autograph",
+    "ElementType": "Fire",
+    "value": 5,
+    "CardColor": "Green",
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/9/9f/Card-Jitsu_Cards_full_341.png",
+    "description": "Cadence is a very popular penguin around here! She makes appearances at big events like the Penguin Play Awards. You can meet her and receive an autographed background by clicking her player card."
+  },
+  {
+    "cardId": 342,
+    "name": "Treasure Book",
+    "ElementType": "Snow",
+    "value": 5,
+    "CardColor": "Blue",
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/d/df/Card-Jitsu_Cards_full_342.png",
+    "description": "This book contains the best collection of rare and exclusive items. Look for a code with select toys and enter at clubpenguin.com to gain access to this special catalog."
+  },
+  {
+    "cardId": 343,
+    "name": "Black Hoodie",
+    "ElementType": "Snow",
+    "value": 6,
+    "CardColor": "Purple",
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/7/75/Card-Jitsu_Cards_full_343.png",
+    "description": "4"
+  },
+  {
+    "cardId": 344,
+    "name": null,
+    "ElementType": "Snow",
+    "value": 8,
+    "CardColor": "Green",
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/1/1b/Card-Jitsu_Cards_full_344.png",
+    "description": "Penguins flew for the first time when they danced while wearing this item at the 2006 April Fool's Day Party. Penguins aren't the only ones who like these caps though check out the green puffles!"
+  },
+  {
+    "cardId": 345,
+    "name": null,
+    "ElementType": "Water",
+    "value": 5,
+    "CardColor": "Red",
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/b/b2/Card-Jitsu_Cards_full_345.png",
+    "description": "One of the island's best kept secrets. Make Dessert Pizza in the Pizza Parlor's Pizzatron 3000 game by clicking on the lever of the machine when you enter the game!"
+  },
+  {
+    "cardId": 346,
+    "name": "Black Electric Guitar",
+    "ElementType": "Water",
+    "value": 6,
+    "CardColor": "Red",
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/3/3c/Card-Jitsu_Cards_full_346.png",
+    "description": "4"
+  },
+  {
+    "cardId": 347,
+    "name": null,
+    "ElementType": "Water",
+    "value": 7,
+    "CardColor": "Purple",
+    "imageUrl": null,
+    "description": "Fire. Snow. Water. That's what you'll need to master the Card-Jitsu game. Train with your friends and Sensei at the Dojo to earn belts and become a ninja."
+  },
+  {
+    "cardId": 348,
+    "name": "Elite Penguin Force",
+    "ElementType": "Water",
+    "value": 8,
+    "CardColor": "Blue",
+    "imageUrl": null,
+    "description": "This super-secret agency has one goal: to protect the Club Pengun island. Their base, the Command Room, is hidden near the Ski Village."
+  },
+  {
+    "cardId": 401,
+    "name": null,
+    "ElementType": "Water",
+    "value": 2,
+    "CardColor": "Red",
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/2/24/Card-Jitsu_Cards_full_401.png",
+    "description": "Battle up to 3 other ninjas in Card-Jitsu Fire, the ultimate test of speed and power. Land on an element, play your cards and the highest number will win."
+  },
+  {
+    "cardId": 402,
+    "name": null,
+    "ElementType": "Fire",
+    "value": 3,
+    "CardColor": "Blue",
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/1/18/Card-Jitsu_Cards_full_402.png",
+    "description": "Skilled ninjas show their mastery of the element of fire, battling with hot sauce. They never spill a drop on their ninja suit and they don't fear it on their pizza."
+  },
+  {
+    "cardId": 403,
+    "name": null,
+    "ElementType": "Snow",
+    "value": 4,
+    "CardColor": "Purple",
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/e/e4/Card-Jitsu_Cards_full_403.png",
+    "description": "Ninja students all over the island helped to stoke the fires of a long dormant Volcano in the hills of Club Penguin. Even their black puffles joined in!"
+  },
+  {
+    "cardId": 404,
+    "name": "Goldsmith Apron",
+    "ElementType": "Water",
+    "value": 2,
+    "CardColor": "Green",
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/2/2d/Card-Jitsu_Cards_full_404.png",
+    "description": "Here's a tip if you're a ninja, you can buy a Goldsmith Apron inside the Hideout (beside the Dojo). If you wear this item then dance, your penguin will forge gold!"
+  },
+  {
+    "cardId": 405,
+    "name": null,
+    "ElementType": "Fire",
+    "value": 3,
+    "CardColor": "Yellow",
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/3/38/Card-Jitsu_Cards_full_405.png",
+    "description": "Ninjas face off in a match of Card-Jitsu Fire atop the great Volcano. Each ninja student must master the element of fire to earn legendary items such as the Fire Gem."
+  },
+  {
+    "cardId": 406,
+    "name": "Volcano",
+    "ElementType": "Snow",
+    "value": 4,
+    "CardColor": "Orange",
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/6/65/Card-Jitsu_Cards_full_406.png",
+    "description": "This distant mountain in the hills of Club Penguin had lay dormant for years. It wasn't until September 2009 that penguins realized that is was actually a Volcano!"
+  },
+  {
+    "cardId": 407,
+    "name": null,
+    "ElementType": "Water",
+    "value": 2,
+    "CardColor": "Blue",
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/5/5f/Card-Jitsu_Cards_full_407.png",
+    "description": "Ninjas practice their Card-Jitsu poses before pouncing into action. Here, we see a ninja preparing to go into a Card-Jitsu Fire battle, where you must play the best element card to win."
+  },
+  {
+    "cardId": 408,
+    "name": null,
+    "ElementType": "Fire",
+    "value": 3,
+    "CardColor": "Purple",
+    "imageUrl": null,
+    "description": "Only ninjas can access this quaint little shop at the heart of the Ninja Hideout beside the Dojo. The magical Amulet is the most popular item sold here."
+  },
+  {
+    "cardId": 409,
+    "name": null,
+    "ElementType": "Snow",
+    "value": 4,
+    "CardColor": "Green",
+    "imageUrl": null,
+    "description": "Land on this square in a game of Card-Jitsu Fire, and youll face a battle against another ninja. Remember, fire beats snow, snow beats water, water beats fire."
+  },
+  {
+    "cardId": 410,
+    "name": "Fire Suit",
+    "ElementType": "Water",
+    "value": 2,
+    "CardColor": "Orange",
+    "imageUrl": null,
+    "description": "5"
+  },
+  {
+    "cardId": 411,
+    "name": null,
+    "ElementType": "Fire",
+    "value": 3,
+    "CardColor": "Red",
+    "imageUrl": null,
+    "description": "Back in September 2009, construction on the entrance to the Volcano began at the Hideout. Sensei built a path to the top of the Volcano, and we worked together to build the Fire Dojo!"
+  },
+  {
+    "cardId": 412,
+    "name": "Fire Gem",
+    "ElementType": "Snow",
+    "value": 4,
+    "CardColor": "Yellow",
+    "imageUrl": null,
+    "description": "See how the fire symbol glows? Once a ninja student has mastered the element of fire, Sensei will award them with a Fire Gem. Only then will the fire symbol glow in the Ninja Hideout."
+  },
+  {
+    "cardId": 413,
+    "name": "Scavenger Hunt",
+    "ElementType": "Water",
+    "value": 5,
+    "CardColor": "Red",
+    "imageUrl": null,
+    "description": "Sensei asked ninja students to gather fiery items from all over the island. We used these items to stoke the Volcano. It was time for our next ninja journey!"
+  },
+  {
+    "cardId": 414,
+    "name": null,
+    "ElementType": "Fire",
+    "value": 6,
+    "CardColor": "Blue",
+    "imageUrl": null,
+    "description": "Ninjas gathered fiery items from all around the island to make the Volcano even hotter. It sparked great events, starting with a great storm which hit the island just before Halloween."
+  },
+  {
+    "cardId": 415,
+    "name": null,
+    "ElementType": "Snow",
+    "value": 5,
+    "CardColor": "Purple",
+    "imageUrl": null,
+    "description": "5"
+  },
+  {
+    "cardId": 416,
+    "name": "Flame Sandals",
+    "ElementType": "Water",
+    "value": 6,
+    "CardColor": "Green",
+    "imageUrl": null,
+    "description": "5"
+  },
+  {
+    "cardId": 417,
+    "name": null,
+    "ElementType": "Fire",
+    "value": 5,
+    "CardColor": "Yellow",
+    "imageUrl": null,
+    "description": "We drew these ninjas back in August 2009 while we were working up some stuff for Card-Jitsu Fire. Some of these were made into real world \"pop-up\" cards."
+  },
+  {
+    "cardId": 418,
+    "name": null,
+    "ElementType": "Snow",
+    "value": 6,
+    "CardColor": "Orange",
+    "imageUrl": null,
+    "description": "The powerful stone statues at the Fire Dojo watch over ninja students as they learn to master the element of fire. Beyond the mighty Fire Suit!"
+  },
+  {
+    "cardId": 419,
+    "name": null,
+    "ElementType": "Water",
+    "value": 5,
+    "CardColor": "Red",
+    "imageUrl": null,
+    "description": "We aren't quite sure about this tub of hot sauce at the Fire Dojo. Is it pouring hot sauce into the Volcano, or is the lava actually hot sauce? This mystery remains..."
+  },
+  {
+    "cardId": 420,
+    "name": null,
+    "ElementType": "Fire",
+    "value": 6,
+    "CardColor": "Blue",
+    "imageUrl": null,
+    "description": "Here's the original sketch of the Fire Dojo from May 2009. In the finished version we added a tub of hot sauce, and changed the outfit on the statue a bit!"
+  },
+  {
+    "cardId": 421,
+    "name": "November 2008",
+    "ElementType": "Water",
+    "value": 7,
+    "CardColor": "Red",
+    "imageUrl": null,
+    "description": "Sensei first appeared outside the Dojo in November 2008, where he was seen digging snow with a shovel. Almost a year later, he helped awaken the great Volcano..."
+  },
+  {
+    "cardId": 422,
+    "name": null,
+    "ElementType": "Water",
+    "value": 8,
+    "CardColor": "Blue",
+    "imageUrl": null,
+    "description": "This is a sketch we drew of Sensei in front of the Volcano entrance. We made this for a scene on our website back in September 2009, but ended up never using it!"
+  },
+  {
+    "cardId": 423,
+    "name": null,
+    "ElementType": "Fire",
+    "value": 9,
+    "CardColor": "Purple",
+    "imageUrl": null,
+    "description": "5"
+  },
+  {
+    "cardId": 424,
+    "name": null,
+    "ElementType": "Fire",
+    "value": 7,
+    "CardColor": "Green",
+    "imageUrl": null,
+    "description": "Take the next step along the ninja path. Journey across the narrow bridge to the Fire Dojo, where you will learn to master the element of fire to become a Fire Ninja."
+  },
+  {
+    "cardId": 425,
+    "name": null,
+    "ElementType": "Snow",
+    "value": 8,
+    "CardColor": "Yellow",
+    "imageUrl": null,
+    "description": "The entrance to the Volcano can only be opened by those who own the Amulet. To enter, click the stone table and uncover the hidden door to the secret Fire Dojo."
+  },
+  {
+    "cardId": 426,
+    "name": "Sensei's Fire Robes",
+    "ElementType": "Snow",
+    "value": 9,
+    "CardColor": "Orange",
+    "imageUrl": null,
+    "description": "Sensei is a master of Card-Jitsu Fire. As you challenge other ninja students and earn experience, Sensei will award you with pieces of the Fire Ninja Suit."
+  },
+  {
+    "cardId": 501,
+    "name": "Monkey King",
+    "ElementType": "Fire",
+    "value": 2,
+    "CardColor": "Blue",
+    "imageUrl": null,
+    "description": "A quick-thinking trickster, always ready for adventure. The Monkey King must face a great quest in the play \"Secrets of the Bamboo Forest\"."
+  },
+  {
+    "cardId": 502,
+    "name": null,
+    "ElementType": "Fire",
+    "value": 3,
+    "CardColor": "Blue",
+    "imageUrl": null,
+    "description": "Soaring through the air at top speed, penguin pilots master the art of Jet Packing. Head to the Beacon to take off on Jet Pack Adventure!"
+  },
+  {
+    "cardId": 503,
+    "name": null,
+    "ElementType": "Fire",
+    "value": 4,
+    "CardColor": "Purple",
+    "imageUrl": null,
+    "description": "Fairies and Princesses go together like fish and pizza. Both have been spotted during plays, Halloween, and the Medieval Party."
+  },
+  {
+    "cardId": 504,
+    "name": "salon chairs",
+    "ElementType": "Fire",
+    "value": 5,
+    "CardColor": "Orange",
+    "imageUrl": null,
+    "description": "Does your puffle want to try out a new hairdo? These salon chairs first appeared during the Puffle Party 2010. They are now available in the Pet Shop."
+  },
+  {
+    "cardId": 505,
+    "name": null,
+    "ElementType": "Fire",
+    "value": 6,
+    "CardColor": "Red",
+    "imageUrl": null,
+    "description": "Every year for Halloween, more and more costumes appear at the Gift Shop. Trick-or-treaters should not be surprised to see dragons or Franken-fairies around the island."
+  },
+  {
+    "cardId": 506,
+    "name": null,
+    "ElementType": "Fire",
+    "value": 6,
+    "CardColor": "Yellow",
+    "imageUrl": null,
+    "description": "During the Halloween Party, penguins looking to show off their custom costumes can waddle over to the costume show. Monsters and ladybugs alike are welcome!"
+  },
+  {
+    "cardId": 507,
+    "name": null,
+    "ElementType": "Fire",
+    "value": 7,
+    "CardColor": "Orange",
+    "imageUrl": null,
+    "description": "Soccer is a very popular pastime on the island. Whether two or twenty two penguins are playing, the action is always epic. Get your game on at the Stadium!"
+  },
+  {
+    "cardId": 508,
+    "name": "Bean Counters",
+    "ElementType": "Fire",
+    "value": 2,
+    "CardColor": "Blue",
+    "imageUrl": null,
+    "description": "Unloading the Coffee Shop truck is one of the oldest jobs on the island. And as long as penguins need their coffee, the Coffee Shop will need someone to help unload the beans."
+  },
+  {
+    "cardId": 509,
+    "name": "Earth Day celebration",
+    "ElementType": "Fire",
+    "value": 3,
+    "CardColor": "Blue",
+    "imageUrl": null,
+    "description": "6"
+  },
+  {
+    "cardId": 510,
+    "name": null,
+    "ElementType": "Fire",
+    "value": 4,
+    "CardColor": "Purple",
+    "imageUrl": null,
+    "description": "During the Penguin Play Awards, interviewers are always busy. Everyone is invited to sit in the chair and share their thoughts on the Stage plays and awards. Everyone!"
+  },
+  {
+    "cardId": 511,
+    "name": null,
+    "ElementType": "Fire",
+    "value": 5,
+    "CardColor": "Orange",
+    "imageUrl": null,
+    "description": "To play soccer at the Stadium, you've got to be quick. Click on the soccer ball to run over and kick it. The faster you're going, the faster the ball will go!"
+  },
+  {
+    "cardId": 512,
+    "name": null,
+    "ElementType": "Fire",
+    "value": 6,
+    "CardColor": "Red",
+    "imageUrl": null,
+    "description": "These are sketches of characters from \"Secrets of the Bamboo Forest\". We drew lots of different designs for their costumes before we decided on these ones."
+  },
+  {
+    "cardId": 513,
+    "name": "Mine Cave",
+    "ElementType": "Fire",
+    "value": 6,
+    "CardColor": "Yellow",
+    "imageUrl": null,
+    "description": "When a rockslide in the Mine revealed hidden caves, crews moved in to make them safe to explore. \"We're off to a rocky start,\" said Rory, \"but that's normal for a cave.\""
+  },
+  {
+    "cardId": 514,
+    "name": null,
+    "ElementType": "Fire",
+    "value": 7,
+    "CardColor": "Orange",
+    "imageUrl": null,
+    "description": "Revealed by a rockslide in January of 2010, this dark cave is a construction worker's dream. Penguins can mine for gold with jackhammers, or help keep the lights powered with snowballs."
+  },
+  {
+    "cardId": 515,
+    "name": "Guardian Dog",
+    "ElementType": "Snow",
+    "value": 4,
+    "CardColor": "Blue",
+    "imageUrl": null,
+    "description": "This costume from \"Secrets of the Bamboo Forest\" gives you the power to turn into a statue. Just press 'W' on your keyboard! The perfect skill for patient guardians..."
+  },
+  {
+    "cardId": 516,
+    "name": null,
+    "ElementType": "Snow",
+    "value": 4,
+    "CardColor": "Orange",
+    "imageUrl": null,
+    "description": "Every September, penguins look forward to the island's famous Fair. There are many special games, prizes and shows to see... so step right up!"
+  },
+  {
+    "cardId": 517,
+    "name": null,
+    "ElementType": "Snow",
+    "value": 5,
+    "CardColor": "Purple",
+    "imageUrl": null,
+    "description": "Hockey players can find all their equipment in the Snow and Sports catalog at the Stadium. The proper gear is important before stepping onto the ice."
+  },
+  {
+    "cardId": 518,
+    "name": "Puffle Show",
+    "ElementType": "Snow",
+    "value": 6,
+    "CardColor": "Green",
+    "imageUrl": null,
+    "description": "The Puffle Show premiered during the Puffle Party in 2010. Penguins took their furry friends there to compete in an exciting obstacle course."
+  },
+  {
+    "cardId": 519,
+    "name": "Holiday Party in 2009",
+    "ElementType": "Snow",
+    "value": 7,
+    "CardColor": "Yellow",
+    "imageUrl": null,
+    "description": "6"
+  },
+  {
+    "cardId": 520,
+    "name": null,
+    "ElementType": "Snow",
+    "value": 8,
+    "CardColor": "Green",
+    "imageUrl": null,
+    "description": "Even during the colder months, many penguins enjoy bundling up and playing in the snow. Making snowmen, caroling and snowball fights are very popular activities during this time."
+  },
+  {
+    "cardId": 521,
+    "name": null,
+    "ElementType": "Snow",
+    "value": 4,
+    "CardColor": "Blue",
+    "imageUrl": null,
+    "description": "The Stadium was upgraded to allow bigger crows to attend hockey and soccer games. Complete with bleachers, new lighting and booths for food vendors."
+  },
+  {
+    "cardId": 522,
+    "name": null,
+    "ElementType": "Snow",
+    "value": 4,
+    "CardColor": "Orange",
+    "imageUrl": null,
+    "description": "Nothing spruces up an igloo like a few items from the Better Igloos catalog. Puffles especially love it when there are lots of things to play with."
+  },
+  {
+    "cardId": 523,
+    "name": null,
+    "ElementType": "Snow",
+    "value": 5,
+    "CardColor": "Purple",
+    "imageUrl": null,
+    "description": "Music Jam is the island's annual music festival. It's all about finding the right styles, sounds and moves to express yourself."
+  },
+  {
+    "cardId": 524,
+    "name": "Field-Op",
+    "ElementType": "Snow",
+    "value": 6,
+    "CardColor": "Green",
+    "imageUrl": null,
+    "description": "6"
+  },
+  {
+    "cardId": 525,
+    "name": "Festival of Flight",
+    "ElementType": "Water",
+    "value": 2,
+    "CardColor": "Green",
+    "imageUrl": null,
+    "description": "6"
+  },
+  {
+    "cardId": 526,
+    "name": "Test Glider",
+    "ElementType": "Water",
+    "value": 3,
+    "CardColor": "Green",
+    "imageUrl": null,
+    "description": "During the Festival of Flight, many penguins used the Test Glider to take to the skies. Aviator goggles were a must have!"
+  },
+  {
+    "cardId": 527,
+    "name": "Puffle Paddle",
+    "ElementType": "Water",
+    "value": 4,
+    "CardColor": "Red",
+    "imageUrl": null,
+    "description": "You need fast flippers and sharp reflexes to play Puffle Paddle. Juggle as many puffles as you can, and earn tons of tickets in this popular Fair game."
+  },
+  {
+    "cardId": 528,
+    "name": null,
+    "ElementType": "Water",
+    "value": 4,
+    "CardColor": "Yellow",
+    "imageUrl": null,
+    "description": "The island's fanciest fashions can be seen on the red carpet during the Penguin Play Awards. All the latest styles can be found at the Gift Shop."
+  },
+  {
+    "cardId": 529,
+    "name": null,
+    "ElementType": "Water",
+    "value": 5,
+    "CardColor": "Orange",
+    "imageUrl": null,
+    "description": "Visitors to the Dock will find the Hydro Hopper boat all fueled up and ready to go. Jump in for some extreme tubing, or just chill out and catch some sun."
+  },
+  {
+    "cardId": 530,
+    "name": "Orange Puffle",
+    "ElementType": "Water",
+    "value": 6,
+    "CardColor": "Blue",
+    "imageUrl": null,
+    "description": "The zaniest of all puffles, these curious creatures were first discovered at the Puffle Party in 2010. Their buckteeth and quirky personalities make them stand out in any crowd."
+  },
+  {
+    "cardId": 531,
+    "name": null,
+    "ElementType": "Water",
+    "value": 6,
+    "CardColor": "Orange",
+    "imageUrl": null,
+    "description": "The entire community of Club Penguin helped plant this special tree during the Earth Day celebration in 2010. Many believe it will be the tallest tree on the island someday."
+  },
+  {
+    "cardId": 532,
+    "name": null,
+    "ElementType": "Water",
+    "value": 8,
+    "CardColor": "Blue",
+    "imageUrl": null,
+    "description": "Many penguins have a passion for gardening. So during the Earth Day celebration in 2010, a community garden was planted at the Mine Shack. Now anyone can go there and plant vegetables!"
+  },
+  {
+    "cardId": 533,
+    "name": "Island Adventure Party",
+    "ElementType": "Water",
+    "value": 2,
+    "CardColor": "Green",
+    "imageUrl": null,
+    "description": "In June of 2010, penguins were invited to dress up as pirates, captains, and even castaways. Mermaids and sailors in seafaring dresses were also spotted during the celebration."
+  },
+  {
+    "cardId": 534,
+    "name": "clothing racks",
+    "ElementType": "Water",
+    "value": 3,
+    "CardColor": "Green",
+    "imageUrl": null,
+    "description": "In 2010, the Better Igloos catalog began selling clothing racks and displays so penguins could set up their own shops. Now there are many unique and interesting showing up all over the island,"
+  },
+  {
+    "cardId": 535,
+    "name": "Seafarer's Gown",
+    "ElementType": "Water",
+    "value": 4,
+    "CardColor": "Red",
+    "imageUrl": null,
+    "description": "A popular costume during the Island Adventure Party. The Seafarer's Gown and Bonny Curls were perfect for any gal that wanted to sail while looking their best."
+  },
+  {
+    "cardId": 536,
+    "name": null,
+    "ElementType": "Water",
+    "value": 4,
+    "CardColor": "Yellow",
+    "imageUrl": null,
+    "description": "Music Jam is about more than just music! The island's annual festival is about finding the best styles and sounds to express yourself, including your best dance moves."
+  },
+  {
+    "cardId": 537,
+    "name": null,
+    "ElementType": "Water",
+    "value": 5,
+    "CardColor": "Orange",
+    "imageUrl": null,
+    "description": "Rock is a popular style of music during Music Jam, the island's annual music festival. Many penguins enjoy breaking out there electric guitars and rocking out at the Lighthouse."
+  },
+  {
+    "cardId": 538,
+    "name": null,
+    "ElementType": "Water",
+    "value": 6,
+    "CardColor": "Blue",
+    "imageUrl": null,
+    "description": "Pop concerts are a huge hit with audiences. During the Music Jam festival, the Beach is set up with all the lights and sound systems a pop star needs!"
+  },
+  {
+    "cardId": 539,
+    "name": "Underwater Adventure",
+    "ElementType": "Water",
+    "value": 6,
+    "CardColor": "Orange",
+    "imageUrl": null,
+    "description": "6"
+  },
+  {
+    "cardId": 540,
+    "name": "Norman Swarm",
+    "ElementType": "Water",
+    "value": 8,
+    "CardColor": "Blue",
+    "imageUrl": null,
+    "description": "This Stage play featured Norman, a shrunken penguin who must befriend a swarm of bugs to help him. Together they find a way to return Norman to his normal size."
+  },
+  {
+    "cardId": 541,
+    "name": null,
+    "ElementType": "Water",
+    "value": 2,
+    "CardColor": "Green",
+    "imageUrl": null,
+    "description": "Puffle rescuers need to have quick reflexes, and nerves of steel. Navigating dangerous ice floes, treacherous caverns and dangerous creatures is all part of the job."
+  },
+  {
+    "cardId": 542,
+    "name": "Everyday Phoning Facility",
+    "ElementType": "Water",
+    "value": 3,
+    "CardColor": "Green",
+    "imageUrl": null,
+    "description": "This is an average Everyday Phoning Facility, over in the Ski Village. There's nothing to see here... unless you happen to receive an invitation to the Elite Penguin Force..."
+  },
+  {
+    "cardId": 543,
+    "name": null,
+    "ElementType": "Fire",
+    "value": 3,
+    "CardColor": "Purple",
+    "imageUrl": null,
+    "description": "Gary the Gadget Guy, inventor of the jet pack, makes sure there's always enough for everyone. That makes a LOT of jet packs."
+  },
+  {
+    "cardId": 544,
+    "name": "Pumpkin Igloo",
+    "ElementType": "Fire",
+    "value": 4,
+    "CardColor": "Green",
+    "imageUrl": null,
+    "description": "Nothing says Halloween like pumpkins for your igloo... except make a pumpkin igloo! This special igloo design only appears during Halloween in the Igloo Upgrades catalog."
+  },
+  {
+    "cardId": 545,
+    "name": "lost map",
+    "ElementType": "Fire",
+    "value": 5,
+    "CardColor": "Yellow",
+    "imageUrl": null,
+    "description": "6"
+  },
+  {
+    "cardId": 546,
+    "name": null,
+    "ElementType": "Fire",
+    "value": 6,
+    "CardColor": "Orange",
+    "imageUrl": null,
+    "description": "In May of 2010, PSA agents were called in to stop one of Herbert's plans. Though agents saved everyone from harm, Herbert managed to destroy the PSA's HQ with a popcorn device."
+  },
+  {
+    "cardId": 547,
+    "name": null,
+    "ElementType": "Fire",
+    "value": 7,
+    "CardColor": "Red",
+    "imageUrl": null,
+    "description": "During the Island Adventure Party, a group of classy captains banded together to try and battle the pirates. They did their best to find more treasure, and have more adventures than anyone else."
+  },
+  {
+    "cardId": 548,
+    "name": null,
+    "ElementType": "Fire",
+    "value": 7,
+    "CardColor": "Red",
+    "imageUrl": null,
+    "description": "April Fools is a strange but funny celebration in Club Penguin. There's all sorts of weird silliness happening. It's easy to join in,-pull a prank, or tell a crazy joke."
+  },
+  {
+    "cardId": 549,
+    "name": "The Great Snow Maze",
+    "ElementType": "Snow",
+    "value": 2,
+    "CardColor": "Red",
+    "imageUrl": null,
+    "description": "During November of 2009, penguins were invited to solve the Great Snow Maze. Many penguins worked together to reach the end, and were awarded with a Yeti costume."
+  },
+  {
+    "cardId": 550,
+    "name": "Jacques Hammer",
+    "ElementType": "Snow",
+    "value": 3,
+    "CardColor": "Orange",
+    "imageUrl": null,
+    "description": "This penguin private investigator is one of the stars of the Stage play \"Ruby and the Ruby\". He's a no-nonsense penguin who doesn't miss a clue, and always finds what he's looking for."
+  },
+  {
+    "cardId": 551,
+    "name": null,
+    "ElementType": "Snow",
+    "value": 5,
+    "CardColor": "Purple",
+    "imageUrl": null,
+    "description": "During the April Fools Party, the entire island goes topsy-turvy. Those who join in the fun may even be crowned the King of April Fools... though kings are crowned every few minutes."
+  },
+  {
+    "cardId": 552,
+    "name": null,
+    "ElementType": "Snow",
+    "value": 7,
+    "CardColor": "Green",
+    "imageUrl": null,
+    "description": "To join the Elite Penguin Force, first you must complete The Test. This Test will challenge all of an agent's skills, including their speed, stealth and how clever they are."
+  },
+  {
+    "cardId": 553,
+    "name": "Cloud Maker 3000",
+    "ElementType": "Water",
+    "value": 2,
+    "CardColor": "Green",
+    "imageUrl": null,
+    "description": "During the Festival of Flight, a machine called the Cloud-Maker 3000 could make clouds of different shapes. Anvil clouds turned out to be surprisingly heavy!"
+  },
+  {
+    "cardId": 554,
+    "name": null,
+    "ElementType": "Water",
+    "value": 3,
+    "CardColor": "Yellow",
+    "imageUrl": null,
+    "description": "These ultra-rare items are only available to those who have entered at least 5 codes into the Treasure Book. Codes can be found on games, books and other Club Penguin toys."
+  },
+  {
+    "cardId": 555,
+    "name": null,
+    "ElementType": "Water",
+    "value": 4,
+    "CardColor": "Red",
+    "imageUrl": null,
+    "description": "In January 2010, the whole island was surprised by a rockslide in the Mine. Construction crews quickly cleaned up the mess, and discovered a number of hidden caves."
+  },
+  {
+    "cardId": 556,
+    "name": null,
+    "ElementType": "Water",
+    "value": 5,
+    "CardColor": "Purple",
+    "imageUrl": null,
+    "description": "Mer-penguins have shown up in many places. From the Underwater Adventure Stage play, to the Island Adventure Party, mer-penguins are a welcome addition to any celebration."
+  },
+  {
+    "cardId": 557,
+    "name": "Puffer Fish",
+    "ElementType": "Water",
+    "value": 7,
+    "CardColor": "Blue",
+    "imageUrl": null,
+    "description": "One of the many hazards that Aqua Grabber pilots need to avoid. These puffer fish can inflate to almost a hundred times their normal size, and their spikes can do a lot of damage."
+  },
+  {
+    "cardId": 558,
+    "name": "watering pack",
+    "ElementType": "Water",
+    "value": 7,
+    "CardColor": "Blue",
+    "imageUrl": null,
+    "description": "Released during the Earth Day celebration in 2010, this watering pack keeps water from freezing, now penguins can water their gardens no matter how cold it is."
+  },
+  {
+    "cardId": 559,
+    "name": null,
+    "ElementType": "Water",
+    "value": 7,
+    "CardColor": "Blue",
+    "imageUrl": null,
+    "description": "During the Earth Day celebration, penguins decided it was time to fix up the Mine Shack. So everyone pitched in to help build a large community garden there."
+  },
+  {
+    "cardId": 560,
+    "name": "Puffle Circus",
+    "ElementType": "Fire",
+    "value": 4,
+    "CardColor": "Purple",
+    "imageUrl": null,
+    "description": "Come one, come all, to the great Puffle Circus! Only in town during the Fair, penguins can see puffles of all colors perform amazing acts!"
+  },
+  {
+    "cardId": 561,
+    "name": null,
+    "ElementType": "Fire",
+    "value": 5,
+    "CardColor": "Green",
+    "imageUrl": null,
+    "description": "This sketch shows a yellow and blue puffle using items from their \"super plays\". It was used for an Aunt Arctic article, and it inspired the webpage we use for our Puffle Documentary video."
+  },
+  {
+    "cardId": 562,
+    "name": "Medieval Party 2010",
+    "ElementType": "Fire",
+    "value": 4,
+    "CardColor": "Purple",
+    "imageUrl": null,
+    "description": "6"
+  },
+  {
+    "cardId": 563,
+    "name": "Popcorn Party",
+    "ElementType": "Fire",
+    "value": 5,
+    "CardColor": "Green",
+    "imageUrl": null,
+    "description": "An unexpected pile of popcorn appeared at the Ski Village in May 2010, so penguins decided to throw a Popcorn Party. It took two weeks to eat the whole pile!"
+  },
+  {
+    "cardId": 564,
+    "name": null,
+    "ElementType": "Snow",
+    "value": 3,
+    "CardColor": "Red",
+    "imageUrl": null,
+    "description": "During the island's annual Puffle Party, each puffle color has a room decorated in its honor. When the white puffle was discovered, the Mine was turned into an icy paradise."
+  },
+  {
+    "cardId": 565,
+    "name": "green puffle room",
+    "ElementType": "Snow",
+    "value": 5,
+    "CardColor": "Blue",
+    "imageUrl": null,
+    "description": "This sketch shows a small part of the green puffle room from the Puffle Party of 2010. The final picture made the cover of the newspaper!"
+  },
+  {
+    "cardId": 566,
+    "name": "Fishbowl Igloo",
+    "ElementType": "Snow",
+    "value": 6,
+    "CardColor": "Purple",
+    "imageUrl": null,
+    "description": "One of the more unusual igloo designs, the Fishbowl Igloo lets you see the world from the eyes of a Fluffy fish. It can be found from time to time in the Better Igloos catalog."
+  },
+  {
+    "cardId": 567,
+    "name": "Ship Battle Adventure",
+    "ElementType": "Water",
+    "value": 5,
+    "CardColor": "Red",
+    "imageUrl": null,
+    "description": "The competition between pirates and captains reached epic proportions during the Island Adventure Party. A great battle awaited those who dared to join in!"
+  },
+  {
+    "cardId": 568,
+    "name": null,
+    "ElementType": "Water",
+    "value": 6,
+    "CardColor": "Purple",
+    "imageUrl": null,
+    "description": "Secret protectors of Club Penguin, the Elite Penguin Force can tackle any emergency. When the PSA was destroyed by Herbert, the EPF took over all secret agent operations."
+  },
+  {
+    "cardId": 569,
+    "name": null,
+    "ElementType": "Water",
+    "value": 7,
+    "CardColor": "Purple",
+    "imageUrl": null,
+    "description": "Whenever Rockhopper visits Club Penguin, he writes down all the things he's looking forward to doing. He posts this list on the notice board down in the Migrator's Hold."
+  },
+  {
+    "cardId": 570,
+    "name": "The Squid Lid",
+    "ElementType": "Water",
+    "value": 8,
+    "CardColor": "Blue",
+    "imageUrl": null,
+    "description": "6"
+  },
+  {
+    "cardId": 571,
+    "name": "Hidden Lake",
+    "ElementType": "Water",
+    "value": 8,
+    "CardColor": "Blue",
+    "imageUrl": null,
+    "description": "Deep underground is a secret cave filled with water, called the Hidden Lake. To find it, you'll need to journey into the caves beyond the mine, or find the other hidden entrance..."
+  },
+  {
+    "cardId": 601,
+    "name": "Spooky Igloo Contest",
+    "ElementType": "Fire",
+    "value": 2,
+    "CardColor": "Blue",
+    "imageUrl": null,
+    "description": "October 2010 saw a return of the spooky igloo contest. Penguins who picked up costumes and furniture items can keep the spine-chilling style all year 'round."
+  },
+  {
+    "cardId": 602,
+    "name": null,
+    "ElementType": "Fire",
+    "value": 3,
+    "CardColor": "Blue",
+    "imageUrl": null,
+    "description": "We prepared for Halloween 2010 with a chilling countdown and creepy costumes. Then, we searched for candy in the Swamp Quest."
+  },
+  {
+    "cardId": 603,
+    "name": "Stormy Skies",
+    "ElementType": "Fire",
+    "value": 4,
+    "CardColor": "Purple",
+    "imageUrl": null,
+    "description": "Stormy skies rolled over the island and cast shadows over October 2010's Halloween festivities. In November the dark clouds burst with the first ever rain in Club Penguin."
+  },
+  {
+    "cardId": 604,
+    "name": "5th Anniversary Party",
+    "ElementType": "Fire",
+    "value": 5,
+    "CardColor": "Orange",
+    "imageUrl": null,
+    "description": "October 24th 2010 was the 5th Anniversary Party in Club Penguin. Penguins earned a Celebration Stamp for blowing out the candles on the massive cake in the Coffee Shop."
+  },
+  {
+    "cardId": 605,
+    "name": "Anniversary Cake",
+    "ElementType": "Fire",
+    "value": 6,
+    "CardColor": "Red",
+    "imageUrl": null,
+    "description": "Club Penguin turned five at the October 24th Anniversary Party! Penguins found a party hat and orange puffles were excited to share the giant Anniversary cake."
+  },
+  {
+    "cardId": 606,
+    "name": "5th Anniversary Yearbook",
+    "ElementType": "Fire",
+    "value": 6,
+    "CardColor": "Yellow",
+    "imageUrl": null,
+    "description": "During the Anniversary Party of 2010, we celebrated the past year with a brand new Yearbook and original penguin artwork in the Book Room."
+  },
+  {
+    "cardId": 607,
+    "name": null,
+    "ElementType": "Fire",
+    "value": 7,
+    "CardColor": "Orange",
+    "imageUrl": null,
+    "description": "Snowball: a ball of snow pressed together to throw. Or... an excuse to get your snow gear on and head to the Snow Forts for a frozen fight!"
+  },
+  {
+    "cardId": 608,
+    "name": "Find Four",
+    "ElementType": "Fire",
+    "value": 2,
+    "CardColor": "Blue",
+    "imageUrl": null,
+    "description": "Challenge your buddy to a game of Find Four in the Ski Lodge. While you're there, you may also see a giant mullet, a moose head and Fred the Cuckoo clock bird."
+  },
+  {
+    "cardId": 609,
+    "name": null,
+    "ElementType": "Fire",
+    "value": 3,
+    "CardColor": "Blue",
+    "imageUrl": null,
+    "description": "After playing in the snow or at the Ice Rink with your white puffle, chill together by the fire at the Ski Lodge."
+  },
+  {
+    "cardId": 610,
+    "name": null,
+    "ElementType": "Fire",
+    "value": 4,
+    "CardColor": "Purple",
+    "imageUrl": null,
+    "description": "The Holiday Party 2010 was full of festive costumes and igloo items. In typical penguin fashion, we were thrilled to decorate our igloos... and ourselves."
+  },
+  {
+    "cardId": 611,
+    "name": null,
+    "ElementType": "Fire",
+    "value": 5,
+    "CardColor": "Orange",
+    "imageUrl": null,
+    "description": "The Book Room above the Coffee Shop is filled with Yearbook memories and tall tales, too! You might even discover a few secrets inside some of the pages..."
+  },
+  {
+    "cardId": 612,
+    "name": "Haunted House",
+    "ElementType": "Fire",
+    "value": 6,
+    "CardColor": "Red",
+    "imageUrl": null,
+    "description": "After putting on their creepy costumes in the October Penguin Style, Frankenpenguins and other monsters braved their way through the Forest to find the Haunted House."
+  },
+  {
+    "cardId": 613,
+    "name": null,
+    "ElementType": "Fire",
+    "value": 6,
+    "CardColor": "Yellow",
+    "imageUrl": null,
+    "description": "The brown puffle pet is super smart, inventive, and wears safety goggles. It's a good thing because its rocket is a bit unpredictable."
+  },
+  {
+    "cardId": 614,
+    "name": null,
+    "ElementType": "Fire",
+    "value": 7,
+    "CardColor": "Orange",
+    "imageUrl": null,
+    "description": "At The Fair in September 2010, we played games, earned tickets and won fabulous prizes! Puffles and penguins performed magic tricks at stages Rockhopper brought."
+  },
+  {
+    "cardId": 615,
+    "name": "Toboggan",
+    "ElementType": "Snow",
+    "value": 4,
+    "CardColor": "Blue",
+    "imageUrl": null,
+    "description": "7"
+  },
+  {
+    "cardId": 616,
+    "name": null,
+    "ElementType": "Snow",
+    "value": 4,
+    "CardColor": "Orange",
+    "imageUrl": null,
+    "description": "During the Holiday Party 2010, penguins got their skates from the Snow and Sports catalog and spent time with their buddies at the Ice Rink."
+  },
+  {
+    "cardId": 617,
+    "name": null,
+    "ElementType": "Snow",
+    "value": 5,
+    "CardColor": "Purple",
+    "imageUrl": null,
+    "description": "When the Migrator docks at the Beach, you can play Rockhopper's special Treasure Hunt game. Find it, and maybe find a few really rare gems, in the Captain's Quarters."
+  },
+  {
+    "cardId": 618,
+    "name": "Lumberjack Look",
+    "ElementType": "Snow",
+    "value": 6,
+    "CardColor": "Green",
+    "imageUrl": null,
+    "description": "The Lumberjack Look outfit from the January Penguin Style catalog got us in the spirit of adventure! We needed it to complete the Wilderness Expedition 2011."
+  },
+  {
+    "cardId": 619,
+    "name": "Pink Sparkle Snowshoes",
+    "ElementType": "Snow",
+    "value": 7,
+    "CardColor": "Yellow",
+    "imageUrl": null,
+    "description": "In January 2011 the Pink Sparkly Snowshoes hit Penguin Style just in time for the Wilderness Expedition. Who says exploration gear can't be stylish?"
+  },
+  {
+    "cardId": 620,
+    "name": "???",
+    "ElementType": "Snow",
+    "value": 8,
+    "CardColor": "Green",
+    "imageUrl": null,
+    "description": "The Holiday Party 2010 was full of surprises. Penguins discovered a mysterious room called \"???\". There, they found the biggest and brightest tree ever seen in Club Penguin."
+  },
+  {
+    "cardId": 621,
+    "name": "Coins For Change 2010",
+    "ElementType": "Snow",
+    "value": 4,
+    "CardColor": "Blue",
+    "imageUrl": null,
+    "description": "During Coins For Change 2010, Rockhopper challenged everyone to \"Fill the Lighthouse!\" Penguins gave over 12 billion Club Penguin coins that helped real kids around the world."
+  },
+  {
+    "cardId": 622,
+    "name": null,
+    "ElementType": "Snow",
+    "value": 4,
+    "CardColor": "Orange",
+    "imageUrl": null,
+    "description": "Penguin explorers had to make this elevator machine work during the Wilderness Expedition in January 2011. Experts presume the brown puffle invented it."
+  },
+  {
+    "cardId": 623,
+    "name": null,
+    "ElementType": "Snow",
+    "value": 5,
+    "CardColor": "Purple",
+    "imageUrl": null,
+    "description": "Building the boat during the Wilderness Expedition in January 2011 was a challenge. But getting to adopt a brown puffle across the bay was worth it."
+  },
+  {
+    "cardId": 624,
+    "name": "Wilderness Expedition Cave",
+    "ElementType": "Snow",
+    "value": 6,
+    "CardColor": "Green",
+    "imageUrl": null,
+    "description": "During the Wilderness Expedition in January 2011, we completed several challenges, including a maze and a boat ride across the bay. Then we discovered the brown puffle!"
+  },
+  {
+    "cardId": 625,
+    "name": "Water Party",
+    "ElementType": "Water",
+    "value": 2,
+    "CardColor": "Green",
+    "imageUrl": null,
+    "description": "7"
+  },
+  {
+    "cardId": 626,
+    "name": "Water Suits",
+    "ElementType": "Water",
+    "value": 3,
+    "CardColor": "Green",
+    "imageUrl": null,
+    "description": "Brave ninjas can battle opponents at the Waterfall behind the Dojo and earn Water Suits. Press 'D' when you wear only your suit and demonstrate your power to control water."
+  },
+  {
+    "cardId": 627,
+    "name": null,
+    "ElementType": "Water",
+    "value": 4,
+    "CardColor": "Red",
+    "imageUrl": null,
+    "description": "Your Stamp Books help you track the things you've done on the island. And while you can't really turn yourself into one, you CAN customize yours!"
+  },
+  {
+    "cardId": 628,
+    "name": null,
+    "ElementType": "Water",
+    "value": 4,
+    "CardColor": "Yellow",
+    "imageUrl": null,
+    "description": "We geared up in expedition gear from Penguin Style and then found adventures during the Wilderness Expedition in January 2011. In the end, we discovered the brown puffle!"
+  },
+  {
+    "cardId": 629,
+    "name": null,
+    "ElementType": "Water",
+    "value": 5,
+    "CardColor": "Orange",
+    "imageUrl": null,
+    "description": "Protecting the Earth, Building Safe places and Providing Medical Help are things we can rally around! During Coins For Change 2010, penguins gave over 12 billion Club Penguin coins. Yes, BILLION!"
+  },
+  {
+    "cardId": 630,
+    "name": null,
+    "ElementType": "Water",
+    "value": 6,
+    "CardColor": "Blue",
+    "imageUrl": null,
+    "description": "Penguins can choose their color from the Penguin Style catalog! In 2006 players voted to get Lime Green added, and in 2009 players chose Aqua over lavender and maroon."
+  },
+  {
+    "cardId": 631,
+    "name": "Fairy Fables",
+    "ElementType": "Water",
+    "value": 6,
+    "CardColor": "Orange",
+    "imageUrl": null,
+    "description": "September 2010 saw a return of the popular Fairy Fables play at the Stage. Penguins interested in acting auditioned for the roles of characters like Twee and the Big Bad Wool."
+  },
+  {
+    "cardId": 632,
+    "name": "Time-Traveler's hats",
+    "ElementType": "Water",
+    "value": 8,
+    "CardColor": "Blue",
+    "imageUrl": null,
+    "description": "7"
+  },
+  {
+    "cardId": 633,
+    "name": null,
+    "ElementType": "Water",
+    "value": 2,
+    "CardColor": "Green",
+    "imageUrl": null,
+    "description": "This sketch was created when the Elite Penguin Force agents started doing Field Ops in June 2010. Secret agents work together to get things done."
+  },
+  {
+    "cardId": 634,
+    "name": null,
+    "ElementType": "Water",
+    "value": 3,
+    "CardColor": "Green",
+    "imageUrl": null,
+    "description": "The Cove is a place we go to tell stories and play the Catchin' Waves game. If you've taken on the waves there, you've probably got some extreme tales to tell."
+  },
+  {
+    "cardId": 635,
+    "name": null,
+    "ElementType": "Water",
+    "value": 4,
+    "CardColor": "Red",
+    "imageUrl": null,
+    "description": "During the Fair in September 2010, the orange puffle joined the circus and zoomed around the tent it its vehicle. The finale was eating the car."
+  },
+  {
+    "cardId": 636,
+    "name": null,
+    "ElementType": "Water",
+    "value": 4,
+    "CardColor": "Yellow",
+    "imageUrl": null,
+    "description": "The first ever game in Club Penguin, Hydro Hopper was formerly known as Ballistic Biscuit. Head to the Dock to grab your inner tube and challenge the waters."
+  },
+  {
+    "cardId": 637,
+    "name": null,
+    "ElementType": "Water",
+    "value": 5,
+    "CardColor": "Orange",
+    "imageUrl": null,
+    "description": "To change up your igloo, choose a new design, get some furniture items, and decorate. Then throw a party and invite your friends."
+  },
+  {
+    "cardId": 638,
+    "name": null,
+    "ElementType": "Water",
+    "value": 6,
+    "CardColor": "Blue",
+    "imageUrl": null,
+    "description": "During Underwater Adventure, brave penguin divers go on a journey. Along the way they discover a grumpy fish who tells them about the lost city of Penglantis."
+  },
+  {
+    "cardId": 639,
+    "name": "Questions for a Crab",
+    "ElementType": "Water",
+    "value": 6,
+    "CardColor": "Orange",
+    "imageUrl": null,
+    "description": "Herbert made his first appearance in the PSA mission \"Questions for a Crab\". After capturing a Secret Agent, he explained his life story and dastardly plans. His flow chart contained over 30 hand drawn pages."
+  },
+  {
+    "cardId": 640,
+    "name": "Enemy Bots",
+    "ElementType": "Water",
+    "value": 8,
+    "CardColor": "Blue",
+    "imageUrl": null,
+    "description": "Agents must protect against many different kinds of enemies in the game System Defender. Each has its own strengths and weaknesses. Find out more in G's tutorial in the Command Room."
+  },
+  {
+    "cardId": 641,
+    "name": "Paint By Letters",
+    "ElementType": "Water",
+    "value": 2,
+    "CardColor": "Green",
+    "imageUrl": null,
+    "description": "In the Book Room, find these special books to hone your keyboard skills, shape your own story, and even find a few secrets!"
+  },
+  {
+    "cardId": 642,
+    "name": null,
+    "ElementType": "Water",
+    "value": 3,
+    "CardColor": "Green",
+    "imageUrl": null,
+    "description": "Classified: To become an Elite Agent, respond to an invitation from another agent. Then head to the Everyday Phoning Facility to take the training test. Your duty? Protect the island."
+  },
+  {
+    "cardId": 643,
+    "name": "2010's New Year's celebrations",
+    "ElementType": "Fire",
+    "value": 3,
+    "CardColor": "Purple",
+    "imageUrl": null,
+    "description": "7"
+  },
+  {
+    "cardId": 644,
+    "name": null,
+    "ElementType": "Fire",
+    "value": 4,
+    "CardColor": "Green",
+    "imageUrl": null,
+    "description": "The brains of the Elite Penguin Force, the Tech Class, are technology experts. Dressed as civilians, they shut down enemy defenses via their computers."
+  },
+  {
+    "cardId": 645,
+    "name": null,
+    "ElementType": "Fire",
+    "value": 5,
+    "CardColor": "Yellow",
+    "imageUrl": null,
+    "description": "In May 2010, Herbert's popcorn explosion meant we had to replace the Sport Shop with the Everyday Phoning Facility. Nothing unusual ever happens there..."
+  },
+  {
+    "cardId": 646,
+    "name": null,
+    "ElementType": "Fire",
+    "value": 6,
+    "CardColor": "Orange",
+    "imageUrl": null,
+    "description": "Black puffles often look grumpy. But don't let their exterior fool you. They're excellent pets who excel with skateboards... They'll even help you in the Cart Surfer game."
+  },
+  {
+    "cardId": 647,
+    "name": "Sumo Smash",
+    "ElementType": "Fire",
+    "value": 7,
+    "CardColor": "Red",
+    "imageUrl": null,
+    "description": "Smashing your opponents off the 'berg will get you one step closer to conquering the island. Sumo Smash is a game made especially for Club Penguin's Game Day for Wii."
+  },
+  {
+    "cardId": 648,
+    "name": null,
+    "ElementType": "Fire",
+    "value": 7,
+    "CardColor": "Red",
+    "imageUrl": null,
+    "description": "Very inventive, your brown puffle will surprise you with its elaborate creations. Adopt this machine-making puffle from the Pet Shop!"
+  },
+  {
+    "cardId": 649,
+    "name": null,
+    "ElementType": "Snow",
+    "value": 2,
+    "CardColor": "Red",
+    "imageUrl": null,
+    "description": "Reindeer, elves and puffles were seen gathering around the massive tree during the December 2010 Holiday Party. We decorated it ourselves!"
+  },
+  {
+    "cardId": 650,
+    "name": "Boss Bugs",
+    "ElementType": "Snow",
+    "value": 3,
+    "CardColor": "Orange",
+    "imageUrl": null,
+    "description": "These three Boss Bugs were sketched in the summer of 2010. The artists wanted them to look as if they could harm a computer system. Elite Agents can attack these Club Penguin enemies in System Defense in the Command Room."
+  },
+  {
+    "cardId": 651,
+    "name": "Tall Tree Maze",
+    "ElementType": "Snow",
+    "value": 5,
+    "CardColor": "Purple",
+    "imageUrl": null,
+    "description": "Adventurous penguins can puffles made their way through the Tall Trees to find the new brown puffle during the Wilderness Expedition in January 2011."
+  },
+  {
+    "cardId": 652,
+    "name": "Sled 'n Slide",
+    "ElementType": "Snow",
+    "value": 7,
+    "CardColor": "Green",
+    "imageUrl": null,
+    "description": "Teamwork is key when you're flying down the hill on a sled with your friends in Sled 'n Slide game for Wii... Get a good time and your team will be closer to conquering Club Penguin Island!"
+  },
+  {
+    "cardId": 653,
+    "name": null,
+    "ElementType": "Water",
+    "value": 2,
+    "CardColor": "Green",
+    "imageUrl": null,
+    "description": "For a long time, players asked for a stage set under the water. So the Club Penguin team made one! In Underwater Adventure, you can get the costumes of Toby the Lobster, a Mermaid, or a Merman."
+  },
+  {
+    "cardId": 654,
+    "name": "lifejackets",
+    "ElementType": "Water",
+    "value": 3,
+    "CardColor": "Yellow",
+    "imageUrl": null,
+    "description": "During the Wilderness Expedition, we had to take a boat to get across the bay. But first we had to build it and put our lifejackets on!"
+  },
+  {
+    "cardId": 655,
+    "name": null,
+    "ElementType": "Water",
+    "value": 4,
+    "CardColor": "Red",
+    "imageUrl": null,
+    "description": "From the Lodge, you can get to the Ice Fishing game and catch fish. Shhhh... To get the giant mullet use a smaller fish as bait!"
+  },
+  {
+    "cardId": 656,
+    "name": null,
+    "ElementType": "Water",
+    "value": 5,
+    "CardColor": "Purple",
+    "imageUrl": null,
+    "description": "\"Step right up to the most daring, extravagant, ama-a-a-a-zing puffle circus!\" Talented puffles performed and Ringmasters directed the shows during The Fair 2010."
+  },
+  {
+    "cardId": 657,
+    "name": "Black Puffle",
+    "ElementType": "Water",
+    "value": 7,
+    "CardColor": "Blue",
+    "imageUrl": null,
+    "description": "It's intense and it has some incredible skate tricks, too. If you want some Cart Surfer help, or just a really cool pet, adopt a black puffle from the Pet Shop."
+  },
+  {
+    "cardId": 658,
+    "name": null,
+    "ElementType": "Water",
+    "value": 7,
+    "CardColor": "Blue",
+    "imageUrl": null,
+    "description": "Club Penguin artists had a lot of fun sketching how the brown puffle might play. The scientific pet was discovered during the Wilderness Expedition in January 2011."
+  },
+  {
+    "cardId": 659,
+    "name": "Java Jump",
+    "ElementType": "Water",
+    "value": 7,
+    "CardColor": "Blue",
+    "imageUrl": null,
+    "description": "Race your opponents to the finish line! The Java Jump game in Club Penguin's Game Day for Wii will have you jumping... unless you pick up a heavy anvil along the way."
+  },
+  {
+    "cardId": 660,
+    "name": null,
+    "ElementType": "Fire",
+    "value": 4,
+    "CardColor": "Purple",
+    "imageUrl": null,
+    "description": "The opening of the Water Dojo is November 2010 meant a celebration of all elemental skills in Club Penguin. Puffles like the elements, too."
+  },
+  {
+    "cardId": 661,
+    "name": null,
+    "ElementType": "Fire",
+    "value": 5,
+    "CardColor": "Green",
+    "imageUrl": null,
+    "description": "Fairy Fables is the tale of Prince Redwood who rides through the forest to take croissants to a princess. Check the Stage for a trunk full of costumes and acting opportunities."
+  },
+  {
+    "cardId": 662,
+    "name": null,
+    "ElementType": "Fire",
+    "value": 4,
+    "CardColor": "Purple",
+    "imageUrl": null,
+    "description": "First discovered in the Forest in 2007, yellow puffles are artistic pets. Adopt one from the Pet Shop and take it into your igloo. Then watch it get creative!"
+  },
+  {
+    "cardId": 663,
+    "name": "Green Puffle",
+    "ElementType": "Fire",
+    "value": 5,
+    "CardColor": "Green",
+    "imageUrl": null,
+    "description": "The green puffle's a great pal for getting silly. Adopt one at the Pet Shop and try taking it into the Jetpack Adventure game at the Beacon."
+  },
+  {
+    "cardId": 664,
+    "name": null,
+    "ElementType": "Snow",
+    "value": 3,
+    "CardColor": "Red",
+    "imageUrl": null,
+    "description": "It takes a long time to plan new rooms. Artists sketched the Elite Agent training and testing room in January 2010, way before the Everyday Phoning Facility opened for Elite Agents at the end of May 2010."
+  },
+  {
+    "cardId": 665,
+    "name": "Snowball Battle",
+    "ElementType": "Snow",
+    "value": 5,
+    "CardColor": "Blue",
+    "imageUrl": null,
+    "description": "In Club Penguin Game Day for Wii, winning snowball battles take precision. But it also helps if you know a secret... find the white puffle for some extra snowball action!"
+  },
+  {
+    "cardId": 666,
+    "name": "Purple Puffle",
+    "ElementType": "Snow",
+    "value": 6,
+    "CardColor": "Purple",
+    "imageUrl": null,
+    "description": "It's particular – except when it's on the dance floor. Then it'll show you some great moves. Adopt one from the Pet Shop and then take it to the Dance Contest game to help you."
+  },
+  {
+    "cardId": 667,
+    "name": null,
+    "ElementType": "Water",
+    "value": 5,
+    "CardColor": "Red",
+    "imageUrl": null,
+    "description": "This early sketch of the Water Dojo had a few more \"polished\" elements than it does now. We wanted the area to be quite rough and even a bit perilous to reflect the challenge of the water game."
+  },
+  {
+    "cardId": 668,
+    "name": "Orange Puffle",
+    "ElementType": "Water",
+    "value": 6,
+    "CardColor": "Purple",
+    "imageUrl": null,
+    "description": "Known for its willingness to chomp on everything, the orange puffle is a wacky pet. Adopt yours at the Club Penguin Pet Shop – and keep an eye on your pizza."
+  },
+  {
+    "cardId": 669,
+    "name": "Pink Puffle",
+    "ElementType": "Water",
+    "value": 7,
+    "CardColor": "Purple",
+    "imageUrl": null,
+    "description": "Pink puffles are sporty creatures – they also like water. Adopt a pink puffle at the Pet Shop and take it into the Aqua Grabber game to help you!"
+  },
+  {
+    "cardId": 670,
+    "name": "Goal!",
+    "ElementType": "Water",
+    "value": 8,
+    "CardColor": "Blue",
+    "imageUrl": null,
+    "description": "You've picked your team... your skates are laced tight. Now guard your net and shoot pucks for the win! Goal!"
+  },
+  {
+    "cardId": 671,
+    "name": "White Puffle",
+    "ElementType": "Water",
+    "value": 8,
+    "CardColor": "Blue",
+    "imageUrl": null,
+    "description": "First spotted in the Dojo, the shy, snow-loving white puffle holds extraordinary power. Adopt one from the Club Penguin Pet Shop."
+  },
+  {
+    "cardId": 672,
+    "name": "Blue Puffle",
+    "ElementType": "Fire",
+    "value": 9,
+    "CardColor": "Blue",
+    "imageUrl": null,
+    "description": "Loyalty is what blue puffles are all about. If you're looking to expand your team with an all-star pet, adopt one in the Pet Shop."
+  },
+  {
+    "cardId": 673,
+    "name": "Feed a Puffle",
+    "ElementType": "Fire",
+    "value": 9,
+    "CardColor": "Yellow",
+    "imageUrl": null,
+    "description": "All the puffles are hungry in the Club Penguin Wii \"Feed A Puffle\" Game. But try extra hard to feed a white one – you can get a Stamp in Club Penguin when you feed one."
+  },
+  {
+    "cardId": 674,
+    "name": null,
+    "ElementType": "Fire",
+    "value": 2,
+    "CardColor": "Blue",
+    "imageUrl": null,
+    "description": "Ninjas compete fiercely in the Dojo to improve their Card-Jitsu skills. After earning their Ninja Mask, many continue to battle to keep their senses sharp. New Power Cards can surprise even the most skilled opponents."
+  },
+  {
+    "cardId": 675,
+    "name": null,
+    "ElementType": "Fire",
+    "value": 4,
+    "CardColor": "Purple",
+    "imageUrl": null,
+    "description": "Sensei's past is shrouded in mystery. He is the first master of Card-Jitsu, but little else is known about him. He will, however gladly train any student interested in the ways of the ninja. Seek him in the Dojo for training."
+  },
+  {
+    "cardId": 676,
+    "name": null,
+    "ElementType": "Fire",
+    "value": 5,
+    "CardColor": "Orange",
+    "imageUrl": null,
+    "description": "Even after you've earned their Ninja Mask, your ninja's training has only begun. The next step of your journey is to master the elements. Search the Ninja Hideout for paths to new Dojos... and new challenges."
+  },
+  {
+    "cardId": 677,
+    "name": null,
+    "ElementType": "Fire",
+    "value": 6,
+    "CardColor": "Red",
+    "imageUrl": null,
+    "description": "The Brown Puffle was first discovered in January 2011. Explorers crossed a hidden bay into the wilds of Club Penguin, and found them in a cave. Many puffles even followed the explorers back. Adopt one today the Pet Shop."
+  },
+  {
+    "cardId": 678,
+    "name": null,
+    "ElementType": "Fire",
+    "value": 6,
+    "CardColor": "Yellow",
+    "imageUrl": null,
+    "description": "Fire Ninjas who wear all the parts of their Fire Suit can control fire by pressing 'D' on their keyboard. Many used this power to help melt snow and pump water during the Water Dojo construction in November 2010."
+  },
+  {
+    "cardId": 679,
+    "name": null,
+    "ElementType": "Fire",
+    "value": 7,
+    "CardColor": "Orange",
+    "imageUrl": null,
+    "description": "In October 2010, black puffles were found exploring the Mine. It was quickly discovered that they were interested in Cart Surfing. To take your black puffle along, just walk to the Mine and start a game."
+  },
+  {
+    "cardId": 680,
+    "name": "Mountain Expedition",
+    "ElementType": "Snow",
+    "value": 4,
+    "CardColor": "Blue",
+    "imageUrl": null,
+    "description": "During August 2010, a Mountain Expedition was organized to climb to the top of Toughest Mountain. Many teams of penguins suited up with new climbing gear, and worked together to face the mountain."
+  },
+  {
+    "cardId": 681,
+    "name": null,
+    "ElementType": "Snow",
+    "value": 4,
+    "CardColor": "Orange",
+    "imageUrl": null,
+    "description": "Climbers faced many obstacles during the Mountain Expedition in August 2010. Icy caverns and harsh weather made the climb very tiring. Many stopped to rest at base camp before climbing to the summit."
+  },
+  {
+    "cardId": 682,
+    "name": "Toughest Mountain",
+    "ElementType": "Snow",
+    "value": 5,
+    "CardColor": "Purple",
+    "imageUrl": null,
+    "description": "The final challenge for climbers during the Mountain Expedition in August 2010 was to reach the top. Many who did took a picture to celebrate, which could then be used as a player card background!"
+  },
+  {
+    "cardId": 683,
+    "name": null,
+    "ElementType": "Snow",
+    "value": 6,
+    "CardColor": "Green",
+    "imageUrl": null,
+    "description": "To earn all the Stamps in Cart Surfer, you'll need practice... and a little help. For some of the challenges, surfers will need to bring a black puffle with them. You can adopt one of these from the Pet Shop."
+  },
+  {
+    "cardId": 684,
+    "name": "Stamp Book",
+    "ElementType": "Snow",
+    "value": 7,
+    "CardColor": "Yellow",
+    "imageUrl": null,
+    "description": "Stamps Books tell YOUR story. Inside you'll find all the pins you've found, the games you've mastered, and the medals you've earned. Customize yours to show others what you like... and what you can do!"
+  },
+  {
+    "cardId": 685,
+    "name": null,
+    "ElementType": "Snow",
+    "value": 8,
+    "CardColor": "Green",
+    "imageUrl": null,
+    "description": "Dark and stormy skies continued to cover the island after the 2010 Halloween Party was over. No one could explain the mysterious weather at first – even Gary the Gadget Guy was baffled."
+  },
+  {
+    "cardId": 686,
+    "name": null,
+    "ElementType": "Snow",
+    "value": 4,
+    "CardColor": "Blue",
+    "imageUrl": null,
+    "description": "What do Water Ninjas look like when they're controlling water? That's the question we asked while working on these sketches. We tried lots of different designs, making the water look 'smooth' and 'froamy', until we found the way we liked best."
+  },
+  {
+    "cardId": 687,
+    "name": null,
+    "ElementType": "Snow",
+    "value": 4,
+    "CardColor": "Orange",
+    "imageUrl": null,
+    "description": "When the Halloween Storm arrived in October 2010, Gary the Gadget Guy was puzzled. \"I had never experienced a storm like it before,\" he said. \"I watched it closely through the binoculars at the Cove. It was very intriguing.\""
+  },
+  {
+    "cardId": 688,
+    "name": "Water Ninja",
+    "ElementType": "Water",
+    "value": 3,
+    "CardColor": "Green",
+    "imageUrl": null,
+    "description": "Card-Jitsu Water is a fast paced battle. It takes quick thinking and fast flippers to master. Those who do will earn their Water Suit, a Water Gem, and the right to call themselves a Water Ninja."
+  },
+  {
+    "cardId": 689,
+    "name": null,
+    "ElementType": "Water",
+    "value": 4,
+    "CardColor": "Red",
+    "imageUrl": null,
+    "description": "In November 2010, it rained for the first time in Club Penguin history. For days the downpour soaked the island. Weather experts were baffled, and penguins everywhere were spotted with umbrellas and rain gear."
+  },
+  {
+    "cardId": 690,
+    "name": null,
+    "ElementType": "Water",
+    "value": 4,
+    "CardColor": "Yellow",
+    "imageUrl": null,
+    "description": "Ninjas must give their all facing one another in battle. Though matches are fierce, Sensei teaches that competition is the best way to improve your skill. Win or lose, ninjas always remain loyal allies, so remember to tell your opponent \"good game!\""
+  },
+  {
+    "cardId": 691,
+    "name": "Water Sandals",
+    "ElementType": "Water",
+    "value": 5,
+    "CardColor": "Orange",
+    "imageUrl": null,
+    "description": "7"
+  },
+  {
+    "cardId": 692,
+    "name": null,
+    "ElementType": "Water",
+    "value": 6,
+    "CardColor": "Blue",
+    "imageUrl": null,
+    "description": "A rainstorm drenched the island in November 2010. At Sensei's request, workers set up machines to pump rainwater up to the Dojo. The machines ran on snowballs and Fire Ninja flames!"
+  },
+  {
+    "cardId": 693,
+    "name": null,
+    "ElementType": "Water",
+    "value": 6,
+    "CardColor": "Orange",
+    "imageUrl": null,
+    "description": "During November 2010, everyone helped pump rainwater up to the Dojo. This water was needed to build a new Dojo for Water Ninja training. For a week, much of the island was covered in pipes and water tanks."
+  },
+  {
+    "cardId": 694,
+    "name": null,
+    "ElementType": "Water",
+    "value": 8,
+    "CardColor": "Blue",
+    "imageUrl": null,
+    "description": "7"
+  },
+  {
+    "cardId": 695,
+    "name": null,
+    "ElementType": "Water",
+    "value": 2,
+    "CardColor": "Green",
+    "imageUrl": null,
+    "description": "When a ninja wears all the parts of the Water Suit, they will have the power to control water. Wearing only the suit, press 'D', and a wave of water will surge around you."
+  },
+  {
+    "cardId": 696,
+    "name": null,
+    "ElementType": "Water",
+    "value": 3,
+    "CardColor": "Green",
+    "imageUrl": null,
+    "description": "The rainstorm in November 2010 was a sign that ninjas were ready to master the element of water. Sensei soon announced the construction of the Water Dojo. It opened on November 25... and Card-Jitsu Water training began."
+  },
+  {
+    "cardId": 697,
+    "name": null,
+    "ElementType": "Water",
+    "value": 4,
+    "CardColor": "Red",
+    "imageUrl": null,
+    "description": "During construction of the Water Dojo in November 2010, Sensei appeared in the Ninja Hideout. Dressed in his Water Robe, he helped ninjas prepare... and showed them what the power of a Water Ninja could do."
+  },
+  {
+    "cardId": 698,
+    "name": null,
+    "ElementType": "Water",
+    "value": 4,
+    "CardColor": "Yellow",
+    "imageUrl": null,
+    "description": "This rough sketch was an idea for a poster, showing all the different parts of the new Card-Jitsu Water game. We wanted to make it feel like the beginning of an ancient legend or story. That's why Sensei is so big – he's not a giant, it's just for style!"
+  },
+  {
+    "cardId": 699,
+    "name": null,
+    "ElementType": "Water",
+    "value": 5,
+    "CardColor": "Orange",
+    "imageUrl": null,
+    "description": "This sketch of a Water Ninja was created for a membership card design. We wanted to show how it feels to become a Water Ninja – to have such awesome power and skill. That's why we left off his mask – we wanted to see his expression!"
+  },
+  {
+    "cardId": 700,
+    "name": null,
+    "ElementType": "Fire",
+    "value": 3,
+    "CardColor": "Purple",
+    "imageUrl": null,
+    "description": "When we were designing what Water Ninjas looked like, it helped to sketch them in different battle poses. We really like this early drawing we found in an artist's sketch book."
+  },
+  {
+    "cardId": 701,
+    "name": null,
+    "ElementType": "Fire",
+    "value": 8,
+    "CardColor": "Red",
+    "imageUrl": null,
+    "description": "\"Dude. Soooo love the shades. They make me even stronger and more silent. Maybe later we can hang out and I'll eat a Puffle O to entertain 'ya.\""
+  },
+  {
+    "cardId": 702,
+    "name": null,
+    "ElementType": "Fire",
+    "value": 7,
+    "CardColor": "Orange",
+    "imageUrl": null,
+    "description": "\"You think this is fast? You should see how I move when I get shot from a cannon! It's a riot! And I think, actually, it increases happiness.\""
+  },
+  {
+    "cardId": 703,
+    "name": null,
+    "ElementType": "Snow",
+    "value": 6,
+    "CardColor": "Yellow",
+    "imageUrl": null,
+    "description": "\"Paints, creativity, and music,\" Chirp replies with whimsy. \"Mix those up with some imagination and you got a masterpiece, my friends, a masterpiece!\""
+  },
+  {
+    "cardId": 704,
+    "name": null,
+    "ElementType": "Water",
+    "value": 5,
+    "CardColor": "Purple",
+    "imageUrl": null,
+    "description": "\"I love bubbles! They're beautiful to blow. Bouncy. Breathtaking. Transparent perfection, I say!\""
+  },
+  {
+    "cardId": 705,
+    "name": null,
+    "ElementType": "Fire",
+    "value": 7,
+    "CardColor": "Orange",
+    "imageUrl": null,
+    "description": "7"
+  },
+  {
+    "cardId": 706,
+    "name": null,
+    "ElementType": "Snow",
+    "value": 6,
+    "CardColor": "Green",
+    "imageUrl": null,
+    "description": "\"Um, nope! Can't touch this propeller hat,\" Flit laughs loudly. \"It takes tons of practice... Even I need it! Recall Christmas 2008 when I got stuck sideways in a tree?!\""
+  },
+  {
+    "cardId": 707,
+    "name": null,
+    "ElementType": "Water",
+    "value": 5,
+    "CardColor": "Blue",
+    "imageUrl": null,
+    "description": "\"It's so cool to bounce around like my ball,\" he declares. \"By the way... it rolled under a ginormous pile of snow and though I'm small, round and can roll, I'm a bit too puffy. Can you help?\""
+  },
+  {
+    "cardId": 708,
+    "name": null,
+    "ElementType": "Fire",
+    "value": 4,
+    "CardColor": "Blue",
+    "imageUrl": null,
+    "description": "\"Dear Gary, met two very talented puffles on an important PSA mission today. Will have to keep a look out for them in the future. They may be useful someday...\""
+  },
+  {
+    "cardId": 709,
+    "name": null,
+    "ElementType": "Water",
+    "value": 2,
+    "CardColor": "Green",
+    "imageUrl": null,
+    "description": "\"From this snowman emerges the almighty Niblet, the might green puffle! He's been trying to become a white puffle by hiding in the snow.\""
+  },
+  {
+    "cardId": 710,
+    "name": null,
+    "ElementType": "Snow",
+    "value": 3,
+    "CardColor": "Purple",
+    "imageUrl": null,
+    "description": "Penguins and puffles never get tired of the snow falling in Club Penguin. Best friends like to take some timeout from their busy life to watch it fall together."
+  },
+  {
+    "cardId": 711,
+    "name": null,
+    "ElementType": "Fire",
+    "value": 4,
+    "CardColor": "Green",
+    "imageUrl": null,
+    "description": "Sometimes rounding up puffles feels a little like chasing a rainbow. Lots of colors, but the closer you get the farther away it seems."
+  },
+  {
+    "cardId": 712,
+    "name": null,
+    "ElementType": "Water",
+    "value": 3,
+    "CardColor": "Green",
+    "imageUrl": null,
+    "description": "\"Yeah, this little green guy is an epic win,\" Cadence grinned. \"He's got all the right moves. He usually knows where the party's at. He's definitely a Keeper, lolz!\""
+  },
+  {
+    "cardId": 713,
+    "name": null,
+    "ElementType": "Snow",
+    "value": 2,
+    "CardColor": "Yellow",
+    "imageUrl": null,
+    "description": "Such a popular myth, they made a Stage play about it. Does this puffle really live under the 'berg?"
+  },
+  {
+    "cardId": 714,
+    "name": null,
+    "ElementType": "Fire",
+    "value": 5,
+    "CardColor": "Red",
+    "imageUrl": null,
+    "description": "Swoosh, the mysterious meteor puffle flies through the air with the greatest of ease..."
+  },
+  {
+    "cardId": 715,
+    "name": null,
+    "ElementType": "Water",
+    "value": 4,
+    "CardColor": "Purple",
+    "imageUrl": null,
+    "description": "A multi-colored legend, or just a creative little yellow puffle who has been playing with paint?"
+  },
+  {
+    "cardId": 716,
+    "name": null,
+    "ElementType": "Snow",
+    "value": 3,
+    "CardColor": "Orange",
+    "imageUrl": null,
+    "description": "\"I'm telling ya, it was huge! Twice the size of a penguin and it had claws like a crab. I was shaking in my snow boots!\""
+  },
+  {
+    "cardId": 717,
+    "name": null,
+    "ElementType": "Fire",
+    "value": 5,
+    "CardColor": "Red",
+    "imageUrl": null,
+    "description": "\"Turbo is my black puffle. It rolls its eyes a lot,\" replies the penguin as he feeds his pet a flipper full of Puffle O's. \"It really gets fired up when I take it out for a walk.\""
+  },
+  {
+    "cardId": 718,
+    "name": null,
+    "ElementType": "Snow",
+    "value": 2,
+    "CardColor": "Blue",
+    "imageUrl": null,
+    "description": "\"As an employee, I value the blue puffles,\" replies the staff member. \"They are loyal, easy to take care of, and fun to play ball with. You can't go wrong with a blue puffle.\""
+  },
+  {
+    "cardId": 719,
+    "name": null,
+    "ElementType": "Snow",
+    "value": 5,
+    "CardColor": "Blue",
+    "imageUrl": null,
+    "description": "\"This is my pink puffle, Cutie! I named it that because I think its eyes are sooo adorable,\" continues the ballet dancer. \"Plus it matches my outfit!\""
+  },
+  {
+    "cardId": 720,
+    "name": null,
+    "ElementType": "Snow",
+    "value": 4,
+    "CardColor": "Green",
+    "imageUrl": null,
+    "description": "\"My puffle Greenie is the silliest puffle I've ever met, which is why we get along so well,\" she giggles. \"I love it when it plays on its unicycle – it's so funny!\""
+  },
+  {
+    "cardId": 721,
+    "name": null,
+    "ElementType": "Snow",
+    "value": 3,
+    "CardColor": "Purple",
+    "imageUrl": null,
+    "description": "\"Oh! Look at that one over there blowing bubbles! That one is sooo cute – it should be my pet,\" she exclaims. \"I'll make it Princess Purple because I love princesses and purple!\""
+  },
+  {
+    "cardId": 722,
+    "name": null,
+    "ElementType": "Snow",
+    "value": 5,
+    "CardColor": "Red",
+    "imageUrl": null,
+    "description": "\"This is my sidekick on my adventures. I named it Fireball because it's so fast when it goes flying out of its cannon like whooooosh! Look, it's going again!\""
+  },
+  {
+    "cardId": 723,
+    "name": null,
+    "ElementType": "Snow",
+    "value": 4,
+    "CardColor": "Yellow",
+    "imageUrl": null,
+    "description": "\"I knew I wanted a yellow puffle from the moment I saw it in the Forest at Halloween,\" she replies. \"My puffle Lemon likes to paint just like I do.\""
+  },
+  {
+    "cardId": 801,
+    "name": null,
+    "ElementType": "Fire",
+    "value": 6,
+    "CardColor": "Red",
+    "imageUrl": null,
+    "description": "8"
+  },
+  {
+    "cardId": 802,
+    "name": null,
+    "ElementType": "Snow",
+    "value": 7,
+    "CardColor": "Green",
+    "imageUrl": null,
+    "description": "8"
+  },
+  {
+    "cardId": 803,
+    "name": null,
+    "ElementType": "Water",
+    "value": 8,
+    "CardColor": "Blue",
+    "imageUrl": null,
+    "description": "8"
+  },
+  {
+    "cardId": 71,
+    "name": "burgundy",
+    "ElementType": "Fire",
+    "CardColor": "Red",
+    "value": 9,
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/4/4c/Card-Jitsu_Cards_full_71.png",
+    "description": "\"I'm rollin' out some burgundy style,\" says the interior decorator. \"I've got some brand new igloo vibe picked out \u2013 a totally awesome empurpled cabin of chic. It's gonna be a partay!\"",
+    "PowerCardEffectType": "BlockSnowNextTurnOppenent"
+  },
+  {
+    "cardId": 72,
+    "name": "Gadget Room",
+    "ElementType": "Fire",
+    "CardColor": "Blue",
+    "value": 9,
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/7/7c/Card-Jitsu_Cards_full_72.png",
+    "description": "\"This is my Gadget Room where I store the numerous inventions that I have been working on,\" explains Gary. \"Testing is very important.\"",
+    "PowerCardEffectType": "ChangeWaterToFireThisTurnOppenent"
+  },
+  {
+    "cardId": 73,
+    "name": "JACKHAMMER",
+    "ElementType": "Fire",
+    "CardColor": "Yellow",
+    "value": 10,
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/4/44/Card-Jitsu_Cards_full_73.png",
+    "description": "\"Here, I'll demonstrate how it works. You just put on your hat and start to dance,\" stated the construction penguin. \"I'm not sure how it works. I just know that it does.\"",
+    "PowerCardEffectType": "PowerReverse"
+  },
+  {
+    "cardId": 74,
+    "name": "Jet Pack",
+    "ElementType": "Fire",
+    "CardColor": "Orange",
+    "value": 10,
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/c/c8/Card-Jitsu_Cards_full_74.png",
+    "description": "\"And this is the Jet Pack, another invention I worked on with a team of scientists,\" Gary continues. \"We initially had a few crash landings, but we've since stabilized the build.\"",
+    "PowerCardEffectType": "DiscardRandomSnowCardOppenent"
+  },
+  {
+    "cardId": 75,
+    "name": "Thin Ice",
+    "ElementType": "Fire",
+    "CardColor": "Purple",
+    "value": 11,
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/4/42/Card-Jitsu_Cards_full_75.png",
+    "description": "\"My favorite part of Thin Ice is the music. I want it in my igloo because I like how it goes 'beep-ba-beep-beep'. The black puffle in it looks really funny, too.\"",
+    "PowerCardEffectType": "DiscardRandomRedCardOppenent"
+  },
+  {
+    "cardId": 76,
+    "name": "NIGHT VISION GOGGLES",
+    "ElementType": "Fire",
+    "CardColor": "Green",
+    "value": 11,
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/4/45/Card-Jitsu_Cards_full_76.png",
+    "description": "\"Whoopee! I can see in the dark!\" exclaims the penguin wearing fancy solar-powered black and green goggles. \"Instead of black I can see all green! It's the coolest thing ever!\"",
+    "PowerCardEffectType": "DiscardRandomYellowCardOppenent"
+  },
+  {
+    "cardId": 77,
+    "name": "MIGHTY PLUNGER",
+    "ElementType": "Fire",
+    "CardColor": "Red",
+    "value": 12,
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/c/c4/Card-Jitsu_Cards_full_77.png",
+    "description": "\"This is the invention to end all inventions. The Mighty Plunger of Might!\" Says the green penguin. \"With this great invention you will create mighty tremors and mighty rumbles!\"",
+    "PowerCardEffectType": "NextCardValueUp2User"
+  },
+  {
+    "cardId": 78,
+    "name": "DRAGON",
+    "ElementType": "Fire",
+    "CardColor": "Blue",
+    "value": 12,
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/3/30/Card-Jitsu_Cards_full_78.png",
+    "description": "\"Hark! Who dost approach my cavern!\" growls a penguin, pretending to be a dragon. \"Wherefore hast though entered mine cave! Make haste or I shall breathest fire!\"",
+    "PowerCardEffectType": "NextCardValueDown2Opponent"
+  },
+  {
+    "cardId": 79,
+    "name": "SPACE ADVENTURE",
+    "ElementType": "Snow",
+    "CardColor": "Red",
+    "value": 9,
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/6/67/Card-Jitsu_Cards_full_79.png",
+    "description": "\"There is something troublesome about the computer after leaving Planet X,\" Captain Snow thinks to himself. \"And Tin Can 3000 has been acting strange lately...\"",
+    "PowerCardEffectType": "BlockWaterNextTurnOppenent"
+  },
+  {
+    "cardId": 80,
+    "name": "TOUR GUIDE",
+    "ElementType": "Snow",
+    "CardColor": "Blue",
+    "value": 9,
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/8/89/Card-Jitsu_Cards_full_80.png",
+    "description": "\"And over here we have the Ski Lodge, My buddy and I usually hang out and play Find Four there,\" the guide continues. \"And if you're interested in sports, have I got the place for you...\"",
+    "PowerCardEffectType": "ChangeFireToSnowThisTurnOppenent"
+  },
+  {
+    "cardId": 81,
+    "name": "SLED RACING",
+    "ElementType": "Snow",
+    "CardColor": "Green",
+    "value": 10,
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/4/4d/Card-Jitsu_Cards_full_81.png",
+    "description": "\"I can catch the sweetest air on this tube; it's awesome. I always aim for the ice because I can go so fast afterwards. Here comes another patch of ice... yeahhhhhhhhh!\"",
+    "PowerCardEffectType": "PowerReverse"
+  },
+  {
+    "cardId": 82,
+    "name": "PUFFLE ROUND-UP",
+    "ElementType": "Snow",
+    "CardColor": "Green",
+    "value": 10,
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/4/44/Card-Jitsu_Cards_full_82.png",
+    "description": "\"Okay, I just need to catch a few more for the Pet Shop. Easy now... steady... steady...\" says the penguin, thinking out loud. \"It takes real concentration to do this!\"",
+    "PowerCardEffectType": "DiscardRandomWaterCardOppenent"
+  },
+  {
+    "cardId": 83,
+    "name": "AC3000",
+    "ElementType": "Snow",
+    "CardColor": "Purple",
+    "value": 11,
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/0/06/Card-Jitsu_Cards_full_83.png",
+    "description": "Do you have snow that just isn't cold enough? Then check out Gary's AC3000 \u2013 it's guaranteed to keep the snow in any Attic nice and cool.",
+    "PowerCardEffectType": "DiscardRandomGreenCardOppenent"
+  },
+  {
+    "cardId": 84,
+    "name": "SNOW GLOBE IGLOO",
+    "ElementType": "Snow",
+    "CardColor": "Yellow",
+    "value": 11,
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/6/66/Card-Jitsu_Cards_full_84.png",
+    "description": "\"Over there is my igloo. I saved up coins for the renovations at Christmas,\" she explains. \"It's empty right now because I'm gearing up to get some new furniture.\"",
+    "PowerCardEffectType": "DiscardRandomPurpleCardOppenent"
+  },
+  {
+    "cardId": 85,
+    "name": "Squidzoid",
+    "ElementType": "Snow",
+    "CardColor": "Orange",
+    "value": 12,
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/8/89/Card-Jitsu_Cards_full_85.png",
+    "description": "\"It looks like Squidzoid's out to eat the city again, Gamma Gal,\" smirks Shadow Guy. \"It must have forgotten about our super powers... Let's show 'em what we're made of!\"",
+    "PowerCardEffectType": "NextCardValueUp2User"
+  },
+  {
+    "cardId": 86,
+    "name": "AVALANCHE",
+    "ElementType": "Snow",
+    "CardColor": "Orange",
+    "value": 12,
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/2/2c/Card-Jitsu_Cards_full_86.png",
+    "description": "\"I still remember it plain as day. There was this big rumble and all this snow came WOOOSHING down the mountain!\" recalls a witness. \"We couldn't go sledding for like a week!\"",
+    "PowerCardEffectType": "NextCardValueDown2Opponent"
+  },
+  {
+    "cardId": 87,
+    "name": "WATER PARTY",
+    "ElementType": "Water",
+    "CardColor": "Red",
+    "value": 9,
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/b/b2/Card-Jitsu_Cards_full_87.png",
+    "description": "\"Everyone grab your inflatable whales; it's time to slip, slide and swim!\" shouts the instructor, blowing on her lifeguard whistle. \"Don't forget your water balloons!\"",
+    "PowerCardEffectType": "BlockFireNextTurnOppenent"
+  },
+  {
+    "cardId": 88,
+    "name": "CATCHIN' WAVES",
+    "ElementType": "Water",
+    "CardColor": "Blue",
+    "value": 9,
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/2/27/Card-Jitsu_Cards_full_88.png",
+    "description": "\"I'm still a bit shaky on this board. I wiped out constantly last time I went out,\" explains a slightly nervous new surfer. \"I don't get how other penguins handle Survival mode!\"",
+    "PowerCardEffectType": "ChangeSnowToWaterThisTurnOppenent"
+  },
+  {
+    "cardId": 89,
+    "name": "Cove",
+    "ElementType": "Water",
+    "CardColor": "Yellow",
+    "value": 10,
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/8/8f/Card-Jitsu_Cards_full_89.png",
+    "description": "\"Whew, it's been a really busy day putting out fires at the Cove,\" wheezes the out-of-break firefighter. \"That's why it's important to love what you do.\"",
+    "PowerCardEffectType": "PowerReverse"
+  },
+  {
+    "cardId": 90,
+    "name": "AQUA GRABBER",
+    "ElementType": "Water",
+    "CardColor": "Orange",
+    "value": 10,
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/6/62/Card-Jitsu_Cards_full_90.png",
+    "description": "\"I've taken the Aqua Grabber out on many deep sea salvage missions,\" proclaims the purple penguin. \"My pink puffle helps me find the really rare treasures.\"",
+    "PowerCardEffectType": "DiscardRandomFireCardOppenent"
+  },
+  {
+    "cardId": 91,
+    "name": "OCTOPUS",
+    "ElementType": "Water",
+    "CardColor": "Purple",
+    "value": 11,
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/2/25/Card-Jitsu_Cards_full_91.png",
+    "description": "The origin of the mythical giant octopus is unknown. \"I remember it like it was last year. All of a sudden, there was a big octopus... like an OCTIZILLA in the Dojo!\" recalls one penguin.",
+    "PowerCardEffectType": "DiscardRandomBlueCardOppenent"
+  },
+  {
+    "cardId": 92,
+    "name": "CACTUS",
+    "ElementType": "Water",
+    "CardColor": "Green",
+    "value": 11,
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/d/de/Card-Jitsu_Cards_full_92.png",
+    "description": "\"We had to ship these here cacti in from way out west,\" remarks the cowpenguin. \"We hadta be careful with these here spiky things, though \u2013 they got a real bite to 'em!\"",
+    "PowerCardEffectType": "DiscardRandomOrangeCardOppenent"
+  },
+  {
+    "cardId": 93,
+    "name": "TIPPING THE ICEBERG",
+    "ElementType": "Water",
+    "CardColor": "Purple",
+    "value": 12,
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/5/5a/Card-Jitsu_Cards_full_93.png",
+    "description": "\"I had this amazing dream. In it I was at the 'berg and when I started drilling, the ice started tipping! Penguins were like 'AAH!' and I was like 'KAZAM!' It was awesome!\"",
+    "PowerCardEffectType": "NextCardValueUp2User"
+  },
+  {
+    "cardId": 94,
+    "name": "NINJA",
+    "ElementType": "Water",
+    "CardColor": "Yellow",
+    "value": 12,
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/1/1a/Card-Jitsu_Cards_full_94.png",
+    "description": "\"To be as the moon amongst the shadows, one must follow the code of honor and loyalty. Each movement must be as precise as a dance. Patience is both rewarded and a reward.\"",
+    "PowerCardEffectType": "NextCardValueDown2Opponent"
+  },
+  {
+    "cardId": 95,
+    "name": "white puffle",
+    "ElementType": "Snow",
+    "CardColor": "Blue",
+    "value": 12,
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/b/b2/Card-Jitsu_Cards_full_95.png",
+    "description": "A snowflake. A single sheet of blank paper. A white puffle. Small things can sometimes conceal great power.",
+    "PowerCardEffectType": "DiscardRandomYellowCardOppenent"
+  },
+  {
+    "cardId": 96,
+    "name": "Yarr",
+    "ElementType": "Fire",
+    "CardColor": "Red",
+    "value": 11,
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/2/2c/Card-Jitsu_Cards_full_96.png",
+    "description": "\"Avast!\" cries Rockhopper. \"What be them flares me sees on the horizon? What's that ye say, Yarr? Arr, I think it be a message from me buddies at Club Penguin, too.\"",
+    "PowerCardEffectType": "DiscardRandomSnowCardOppenent"
+  },
+  {
+    "cardId": 97,
+    "name": "KEEPER OF THE BOILER ROOM",
+    "ElementType": "Water",
+    "CardColor": "Green",
+    "value": 11,
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/3/3c/Card-Jitsu_Cards_full_97.png",
+    "description": "\"Talk about an incredible job,\" the Keeper exclaims in the middle of a bounce. \"Everyday dancing required and a cheerful nature a must...\"",
+    "PowerCardEffectType": "DiscardRandomGreenCardOppenent"
+  },
+  {
+    "cardId": 249,
+    "name": "Penguin Band",
+    "ElementType": "Fire",
+    "CardColor": "Blue",
+    "value": 9,
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/a/a1/Card-Jitsu_Cards_full_249.png",
+    "description": "G Billy, Petey K, Stompin' Bob and Franky... these four penguins sure know how to rock it out. They get together whenever a Music Jam party is happening and sign autographs for their devoted fans.",
+    "PowerCardEffectType": "ChangeWaterToFireThisTurnOppenent"
+  },
+  {
+    "cardId": 250,
+    "name": "April Fool's Day",
+    "ElementType": "Fire",
+    "CardColor": "Yellow",
+    "value": 10,
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/a/a7/Card-Jitsu_Cards_full_250.png",
+    "description": "On  April Fool's Day, the penguins were startled. But Sensei reassured: \"Pencil Dojo is serene, calm, smart, very cool just like this haiku.\"",
+    "PowerCardEffectType": "BlockSnowNextTurnOppenent"
+  },
+  {
+    "cardId": 251,
+    "name": "Flare Flinger 3000",
+    "ElementType": "Fire",
+    "CardColor": "Purple",
+    "value": 11,
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/a/a5/Card-Jitsu_Cards_full_251.png",
+    "description": "\"I can't wait for Rockhopper to see how we've restored the Migrator to her former glory,\" commented one penguin as she loaded up the Flare Flinger 3000.",
+    "PowerCardEffectType": "DiscardRandomRedCardOppenent"
+  },
+  {
+    "cardId": 252,
+    "name": "Herbert",
+    "ElementType": "Fire",
+    "CardColor": "Red",
+    "value": 12,
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/5/55/Card-Jitsu_Cards_full_252.png",
+    "description": "\"I don't know about you, but I really DIG this drill a HOLE lot! HAHAHA! What do you think Klutzy?\" Click. Click click. \"What do you mean 'bearly'?\"",
+    "PowerCardEffectType": "DiscardRandomOrangeCardOppenent"
+  },
+  {
+    "cardId": 253,
+    "name": "Coffee Delivery Truck",
+    "ElementType": "Snow",
+    "CardColor": "Orange",
+    "value": 9,
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/4/4e/Card-Jitsu_Cards_full_253.png",
+    "description": "\"To the left a bit, no, to the right, aah, watch the fish!\" yells the delivery guy. \"Hey, what's the guy up front doing anyway? And who puts anvils in a delivery truck?\"",
+    "PowerCardEffectType": "BlockWaterNextTurnOppenent"
+  },
+  {
+    "cardId": 254,
+    "name": "Anniversary Party",
+    "ElementType": "Snow",
+    "CardColor": "Blue",
+    "value": 10,
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/d/d1/Card-Jitsu_Cards_full_254.png",
+    "description": "\"If there's one thing we know how to do around here, it's partying! One party I rarely miss is Club Penguin's anniversary every October 24. There's cake, balloons, and of course, cool party hats!\"",
+    "PowerCardEffectType": "ChangeFireToSnowThisTurnOppenent"
+  },
+  {
+    "cardId": 255,
+    "name": "Halloween Party",
+    "ElementType": "Snow",
+    "CardColor": "Yellow",
+    "value": 11,
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/9/93/Card-Jitsu_Cards_full_255.png",
+    "description": "\"Every year, on a dark and spooky night, penguins from all over the island dress up as ghosts, monsters and even bumble bees. Then they go out trick or treating. Halloween is definitely the strangest time of year!\"",
+    "PowerCardEffectType": "DiscardRandomWaterCardOppenent"
+  },
+  {
+    "cardId": 256,
+    "name": "Sensei",
+    "ElementType": "Snow",
+    "CardColor": "Purple",
+    "value": 12,
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/6/69/Card-Jitsu_Cards_full_256.png",
+    "description": "The wisest penguin, knows every journey begins, with a single step. They should also know, that if you speak in haiku, you sound really wise.",
+    "PowerCardEffectType": "DiscardRandomPurpleCardOppenent"
+  },
+  {
+    "cardId": 257,
+    "name": null,
+    "ElementType": "Water",
+    "CardColor": "Purple",
+    "value": 9,
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/0/03/Card-Jitsu_Cards_full_257.png",
+    "description": "\"This amazing marvel of penguin mechanics is the tool of choice for construction projects around the island. Just grab a hard hat, and make like you're going to dance. The jackhammer will do the rest.\"",
+    "PowerCardEffectType": "DiscardRandomBlueCardOppenent"
+  },
+  {
+    "cardId": 258,
+    "name": "Quest for the Golden Puffle",
+    "ElementType": "Water",
+    "CardColor": "Yellow",
+    "value": 10,
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/8/89/Card-Jitsu_Cards_full_258.png",
+    "description": "\"Since the beginning of time, penguins have been searching for the legendary Golden Puffle...\" said the Tour Guide. \"There's even a play at the Stage based on this mysterious myth. Is it real? Will we ever find out?\"",
+    "PowerCardEffectType": "BlockFireNextTurnOppenent"
+  },
+  {
+    "cardId": 259,
+    "name": null,
+    "ElementType": "Water",
+    "CardColor": "Orange",
+    "value": 11,
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/7/7a/Card-Jitsu_Cards_full_259.png",
+    "description": "\"AAHH! What if there's a lot of wind?\" \"What if there's extra snow?\" \"What if the sky pours out pounds of candy?!\"",
+    "PowerCardEffectType": "DiscardRandomFireCardOppenent"
+  },
+  {
+    "cardId": 260,
+    "name": null,
+    "ElementType": "Water",
+    "CardColor": "Blue",
+    "value": 12,
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/e/e8/Card-Jitsu_Cards_full_260.png",
+    "description": "\"Arr, me hearties! Ahoy! Stand smartly sailors, for you be in the company of the fearless Captain Rockhopper, the best pirate that ever sailed the seven seas. Me and Yarr be hoping to see ye all soon! Arr harr!\"",
+    "PowerCardEffectType": "ChangeSnowToWaterThisTurnOppenent"
+  },
+  {
+    "cardId": 349,
+    "name": "Switchbox 3000",
+    "ElementType": "Fire",
+    "CardColor": "Blue",
+    "value": 11,
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/6/6c/Card-Jitsu_Cards_full_349.png",
+    "description": "One of Gary the Gadget Guy's inventions, this special FX box is found at the Stage. Every switch, button and lever changes the set in a different way.",
+    "PowerCardEffectType": "DiscardRandomRedCardOppenent"
+  },
+  {
+    "cardId": 350,
+    "name": null,
+    "ElementType": "Fire",
+    "CardColor": "Yellow",
+    "value": 10,
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/4/41/Card-Jitsu_Cards_full_350.png",
+    "description": "During the Medieval Party penguins discovered dragons, befriended knights and completed heroic quests.",
+    "PowerCardEffectType": "DiscardRandomBlueCardOppenent"
+  },
+  {
+    "cardId": 351,
+    "name": "Cadence",
+    "ElementType": "Fire",
+    "CardColor": "Red",
+    "value": 11,
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/7/75/Card-Jitsu_Cards_full_351.png",
+    "description": "Cadence is a popular DJ and she loves to dance. She opened the Night Club's Dance Contest game  in 2009, where you can challenge your friends or dance solo.",
+    "PowerCardEffectType": "NextCardValueDown2Opponent"
+  },
+  {
+    "cardId": 352,
+    "name": "Cloud Wave Bracer",
+    "ElementType": "Fire",
+    "CardColor": "Orange",
+    "value": 12,
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/0/06/Card-Jitsu_Cards_full_352.png",
+    "description": "Pick up the  Cloud Wave Bracer from the Martial Artworks catalog in the Ninja Hideout. Wear them and dance to create mysterious clouds before you turn invisible!",
+    "PowerCardEffectType": "DiscardRandomGreenCardOppenent"
+  },
+  {
+    "cardId": 353,
+    "name": "Ghost Sheet",
+    "ElementType": "Snow",
+    "CardColor": "Red",
+    "value": 12,
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/5/5a/Card-Jitsu_Cards_full_353.png",
+    "description": "You can find this costume in the Gift Shop at Halloween or in the Costume Trunk while Haunting of the Viking Opera is on at the Stage. During the play, this outfit certainly scared the singers!",
+    "PowerCardEffectType": "NextCardValueDown2Opponent"
+  },
+  {
+    "cardId": 354,
+    "name": "Cart Surfer",
+    "ElementType": "Snow",
+    "CardColor": "Green",
+    "value": 10,
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/2/2f/Card-Jitsu_Cards_full_354.png",
+    "description": "The gnarly game can be found in the Mine, where your surf &amp; skate tricks will earn you coins! Hang on for a wild surf ride!",
+    "PowerCardEffectType": "DiscardRandomPurpleCardOppenent"
+  },
+  {
+    "cardId": 355,
+    "name": "Keytar",
+    "ElementType": "Snow",
+    "CardColor": "Purple",
+    "value": 9,
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/e/ea/Card-Jitsu_Cards_full_355.png",
+    "description": "This Treasure Book instrument is a musical masterpiece! It's pretty rare and you just have to put it on and dance to rock!",
+    "PowerCardEffectType": "DiscardRandomOrangeCardOppenent"
+  },
+  {
+    "cardId": 356,
+    "name": "this penguin",
+    "ElementType": "Snow",
+    "CardColor": "Yellow",
+    "value": 9,
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/1/1d/Card-Jitsu_Cards_full_356.png",
+    "description": "You'll see  this penguin in the Comics on the community section of the website. He's always looking for a new challenge to take games to the next level \u2013 the X-treme!",
+    "PowerCardEffectType": "NextCardValueUp2User"
+  },
+  {
+    "cardId": 357,
+    "name": "Box Dimension",
+    "ElementType": "Water",
+    "CardColor": "Blue",
+    "value": 9,
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/e/eb/Card-Jitsu_Cards_full_357.png",
+    "description": "Penguins can enter this room through the Portal Box item when it is set up in an igloo. This item was available at the 2009 April Fool's Day Party.",
+    "PowerCardEffectType": "NextCardValueUp2User"
+  },
+  {
+    "cardId": 358,
+    "name": "Gold Viking Helmet",
+    "ElementType": "Water",
+    "CardColor": "Purple",
+    "value": 10,
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/3/3a/Card-Jitsu_Cards_full_358.png",
+    "description": "This item is super rare! It's only available once in a while and is usually hidden as a secret in the Penguin Style catalog.",
+    "PowerCardEffectType": "DiscardRandomYellowCardOppenent"
+  },
+  {
+    "cardId": 359,
+    "name": "Pizzatron 3000",
+    "ElementType": "Water",
+    "CardColor": "Orange",
+    "value": 11,
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/6/66/Card-Jitsu_Cards_full_359.png",
+    "description": "Gary is the island's resident inventor. He generally prefers to keep to himself to concentrate on inventing new gadgets. You may have seen a few like the Jet Pack and Pizzatron 3000.",
+    "PowerCardEffectType": "NextCardValueUp2User"
+  },
+  {
+    "cardId": 360,
+    "name": null,
+    "ElementType": "Water",
+    "CardColor": "Green",
+    "value": 12,
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/1/13/Card-Jitsu_Cards_full_360.png",
+    "description": "\"ARR! Me Migrator's mighty cannon is known for many things. Its snowballs defend against icebergs. But in the past, it's also launched cake, candles and even me Puffle, Yarr!\"",
+    "PowerCardEffectType": "NextCardValueDown2Opponent"
+  },
+  {
+    "cardId": 427,
+    "name": "Fire Ninja",
+    "ElementType": "Fire",
+    "CardColor": "Red",
+    "value": 12,
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/b/b8/Card-Jitsu_Cards_full_427.png",
+    "description": "To gain your  Fire Ninja Suit, you must practice Card-Jitsu Fire, then defeat the Sensei in the final challenge. Do you have what it takes to become a Fire Ninja?",
+    "PowerCardEffectType": "DiscardRandomSnowCardOppenent"
+  },
+  {
+    "cardId": 572,
+    "name": "orange puffle",
+    "ElementType": "Fire",
+    "CardColor": "Blue",
+    "value": 9,
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/a/ad/Card-Jitsu_Cards_full_572.png",
+    "description": "When an orange puffle is completely fed and happy, watch out! They tend to unexpectedly take out a mega monster-truck and hit the gas!",
+    "PowerCardEffectType": "ChangeWaterToFireThisTurnOppenent"
+  },
+  {
+    "cardId": 573,
+    "name": "Haunted House",
+    "ElementType": "Fire",
+    "CardColor": "Yellow",
+    "value": 10,
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/b/b4/Card-Jitsu_Cards_full_573.png",
+    "description": "One dark  Halloween night in 2009, a haunted house appeared at the Mine Shack. This menacing mansion had moving statues, paintings that watched you, and puffle pranksters!",
+    "PowerCardEffectType": "BlockSnowNextTurnOppenent"
+  },
+  {
+    "cardId": 574,
+    "name": "Knight's Quest",
+    "ElementType": "Fire",
+    "CardColor": "Purple",
+    "value": 11,
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/0/04/Card-Jitsu_Cards_full_574.png",
+    "description": "Warriors and princesses alike had to battle this mechanical menace at the end of the  Knight's Quest at the Medieval Party. Only by working together could they extinguish his flame and claim the treasure!",
+    "PowerCardEffectType": "DiscardRandomRedCardOppenent"
+  },
+  {
+    "cardId": 575,
+    "name": null,
+    "ElementType": "Fire",
+    "CardColor": "Red",
+    "value": 12,
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/2/26/Card-Jitsu_Cards_full_575.png",
+    "description": "Suit up and prepare to go underground! Pink puffles have been lost in the caves below Club Penguin. Jump mine carts, snow cannons, and blasts of steam to succeed.",
+    "PowerCardEffectType": "DiscardRandomOrangeCardOppenent"
+  },
+  {
+    "cardId": 576,
+    "name": "Double Necked Guitar",
+    "ElementType": "Snow",
+    "CardColor": "Orange",
+    "value": 9,
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/6/65/Card-Jitsu_Cards_full_576.png",
+    "description": "This powerful instrument first appeared during Music Jam in 2010. It was released by surprise halfway through the festival, so penguins had one more chance to rock out.",
+    "PowerCardEffectType": "BlockWaterNextTurnOppenent"
+  },
+  {
+    "cardId": 577,
+    "name": null,
+    "ElementType": "Snow",
+    "CardColor": "Blue",
+    "value": 10,
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/8/8e/Card-Jitsu_Cards_full_577.png",
+    "description": "Blue puffles need your help! Many are trapped on dangerous ice floes, surrounded by sharks! Jump between chunks of ice, and watch out for cracks to save them.",
+    "PowerCardEffectType": "ChangeFireToSnowThisTurnOppenent"
+  },
+  {
+    "cardId": 578,
+    "name": "Spy Phone",
+    "ElementType": "Snow",
+    "CardColor": "Yellow",
+    "value": 11,
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/a/a2/Card-Jitsu_Cards_full_578.png",
+    "description": "This ultimate spy gadget has everything an Elite Agent needs. It can receive orders, teleport agents to any location, and even help complete special tasks.",
+    "PowerCardEffectType": "DiscardRandomPurpleCardOppenent"
+  },
+  {
+    "cardId": 579,
+    "name": "Dance Contest",
+    "ElementType": "Snow",
+    "CardColor": "Purple",
+    "value": 12,
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/d/d7/Card-Jitsu_Cards_full_579.png",
+    "description": "Over at the Night Club, DJ Cadence keeps the Dance Contest going with seriously epic music. Penguins looking to show off their moves can dance solo, or compete with their friends.",
+    "PowerCardEffectType": "DiscardRandomWaterCardOppenent"
+  },
+  {
+    "cardId": 580,
+    "name": "Crab Costume",
+    "ElementType": "Water",
+    "CardColor": "Purple",
+    "value": 9,
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/f/f4/Card-Jitsu_Cards_full_580.png",
+    "description": "This rare costume is available in the Treasure Book catalog. However, Elite Agents on the Herbert's Revenge case will also receive one for a  special assignment...",
+    "PowerCardEffectType": "DiscardRandomBlueCardOppenent"
+  },
+  {
+    "cardId": 581,
+    "name": "Puffle Washer",
+    "ElementType": "Water",
+    "CardColor": "Yellow",
+    "value": 10,
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/0/06/Card-Jitsu_Cards_full_581.png",
+    "description": "This high-powered washer will scrub away any mess within just a few seconds. Your puffles will come out fresh and clean every time. Available only in the Pet Shop's Furniture catalog!",
+    "PowerCardEffectType": "BlockFireNextTurnOppenent"
+  },
+  {
+    "cardId": 582,
+    "name": "Earth Day celebration",
+    "ElementType": "Water",
+    "CardColor": "Orange",
+    "value": 11,
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/d/df/Card-Jitsu_Cards_full_582.png",
+    "description": "This unique tool showed up during the Earth Day celebration. Penguins voted it their favorite out of three choices. It can grow tree saplings instantly!",
+    "PowerCardEffectType": "DiscardRandomFireCardOppenent"
+  },
+  {
+    "cardId": 583,
+    "name": "Veggie Villain",
+    "ElementType": "Water",
+    "CardColor": "Blue",
+    "value": 12,
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/9/9f/Card-Jitsu_Cards_full_583.png",
+    "description": "To stop the PSA, Herbert needed to break into its computer systems. When a secret agent stopped the attack, Herbert was able to teleport his popcorn device into the HQ and destroy it!",
+    "PowerCardEffectType": "ChangeSnowToWaterThisTurnOppenent"
+  },
+  {
+    "cardId": 584,
+    "name": "Island Lifter 3000",
+    "ElementType": "Fire",
+    "CardColor": "Blue",
+    "value": 9,
+    "imageUrl": null,
+    "description": "Invented by Gary the Gadget Guy, this powerful device lifted the entire island of Club Penguin into the sky for the Festival of Flight!",
+    "PowerCardEffectType": "ChangeWaterToFireThisTurnOppenent"
+  },
+  {
+    "cardId": 585,
+    "name": "Flare",
+    "ElementType": "Fire",
+    "CardColor": "Yellow",
+    "value": 10,
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/8/8d/Card-Jitsu_Cards_full_585.png",
+    "description": "One of the Elite Puffles from the Elite Penguin Force. Flare can blow blue fire, which can weld nearly anything together. Agents on the Herbert's Revenge case can summon Flare anytime.",
+    "PowerCardEffectType": "BlockSnowNextTurnOppenent"
+  },
+  {
+    "cardId": 586,
+    "name": "Popcorn Device",
+    "ElementType": "Fire",
+    "CardColor": "Purple",
+    "value": 11,
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/3/3e/Card-Jitsu_Cards_full_586.png",
+    "description": "To destroy the PSA, Herbert P. Bear needed a powerful device. In May of 2010, he built that device\u2013a souped-up popcorn popper!",
+    "PowerCardEffectType": "DiscardRandomRedCardOppenent"
+  },
+  {
+    "cardId": 587,
+    "name": "Field-Ops",
+    "ElementType": "Fire",
+    "CardColor": "Red",
+    "value": 12,
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/9/91/Card-Jitsu_Cards_full_587.png",
+    "description": "Elite Agents receive orders every week for important tasks or critical situations. Agents can report for duty by accessing the Field-Ops computer in the Command Room.",
+    "PowerCardEffectType": "DiscardRandomOrangeCardOppenent"
+  },
+  {
+    "cardId": 588,
+    "name": null,
+    "ElementType": "Snow",
+    "CardColor": "Orange",
+    "value": 9,
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/3/32/Card-Jitsu_Cards_full_588.png",
+    "description": "When Herbert successfully destroyed the PSA, he celebrated by making all kinds of treats. His gloating would not last long though, as the Elite Penguin Force was soon on his case.",
+    "PowerCardEffectType": "BlockWaterNextTurnOppenent"
+  },
+  {
+    "cardId": 589,
+    "name": null,
+    "ElementType": "Snow",
+    "CardColor": "Blue",
+    "value": 10,
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/d/d0/Card-Jitsu_Cards_full_589.png",
+    "description": "Elite Agents must learn a number of highly specialized skills to complete their tasks. Re-wiring circuits, repowering electronics, and bypassing security systems are just some of the basics!",
+    "PowerCardEffectType": "ChangeFireToSnowThisTurnOppenent"
+  },
+  {
+    "cardId": 590,
+    "name": "Aunt Arctic",
+    "ElementType": "Snow",
+    "CardColor": "Yellow",
+    "value": 11,
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/0/06/Card-Jitsu_Cards_full_590.png",
+    "description": "This Aunt Arctic sketch is fairly recent, and shows her not-often-seen igloo. Because penguins have seen her so often, we always try to draw her in new and interesting poses.",
+    "PowerCardEffectType": "DiscardRandomPurpleCardOppenent"
+  },
+  {
+    "cardId": 591,
+    "name": "Yeti Cave",
+    "ElementType": "Snow",
+    "CardColor": "Purple",
+    "value": 12,
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/b/b0/Card-Jitsu_Cards_full_591.png",
+    "description": "This peculiar place was discovered at the end of the Great Snow Maze in November 2009. A room fit for any Yeti!",
+    "PowerCardEffectType": "DiscardRandomWaterCardOppenent"
+  },
+  {
+    "cardId": 592,
+    "name": "Shocktopus",
+    "ElementType": "Water",
+    "CardColor": "Purple",
+    "value": 9,
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/4/4d/Card-Jitsu_Cards_full_592.png",
+    "description": "Rescuers must face these high-voltage sea creatures during underwater levels in Puffle Rescue. They're rather shocking to see, and even more so to touch. Avoid at all costs!",
+    "PowerCardEffectType": "DiscardRandomBlueCardOppenent"
+  },
+  {
+    "cardId": 593,
+    "name": null,
+    "ElementType": "Water",
+    "CardColor": "Yellow",
+    "value": 10,
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/2/28/Card-Jitsu_Cards_full_593.png",
+    "description": "Calling all rescuers: Black puffles are trapped underwater! Suit up and dive in! More than anything, make sure not to sink too far into the deep...",
+    "PowerCardEffectType": "BlockFireNextTurnOppenent"
+  },
+  {
+    "cardId": 594,
+    "name": "Hidden Lake",
+    "ElementType": "Water",
+    "CardColor": "Orange",
+    "value": 11,
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/e/eb/Card-Jitsu_Cards_full_594.png",
+    "description": "When the Hidden Lake was discovered, explorers also found a mysterious locked door... underwater. The  key was later discovered by Puffle Rescuers, who following a strange shadow...",
+    "PowerCardEffectType": "DiscardRandomFireCardOppenent"
+  },
+  {
+    "cardId": 595,
+    "name": null,
+    "ElementType": "Water",
+    "CardColor": "Blue",
+    "value": 12,
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/5/55/Card-Jitsu_Cards_full_595.png",
+    "description": "The Knight's Quest is an adventure fit for any knight... or princess! Solve all the puzzles to discover untold treasures during the Medieval Party!",
+    "PowerCardEffectType": "ChangeSnowToWaterThisTurnOppenent"
+  },
+  {
+    "cardId": 724,
+    "name": null,
+    "ElementType": "Snow",
+    "CardColor": "Green",
+    "value": 10,
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/2/2a/Card-Jitsu_Cards_full_724.png",
+    "description": "\"Okay, I just need to catch a few more for the Pet Shop. Easy now... steady... steady...\" says the penguin, thinking out loud. \"It takes real concentration to do this!\"",
+    "PowerCardEffectType": "DiscardRandomWaterCardOppenent"
+  },
+  {
+    "cardId": 725,
+    "name": null,
+    "ElementType": "Fire",
+    "CardColor": "Red",
+    "value": 12,
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/4/47/Card-Jitsu_Cards_full_725.png",
+    "description": "In November 2010, Fire Ninjas gathered and used their powers to help get the water flowing to the new Water Dojo. To become a ninja, head to the Dojo and play Card-Jitsu.",
+    "PowerCardEffectType": "DiscardRandomOrangeCardOppenent"
+  },
+  {
+    "cardId": 726,
+    "name": "Halloween Swamp",
+    "ElementType": "Snow",
+    "CardColor": "Orange",
+    "value": 9,
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/d/db/Card-Jitsu_Cards_full_726.png",
+    "description": "In the  October 2010 Halloween Party, we waddled through mazes. To open the doors into the Dark Chamber, we had to mimic the creepy organ music.",
+    "PowerCardEffectType": "BlockWaterNextTurnOppenent"
+  },
+  {
+    "cardId": 727,
+    "name": null,
+    "ElementType": "Snow",
+    "CardColor": "Blue",
+    "value": 10,
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/9/91/Card-Jitsu_Cards_full_727.png",
+    "description": "Getting a giant pumpkin to the lighthouse was just one part of the 2010 Halloween Party. Penguins got their costumes ready from the October edition of Penguin Style.",
+    "PowerCardEffectType": "ChangeSnowToWaterThisTurnOppenent"
+  },
+  {
+    "cardId": 728,
+    "name": null,
+    "ElementType": "Snow",
+    "CardColor": "Yellow",
+    "value": 11,
+    "imageUrl": "https://static.wikia.nocookie.net/clubpenguin/images/5/5e/Card-Jitsu_Cards_full_728.png",
+    "description": "One of the Captain's favorite snacks is surprising... stinky cheese! Even without cheese, you may find Rockhopper on his Migrator ship, when it docks in Club Penguin.",
+    "PowerCardEffectType": "DiscardRandomPurpleCardOppenent"
+  },
+  {
+    "cardId": 729,
+    "name": null,
+    "ElementType": "Snow",
+    "CardColor": "Purple",
+    "value": 12,
+    "imageUrl": null,
+    "description": "Some member penguins entered the Unlock Code from the Club Penguin DS game and got the Elite Puffle, Flare. Its welding skills and blue flames make it intense.",
+    "PowerCardEffectType": "DiscardRandomWaterCardOppenent"
+  },
+  {
+    "cardId": 730,
+    "name": "clam",
+    "ElementType": "Water",
+    "CardColor": "Purple",
+    "value": 9,
+    "imageUrl": null,
+    "description": "There are many ways to earn coins in Club Penguin. But the clam that holds the giant pearl in Aqua Grabber might be the sparkliest way of all. Tip: Don't wake up the clam!",
+    "PowerCardEffectType": "DiscardRandomBlueCardOppenent"
+  },
+  {
+    "cardId": 731,
+    "name": "Stamps",
+    "ElementType": "Water",
+    "CardColor": "Yellow",
+    "value": 10,
+    "imageUrl": null,
+    "description": "Ninjas who play Card-Jitsu Water can earn stamps that will show off their ninja skills. Go to the Dojo and challenge your opponents to race towards the gong at the Waterfall.",
+    "PowerCardEffectType": "BlockFireNextTurnOppenent"
+  },
+  {
+    "cardId": 732,
+    "name": "Rookie",
+    "ElementType": "Water",
+    "CardColor": "Orange",
+    "value": 11,
+    "imageUrl": null,
+    "description": "Classified Information: Rookie and Jet Pack Guy are rumored to be Elite Penguin Force Agents. Become a secret agent by responding to  another agent's invite and taking the test.",
+    "PowerCardEffectType": "DiscardRandomFireCardOppenent"
+  },
+  {
+    "cardId": 733,
+    "name": "Puffle Rescue",
+    "ElementType": "Water",
+    "CardColor": "Blue",
+    "value": 12,
+    "imageUrl": null,
+    "description": "From the Mine, you can take on the task of rescuing puffles in peril when you play Puffle Rescue. And as you navigate the waters, never forget that creatures like squid and sharks are hot on your flippers.",
+    "PowerCardEffectType": "ChangeSnowToWaterThisTurnOppenent"
+  },
+  {
+    "cardId": 734,
+    "name": "Fire Dojo",
+    "ElementType": "Fire",
+    "CardColor": "Blue",
+    "value": 9,
+    "imageUrl": null,
+    "description": "Hone your battle skills by challenging ninja opponents at the Fire Dojo. You'll need patience, practice, power. Also, to master this element and become a Fire Ninja, some hot sauce is recommended.",
+    "PowerCardEffectType": "ChangeWaterToFireThisTurnOppenent"
+  },
+  {
+    "cardId": 735,
+    "name": "System Defender",
+    "ElementType": "Fire",
+    "CardColor": "Yellow",
+    "value": 10,
+    "imageUrl": null,
+    "description": "On January 13, 2011, the EPF was attacked by enemy bugs. Agents repelled the attack with a new program called System Defender. Now any agent can train in this game at the Command Room.",
+    "PowerCardEffectType": "BlockSnowNextTurnOppenent"
+  },
+  {
+    "cardId": 736,
+    "name": "Rockhopper Island",
+    "ElementType": "Fire",
+    "CardColor": "Purple",
+    "value": 11,
+    "imageUrl": null,
+    "description": "Originally brought to Club Penguin from Rockhopper Island, adventurous red puffles love cannons. You can adopt a red puffle from the Pet Shop.",
+    "PowerCardEffectType": "DiscardRandomRedCardOppenent"
+  },
+  {
+    "cardId": 737,
+    "name": "Wilderness Expedition",
+    "ElementType": "Fire",
+    "CardColor": "Red",
+    "value": 12,
+    "imageUrl": null,
+    "description": "\"It's incredibly complex. A machine made from all sorts of things around the island.\" During the Wilderness Expedition of January 2011, we were challenged to make the machine work.",
+    "PowerCardEffectType": "DiscardRandomOrangeCardOppenent"
+  },
+  {
+    "cardId": 738,
+    "name": "Ultimate Protobot",
+    "ElementType": "Snow",
+    "CardColor": "Orange",
+    "value": 9,
+    "imageUrl": null,
+    "description": "The  Ultimate Protobot and his minions wreak havoc in System Defender. Luckily, the Elite Penguin Force has strong defenses to counteract their attempts. Agents, your orders are in the Command Room.",
+    "PowerCardEffectType": "BlockWaterNextTurnOppenent"
+  },
+  {
+    "cardId": 739,
+    "name": "Holiday Party 2010",
+    "ElementType": "Snow",
+    "CardColor": "Blue",
+    "value": 10,
+    "imageUrl": null,
+    "description": "At the Holiday Party 2010, the island was brightly lit. How many lights, you ask? Over 1000 bulbs shone bright in the  Courtyard alone. Sensei really, really likes decorating.",
+    "PowerCardEffectType": "ChangeFireToSnowThisTurnOppenent"
+  },
+  {
+    "cardId": 740,
+    "name": "Rollin' Riot",
+    "ElementType": "Snow",
+    "CardColor": "Yellow",
+    "value": 11,
+    "imageUrl": null,
+    "description": "In Club Penguin's  Game Day for Wii, the Rollin' Riot game's challenge is to make the biggest snowball... just make sure your opponents don't take yours!",
+    "PowerCardEffectType": "DiscardRandomPurpleCardOppenent"
+  },
+  {
+    "cardId": 741,
+    "name": null,
+    "ElementType": "Snow",
+    "CardColor": "Purple",
+    "value": 12,
+    "imageUrl": null,
+    "description": "In January 2011, Secret Agents were told to report to System Defender in the Command Room. Specialized skills and honed instinct help the Elite Penguin Force. Join by invitation of someone on the squad.",
+    "PowerCardEffectType": "DiscardRandomWaterCardOppenent"
+  },
+  {
+    "cardId": 742,
+    "name": null,
+    "ElementType": "Water",
+    "CardColor": "Purple",
+    "value": 9,
+    "imageUrl": null,
+    "description": "Comm class agents of the Elite Penguin Force are the eyes and ears of the island's secret agency. They know information wins battles. Join the EPF today by accepting an invitation from an agent and taking the test.",
+    "PowerCardEffectType": "DiscardRandomBlueCardOppenent"
+  },
+  {
+    "cardId": 743,
+    "name": "Tree Maze",
+    "ElementType": "Water",
+    "CardColor": "Yellow",
+    "value": 10,
+    "imageUrl": null,
+    "description": "We were excited to go on a Wilderness Expedition in January 2011. Once through the  Tree Maze and onto the boat, we crossed a bay and were faced with cliffs and caves. Then we discovered the inventive brown puffle!",
+    "PowerCardEffectType": "BlockFireNextTurnOppenent"
+  },
+  {
+    "cardId": 744,
+    "name": "Coins for Change 2010",
+    "ElementType": "Water",
+    "CardColor": "Orange",
+    "value": 11,
+    "imageUrl": null,
+    "description": "Filling the Lighthouse during  Coins for Change 2010 was an awesome challenge. We did it! And the virtual Club Penguin coins meant real donations went to help kids around the globe.",
+    "PowerCardEffectType": "DiscardRandomFireCardOppenent"
+  },
+  {
+    "cardId": 745,
+    "name": "Water Ninja",
+    "ElementType": "Water",
+    "CardColor": "Blue",
+    "value": 9,
+    "imageUrl": null,
+    "description": "The last step to becoming a Water Ninja is defeating Sensei in battle. Though his skills are legendary, the way to defeating him is dedication. Keep trying, no matter what, and victory will be yours.",
+    "PowerCardEffectType": "BlockFireNextTurnOppenent"
+  },
+  {
+    "cardId": 746,
+    "name": null,
+    "ElementType": "Fire",
+    "CardColor": "Yellow",
+    "value": 10,
+    "imageUrl": null,
+    "description": "If you're looking for an edge in the game Jet Pack Adventure, take a green puffle with you. These talented fliers will go around collecting coins, and will look for extra fuel if you start to run out!",
+    "PowerCardEffectType": "BlockSnowNextTurnOppenent"
+  },
+  {
+    "cardId": 747,
+    "name": "Water Dojo",
+    "ElementType": "Water",
+    "CardColor": "Purple",
+    "value": 11,
+    "imageUrl": null,
+    "description": "The Water Dojo is a place of mist and mystery. Ninjas journey here to train in the ancient art of Card-Jitsu Water. Speak with Sensei to arrange a match. Those who do must be prepared to compete... and to swim.",
+    "PowerCardEffectType": "DiscardRandomRedCardOppenent"
+  },
+  {
+    "cardId": 748,
+    "name": null,
+    "ElementType": "Snow",
+    "CardColor": "Blue",
+    "value": 12,
+    "imageUrl": null,
+    "description": "A snowflake. A single sheet of blank paper. A white puffle. Small things can sometimes conceal great power.",
+    "PowerCardEffectType": "DiscardRandomYellowCardOppenent"
+  },
+  {
+    "cardId": 749,
+    "name": null,
+    "ElementType": "Fire",
+    "CardColor": "Red",
+    "value": 11,
+    "imageUrl": null,
+    "description": "\"Avast!\" cries Rockhopper. \"What be them flares me sees on the horizon? What's that ye say, Yarr? Arr, I think it be a message from me buddies at Club Penguin, too.\"",
+    "PowerCardEffectType": "DiscardRandomSnowCardOppenent"
+  },
+  {
+    "cardId": 750,
+    "name": null,
+    "ElementType": "Water",
+    "CardColor": "Green",
+    "value": 11,
+    "imageUrl": null,
+    "description": "\"Talk about an incredible job,\" the Keeper exclaims in the middle of a bounce. \"Everyday dancing required and a cheerful nature a must...\"",
+    "PowerCardEffectType": "DiscardRandomGreenCardOppenent"
+  },
+  {
+    "cardId": 804,
+    "name": null,
+    "ElementType": "Fire",
+    "CardColor": "Purple",
+    "value": 11,
+    "imageUrl": null,
+    "description": "This card does not appear in real-life, and as such has no description",
+    "PowerCardEffectType": "NextCardValueUp2User"
+  }
+]

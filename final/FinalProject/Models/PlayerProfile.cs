@@ -9,12 +9,10 @@ public class PlayerProfile : Character
     private int _experiencePoints; // Associated with level when you hit x amount of xp then you level up. 
 
     public PlayerProfile(string playerName) : base(playerName) // new player empty hands etc.
-    {
-        
-    }
+    { }
 
-    public PlayerProfile(string playerName, Deck hand, Deck cardCollection, int mmr, int level, int experiencePoints)
-        : base(playerName)
+    public PlayerProfile(string playerName, BeltRank beltrank, Deck hand, List<int> cardCollection, int mmr, int level, int experiencePoints)
+        : base(playerName, beltrank)
     {
         _hand = hand;
         _cardCollection = cardCollection;

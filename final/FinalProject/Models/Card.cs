@@ -1,4 +1,5 @@
 using System.Drawing;
+using System.Runtime.CompilerServices;
 
 public abstract class Card
 {
@@ -22,4 +23,9 @@ public abstract class Card
     }
 
     public abstract void DisplayCardStats();
+    public ElementType GetEffectivenessAgainst(int CardID)
+    {
+        // unfinished
+        return ElementType.Snow;
+    }
 }

@@ -1,9 +1,10 @@
 using System.Collections.Generic;
+using System.Configuration.Assemblies;
 
 public class PlayerProfile : Character
 {
     private List<int> _cardCollection; // All cards the player owns
-    private Deck _hand;            // The player's current hand/deck for the game
+    protected Deck _hand;            // The player's current hand/deck for the game
     private int _MMR; // Level based upon playing and winning against other players. Win ++ Lose --
     private int _level; // level is not correlated with belt ranks, you get xp when you play a game and / or win. 
     private int _experiencePoints; // Associated with level when you hit x amount of xp then you level up. 
@@ -19,6 +20,27 @@ public class PlayerProfile : Character
         _MMR = mmr;
         _level = level;
         _experiencePoints = experiencePoints;
+    }
+
+    public void AddExperiancePoints()
+    {
+        // unfinished
+    }
+
+    public void IncreaseLevel()
+    {
+        // unfinished
+    }
+
+    public void AlterMMR(bool win)
+    {
+        // unfinished
+    }
+
+    public string GetProfileSummary()
+    {
+        // unfinished
+        return "";
     }
 
 }

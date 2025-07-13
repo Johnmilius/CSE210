@@ -14,4 +14,16 @@ public class Deck
         _hand = new List<int>();
     }
 
+    public void ShuffleDeck()
+    {
+        // unfinished
+    }
+
+    public int GetRandomCardID()
+    {
+        // unfinished
+        int cardID = 0;
+        return cardID;
+    }
+
 }

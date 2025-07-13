@@ -15,4 +15,5 @@ public class Character
         _playerName = playerName;
         _beltRank = beltRank;
     }
+    
 }

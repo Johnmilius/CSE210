@@ -14,7 +14,7 @@ I'm sure I'm missing some things I'll realize later but this is a good foundatio
 
 
 +-------------------+         +-------------------+         +-------------------+
-|     Card          |         |   PlayerProfile   |         |   ElementRules    |
+|     Card          |         |   Character       |         |   ElementRules    |
 +-------------------+         +-------------------+         +-------------------+
 | - name            |         | - playerName      |         | (static class)    |
 | - element         |         | - beltRank        |         +-------------------+
@@ -31,7 +31,7 @@ I'm sure I'm missing some things I'll realize later but this is a good foundatio
                                       |
                                       |
 +-------------------+         +-------------------+         +-------------------+
-|      Deck         |         |      Player       |<--------+     Sensei        |
+|      Deck         |         |   PlayerProfile   |<--------+     Sensei        |
 +-------------------+         +-------------------+         +-------------------+
 | - cards: List<Card>|        | - profile         |         | - difficulty      |
 +-------------------+         | - hand: List<Card>|         +-------------------+

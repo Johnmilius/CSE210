@@ -7,7 +7,6 @@ using System.IO;
 public class PlayerProfile : Character
 {
     private List<int> _cardCollection { get; set; } // All cards the player owns
-    protected Deck _hand { get; set; }            // The player's current hand/deck for the game
     private int _MMR { get; set; }  // Level based upon playing and winning against other players. Win ++ Lose --
     private int _level { get; set; } // level is not correlated with belt ranks, you get xp when you play a game and / or win. 
     private int _experiencePoints { get; set; } // Associated with level when you hit x amount of xp then you level up. 

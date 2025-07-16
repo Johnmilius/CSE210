@@ -5,10 +5,9 @@ public class RegularCard : Card
     {
         // No additional fields for RegularCard
     }
-    public override void DisplayCardStats()
+    public override string DisplayCardStats()
     {
-        string cardDisplay = $"PowerCard: {_cardId} | Name: {_name} | Element: {_element} | Color: {_color}";
-
-        Console.WriteLine(cardDisplay);
+        string cardDisplay = $"Regular Card: {_cardId} | Name: {_name} | Value : {_value} | Element: {_element} | Color: {_color}";
+        return cardDisplay;
     }
 }

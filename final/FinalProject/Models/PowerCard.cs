@@ -7,10 +7,9 @@ public class PowerCard : Card
     {
         _effectType = effectType;
     }
-    public override void DisplayCardStats()
+    public override string DisplayCardStats()
     {
-        string cardDisplay = $"PowerCard: {_cardId} | Name: {_name} | Element: {_element} | Color: {_color} | Effect: {_effectType}";
-
-        Console.WriteLine(cardDisplay);
+        string cardDisplay = $"Power Card: {_cardId} | Name: {_name} | Value : {_value} | Element: {_element} | Color: {_color} | Effect: {_effectType}";
+        return cardDisplay;
     }
 }

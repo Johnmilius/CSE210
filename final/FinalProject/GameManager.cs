@@ -4,14 +4,43 @@ using System.Diagnostics.Tracing;
 public class GameManager
 {
     public void StartPlayerVSPlayerGame(PlayerProfile player1, PlayerProfile player2) { /* ... */ }
+
     public void PlayRound() { /* ... */ }
-    public void ChallengeSensei(PlayerProfile player1, BeltRank sensiBeltRank) { /* ... */ }
+
+    public void ChallengeSensei(PlayerProfile player1, BeltRank sensiBeltRank)
+    {
+        Sensi NPCSensi = new Sensi($"{sensiBeltRank}Sensi", sensiBeltRank);
+        bool didWin = false;
+        bool gameRunning = true;
+
+        player1.GetHand().RefillPlayableHand();
+        while (gameRunning)
+        {
+            Console.WriteLine(player1.GetHand().DisplayPlayableHand());
+
+        }
+
+
+
+
+
+
+    }
+
     public void DetermineWinner() { /* ... */ }
+
+    public void SetTextColor(ConsoleColor color)
+    {
+        Console.ForegroundColor = color;
+    }
+
+    public void ResetTextColor()
+    {
+        Console.ResetColor();
+    }
 
     public void Run()
     {
-
-
         string cardsFilePath = @"C:\Users\jwmil\OneDrive\Desktop\BYU-I Spring 2025\CSE210\final\FinalProject\card_Data\cj_allCards.json";
         CardDatabase.LoadAllCards(cardsFilePath);
 
@@ -43,9 +72,17 @@ public class GameManager
                 PlayerProfile player1 = PlayerProfile.LoadPlayerProfile(player1FileName);
                 BeltRank nextBeltRank = (BeltRank)((int)player1.GetBeltRank() + 1);
 
-                Console.WriteLine($"You are currently {player1.GetBeltRank()}, Do you wish to challenge the {nextBeltRank} Sensi?");
+                Console.Write($"You are currently a {player1.GetBeltRank()} Belt.\nDo you wish to challenge the {nextBeltRank} Belt Sensi? (Yes y/ No n) > ");
 
-                ChallengeSensei(player1, nextBeltRank); // Player vs Sensi
+                string userSensiDecision = Console.ReadLine();
+                if (userSensiDecision.ToLower() == "y")
+                {
+                    ChallengeSensei(player1, nextBeltRank); // Player vs Sensi
+                }
+                else
+                {
+                    Console.WriteLine("Returning to Menu...");
+                }
             }
 
 

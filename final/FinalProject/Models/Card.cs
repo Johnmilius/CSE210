@@ -22,7 +22,7 @@ public abstract class Card
         _description = description;
     }
 
-    public abstract void DisplayCardStats();
+    public abstract string DisplayCardStats();
     public ElementType GetEffectivenessAgainst(int CardID)
     {
         // unfinished

@@ -2,8 +2,8 @@ using System;
 
 public class Character
 {
-    private string _playerName;
-    private BeltRank _beltRank; // You level up when you beat the sensi at that belt rank. 
+    protected string _playerName { get; set; }
+    protected BeltRank _beltRank { get; set; } // You level up when you beat the sensi at that belt rank. 
     public Character(string playerName) // new player
     {
         _playerName = playerName;

@@ -1,0 +1,9 @@
+{
+  "playerName": "Player2",
+  "beltRank": "Orange",
+  "hand": [6, 7, 8, 9, 10],
+  "cardCollection": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+  "mmr": 1000,
+  "level": 1,
+  "experiencePoints": 0
+}

@@ -45,12 +45,6 @@ public class PlayerProfile : Character
         Console.WriteLine(profileSummary);
     }
 
-    public BeltRank GetBeltRank()
-    {
-        return _beltRank;
-    }
-
-
     public static PlayerProfile LoadPlayerProfile(string filePath)
     {
         string jsonString = File.ReadAllText(filePath);

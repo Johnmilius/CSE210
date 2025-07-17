@@ -23,4 +23,18 @@ public abstract class Character
     }
 
     public abstract int PlayCard();
+
+    public string GetName()
+    {
+        return _playerName;
+    }
+    public BeltRank GetBeltRank()
+    {
+        return _beltRank;
+    }
+
+    public void UpgradeBeltRank()
+    {
+        _beltRank = (BeltRank)((int)this._beltRank + 1);
+    }
 }

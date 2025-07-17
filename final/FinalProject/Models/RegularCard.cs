@@ -7,7 +7,7 @@ public class RegularCard : Card
     }
     public override string DisplayCardStats()
     {
-        string cardDisplay = $"Regular Card: {_cardId} | Name: {_name} | Value : {_value} | Element: {_element} | Color: {_color}";
+        string cardDisplay = $"Regular Card: {_cardId, -3} | Name: {_name, -20} | Value : {_value, -1} | Element: {_element, 5} | Color: {_color, 6}";
         return cardDisplay;
     }
 }

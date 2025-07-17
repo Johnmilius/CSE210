@@ -1,4 +1,5 @@
 using System.ComponentModel;
+using System.Data.SqlTypes;
 using System.Diagnostics.Tracing;
 
 public class GameManager
@@ -20,20 +21,17 @@ public class GameManager
     }
 
     // Player vs Sensei constructor
-    public GameManager(PlayerProfile player1, BeltRank sensiBeltRank)
+    public GameManager(PlayerProfile player1)
     {
         _player1 = player1;
         _player2 = null;
-        _npcSensi = new Sensi($"{sensiBeltRank}Sensi", sensiBeltRank);
+        _npcSensi = new Sensi($"{(BeltRank)((int)this._player1.GetBeltRank() + 1)} Sensi", (BeltRank)((int)this._player1.GetBeltRank() + 1));
     }
 
     public void StartPlayerVSPlayerGame() { /* ...use _player1 and _player2... */ }
 
-    public void PlayRound() { /* ... */ }
-
-    public void ChallengeSensei()
+    public bool ChallengeSensei()
     {
-        bool didWin = false;
         bool gameRunning = true;
 
         _player1.GetHand().RefillPlayableHand();
@@ -43,7 +41,13 @@ public class GameManager
             int player1CardChoice = _player1.PlayCard();
             int npcSensiCardChoice = _npcSensi.PlayCard();
 
+            GameVisuals.LoadingSpinner(3);
+            Console.WriteLine($"{_player1.GetName()} Played: {CardDatabase.GetCardById(player1CardChoice).DisplayCardStats()}\n\n{_npcSensi.GetName()} Played: {CardDatabase.GetCardById(npcSensiCardChoice).DisplayCardStats()}");
+            GameVisuals.LoadingSpinner(3);
+
             int whoWon = GameMechanics.CompareCards(player1CardChoice, npcSensiCardChoice);
+
+
 
             if (whoWon == 1)
             {
@@ -69,9 +73,25 @@ public class GameManager
             _player1.GetHand().RefillPlayableHand();
             _npcSensi.GetHand().RefillPlayableHand();
 
+            int winner = this.CheckWinner();
+
+            if (winner == 1)
+            {
+                Console.WriteLine($"{_player1.GetName()} has Won!");
+                gameRunning = false;
+                Console.WriteLine($"{_player1.GetName()} Since you have beat the me the, {_npcSensi.GetBeltRank()} Sensi, you now recieve the {_npcSensi.GetBeltRank()} Belt");
+                return true;
+            }
+            else if (winner == -1)
+            {
+                Console.WriteLine($"{_npcSensi.GetName()} has Won!");
+                gameRunning = false;
+                Console.WriteLine($"{_player1.GetName()} Since you have did not beat the me the, {_npcSensi.GetBeltRank()} Sensi, you do not recieve the {_npcSensi.GetBeltRank()} Belt try again...");
+                return false;
+            }
             DisplayRoundStanding();
-            this.CheckWinner();
         }
+        return false;
     }
 
     // Displays the current round standing for both players
@@ -100,7 +120,33 @@ public class GameManager
             Console.WriteLine("  None");
     }
 
-    public void CheckWinner() { /* ... */ }
+    public int CheckWinner()
+    {
+        // Check player
+        if (HasWinningSet(_player1Wins))
+            return 1;
+        // Check opponent
+        if (HasWinningSet(_opponentWins))
+            return -1;
+        return 0;
+    }
+
+    private bool HasWinningSet(List<(ElementType element, CardColor color)> wins)
+    {
+        // Check for 3 different elements
+        var uniqueElements = wins.Select(w => w.element).Distinct().ToList();
+        if (uniqueElements.Count >= 3)
+            return true;
+
+        // Check for 3 different colors of the same element
+        var elementGroups = wins.GroupBy(w => w.element);
+        foreach (var group in elementGroups)
+        {
+            if (group.Select(w => w.color).Distinct().Count() >= 3)
+                return true;
+        }
+        return false;
+    }
 
     public void SetTextColor(ConsoleColor color)
     {
@@ -114,31 +160,29 @@ public class GameManager
 
     public void Run()
     {
-        string cardsFilePath = @"C:\Users\jwmil\OneDrive\Desktop\BYU-I Spring 2025\CSE210\final\FinalProject\card_Data\cj_allCards.json";
-        CardDatabase.LoadAllCards(cardsFilePath);
-
         bool gameRunning = true;
         while (gameRunning)
         {
-            Console.WriteLine("What would you like to do? ");
-            Console.WriteLine("  1. Player vs Player\n  2. Player vs Sensi\n  3. See player stats\n  4. Quit");
-            Console.Write("Enter your choice: ");
+            string menuSTR = $"What would you like to do?\n  1. Player vs Player\n  2. Player vs Sensi\n  3. See {_player1.GetName()} stats";
+            if (!(_player2 is null))
+            {
+                menuSTR += $"\n   4. See ${_player2.GetName()} stats\n  5. Quit";
+            }
+            else
+            {
+                menuSTR += "\n  4. Load 2nd Player\n  5. Quit";
+            }
+            menuSTR += "\nEnter your Choice: ";
+            Console.WriteLine(menuSTR);
             int inputStr = int.Parse(Console.ReadLine());
 
-            if (inputStr == 1)
+            if (inputStr == 1) // PvP
             {
-                string player1FileName = @"C:\Users\jwmil\OneDrive\Desktop\BYU-I Spring 2025\CSE210\final\FinalProject\playerFiles\player1.json";
-                string player2FileName = @"C:\Users\jwmil\OneDrive\Desktop\BYU-I Spring 2025\CSE210\final\FinalProject\playerFiles\player2.json";
-                _player1 = PlayerProfile.LoadPlayerProfile(player1FileName);
-                _player2 = PlayerProfile.LoadPlayerProfile(player2FileName);
-                _npcSensi = null;
                 StartPlayerVSPlayerGame();
             }
-            else if (inputStr == 2)
+            else if (inputStr == 2) // PvE
             {
-                string player1FileName = @"C:\Users\jwmil\OneDrive\Desktop\BYU-I Spring 2025\CSE210\final\FinalProject\playerFiles\player1.json";
-                _player1 = PlayerProfile.LoadPlayerProfile(player1FileName);
-                _player2 = null;
+
                 BeltRank nextBeltRank = (BeltRank)((int)_player1.GetBeltRank() + 1);
                 _npcSensi = new Sensi($"{nextBeltRank}Sensi", nextBeltRank);
 
@@ -146,7 +190,12 @@ public class GameManager
                 string userSensiDecision = Console.ReadLine();
                 if (userSensiDecision.ToLower() == "y")
                 {
-                    ChallengeSensei();
+                    bool results = ChallengeSensei();
+                    if (results == true)
+                    {
+                        _player1.UpgradeBeltRank();
+                        _npcSensi.UpgradeBeltRank();
+                    }
                 }
                 else
                 {
@@ -156,11 +205,24 @@ public class GameManager
             else if (inputStr == 3)
             {
                 Console.WriteLine("Showing player stats...");
-                string player1FileName = @"C:\Users\jwmil\OneDrive\Desktop\BYU-I Spring 2025\CSE210\final\FinalProject\playerFiles\player1.json";
-                _player1 = PlayerProfile.LoadPlayerProfile(player1FileName);
                 _player1.GetProfileSummary();
             }
-            else if (inputStr == 4)
+            else if ((inputStr == 4) && (!(_player2 is null)))
+            {
+                Console.WriteLine("Showing player stats...");
+                _player2.GetProfileSummary();
+            }
+            else if ((inputStr == 4) && (_player2 is null))
+            {
+                Console.WriteLine("Enter Player 2's FilePath");
+                string prePlayer2FilePath = Console.ReadLine();
+                string player2FilePath = @$"{prePlayer2FilePath}";
+
+                _player2 = PlayerProfile.LoadPlayerProfile(player2FilePath);
+                Console.WriteLine($"{_player2.GetName()} has been loaded.");
+            }
+
+            else if (inputStr == 5)
             {
                 Console.WriteLine("Exiting game. Goodbye!");
                 gameRunning = false;
@@ -168,7 +230,7 @@ public class GameManager
             }
             else
             {
-                Console.WriteLine("Invalid choice. Please select 1, 2, 3, or 4.");
+                Console.WriteLine("Invalid choice. Please select 1, 2, 3, 4, or 5.");
             }
         }
     }

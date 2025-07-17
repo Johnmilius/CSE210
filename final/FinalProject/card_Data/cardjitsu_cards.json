@@ -1,0 +1,129 @@
+[
+  {
+    "cardId": 1,
+    "name": "SNOWBALL FIGHT",
+    "ElementType": "Snow",
+    "value": 7,
+    "CardColor": "Blue",
+    "description": "Penguins gather for a classic snowball fight. Dodge and throw to win!"
+  },
+  {
+    "cardId": 2,
+    "name": "FIRE DANCE",
+    "ElementType": "Fire",
+    "value": 3,
+    "CardColor": "Red",
+    "description": "Penguins twirl and leap around blazing flames. Feel the heat!"
+  },
+  {
+    "cardId": 3,
+    "name": "WATER SPLASH",
+    "ElementType": "Water",
+    "value": 6,
+    "CardColor": "Green",
+    "description": "A wave of water splashes across the field, cooling everyone down."
+  },
+  {
+    "cardId": 4,
+    "name": "SNOW SLIDE",
+    "ElementType": "Snow",
+    "value": 5,
+    "CardColor": "Yellow",
+    "description": "Slide down icy slopes for a quick escape."
+  },
+  {
+    "cardId": 5,
+    "name": "FIRE FLARE",
+    "ElementType": "Fire",
+    "value": 8,
+    "CardColor": "Orange",
+    "description": "A flare of fire lights up the sky."
+  },
+  {
+    "cardId": 6,
+    "name": "WATER WAVE",
+    "ElementType": "Water",
+    "value": 2,
+    "CardColor": "Purple",
+    "description": "A refreshing wave sweeps across the battle."
+  },
+  {
+    "cardId": 7,
+    "name": "SNOW FORT",
+    "ElementType": "Snow",
+    "value": 9,
+    "CardColor": "Green",
+    "description": "Defend yourself in a mighty snow fort."
+  },
+  {
+    "cardId": 8,
+    "name": "FIRE CHARGE",
+    "ElementType": "Fire",
+    "value": 1,
+    "CardColor": "Blue",
+    "description": "Charge forward with blazing energy."
+  },
+  {
+    "cardId": 9,
+    "name": "WATER SWIRL",
+    "ElementType": "Water",
+    "value": 5,
+    "CardColor": "Red",
+    "description": "A swirl of water confuses your foe."
+  },
+  {
+    "cardId": 10,
+    "name": "SNOWMAN BUILD",
+    "ElementType": "Snow",
+    "value": 2,
+    "CardColor": "Orange",
+    "description": "Build a mighty snowman to boost morale."
+  },
+  // ... 390 more regular cards with similar randomized fields ...
+  {
+    "cardId": 401,
+    "name": "FIRE WALL",
+    "ElementType": "Fire",
+    "value": 11,
+    "CardColor": "Orange",
+    "description": "A wall of fire blocks your opponent's next move.",
+    "PowerCardEffectType": "BlockWaterNextTurnOppenent"
+  },
+  {
+    "cardId": 402,
+    "name": "SNOWSTORM",
+    "ElementType": "Snow",
+    "value": 10,
+    "CardColor": "Purple",
+    "description": "A sudden snowstorm covers the arena, changing the game.",
+    "PowerCardEffectType": "ChangeFireToSnowThisTurnOppenent"
+  },
+  {
+    "cardId": 403,
+    "name": "WATERFALL",
+    "ElementType": "Water",
+    "value": 12,
+    "CardColor": "Blue",
+    "description": "A powerful waterfall sweeps away obstacles.",
+    "PowerCardEffectType": "DiscardRandomFireCardOppenent"
+  },
+  {
+    "cardId": 404,
+    "name": "FIRE SPIN",
+    "ElementType": "Fire",
+    "value": 9,
+    "CardColor": "Red",
+    "description": "Spin of fire reverses the flow of battle.",
+    "PowerCardEffectType": "PowerReverse"
+  },
+  {
+    "cardId": 405,
+    "name": "SNOW SHIELD",
+    "ElementType": "Snow",
+    "value": 12,
+    "CardColor": "Green",
+    "description": "A shield of snow protects you from harm.",
+    "PowerCardEffectType": "BlockFireNextTurnOppenent"
+  }
+  // ... 95 more power cards, randomized as above ...
+]

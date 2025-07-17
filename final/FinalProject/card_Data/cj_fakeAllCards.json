@@ -1,0 +1,4102 @@
+[
+  {
+    "cardId": 1,
+    "name": "SNOWBALL FIGHT",
+    "ElementType": "Snow",
+    "value": 7,
+    "CardColor": "Blue",
+    "description": "Penguins gather for a classic snowball fight. Dodge and throw to win!"
+  },
+  {
+    "cardId": 2,
+    "name": "FIRE DANCE",
+    "ElementType": "Fire",
+    "value": 3,
+    "CardColor": "Red",
+    "description": "Penguins twirl and leap around blazing flames. Feel the heat!"
+  },
+  {
+    "cardId": 3,
+    "name": "WATER SPLASH",
+    "ElementType": "Water",
+    "value": 6,
+    "CardColor": "Green",
+    "description": "A wave of water splashes across the field, cooling everyone down."
+  },
+  {
+    "cardId": 4,
+    "name": "SNOW SLIDE",
+    "ElementType": "Snow",
+    "value": 5,
+    "CardColor": "Yellow",
+    "description": "Slide down icy slopes for a quick escape."
+  },
+  {
+    "cardId": 5,
+    "name": "FIRE FLARE",
+    "ElementType": "Fire",
+    "value": 8,
+    "CardColor": "Orange",
+    "description": "A flare of fire lights up the sky."
+  },
+  {
+    "cardId": 6,
+    "name": "WATER WAVE",
+    "ElementType": "Water",
+    "value": 2,
+    "CardColor": "Purple",
+    "description": "A refreshing wave sweeps across the battle."
+  },
+  {
+    "cardId": 7,
+    "name": "SNOW FORT",
+    "ElementType": "Snow",
+    "value": 9,
+    "CardColor": "Green",
+    "description": "Defend yourself in a mighty snow fort."
+  },
+  {
+    "cardId": 8,
+    "name": "FIRE CHARGE",
+    "ElementType": "Fire",
+    "value": 1,
+    "CardColor": "Blue",
+    "description": "Charge forward with blazing energy."
+  },
+  {
+    "cardId": 9,
+    "name": "WATER SWIRL",
+    "ElementType": "Water",
+    "value": 5,
+    "CardColor": "Red",
+    "description": "A swirl of water confuses your foe."
+  },
+  {
+    "cardId": 10,
+    "name": "SNOWMAN BUILD",
+    "ElementType": "Snow",
+    "value": 2,
+    "CardColor": "Orange",
+    "description": "Build a mighty snowman to boost morale."
+  },
+  {
+    "cardId": 11,
+    "name": "FIRE ROAR",
+    "ElementType": "Fire",
+    "value": 4,
+    "CardColor": "Yellow",
+    "description": "A roaring fire energizes the arena."
+  },
+  {
+    "cardId": 12,
+    "name": "WATER STREAM",
+    "ElementType": "Water",
+    "value": 8,
+    "CardColor": "Purple",
+    "description": "A stream of water flows powerfully."
+  },
+  {
+    "cardId": 13,
+    "name": "SNOW DRIFT",
+    "ElementType": "Snow",
+    "value": 3,
+    "CardColor": "Red",
+    "description": "A gentle snow drift covers the ground."
+  },
+  {
+    "cardId": 14,
+    "name": "FIRE BURST",
+    "ElementType": "Fire",
+    "value": 6,
+    "CardColor": "Green",
+    "description": "Bursting flames light the way."
+  },
+  {
+    "cardId": 15,
+    "name": "WATER BUBBLE",
+    "ElementType": "Water",
+    "value": 7,
+    "CardColor": "Blue",
+    "description": "A bubble of water floats and pops."
+  },
+  {
+    "cardId": 16,
+    "name": "SNOW PILE",
+    "ElementType": "Snow",
+    "value": 1,
+    "CardColor": "Yellow",
+    "description": "A pile of snow provides cover."
+  },
+  {
+    "cardId": 17,
+    "name": "FIRE POP",
+    "ElementType": "Fire",
+    "value": 5,
+    "CardColor": "Purple",
+    "description": "A pop of fire startles your foe."
+  },
+  {
+    "cardId": 18,
+    "name": "WATER DRIP",
+    "ElementType": "Water",
+    "value": 9,
+    "CardColor": "Red",
+    "description": "Water drips and makes a splash."
+  },
+  {
+    "cardId": 19,
+    "name": "SNOW SHOWER",
+    "ElementType": "Snow",
+    "value": 6,
+    "CardColor": "Orange",
+    "description": "A shower of snow falls gently."
+  },
+  {
+    "cardId": 20,
+    "name": "FIRE FLICKER",
+    "ElementType": "Fire",
+    "value": 2,
+    "CardColor": "Green",
+    "description": "A flicker of fire dances."
+  },
+  {
+    "cardId": 21,
+    "name": "WATERFALL RUSH",
+    "ElementType": "Water",
+    "value": 4,
+    "CardColor": "Yellow",
+    "description": "Rush of water speeds up the action."
+  },
+  {
+    "cardId": 22,
+    "name": "SNOWY PATH",
+    "ElementType": "Snow",
+    "value": 8,
+    "CardColor": "Purple",
+    "description": "A snowy path makes for tricky moves."
+  },
+  {
+    "cardId": 23,
+    "name": "FIRE EMBER",
+    "ElementType": "Fire",
+    "value": 1,
+    "CardColor": "Red",
+    "description": "A single ember glows with potential."
+  },
+  {
+    "cardId": 24,
+    "name": "WATER SLIDE",
+    "ElementType": "Water",
+    "value": 7,
+    "CardColor": "Green",
+    "description": "Slide with water to gain speed."
+  },
+  {
+    "cardId": 25,
+    "name": "SNOWBALL DASH",
+    "ElementType": "Snow",
+    "value": 3,
+    "CardColor": "Blue",
+    "description": "Dash through a barrage of snowballs."
+  },
+  {
+    "cardId": 26,
+    "name": "FIRE SMOKE",
+    "ElementType": "Fire",
+    "value": 2,
+    "CardColor": "Orange",
+    "description": "Smoke from fire clouds the vision."
+  },
+  {
+    "cardId": 27,
+    "name": "WATER POOL",
+    "ElementType": "Water",
+    "value": 5,
+    "CardColor": "Yellow",
+    "description": "A pool of water refreshes the team."
+  },
+  {
+    "cardId": 28,
+    "name": "SNOWFLAKE SHOWER",
+    "ElementType": "Snow",
+    "value": 6,
+    "CardColor": "Purple",
+    "description": "Tiny snowflakes fall and cover the ground."
+  },
+  {
+    "cardId": 29,
+    "name": "FIRE SPARK",
+    "ElementType": "Fire",
+    "value": 8,
+    "CardColor": "Red",
+    "description": "A spark of fire ignites the spirit."
+  },
+  {
+    "cardId": 30,
+    "name": "WATER PUDDLE",
+    "ElementType": "Water",
+    "value": 3,
+    "CardColor": "Green",
+    "description": "Step in a puddle for a surprise attack."
+  },
+  {
+    "cardId": 31,
+    "name": "SNOW HILL",
+    "ElementType": "Snow",
+    "value": 9,
+    "CardColor": "Blue",
+    "description": "Climb the snow hill for a better view."
+  },
+  {
+    "cardId": 32,
+    "name": "FIRE GLOW",
+    "ElementType": "Fire",
+    "value": 5,
+    "CardColor": "Orange",
+    "description": "The fire glows and warms the team."
+  },
+  {
+    "cardId": 33,
+    "name": "WATER MIST",
+    "ElementType": "Water",
+    "value": 6,
+    "CardColor": "Yellow",
+    "description": "Misty water clouds the arena."
+  },
+  {
+    "cardId": 34,
+    "name": "SNOW TRAIL",
+    "ElementType": "Snow",
+    "value": 7,
+    "CardColor": "Purple",
+    "description": "Leave a snow trail behind you."
+  },
+  {
+    "cardId": 35,
+    "name": "FIRE SHIMMER",
+    "ElementType": "Fire",
+    "value": 9,
+    "CardColor": "Red",
+    "description": "Shimmering fire distracts foes."
+  },
+  {
+    "cardId": 36,
+    "name": "WATER CRASH",
+    "ElementType": "Water",
+    "value": 1,
+    "CardColor": "Green",
+    "description": "Crash of water shakes the ground."
+  },
+  {
+    "cardId": 37,
+    "name": "SNOW SNEEZE",
+    "ElementType": "Snow",
+    "value": 4,
+    "CardColor": "Blue",
+    "description": "A snow sneeze sends snow everywhere."
+  },
+  {
+    "cardId": 38,
+    "name": "FIRE WAVE",
+    "ElementType": "Fire",
+    "value": 6,
+    "CardColor": "Orange",
+    "description": "Wave of fire sweeps the field."
+  },
+  {
+    "cardId": 39,
+    "name": "WATER SPIN",
+    "ElementType": "Water",
+    "value": 8,
+    "CardColor": "Yellow",
+    "description": "Spin with water to dodge attacks."
+  },
+  {
+    "cardId": 40,
+    "name": "SNOW STEP",
+    "ElementType": "Snow",
+    "value": 5,
+    "CardColor": "Purple",
+    "description": "Step into the snow for stealth."
+  },
+  {
+    "cardId": 41,
+    "name": "FIRE TORNADO",
+    "ElementType": "Fire",
+    "value": 3,
+    "CardColor": "Red",
+    "description": "A tornado of fire stirs chaos."
+  },
+  {
+    "cardId": 42,
+    "name": "WATER DROP",
+    "ElementType": "Water",
+    "value": 7,
+    "CardColor": "Green",
+    "description": "A giant water drop lands with a splash."
+  },
+  {
+    "cardId": 43,
+    "name": "SNOW FLAKE",
+    "ElementType": "Snow",
+    "value": 2,
+    "CardColor": "Blue",
+    "description": "A single snowflake lands gracefully."
+  },
+  {
+    "cardId": 44,
+    "name": "FIRE BLAZE",
+    "ElementType": "Fire",
+    "value": 4,
+    "CardColor": "Orange",
+    "description": "Blaze of fire clears the way."
+  },
+  {
+    "cardId": 45,
+    "name": "WATER BURST",
+    "ElementType": "Water",
+    "value": 5,
+    "CardColor": "Yellow",
+    "description": "Burst of water energizes everyone."
+  },
+  {
+    "cardId": 46,
+    "name": "SNOW COVER",
+    "ElementType": "Snow",
+    "value": 8,
+    "CardColor": "Purple",
+    "description": "Snow cover hides your moves."
+  },
+  {
+    "cardId": 47,
+    "name": "FIRE BOLT",
+    "ElementType": "Fire",
+    "value": 1,
+    "CardColor": "Red",
+    "description": "A quick fire bolt strikes fast."
+  },
+  {
+    "cardId": 48,
+    "name": "WATER RIPPLE",
+    "ElementType": "Water",
+    "value": 6,
+    "CardColor": "Green",
+    "description": "Ripples of water spread out."
+  },
+  {
+    "cardId": 49,
+    "name": "SNOWY NIGHT",
+    "ElementType": "Snow",
+    "value": 9,
+    "CardColor": "Blue",
+    "description": "A snowy night brings mystery."
+  },
+  {
+    "cardId": 50,
+    "name": "FIRE LICK",
+    "ElementType": "Fire",
+    "value": 2,
+    "CardColor": "Orange",
+    "description": "A lick of fire dances on the ground."
+  },
+  {
+    "cardId": 51,
+    "name": "WATER RUSH",
+    "ElementType": "Water",
+    "value": 8,
+    "CardColor": "Yellow",
+    "description": "Rush of water speeds up the team."
+  },
+  {
+    "cardId": 52,
+    "name": "SNOW ANGEL",
+    "ElementType": "Snow",
+    "value": 3,
+    "CardColor": "Purple",
+    "description": "Making snow angels brings joy."
+  },
+  {
+    "cardId": 53,
+    "name": "FIRE WHISPER",
+    "ElementType": "Fire",
+    "value": 4,
+    "CardColor": "Red",
+    "description": "Whispering flames signal a plan."
+  },
+  {
+    "cardId": 54,
+    "name": "WATER SWEEP",
+    "ElementType": "Water",
+    "value": 7,
+    "CardColor": "Green",
+    "description": "Sweeping water cleans the path."
+  },
+  {
+    "cardId": 55,
+    "name": "SNOW DRIFT",
+    "ElementType": "Snow",
+    "value": 5,
+    "CardColor": "Blue",
+    "description": "Drift of snow slows opponents."
+  },
+  {
+    "cardId": 56,
+    "name": "FIRE FLICK",
+    "ElementType": "Fire",
+    "value": 6,
+    "CardColor": "Orange",
+    "description": "A quick flick of fire confuses."
+  },
+  {
+    "cardId": 57,
+    "name": "WATER WHEEL",
+    "ElementType": "Water",
+    "value": 9,
+    "CardColor": "Yellow",
+    "description": "Water wheel spins for speed."
+  },
+  {
+    "cardId": 58,
+    "name": "SNOW HOP",
+    "ElementType": "Snow",
+    "value": 1,
+    "CardColor": "Purple",
+    "description": "Hop through snow for a shortcut."
+  },
+  {
+    "cardId": 59,
+    "name": "FIRE BEAM",
+    "ElementType": "Fire",
+    "value": 8,
+    "CardColor": "Red",
+    "description": "A beam of fire shines bright."
+  },
+  {
+    "cardId": 60,
+    "name": "WATER FLOW",
+    "ElementType": "Water",
+    "value": 3,
+    "CardColor": "Green",
+    "description": "Flowing water alters the course."
+  },
+  {
+    "cardId": 61,
+    "name": "SNOW BANK",
+    "ElementType": "Snow",
+    "value": 7,
+    "CardColor": "Blue",
+    "description": "Bank of snow offers defense."
+  },
+  {
+    "cardId": 62,
+    "name": "FIRE FLASH",
+    "ElementType": "Fire",
+    "value": 5,
+    "CardColor": "Orange",
+    "description": "A flash of fire startles."
+  },
+  {
+    "cardId": 63,
+    "name": "WATER DANCE",
+    "ElementType": "Water",
+    "value": 6,
+    "CardColor": "Yellow",
+    "description": "Dance with water for style."
+  },
+  {
+    "cardId": 64,
+    "name": "SNOW STORM",
+    "ElementType": "Snow",
+    "value": 9,
+    "CardColor": "Purple",
+    "description": "A storm of snow shakes the arena."
+  },
+  {
+    "cardId": 65,
+    "name": "FIRE CRACKLE",
+    "ElementType": "Fire",
+    "value": 1,
+    "CardColor": "Red",
+    "description": "Crackling fire signals movement."
+  },
+  {
+    "cardId": 66,
+    "name": "WATER SPLASH",
+    "ElementType": "Water",
+    "value": 4,
+    "CardColor": "Green",
+    "description": "A splash of water catches attention."
+  },
+  {
+    "cardId": 67,
+    "name": "SNOW ROLL",
+    "ElementType": "Snow",
+    "value": 2,
+    "CardColor": "Blue",
+    "description": "Roll through snow to advance."
+  },
+  {
+    "cardId": 68,
+    "name": "FIRE WISP",
+    "ElementType": "Fire",
+    "value": 6,
+    "CardColor": "Orange",
+    "description": "A wisp of fire floats by."
+  },
+  {
+    "cardId": 69,
+    "name": "WATER SWING",
+    "ElementType": "Water",
+    "value": 8,
+    "CardColor": "Yellow",
+    "description": "Swing through water for speed."
+  },
+  {
+    "cardId": 70,
+    "name": "SNOW PATCH",
+    "ElementType": "Snow",
+    "value": 3,
+    "CardColor": "Purple",
+    "description": "A snow patch slows foes."
+  },
+  {
+    "cardId": 71,
+    "name": "FIRE DASH",
+    "ElementType": "Fire",
+    "value": 4,
+    "CardColor": "Red",
+    "description": "Dash through fire for surprise."
+  },
+  {
+    "cardId": 72,
+    "name": "WATER JUMP",
+    "ElementType": "Water",
+    "value": 7,
+    "CardColor": "Green",
+    "description": "Jump over water obstacles."
+  },
+  {
+    "cardId": 73,
+    "name": "SNOW SWEEP",
+    "ElementType": "Snow",
+    "value": 5,
+    "CardColor": "Blue",
+    "description": "Sweep the snow for a clean field."
+  },
+  {
+    "cardId": 74,
+    "name": "FIRE BOUNCE",
+    "ElementType": "Fire",
+    "value": 2,
+    "CardColor": "Orange",
+    "description": "Bounce through fire with skill."
+  },
+  {
+    "cardId": 75,
+    "name": "WATER WAVE",
+    "ElementType": "Water",
+    "value": 9,
+    "CardColor": "Yellow",
+    "description": "A wave of water clears obstacles."
+  },
+  {
+    "cardId": 76,
+    "name": "SNOW JUMP",
+    "ElementType": "Snow",
+    "value": 1,
+    "CardColor": "Purple",
+    "description": "Jump through snow for a shortcut."
+  },
+  {
+    "cardId": 77,
+    "name": "FIRE PULSE",
+    "ElementType": "Fire",
+    "value": 8,
+    "CardColor": "Red",
+    "description": "A pulse of fire energizes."
+  },
+  {
+    "cardId": 78,
+    "name": "WATER PULSE",
+    "ElementType": "Water",
+    "value": 3,
+    "CardColor": "Green",
+    "description": "A pulse of water surprises."
+  },
+  {
+    "cardId": 79,
+    "name": "SNOW CAVE",
+    "ElementType": "Snow",
+    "value": 7,
+    "CardColor": "Blue",
+    "description": "Hide in the snow cave for safety."
+  },
+  {
+    "cardId": 80,
+    "name": "FIRE SPARKLE",
+    "ElementType": "Fire",
+    "value": 5,
+    "CardColor": "Orange",
+    "description": "Sparkling fire dazzles."
+  },
+  {
+    "cardId": 81,
+    "name": "WATER BURST",
+    "ElementType": "Water",
+    "value": 6,
+    "CardColor": "Yellow",
+    "description": "Burst of water boosts team."
+  },
+  {
+    "cardId": 82,
+    "name": "SNOW TRAIL",
+    "ElementType": "Snow",
+    "value": 9,
+    "CardColor": "Purple",
+    "description": "Trail of snow confuses."
+  },
+  {
+    "cardId": 83,
+    "name": "FIRE FLIGHT",
+    "ElementType": "Fire",
+    "value": 1,
+    "CardColor": "Red",
+    "description": "Fly through fire for attack."
+  },
+  {
+    "cardId": 84,
+    "name": "WATER STREAM",
+    "ElementType": "Water",
+    "value": 4,
+    "CardColor": "Green",
+    "description": "Stream of water for defense."
+  },
+  {
+    "cardId": 85,
+    "name": "SNOW SWIRL",
+    "ElementType": "Snow",
+    "value": 2,
+    "CardColor": "Blue",
+    "description": "Swirl of snow spins foes."
+  },
+  {
+    "cardId": 86,
+    "name": "FIRE ROCKET",
+    "ElementType": "Fire",
+    "value": 6,
+    "CardColor": "Orange",
+    "description": "Rocket of fire launches ahead."
+  },
+  {
+    "cardId": 87,
+    "name": "WATER HOP",
+    "ElementType": "Water",
+    "value": 8,
+    "CardColor": "Yellow",
+    "description": "Hop through water for speed."
+  },
+  {
+    "cardId": 88,
+    "name": "SNOW BLIZZARD",
+    "ElementType": "Snow",
+    "value": 3,
+    "CardColor": "Purple",
+    "description": "A blizzard of snow covers all."
+  },
+  {
+    "cardId": 89,
+    "name": "FIRE CIRCLE",
+    "ElementType": "Fire",
+    "value": 4,
+    "CardColor": "Red",
+    "description": "Circle of fire traps foes."
+  },
+  {
+    "cardId": 90,
+    "name": "WATER RING",
+    "ElementType": "Water",
+    "value": 7,
+    "CardColor": "Green",
+    "description": "Ring of water protects."
+  },
+  {
+    "cardId": 91,
+    "name": "SNOW CRUSH",
+    "ElementType": "Snow",
+    "value": 5,
+    "CardColor": "Blue",
+    "description": "Crush of snow stops foes."
+  },
+  {
+    "cardId": 92,
+    "name": "FIRE WHIRL",
+    "ElementType": "Fire",
+    "value": 2,
+    "CardColor": "Orange",
+    "description": "Whirl of fire spins fast."
+  },
+  {
+    "cardId": 93,
+    "name": "WATER CRASH",
+    "ElementType": "Water",
+    "value": 9,
+    "CardColor": "Yellow",
+    "description": "Crash of water shakes foes."
+  },
+  {
+    "cardId": 94,
+    "name": "SNOW BURST",
+    "ElementType": "Snow",
+    "value": 1,
+    "CardColor": "Purple",
+    "description": "Burst of snow confuses."
+  },
+  {
+    "cardId": 95,
+    "name": "FIRE SPIN",
+    "ElementType": "Fire",
+    "value": 8,
+    "CardColor": "Red",
+    "description": "Spin of fire dazzles."
+  },
+  {
+    "cardId": 96,
+    "name": "WATER FLIP",
+    "ElementType": "Water",
+    "value": 3,
+    "CardColor": "Green",
+    "description": "Flip with water for surprise."
+  },
+  {
+    "cardId": 97,
+    "name": "SNOW SHIELD",
+    "ElementType": "Snow",
+    "value": 7,
+    "CardColor": "Blue",
+    "description": "Shield of snow gives defense."
+  },
+  {
+    "cardId": 98,
+    "name": "FIRE BLADE",
+    "ElementType": "Fire",
+    "value": 5,
+    "CardColor": "Orange",
+    "description": "Blade of fire cuts through."
+  },
+  {
+    "cardId": 99,
+    "name": "WATER SHIELD",
+    "ElementType": "Water",
+    "value": 6,
+    "CardColor": "Yellow",
+    "description": "Shield of water protects."
+  },
+  {
+    "cardId": 100,
+    "name": "SNOW WAVE",
+    "ElementType": "Snow",
+    "value": 9,
+    "CardColor": "Purple",
+    "description": "Wave of snow covers foes."
+  },
+  {
+    "cardId": 101,
+    "name": "SNOW HILL",
+    "ElementType": "Snow",
+    "value": 4,
+    "CardColor": "Red",
+    "description": "Race up the snow hill for a vantage point."
+  },
+  {
+    "cardId": 102,
+    "name": "FIRE STREAM",
+    "ElementType": "Fire",
+    "value": 6,
+    "CardColor": "Yellow",
+    "description": "A stream of fire lights the path forward."
+  },
+  {
+    "cardId": 103,
+    "name": "WATER BUBBLE",
+    "ElementType": "Water",
+    "value": 2,
+    "CardColor": "Green",
+    "description": "A bubble of water floats and bursts playfully."
+  },
+  {
+    "cardId": 104,
+    "name": "SNOW SHIELD",
+    "ElementType": "Snow",
+    "value": 9,
+    "CardColor": "Blue",
+    "description": "A shield of snow protects from all sides."
+  },
+  {
+    "cardId": 105,
+    "name": "FIRE WHIRL",
+    "ElementType": "Fire",
+    "value": 1,
+    "CardColor": "Purple",
+    "description": "Whirling fire confuses opponents."
+  },
+  {
+    "cardId": 106,
+    "name": "WATER DROP",
+    "ElementType": "Water",
+    "value": 5,
+    "CardColor": "Orange",
+    "description": "A single water drop splashes with surprise."
+  },
+  {
+    "cardId": 107,
+    "name": "SNOW TRACK",
+    "ElementType": "Snow",
+    "value": 8,
+    "CardColor": "Yellow",
+    "description": "Leave snowy tracks to trick your rivals."
+  },
+  {
+    "cardId": 108,
+    "name": "FIRE FLICKER",
+    "ElementType": "Fire",
+    "value": 3,
+    "CardColor": "Green",
+    "description": "A flicker of fire signals a quick attack."
+  },
+  {
+    "cardId": 109,
+    "name": "WATER WHEEL",
+    "ElementType": "Water",
+    "value": 7,
+    "CardColor": "Blue",
+    "description": "Spin the water wheel for momentum."
+  },
+  {
+    "cardId": 110,
+    "name": "SNOW PILE",
+    "ElementType": "Snow",
+    "value": 6,
+    "CardColor": "Red",
+    "description": "Hide behind a pile of snow for defense."
+  },
+  {
+    "cardId": 111,
+    "name": "FIRE BEAM",
+    "ElementType": "Fire",
+    "value": 5,
+    "CardColor": "Orange",
+    "description": "A beam of fire pierces the cold air."
+  },
+  {
+    "cardId": 112,
+    "name": "WATER SWEEP",
+    "ElementType": "Water",
+    "value": 8,
+    "CardColor": "Purple",
+    "description": "Sweep the arena with a wave of water."
+  },
+  {
+    "cardId": 113,
+    "name": "SNOW SWIRL",
+    "ElementType": "Snow",
+    "value": 2,
+    "CardColor": "Yellow",
+    "description": "Swirling snow creates a dizzying effect."
+  },
+  {
+    "cardId": 114,
+    "name": "FIRE BOUNCE",
+    "ElementType": "Fire",
+    "value": 7,
+    "CardColor": "Green",
+    "description": "Bounce through fire with agility."
+  },
+  {
+    "cardId": 115,
+    "name": "WATER SPRAY",
+    "ElementType": "Water",
+    "value": 1,
+    "CardColor": "Red",
+    "description": "Spray water to distract the enemy."
+  },
+  {
+    "cardId": 116,
+    "name": "SNOW ANGEL",
+    "ElementType": "Snow",
+    "value": 3,
+    "CardColor": "Blue",
+    "description": "Make a snow angel for good luck."
+  },
+  {
+    "cardId": 117,
+    "name": "FIRE ROCKET",
+    "ElementType": "Fire",
+    "value": 4,
+    "CardColor": "Orange",
+    "description": "Rocket through the flames for an attack."
+  },
+  {
+    "cardId": 118,
+    "name": "WATER FLOW",
+    "ElementType": "Water",
+    "value": 9,
+    "CardColor": "Yellow",
+    "description": "Let water flow and carry you forward."
+  },
+  {
+    "cardId": 119,
+    "name": "SNOW STORM",
+    "ElementType": "Snow",
+    "value": 5,
+    "CardColor": "Purple",
+    "description": "A sudden snowstorm covers the field."
+  },
+  {
+    "cardId": 120,
+    "name": "FIRE CRACKLE",
+    "ElementType": "Fire",
+    "value": 2,
+    "CardColor": "Green",
+    "description": "Crackling fire signals movement."
+  },
+  {
+    "cardId": 121,
+    "name": "WATER WHIRLPOOL",
+    "ElementType": "Water",
+    "value": 6,
+    "CardColor": "Blue",
+    "description": "A whirlpool of water pulls foes in."
+  },
+  {
+    "cardId": 122,
+    "name": "SNOW DRIFT",
+    "ElementType": "Snow",
+    "value": 8,
+    "CardColor": "Red",
+    "description": "Drift of snow slows down rivals."
+  },
+  {
+    "cardId": 123,
+    "name": "FIRE SPARK",
+    "ElementType": "Fire",
+    "value": 3,
+    "CardColor": "Orange",
+    "description": "A spark of fire ignites excitement."
+  },
+  {
+    "cardId": 124,
+    "name": "WATER RING",
+    "ElementType": "Water",
+    "value": 7,
+    "CardColor": "Yellow",
+    "description": "A ring of water surrounds your team."
+  },
+  {
+    "cardId": 125,
+    "name": "SNOW PATCH",
+    "ElementType": "Snow",
+    "value": 4,
+    "CardColor": "Purple",
+    "description": "Find a patch of snow for cover."
+  },
+  {
+    "cardId": 126,
+    "name": "FIRE POP",
+    "ElementType": "Fire",
+    "value": 9,
+    "CardColor": "Green",
+    "description": "Pop of fire startles your opponent."
+  },
+  {
+    "cardId": 127,
+    "name": "WATER SWIRL",
+    "ElementType": "Water",
+    "value": 2,
+    "CardColor": "Red",
+    "description": "A swirl of water spins the battle."
+  },
+  {
+    "cardId": 128,
+    "name": "SNOW FLAKE",
+    "ElementType": "Snow",
+    "value": 6,
+    "CardColor": "Blue",
+    "description": "A single snowflake lands gracefully."
+  },
+  {
+    "cardId": 129,
+    "name": "FIRE DASH",
+    "ElementType": "Fire",
+    "value": 5,
+    "CardColor": "Orange",
+    "description": "Dash through fire with speed."
+  },
+  {
+    "cardId": 130,
+    "name": "WATER BURST",
+    "ElementType": "Water",
+    "value": 8,
+    "CardColor": "Yellow",
+    "description": "Burst of water energizes your move."
+  },
+  {
+    "cardId": 131,
+    "name": "SNOW CRUSH",
+    "ElementType": "Snow",
+    "value": 1,
+    "CardColor": "Purple",
+    "description": "Crush of snow stops rivals in their tracks."
+  },
+  {
+    "cardId": 132,
+    "name": "FIRE SHIMMER",
+    "ElementType": "Fire",
+    "value": 7,
+    "CardColor": "Green",
+    "description": "Shimmering fire dazzles the crowd."
+  },
+  {
+    "cardId": 133,
+    "name": "WATER SHIELD",
+    "ElementType": "Water",
+    "value": 3,
+    "CardColor": "Red",
+    "description": "A shield of water protects you."
+  },
+  {
+    "cardId": 134,
+    "name": "SNOW SWEEP",
+    "ElementType": "Snow",
+    "value": 5,
+    "CardColor": "Blue",
+    "description": "Sweep the snow for a clean field."
+  },
+  {
+    "cardId": 135,
+    "name": "FIRE SPIN",
+    "ElementType": "Fire",
+    "value": 2,
+    "CardColor": "Orange",
+    "description": "Spin of fire confuses your foe."
+  },
+  {
+    "cardId": 136,
+    "name": "WATER FLIP",
+    "ElementType": "Water",
+    "value": 9,
+    "CardColor": "Yellow",
+    "description": "Flip with water for a surprise attack."
+  },
+  {
+    "cardId": 137,
+    "name": "SNOW BANK",
+    "ElementType": "Snow",
+    "value": 6,
+    "CardColor": "Purple",
+    "description": "Hide behind a snow bank for defense."
+  },
+  {
+    "cardId": 138,
+    "name": "FIRE SPARKLE",
+    "ElementType": "Fire",
+    "value": 4,
+    "CardColor": "Red",
+    "description": "Sparkling fire brightens your spirit."
+  },
+  {
+    "cardId": 139,
+    "name": "WATER DANCE",
+    "ElementType": "Water",
+    "value": 7,
+    "CardColor": "Green",
+    "description": "Dance with water for style."
+  },
+  {
+    "cardId": 140,
+    "name": "SNOW JUMP",
+    "ElementType": "Snow",
+    "value": 2,
+    "CardColor": "Blue",
+    "description": "Jump through snow for a shortcut."
+  },
+  {
+    "cardId": 141,
+    "name": "FIRE CRASH",
+    "ElementType": "Fire",
+    "value": 8,
+    "CardColor": "Orange",
+    "description": "Crash of fire shakes the ground."
+  },
+  {
+    "cardId": 142,
+    "name": "WATER STREAM",
+    "ElementType": "Water",
+    "value": 5,
+    "CardColor": "Yellow",
+    "description": "Stream of water boosts your team."
+  },
+  {
+    "cardId": 143,
+    "name": "SNOW COVER",
+    "ElementType": "Snow",
+    "value": 1,
+    "CardColor": "Purple",
+    "description": "Snow cover hides your moves."
+  },
+  {
+    "cardId": 144,
+    "name": "FIRE GLOW",
+    "ElementType": "Fire",
+    "value": 7,
+    "CardColor": "Green",
+    "description": "The fire glows and warms the team."
+  },
+  {
+    "cardId": 145,
+    "name": "WATER SWING",
+    "ElementType": "Water",
+    "value": 2,
+    "CardColor": "Red",
+    "description": "Swing through water for quick movements."
+  },
+  {
+    "cardId": 146,
+    "name": "SNOW PATCH",
+    "ElementType": "Snow",
+    "value": 8,
+    "CardColor": "Blue",
+    "description": "A patch of snow for cover."
+  },
+  {
+    "cardId": 147,
+    "name": "FIRE BLAZE",
+    "ElementType": "Fire",
+    "value": 5,
+    "CardColor": "Orange",
+    "description": "Blaze of fire clears obstacles."
+  },
+  {
+    "cardId": 148,
+    "name": "WATER PUDDLE",
+    "ElementType": "Water",
+    "value": 9,
+    "CardColor": "Yellow",
+    "description": "Step in a puddle for a surprise attack."
+  },
+  {
+    "cardId": 149,
+    "name": "SNOW FORT",
+    "ElementType": "Snow",
+    "value": 3,
+    "CardColor": "Purple",
+    "description": "Mighty snow fort for defense."
+  },
+  {
+    "cardId": 150,
+    "name": "FIRE FLICK",
+    "ElementType": "Fire",
+    "value": 6,
+    "CardColor": "Red",
+    "description": "A quick flick of fire confuses."
+  },
+  {
+    "cardId": 151,
+    "name": "WATER RUSH",
+    "ElementType": "Water",
+    "value": 4,
+    "CardColor": "Green",
+    "description": "Rush of water speeds up the team."
+  },
+  {
+    "cardId": 152,
+    "name": "SNOW TRAIL",
+    "ElementType": "Snow",
+    "value": 7,
+    "CardColor": "Blue",
+    "description": "Leave a snow trail behind you."
+  },
+  {
+    "cardId": 153,
+    "name": "FIRE DASH",
+    "ElementType": "Fire",
+    "value": 1,
+    "CardColor": "Orange",
+    "description": "Dash through fire for surprise."
+  },
+  {
+    "cardId": 154,
+    "name": "WATER BURST",
+    "ElementType": "Water",
+    "value": 8,
+    "CardColor": "Yellow",
+    "description": "Burst of water energizes everyone."
+  },
+  {
+    "cardId": 155,
+    "name": "SNOWY NIGHT",
+    "ElementType": "Snow",
+    "value": 5,
+    "CardColor": "Purple",
+    "description": "A snowy night brings mystery."
+  },
+  {
+    "cardId": 156,
+    "name": "FIRE WHISPER",
+    "ElementType": "Fire",
+    "value": 3,
+    "CardColor": "Red",
+    "description": "Whispering flames signal a plan."
+  },
+  {
+    "cardId": 157,
+    "name": "WATER SWEEP",
+    "ElementType": "Water",
+    "value": 7,
+    "CardColor": "Green",
+    "description": "Sweeping water cleans the path."
+  },
+  {
+    "cardId": 158,
+    "name": "SNOW DRIFT",
+    "ElementType": "Snow",
+    "value": 2,
+    "CardColor": "Blue",
+    "description": "Drift of snow slows opponents."
+  },
+  {
+    "cardId": 159,
+    "name": "FIRE FLASH",
+    "ElementType": "Fire",
+    "value": 6,
+    "CardColor": "Orange",
+    "description": "A flash of fire startles."
+  },
+  {
+    "cardId": 160,
+    "name": "WATER WHEEL",
+    "ElementType": "Water",
+    "value": 9,
+    "CardColor": "Yellow",
+    "description": "Water wheel spins for speed."
+  },
+  {
+    "cardId": 161,
+    "name": "SNOW HOP",
+    "ElementType": "Snow",
+    "value": 3,
+    "CardColor": "Purple",
+    "description": "Hop through snow for a shortcut."
+  },
+  {
+    "cardId": 162,
+    "name": "FIRE BEAM",
+    "ElementType": "Fire",
+    "value": 8,
+    "CardColor": "Red",
+    "description": "A beam of fire shines bright."
+  },
+  {
+    "cardId": 163,
+    "name": "WATER FLOW",
+    "ElementType": "Water",
+    "value": 4,
+    "CardColor": "Green",
+    "description": "Flowing water alters the course."
+  },
+  {
+    "cardId": 164,
+    "name": "SNOW BANK",
+    "ElementType": "Snow",
+    "value": 6,
+    "CardColor": "Blue",
+    "description": "Bank of snow offers defense."
+  },
+  {
+    "cardId": 165,
+    "name": "FIRE SPARK",
+    "ElementType": "Fire",
+    "value": 9,
+    "CardColor": "Orange",
+    "description": "A spark of fire ignites the spirit."
+  },
+  {
+    "cardId": 166,
+    "name": "WATER MIST",
+    "ElementType": "Water",
+    "value": 2,
+    "CardColor": "Yellow",
+    "description": "Misty water clouds the arena."
+  },
+  {
+    "cardId": 167,
+    "name": "SNOW TRAIL",
+    "ElementType": "Snow",
+    "value": 8,
+    "CardColor": "Purple",
+    "description": "Leave a snowy trail for confusion."
+  },
+  {
+    "cardId": 168,
+    "name": "FIRE SHIMMER",
+    "ElementType": "Fire",
+    "value": 4,
+    "CardColor": "Red",
+    "description": "Shimmering fire distracts foes."
+  },
+  {
+    "cardId": 169,
+    "name": "WATER CRASH",
+    "ElementType": "Water",
+    "value": 7,
+    "CardColor": "Green",
+    "description": "Crash of water shakes the ground."
+  },
+  {
+    "cardId": 170,
+    "name": "SNOW SNEEZE",
+    "ElementType": "Snow",
+    "value": 2,
+    "CardColor": "Blue",
+    "description": "A snow sneeze sends snow everywhere."
+  },
+  {
+    "cardId": 171,
+    "name": "FIRE WAVE",
+    "ElementType": "Fire",
+    "value": 6,
+    "CardColor": "Orange",
+    "description": "Wave of fire sweeps the field."
+  },
+  {
+    "cardId": 172,
+    "name": "WATER SPIN",
+    "ElementType": "Water",
+    "value": 9,
+    "CardColor": "Yellow",
+    "description": "Spin with water to dodge attacks."
+  },
+  {
+    "cardId": 173,
+    "name": "SNOW STEP",
+    "ElementType": "Snow",
+    "value": 4,
+    "CardColor": "Purple",
+    "description": "Step into the snow for stealth."
+  },
+  {
+    "cardId": 174,
+    "name": "FIRE TORNADO",
+    "ElementType": "Fire",
+    "value": 1,
+    "CardColor": "Red",
+    "description": "A tornado of fire stirs chaos."
+  },
+  {
+    "cardId": 175,
+    "name": "WATER DROP",
+    "ElementType": "Water",
+    "value": 7,
+    "CardColor": "Green",
+    "description": "A giant water drop lands with a splash."
+  },
+  {
+    "cardId": 176,
+    "name": "SNOW FLAKE",
+    "ElementType": "Snow",
+    "value": 5,
+    "CardColor": "Blue",
+    "description": "A single snowflake lands gracefully."
+  },
+  {
+    "cardId": 177,
+    "name": "FIRE BLAZE",
+    "ElementType": "Fire",
+    "value": 4,
+    "CardColor": "Orange",
+    "description": "Blaze of fire clears the way."
+  },
+  {
+    "cardId": 178,
+    "name": "WATER BURST",
+    "ElementType": "Water",
+    "value": 8,
+    "CardColor": "Yellow",
+    "description": "Burst of water energizes everyone."
+  },
+  {
+    "cardId": 179,
+    "name": "SNOW COVER",
+    "ElementType": "Snow",
+    "value": 6,
+    "CardColor": "Purple",
+    "description": "Snow cover hides your moves."
+  },
+  {
+    "cardId": 180,
+    "name": "FIRE BOLT",
+    "ElementType": "Fire",
+    "value": 5,
+    "CardColor": "Red",
+    "description": "A quick fire bolt strikes fast."
+  },
+  {
+    "cardId": 181,
+    "name": "WATER RIPPLE",
+    "ElementType": "Water",
+    "value": 9,
+    "CardColor": "Green",
+    "description": "Ripples of water spread out."
+  },
+  {
+    "cardId": 182,
+    "name": "SNOWY NIGHT",
+    "ElementType": "Snow",
+    "value": 1,
+    "CardColor": "Blue",
+    "description": "A snowy night brings mystery."
+  },
+  {
+    "cardId": 183,
+    "name": "FIRE LICK",
+    "ElementType": "Fire",
+    "value": 2,
+    "CardColor": "Orange",
+    "description": "A lick of fire dances on the ground."
+  },
+  {
+    "cardId": 184,
+    "name": "WATER RUSH",
+    "ElementType": "Water",
+    "value": 8,
+    "CardColor": "Yellow",
+    "description": "Rush of water speeds up the team."
+  },
+  {
+    "cardId": 185,
+    "name": "SNOW ANGEL",
+    "ElementType": "Snow",
+    "value": 4,
+    "CardColor": "Purple",
+    "description": "Making snow angels brings joy."
+  },
+  {
+    "cardId": 186,
+    "name": "FIRE WHISPER",
+    "ElementType": "Fire",
+    "value": 3,
+    "CardColor": "Red",
+    "description": "Whispering flames signal a plan."
+  },
+  {
+    "cardId": 187,
+    "name": "WATER SWEEP",
+    "ElementType": "Water",
+    "value": 7,
+    "CardColor": "Green",
+    "description": "Sweeping water cleans the path."
+  },
+  {
+    "cardId": 188,
+    "name": "SNOW DRIFT",
+    "ElementType": "Snow",
+    "value": 2,
+    "CardColor": "Blue",
+    "description": "Drift of snow slows opponents."
+  },
+  {
+    "cardId": 189,
+    "name": "FIRE FLASH",
+    "ElementType": "Fire",
+    "value": 6,
+    "CardColor": "Orange",
+    "description": "A flash of fire startles."
+  },
+  {
+    "cardId": 190,
+    "name": "WATER WHEEL",
+    "ElementType": "Water",
+    "value": 9,
+    "CardColor": "Yellow",
+    "description": "Water wheel spins for speed."
+  },
+  {
+    "cardId": 191,
+    "name": "SNOW HOP",
+    "ElementType": "Snow",
+    "value": 3,
+    "CardColor": "Purple",
+    "description": "Hop through snow for a shortcut."
+  },
+  {
+    "cardId": 192,
+    "name": "FIRE BEAM",
+    "ElementType": "Fire",
+    "value": 8,
+    "CardColor": "Red",
+    "description": "A beam of fire shines bright."
+  },
+  {
+    "cardId": 193,
+    "name": "WATER FLOW",
+    "ElementType": "Water",
+    "value": 4,
+    "CardColor": "Green",
+    "description": "Flowing water alters the course."
+  },
+  {
+    "cardId": 194,
+    "name": "SNOW BANK",
+    "ElementType": "Snow",
+    "value": 6,
+    "CardColor": "Blue",
+    "description": "Bank of snow offers defense."
+  },
+  {
+    "cardId": 195,
+    "name": "FIRE SPARK",
+    "ElementType": "Fire",
+    "value": 9,
+    "CardColor": "Orange",
+    "description": "A spark of fire ignites the spirit."
+  },
+  {
+    "cardId": 196,
+    "name": "WATER MIST",
+    "ElementType": "Water",
+    "value": 2,
+    "CardColor": "Yellow",
+    "description": "Misty water clouds the arena."
+  },
+  {
+    "cardId": 197,
+    "name": "SNOW TRAIL",
+    "ElementType": "Snow",
+    "value": 8,
+    "CardColor": "Purple",
+    "description": "Leave a snowy trail for confusion."
+  },
+  {
+    "cardId": 198,
+    "name": "FIRE SHIMMER",
+    "ElementType": "Fire",
+    "value": 4,
+    "CardColor": "Red",
+    "description": "Shimmering fire distracts foes."
+  },
+  {
+    "cardId": 199,
+    "name": "WATER CRASH",
+    "ElementType": "Water",
+    "value": 7,
+    "CardColor": "Green",
+    "description": "Crash of water shakes the ground."
+  },
+  {
+    "cardId": 200,
+    "name": "SNOW SNEEZE",
+    "ElementType": "Snow",
+    "value": 2,
+    "CardColor": "Blue",
+    "description": "A snow sneeze sends snow everywhere."
+  },
+  {
+    "cardId": 201,
+    "name": "SNOW PELT",
+    "ElementType": "Snow",
+    "value": 3,
+    "CardColor": "Red",
+    "description": "Snow pelts the field, slowing progress."
+  },
+  {
+    "cardId": 202,
+    "name": "FIRE FLICKER",
+    "ElementType": "Fire",
+    "value": 8,
+    "CardColor": "Yellow",
+    "description": "A flicker of fire signals a new chance."
+  },
+  {
+    "cardId": 203,
+    "name": "WATER STREAM",
+    "ElementType": "Water",
+    "value": 1,
+    "CardColor": "Green",
+    "description": "A steady stream of water crosses the arena."
+  },
+  {
+    "cardId": 204,
+    "name": "SNOW PATH",
+    "ElementType": "Snow",
+    "value": 6,
+    "CardColor": "Blue",
+    "description": "A snowy path leads into new territory."
+  },
+  {
+    "cardId": 205,
+    "name": "FIRE POP",
+    "ElementType": "Fire",
+    "value": 5,
+    "CardColor": "Purple",
+    "description": "Popping fire sparks surprise."
+  },
+  {
+    "cardId": 206,
+    "name": "WATER SWIRL",
+    "ElementType": "Water",
+    "value": 7,
+    "CardColor": "Orange",
+    "description": "A swirl of water spins the opponent."
+  },
+  {
+    "cardId": 207,
+    "name": "SNOW LAYER",
+    "ElementType": "Snow",
+    "value": 2,
+    "CardColor": "Yellow",
+    "description": "Snow layers on top for protection."
+  },
+  {
+    "cardId": 208,
+    "name": "FIRE DASH",
+    "ElementType": "Fire",
+    "value": 9,
+    "CardColor": "Green",
+    "description": "Dash through the fire for a bold move."
+  },
+  {
+    "cardId": 209,
+    "name": "WATER BURST",
+    "ElementType": "Water",
+    "value": 4,
+    "CardColor": "Blue",
+    "description": "A burst of water surprises everyone."
+  },
+  {
+    "cardId": 210,
+    "name": "SNOW SWEEP",
+    "ElementType": "Snow",
+    "value": 7,
+    "CardColor": "Red",
+    "description": "Sweep snow for a clean attack."
+  },
+  {
+    "cardId": 211,
+    "name": "FIRE SPARK",
+    "ElementType": "Fire",
+    "value": 2,
+    "CardColor": "Orange",
+    "description": "A spark of fire ignites excitement."
+  },
+  {
+    "cardId": 212,
+    "name": "WATER DROP",
+    "ElementType": "Water",
+    "value": 6,
+    "CardColor": "Purple",
+    "description": "A drop of water creates ripples."
+  },
+  {
+    "cardId": 213,
+    "name": "SNOW BALL",
+    "ElementType": "Snow",
+    "value": 9,
+    "CardColor": "Yellow",
+    "description": "A giant snow ball rolls through foes."
+  },
+  {
+    "cardId": 214,
+    "name": "FIRE WHIRL",
+    "ElementType": "Fire",
+    "value": 4,
+    "CardColor": "Green",
+    "description": "Whirl of fire spins the battle."
+  },
+  {
+    "cardId": 215,
+    "name": "WATER SHIELD",
+    "ElementType": "Water",
+    "value": 8,
+    "CardColor": "Blue",
+    "description": "A shield of water blocks attacks."
+  },
+  {
+    "cardId": 216,
+    "name": "SNOW BLIZZARD",
+    "ElementType": "Snow",
+    "value": 1,
+    "CardColor": "Red",
+    "description": "A blizzard of snow hides your moves."
+  },
+  {
+    "cardId": 217,
+    "name": "FIRE FLARE",
+    "ElementType": "Fire",
+    "value": 7,
+    "CardColor": "Orange",
+    "description": "Flare of fire signals a comeback."
+  },
+  {
+    "cardId": 218,
+    "name": "WATER WAVE",
+    "ElementType": "Water",
+    "value": 3,
+    "CardColor": "Purple",
+    "description": "A wave of water sweeps the field."
+  },
+  {
+    "cardId": 219,
+    "name": "SNOW COVER",
+    "ElementType": "Snow",
+    "value": 6,
+    "CardColor": "Yellow",
+    "description": "Snow cover hides your intentions."
+  },
+  {
+    "cardId": 220,
+    "name": "FIRE BEAM",
+    "ElementType": "Fire",
+    "value": 5,
+    "CardColor": "Green",
+    "description": "A beam of fire pierces through."
+  },
+  {
+    "cardId": 221,
+    "name": "WATER HOP",
+    "ElementType": "Water",
+    "value": 8,
+    "CardColor": "Blue",
+    "description": "Hop over water for a quick escape."
+  },
+  {
+    "cardId": 222,
+    "name": "SNOW PATCH",
+    "ElementType": "Snow",
+    "value": 2,
+    "CardColor": "Red",
+    "description": "A patch of snow slows the opposition."
+  },
+  {
+    "cardId": 223,
+    "name": "FIRE SHIMMER",
+    "ElementType": "Fire",
+    "value": 9,
+    "CardColor": "Orange",
+    "description": "Shimmering fire dazzles your rivals."
+  },
+  {
+    "cardId": 224,
+    "name": "WATER SWEEP",
+    "ElementType": "Water",
+    "value": 4,
+    "CardColor": "Purple",
+    "description": "Sweep water across the arena."
+  },
+  {
+    "cardId": 225,
+    "name": "SNOW MOUND",
+    "ElementType": "Snow",
+    "value": 7,
+    "CardColor": "Yellow",
+    "description": "A mound of snow for cover."
+  },
+  {
+    "cardId": 226,
+    "name": "FIRE BOUNCE",
+    "ElementType": "Fire",
+    "value": 3,
+    "CardColor": "Green",
+    "description": "Bounce through fire with style."
+  },
+  {
+    "cardId": 227,
+    "name": "WATER SPIN",
+    "ElementType": "Water",
+    "value": 6,
+    "CardColor": "Blue",
+    "description": "Spin with water for agility."
+  },
+  {
+    "cardId": 228,
+    "name": "SNOW DRIFT",
+    "ElementType": "Snow",
+    "value": 1,
+    "CardColor": "Red",
+    "description": "A drift of snow slows the pace."
+  },
+  {
+    "cardId": 229,
+    "name": "FIRE CRACKLE",
+    "ElementType": "Fire",
+    "value": 8,
+    "CardColor": "Orange",
+    "description": "Crackling fire distracts the enemy."
+  },
+  {
+    "cardId": 230,
+    "name": "WATER FLIP",
+    "ElementType": "Water",
+    "value": 5,
+    "CardColor": "Purple",
+    "description": "Flip through water for a surprise."
+  },
+  {
+    "cardId": 231,
+    "name": "SNOW TRAIL",
+    "ElementType": "Snow",
+    "value": 9,
+    "CardColor": "Yellow",
+    "description": "Trail of snow leads the way."
+  },
+  {
+    "cardId": 232,
+    "name": "FIRE DASH",
+    "ElementType": "Fire",
+    "value": 4,
+    "CardColor": "Green",
+    "description": "Dash through fire for a quick move."
+  },
+  {
+    "cardId": 233,
+    "name": "WATER BURST",
+    "ElementType": "Water",
+    "value": 7,
+    "CardColor": "Blue",
+    "description": "Burst of water energizes your team."
+  },
+  {
+    "cardId": 234,
+    "name": "SNOW FLURRY",
+    "ElementType": "Snow",
+    "value": 2,
+    "CardColor": "Red",
+    "description": "A flurry of snow confuses foes."
+  },
+  {
+    "cardId": 235,
+    "name": "FIRE POP",
+    "ElementType": "Fire",
+    "value": 5,
+    "CardColor": "Orange",
+    "description": "Pop of fire signals your turn."
+  },
+  {
+    "cardId": 236,
+    "name": "WATER RUSH",
+    "ElementType": "Water",
+    "value": 8,
+    "CardColor": "Purple",
+    "description": "Rush of water changes the game."
+  },
+  {
+    "cardId": 237,
+    "name": "SNOW SWIRL",
+    "ElementType": "Snow",
+    "value": 1,
+    "CardColor": "Yellow",
+    "description": "Swirl of snow spins the opponent."
+  },
+  {
+    "cardId": 238,
+    "name": "FIRE BOLT",
+    "ElementType": "Fire",
+    "value": 6,
+    "CardColor": "Green",
+    "description": "A bolt of fire strikes fast."
+  },
+  {
+    "cardId": 239,
+    "name": "WATER WHIRL",
+    "ElementType": "Water",
+    "value": 9,
+    "CardColor": "Blue",
+    "description": "Whirl of water spins the battle."
+  },
+  {
+    "cardId": 240,
+    "name": "SNOW BANK",
+    "ElementType": "Snow",
+    "value": 3,
+    "CardColor": "Red",
+    "description": "Bank of snow provides defense."
+  },
+  {
+    "cardId": 241,
+    "name": "FIRE WHISPER",
+    "ElementType": "Fire",
+    "value": 8,
+    "CardColor": "Orange",
+    "description": "A whisper of fire signals a plan."
+  },
+  {
+    "cardId": 242,
+    "name": "WATER DANCE",
+    "ElementType": "Water",
+    "value": 6,
+    "CardColor": "Purple",
+    "description": "Dance with water for flair."
+  },
+  {
+    "cardId": 243,
+    "name": "SNOW MIST",
+    "ElementType": "Snow",
+    "value": 9,
+    "CardColor": "Yellow",
+    "description": "A mist of snow covers the field."
+  },
+  {
+    "cardId": 244,
+    "name": "FIRE SHIMMER",
+    "ElementType": "Fire",
+    "value": 2,
+    "CardColor": "Green",
+    "description": "Shimmering fire distracts your foe."
+  },
+  {
+    "cardId": 245,
+    "name": "WATER SPLASH",
+    "ElementType": "Water",
+    "value": 7,
+    "CardColor": "Blue",
+    "description": "Splash water to cool the game."
+  },
+  {
+    "cardId": 246,
+    "name": "SNOW PATCH",
+    "ElementType": "Snow",
+    "value": 4,
+    "CardColor": "Red",
+    "description": "A patch of snow slows rivals."
+  },
+  {
+    "cardId": 247,
+    "name": "FIRE FLIGHT",
+    "ElementType": "Fire",
+    "value": 5,
+    "CardColor": "Orange",
+    "description": "Fly through fire for a bold attack."
+  },
+  {
+    "cardId": 248,
+    "name": "WATER HOP",
+    "ElementType": "Water",
+    "value": 8,
+    "CardColor": "Purple",
+    "description": "Hop over water for quick movement."
+  },
+  {
+    "cardId": 249,
+    "name": "SNOW BURST",
+    "ElementType": "Snow",
+    "value": 2,
+    "CardColor": "Yellow",
+    "description": "Burst of snow confuses everyone."
+  },
+  {
+    "cardId": 250,
+    "name": "FIRE CRACKLE",
+    "ElementType": "Fire",
+    "value": 9,
+    "CardColor": "Green",
+    "description": "Crackling fire signals change."
+  },
+  {
+    "cardId": 251,
+    "name": "WATER SWING",
+    "ElementType": "Water",
+    "value": 6,
+    "CardColor": "Blue",
+    "description": "Swing through water for speed."
+  },
+  {
+    "cardId": 252,
+    "name": "SNOW JUMP",
+    "ElementType": "Snow",
+    "value": 3,
+    "CardColor": "Red",
+    "description": "Jump through snow for a shortcut."
+  },
+  {
+    "cardId": 253,
+    "name": "FIRE DASH",
+    "ElementType": "Fire",
+    "value": 8,
+    "CardColor": "Orange",
+    "description": "Dash through fire for a surprise."
+  },
+  {
+    "cardId": 254,
+    "name": "WATER BURST",
+    "ElementType": "Water",
+    "value": 1,
+    "CardColor": "Purple",
+    "description": "Burst of water boosts your move."
+  },
+  {
+    "cardId": 255,
+    "name": "SNOW SWIRL",
+    "ElementType": "Snow",
+    "value": 9,
+    "CardColor": "Yellow",
+    "description": "Swirl of snow spins the game."
+  },
+  {
+    "cardId": 256,
+    "name": "FIRE SPIN",
+    "ElementType": "Fire",
+    "value": 4,
+    "CardColor": "Green",
+    "description": "Spin of fire dazzles your rival."
+  },
+  {
+    "cardId": 257,
+    "name": "WATER FLIP",
+    "ElementType": "Water",
+    "value": 7,
+    "CardColor": "Blue",
+    "description": "Flip through water for fun."
+  },
+  {
+    "cardId": 258,
+    "name": "SNOW BANK",
+    "ElementType": "Snow",
+    "value": 2,
+    "CardColor": "Red",
+    "description": "Bank of snow offers a defense."
+  },
+  {
+    "cardId": 259,
+    "name": "FIRE SHIMMER",
+    "ElementType": "Fire",
+    "value": 8,
+    "CardColor": "Orange",
+    "description": "Shimmering fire dazzles the crowd."
+  },
+  {
+    "cardId": 260,
+    "name": "WATER DANCE",
+    "ElementType": "Water",
+    "value": 5,
+    "CardColor": "Purple",
+    "description": "Dance with water for style."
+  },
+  {
+    "cardId": 261,
+    "name": "SNOW STORM",
+    "ElementType": "Snow",
+    "value": 1,
+    "CardColor": "Yellow",
+    "description": "A storm of snow shakes the field."
+  },
+  {
+    "cardId": 262,
+    "name": "FIRE FLICKER",
+    "ElementType": "Fire",
+    "value": 9,
+    "CardColor": "Green",
+    "description": "A flicker of fire signals hope."
+  },
+  {
+    "cardId": 263,
+    "name": "WATER HOP",
+    "ElementType": "Water",
+    "value": 6,
+    "CardColor": "Blue",
+    "description": "Hop through water for a shortcut."
+  },
+  {
+    "cardId": 264,
+    "name": "SNOW PATCH",
+    "ElementType": "Snow",
+    "value": 3,
+    "CardColor": "Red",
+    "description": "A patch of snow slows foes."
+  },
+  {
+    "cardId": 265,
+    "name": "FIRE BLAZE",
+    "ElementType": "Fire",
+    "value": 8,
+    "CardColor": "Orange",
+    "description": "Blaze of fire lights the way."
+  },
+  {
+    "cardId": 266,
+    "name": "WATER SPLASH",
+    "ElementType": "Water",
+    "value": 2,
+    "CardColor": "Purple",
+    "description": "Splash of water surprises."
+  },
+  {
+    "cardId": 267,
+    "name": "SNOW FLURRY",
+    "ElementType": "Snow",
+    "value": 9,
+    "CardColor": "Yellow",
+    "description": "A flurry of snow spins the round."
+  },
+  {
+    "cardId": 268,
+    "name": "FIRE FLASH",
+    "ElementType": "Fire",
+    "value": 4,
+    "CardColor": "Green",
+    "description": "A flash of fire startles the team."
+  },
+  {
+    "cardId": 269,
+    "name": "WATER SWEEP",
+    "ElementType": "Water",
+    "value": 7,
+    "CardColor": "Blue",
+    "description": "Sweep water for a clean approach."
+  },
+  {
+    "cardId": 270,
+    "name": "SNOW TRAIL",
+    "ElementType": "Snow",
+    "value": 2,
+    "CardColor": "Red",
+    "description": "Trail of snow confuses the foe."
+  },
+  {
+    "cardId": 271,
+    "name": "FIRE CRACKLE",
+    "ElementType": "Fire",
+    "value": 9,
+    "CardColor": "Orange",
+    "description": "Crackling fire signals readiness."
+  },
+  {
+    "cardId": 272,
+    "name": "WATER DANCE",
+    "ElementType": "Water",
+    "value": 5,
+    "CardColor": "Purple",
+    "description": "Dance with water for flair."
+  },
+  {
+    "cardId": 273,
+    "name": "SNOW BANK",
+    "ElementType": "Snow",
+    "value": 1,
+    "CardColor": "Yellow",
+    "description": "Bank of snow shields your squad."
+  },
+  {
+    "cardId": 274,
+    "name": "FIRE SHIMMER",
+    "ElementType": "Fire",
+    "value": 8,
+    "CardColor": "Green",
+    "description": "Shimmering fire signals attack."
+  },
+  {
+    "cardId": 275,
+    "name": "WATER BURST",
+    "ElementType": "Water",
+    "value": 6,
+    "CardColor": "Blue",
+    "description": "Burst of water shakes the game."
+  },
+  {
+    "cardId": 276,
+    "name": "SNOW DRIFT",
+    "ElementType": "Snow",
+    "value": 4,
+    "CardColor": "Red",
+    "description": "Drift of snow slows the round."
+  },
+  {
+    "cardId": 277,
+    "name": "FIRE POP",
+    "ElementType": "Fire",
+    "value": 8,
+    "CardColor": "Orange",
+    "description": "Pop of fire signals your moment."
+  },
+  {
+    "cardId": 278,
+    "name": "WATER FLIP",
+    "ElementType": "Water",
+    "value": 2,
+    "CardColor": "Purple",
+    "description": "Flip through water for surprise."
+  },
+  {
+    "cardId": 279,
+    "name": "SNOW SWIRL",
+    "ElementType": "Snow",
+    "value": 9,
+    "CardColor": "Yellow",
+    "description": "Swirl of snow spins the opposition."
+  },
+  {
+    "cardId": 280,
+    "name": "FIRE SPIN",
+    "ElementType": "Fire",
+    "value": 4,
+    "CardColor": "Green",
+    "description": "Spin of fire dazzles the field."
+  },
+  {
+    "cardId": 281,
+    "name": "WATER JUMP",
+    "ElementType": "Water",
+    "value": 7,
+    "CardColor": "Blue",
+    "description": "Jump through water for a shortcut."
+  },
+  {
+    "cardId": 282,
+    "name": "SNOW PATCH",
+    "ElementType": "Snow",
+    "value": 2,
+    "CardColor": "Red",
+    "description": "Patch of snow slows the attack."
+  },
+  {
+    "cardId": 283,
+    "name": "FIRE BLAZE",
+    "ElementType": "Fire",
+    "value": 9,
+    "CardColor": "Orange",
+    "description": "Blaze of fire signals a change."
+  },
+  {
+    "cardId": 284,
+    "name": "WATER SPLASH",
+    "ElementType": "Water",
+    "value": 5,
+    "CardColor": "Purple",
+    "description": "Splash of water cools the round."
+  },
+  {
+    "cardId": 285,
+    "name": "SNOW FLURRY",
+    "ElementType": "Snow",
+    "value": 1,
+    "CardColor": "Yellow",
+    "description": "A flurry of snow spins the field."
+  },
+  {
+    "cardId": 286,
+    "name": "FIRE FLASH",
+    "ElementType": "Fire",
+    "value": 8,
+    "CardColor": "Green",
+    "description": "A flash of fire signals your move."
+  },
+  {
+    "cardId": 287,
+    "name": "WATER SWEEP",
+    "ElementType": "Water",
+    "value": 6,
+    "CardColor": "Blue",
+    "description": "Sweep water for a clean play."
+  },
+  {
+    "cardId": 288,
+    "name": "SNOW BANK",
+    "ElementType": "Snow",
+    "value": 4,
+    "CardColor": "Red",
+    "description": "Bank of snow covers your tracks."
+  },
+  {
+    "cardId": 289,
+    "name": "FIRE SHIMMER",
+    "ElementType": "Fire",
+    "value": 9,
+    "CardColor": "Orange",
+    "description": "Shimmering fire dazzles the field."
+  },
+  {
+    "cardId": 290,
+    "name": "WATER DANCE",
+    "ElementType": "Water",
+    "value": 2,
+    "CardColor": "Purple",
+    "description": "Dance with water for style."
+  },
+  {
+    "cardId": 291,
+    "name": "SNOW STORM",
+    "ElementType": "Snow",
+    "value": 4,
+    "CardColor": "Yellow",
+    "description": "A storm of snow shakes the round."
+  },
+  {
+    "cardId": 292,
+    "name": "FIRE FLICKER",
+    "ElementType": "Fire",
+    "value": 8,
+    "CardColor": "Green",
+    "description": "A flicker of fire signals your turn."
+  },
+  {
+    "cardId": 293,
+    "name": "WATER HOP",
+    "ElementType": "Water",
+    "value": 6,
+    "CardColor": "Blue",
+    "description": "Hop through water for a shortcut."
+  },
+  {
+    "cardId": 294,
+    "name": "SNOW PATCH",
+    "ElementType": "Snow",
+    "value": 2,
+    "CardColor": "Red",
+    "description": "Patch of snow slows foes."
+  },
+  {
+    "cardId": 295,
+    "name": "FIRE BLAZE",
+    "ElementType": "Fire",
+    "value": 8,
+    "CardColor": "Orange",
+    "description": "Blaze of fire lights the round."
+  },
+  {
+    "cardId": 296,
+    "name": "WATER SPLASH",
+    "ElementType": "Water",
+    "value": 5,
+    "CardColor": "Purple",
+    "description": "Splash of water cools the game."
+  },
+  {
+    "cardId": 297,
+    "name": "SNOW FLURRY",
+    "ElementType": "Snow",
+    "value": 9,
+    "CardColor": "Yellow",
+    "description": "A flurry of snow spins your move."
+  },
+  {
+    "cardId": 298,
+    "name": "FIRE FLASH",
+    "ElementType": "Fire",
+    "value": 4,
+    "CardColor": "Green",
+    "description": "A flash of fire startles your foe."
+  },
+  {
+    "cardId": 299,
+    "name": "WATER SWEEP",
+    "ElementType": "Water",
+    "value": 7,
+    "CardColor": "Blue",
+    "description": "Sweep water for a clean round."
+  },
+  {
+    "cardId": 300,
+    "name": "SNOW BANK",
+    "ElementType": "Snow",
+    "value": 2,
+    "CardColor": "Red",
+    "description": "Bank of snow shields your team."
+  },
+  {
+    "cardId": 301,
+    "name": "SNOW MOUND",
+    "ElementType": "Snow",
+    "value": 1,
+    "CardColor": "Green",
+    "description": "A mound of snow provides cover for your team."
+  },
+  {
+    "cardId": 302,
+    "name": "FIRE ROCKET",
+    "ElementType": "Fire",
+    "value": 9,
+    "CardColor": "Blue",
+    "description": "Rocket through the flames to surprise your opponent."
+  },
+  {
+    "cardId": 303,
+    "name": "WATER RING",
+    "ElementType": "Water",
+    "value": 6,
+    "CardColor": "Red",
+    "description": "A ring of water surrounds and protects you."
+  },
+  {
+    "cardId": 304,
+    "name": "SNOWY PATH",
+    "ElementType": "Snow",
+    "value": 8,
+    "CardColor": "Orange",
+    "description": "A snowy path leads to unexpected places."
+  },
+  {
+    "cardId": 305,
+    "name": "FIRE FLIGHT",
+    "ElementType": "Fire",
+    "value": 5,
+    "CardColor": "Yellow",
+    "description": "Fly through fire for a swift attack."
+  },
+  {
+    "cardId": 306,
+    "name": "WATER STREAM",
+    "ElementType": "Water",
+    "value": 2,
+    "CardColor": "Purple",
+    "description": "A stream of water flows quickly across the arena."
+  },
+  {
+    "cardId": 307,
+    "name": "SNOW TRAIL",
+    "ElementType": "Snow",
+    "value": 7,
+    "CardColor": "Green",
+    "description": "Leave a snowy trail to confuse your rivals."
+  },
+  {
+    "cardId": 308,
+    "name": "FIRE POP",
+    "ElementType": "Fire",
+    "value": 3,
+    "CardColor": "Blue",
+    "description": "A pop of fire signals your next move."
+  },
+  {
+    "cardId": 309,
+    "name": "WATER BUBBLE",
+    "ElementType": "Water",
+    "value": 8,
+    "CardColor": "Red",
+    "description": "A bubble of water floats and bursts with excitement."
+  },
+  {
+    "cardId": 310,
+    "name": "SNOW COVER",
+    "ElementType": "Snow",
+    "value": 4,
+    "CardColor": "Orange",
+    "description": "Snow covers the arena, hiding your strategy."
+  },
+  {
+    "cardId": 311,
+    "name": "FIRE BLADE",
+    "ElementType": "Fire",
+    "value": 6,
+    "CardColor": "Yellow",
+    "description": "A blade of fire cuts through obstacles."
+  },
+  {
+    "cardId": 312,
+    "name": "WATER WHIRLPOOL",
+    "ElementType": "Water",
+    "value": 1,
+    "CardColor": "Purple",
+    "description": "A whirlpool of water pulls opponents in."
+  },
+  {
+    "cardId": 313,
+    "name": "SNOW BLIZZARD",
+    "ElementType": "Snow",
+    "value": 9,
+    "CardColor": "Green",
+    "description": "A blizzard of snow blocks the way."
+  },
+  {
+    "cardId": 314,
+    "name": "FIRE SHIMMER",
+    "ElementType": "Fire",
+    "value": 2,
+    "CardColor": "Blue",
+    "description": "Shimmering fire dazzles your foes."
+  },
+  {
+    "cardId": 315,
+    "name": "WATER FLOW",
+    "ElementType": "Water",
+    "value": 7,
+    "CardColor": "Red",
+    "description": "Flowing water changes the course of battle."
+  },
+  {
+    "cardId": 316,
+    "name": "SNOW PILE",
+    "ElementType": "Snow",
+    "value": 5,
+    "CardColor": "Orange",
+    "description": "Pile up snow for extra defense."
+  },
+  {
+    "cardId": 317,
+    "name": "FIRE DASH",
+    "ElementType": "Fire",
+    "value": 8,
+    "CardColor": "Yellow",
+    "description": "Dash through the flames with speed."
+  },
+  {
+    "cardId": 318,
+    "name": "WATER CRASH",
+    "ElementType": "Water",
+    "value": 3,
+    "CardColor": "Purple",
+    "description": "Crash of water shakes your opponents."
+  },
+  {
+    "cardId": 319,
+    "name": "SNOW PATCH",
+    "ElementType": "Snow",
+    "value": 6,
+    "CardColor": "Green",
+    "description": "A patch of snow slows down the enemy."
+  },
+  {
+    "cardId": 320,
+    "name": "FIRE BURST",
+    "ElementType": "Fire",
+    "value": 4,
+    "CardColor": "Blue",
+    "description": "Bursting fire energizes your team."
+  },
+  {
+    "cardId": 321,
+    "name": "WATER RIPPLE",
+    "ElementType": "Water",
+    "value": 9,
+    "CardColor": "Red",
+    "description": "Ripples of water distract the opposition."
+  },
+  {
+    "cardId": 322,
+    "name": "SNOW SWEEP",
+    "ElementType": "Snow",
+    "value": 2,
+    "CardColor": "Orange",
+    "description": "Sweep snow to clear your path."
+  },
+  {
+    "cardId": 323,
+    "name": "FIRE SPARK",
+    "ElementType": "Fire",
+    "value": 7,
+    "CardColor": "Yellow",
+    "description": "A spark of fire ignites your spirit."
+  },
+  {
+    "cardId": 324,
+    "name": "WATER SURGE",
+    "ElementType": "Water",
+    "value": 8,
+    "CardColor": "Purple",
+    "description": "Surging water overtakes the field."
+  },
+  {
+    "cardId": 325,
+    "name": "SNOW BANK",
+    "ElementType": "Snow",
+    "value": 1,
+    "CardColor": "Green",
+    "description": "A snow bank offers reliable defense."
+  },
+  {
+    "cardId": 326,
+    "name": "FIRE WHIRL",
+    "ElementType": "Fire",
+    "value": 6,
+    "CardColor": "Blue",
+    "description": "Whirl of fire spins the round."
+  },
+  {
+    "cardId": 327,
+    "name": "WATER SHIELD",
+    "ElementType": "Water",
+    "value": 5,
+    "CardColor": "Red",
+    "description": "Water shield protects from attacks."
+  },
+  {
+    "cardId": 328,
+    "name": "SNOW LAYER",
+    "ElementType": "Snow",
+    "value": 4,
+    "CardColor": "Orange",
+    "description": "Layer of snow makes the ground slippery."
+  },
+  {
+    "cardId": 329,
+    "name": "FIRE GLOW",
+    "ElementType": "Fire",
+    "value": 2,
+    "CardColor": "Yellow",
+    "description": "A glow of fire lights the way."
+  },
+  {
+    "cardId": 330,
+    "name": "WATER SNEAK",
+    "ElementType": "Water",
+    "value": 7,
+    "CardColor": "Purple",
+    "description": "Sneak through water for a stealthy approach."
+  },
+  {
+    "cardId": 331,
+    "name": "SNOW JUMP",
+    "ElementType": "Snow",
+    "value": 8,
+    "CardColor": "Green",
+    "description": "Jump through snow for a shortcut."
+  },
+  {
+    "cardId": 332,
+    "name": "FIRE BEAM",
+    "ElementType": "Fire",
+    "value": 3,
+    "CardColor": "Blue",
+    "description": "A beam of fire clears obstacles."
+  },
+  {
+    "cardId": 333,
+    "name": "WATER MIST",
+    "ElementType": "Water",
+    "value": 6,
+    "CardColor": "Red",
+    "description": "Misty water clouds the arena."
+  },
+  {
+    "cardId": 334,
+    "name": "SNOW FLURRY",
+    "ElementType": "Snow",
+    "value": 5,
+    "CardColor": "Orange",
+    "description": "A flurry of snow confuses your opponents."
+  },
+  {
+    "cardId": 335,
+    "name": "FIRE FLASH",
+    "ElementType": "Fire",
+    "value": 1,
+    "CardColor": "Yellow",
+    "description": "A flash of fire signals a change in tactics."
+  },
+  {
+    "cardId": 336,
+    "name": "WATER PUDDLE",
+    "ElementType": "Water",
+    "value": 9,
+    "CardColor": "Purple",
+    "description": "Step in a puddle to slow your foes."
+  },
+  {
+    "cardId": 337,
+    "name": "SNOW ANGEL",
+    "ElementType": "Snow",
+    "value": 7,
+    "CardColor": "Green",
+    "description": "Make a snow angel for good luck."
+  },
+  {
+    "cardId": 338,
+    "name": "FIRE CRACKLE",
+    "ElementType": "Fire",
+    "value": 8,
+    "CardColor": "Blue",
+    "description": "Crackling fire inspires your team."
+  },
+  {
+    "cardId": 339,
+    "name": "WATER STREAM",
+    "ElementType": "Water",
+    "value": 4,
+    "CardColor": "Red",
+    "description": "A stream of water flows quickly."
+  },
+  {
+    "cardId": 340,
+    "name": "SNOW COVER",
+    "ElementType": "Snow",
+    "value": 2,
+    "CardColor": "Orange",
+    "description": "Snow cover hides your intentions."
+  },
+  {
+    "cardId": 341,
+    "name": "FIRE DASH",
+    "ElementType": "Fire",
+    "value": 5,
+    "CardColor": "Yellow",
+    "description": "Dash through fire for a surprise attack."
+  },
+  {
+    "cardId": 342,
+    "name": "WATER SWEEP",
+    "ElementType": "Water",
+    "value": 6,
+    "CardColor": "Purple",
+    "description": "Sweep with water for a clean round."
+  },
+  {
+    "cardId": 343,
+    "name": "SNOW TRAIL",
+    "ElementType": "Snow",
+    "value": 1,
+    "CardColor": "Green",
+    "description": "Leave a snowy trail to confuse rivals."
+  },
+  {
+    "cardId": 344,
+    "name": "FIRE POP",
+    "ElementType": "Fire",
+    "value": 9,
+    "CardColor": "Blue",
+    "description": "A pop of fire startles your opponent."
+  },
+  {
+    "cardId": 345,
+    "name": "WATER WHIRL",
+    "ElementType": "Water",
+    "value": 8,
+    "CardColor": "Red",
+    "description": "Whirl of water spins the opposition."
+  },
+  {
+    "cardId": 346,
+    "name": "SNOW BLIZZARD",
+    "ElementType": "Snow",
+    "value": 7,
+    "CardColor": "Orange",
+    "description": "A blizzard of snow covers the arena."
+  },
+  {
+    "cardId": 347,
+    "name": "FIRE SHIMMER",
+    "ElementType": "Fire",
+    "value": 2,
+    "CardColor": "Yellow",
+    "description": "Shimmering fire dazzles your foes."
+  },
+  {
+    "cardId": 348,
+    "name": "WATER DANCE",
+    "ElementType": "Water",
+    "value": 3,
+    "CardColor": "Purple",
+    "description": "Dance with water for style."
+  },
+  {
+    "cardId": 349,
+    "name": "SNOW PATCH",
+    "ElementType": "Snow",
+    "value": 8,
+    "CardColor": "Green",
+    "description": "A patch of snow slows down the enemy."
+  },
+  {
+    "cardId": 350,
+    "name": "FIRE WHIRL",
+    "ElementType": "Fire",
+    "value": 5,
+    "CardColor": "Blue",
+    "description": "Whirl of fire spins the round."
+  },
+  {
+    "cardId": 351,
+    "name": "WATER BURST",
+    "ElementType": "Water",
+    "value": 4,
+    "CardColor": "Red",
+    "description": "A burst of water surprises everyone."
+  },
+  {
+    "cardId": 352,
+    "name": "SNOW LAYER",
+    "ElementType": "Snow",
+    "value": 7,
+    "CardColor": "Orange",
+    "description": "Snow layers on top for protection."
+  },
+  {
+    "cardId": 353,
+    "name": "FIRE GLOW",
+    "ElementType": "Fire",
+    "value": 3,
+    "CardColor": "Yellow",
+    "description": "A glow of fire lights the way."
+  },
+  {
+    "cardId": 354,
+    "name": "WATER SNEAK",
+    "ElementType": "Water",
+    "value": 6,
+    "CardColor": "Purple",
+    "description": "Sneak through water for a stealthy approach."
+  },
+  {
+    "cardId": 355,
+    "name": "SNOW JUMP",
+    "ElementType": "Snow",
+    "value": 2,
+    "CardColor": "Green",
+    "description": "Jump through snow for a shortcut."
+  },
+  {
+    "cardId": 356,
+    "name": "FIRE BEAM",
+    "ElementType": "Fire",
+    "value": 8,
+    "CardColor": "Blue",
+    "description": "A beam of fire clears obstacles."
+  },
+  {
+    "cardId": 357,
+    "name": "WATER MIST",
+    "ElementType": "Water",
+    "value": 1,
+    "CardColor": "Red",
+    "description": "Misty water clouds the arena."
+  },
+  {
+    "cardId": 358,
+    "name": "SNOW FLURRY",
+    "ElementType": "Snow",
+    "value": 9,
+    "CardColor": "Orange",
+    "description": "A flurry of snow confuses your opponents."
+  },
+  {
+    "cardId": 359,
+    "name": "FIRE FLASH",
+    "ElementType": "Fire",
+    "value": 6,
+    "CardColor": "Yellow",
+    "description": "A flash of fire signals a change in tactics."
+  },
+  {
+    "cardId": 360,
+    "name": "WATER PUDDLE",
+    "ElementType": "Water",
+    "value": 5,
+    "CardColor": "Purple",
+    "description": "Step in a puddle to slow your foes."
+  },
+  {
+    "cardId": 361,
+    "name": "SNOW ANGEL",
+    "ElementType": "Snow",
+    "value": 4,
+    "CardColor": "Green",
+    "description": "Make a snow angel for good luck."
+  },
+  {
+    "cardId": 362,
+    "name": "FIRE CRACKLE",
+    "ElementType": "Fire",
+    "value": 7,
+    "CardColor": "Blue",
+    "description": "Crackling fire inspires your team."
+  },
+  {
+    "cardId": 363,
+    "name": "WATER STREAM",
+    "ElementType": "Water",
+    "value": 2,
+    "CardColor": "Red",
+    "description": "A stream of water flows quickly."
+  },
+  {
+    "cardId": 364,
+    "name": "SNOW COVER",
+    "ElementType": "Snow",
+    "value": 9,
+    "CardColor": "Orange",
+    "description": "Snow cover hides your intentions."
+  },
+  {
+    "cardId": 365,
+    "name": "FIRE DASH",
+    "ElementType": "Fire",
+    "value": 5,
+    "CardColor": "Yellow",
+    "description": "Dash through fire for a surprise attack."
+  },
+  {
+    "cardId": 366,
+    "name": "WATER SWEEP",
+    "ElementType": "Water",
+    "value": 6,
+    "CardColor": "Purple",
+    "description": "Sweep with water for a clean round."
+  },
+  {
+    "cardId": 367,
+    "name": "SNOW TRAIL",
+    "ElementType": "Snow",
+    "value": 1,
+    "CardColor": "Green",
+    "description": "Leave a snowy trail to confuse rivals."
+  },
+  {
+    "cardId": 368,
+    "name": "FIRE POP",
+    "ElementType": "Fire",
+    "value": 8,
+    "CardColor": "Blue",
+    "description": "A pop of fire startles your opponent."
+  },
+  {
+    "cardId": 369,
+    "name": "WATER WHIRL",
+    "ElementType": "Water",
+    "value": 7,
+    "CardColor": "Red",
+    "description": "Whirl of water spins the opposition."
+  },
+  {
+    "cardId": 370,
+    "name": "SNOW BLIZZARD",
+    "ElementType": "Snow",
+    "value": 4,
+    "CardColor": "Orange",
+    "description": "A blizzard of snow covers the arena."
+  },
+  {
+    "cardId": 371,
+    "name": "FIRE SHIMMER",
+    "ElementType": "Fire",
+    "value": 2,
+    "CardColor": "Yellow",
+    "description": "Shimmering fire dazzles your foes."
+  },
+  {
+    "cardId": 372,
+    "name": "WATER DANCE",
+    "ElementType": "Water",
+    "value": 3,
+    "CardColor": "Purple",
+    "description": "Dance with water for style."
+  },
+  {
+    "cardId": 373,
+    "name": "SNOW PATCH",
+    "ElementType": "Snow",
+    "value": 8,
+    "CardColor": "Green",
+    "description": "A patch of snow slows down the enemy."
+  },
+  {
+    "cardId": 374,
+    "name": "FIRE WHIRL",
+    "ElementType": "Fire",
+    "value": 5,
+    "CardColor": "Blue",
+    "description": "Whirl of fire spins the round."
+  },
+  {
+    "cardId": 375,
+    "name": "WATER BURST",
+    "ElementType": "Water",
+    "value": 4,
+    "CardColor": "Red",
+    "description": "A burst of water surprises everyone."
+  },
+  {
+    "cardId": 376,
+    "name": "SNOW LAYER",
+    "ElementType": "Snow",
+    "value": 7,
+    "CardColor": "Orange",
+    "description": "Snow layers on top for protection."
+  },
+  {
+    "cardId": 377,
+    "name": "FIRE GLOW",
+    "ElementType": "Fire",
+    "value": 3,
+    "CardColor": "Yellow",
+    "description": "A glow of fire lights the way."
+  },
+  {
+    "cardId": 378,
+    "name": "WATER SNEAK",
+    "ElementType": "Water",
+    "value": 6,
+    "CardColor": "Purple",
+    "description": "Sneak through water for a stealthy approach."
+  },
+  {
+    "cardId": 379,
+    "name": "SNOW JUMP",
+    "ElementType": "Snow",
+    "value": 2,
+    "CardColor": "Green",
+    "description": "Jump through snow for a shortcut."
+  },
+  {
+    "cardId": 380,
+    "name": "FIRE BEAM",
+    "ElementType": "Fire",
+    "value": 8,
+    "CardColor": "Blue",
+    "description": "A beam of fire clears obstacles."
+  },
+  {
+    "cardId": 381,
+    "name": "WATER MIST",
+    "ElementType": "Water",
+    "value": 1,
+    "CardColor": "Red",
+    "description": "Misty water clouds the arena."
+  },
+  {
+    "cardId": 382,
+    "name": "SNOW FLURRY",
+    "ElementType": "Snow",
+    "value": 9,
+    "CardColor": "Orange",
+    "description": "A flurry of snow confuses your opponents."
+  },
+  {
+    "cardId": 383,
+    "name": "FIRE FLASH",
+    "ElementType": "Fire",
+    "value": 6,
+    "CardColor": "Yellow",
+    "description": "A flash of fire signals a change in tactics."
+  },
+  {
+    "cardId": 384,
+    "name": "WATER PUDDLE",
+    "ElementType": "Water",
+    "value": 5,
+    "CardColor": "Purple",
+    "description": "Step in a puddle to slow your foes."
+  },
+  {
+    "cardId": 385,
+    "name": "SNOW ANGEL",
+    "ElementType": "Snow",
+    "value": 4,
+    "CardColor": "Green",
+    "description": "Make a snow angel for good luck."
+  },
+  {
+    "cardId": 386,
+    "name": "FIRE CRACKLE",
+    "ElementType": "Fire",
+    "value": 7,
+    "CardColor": "Blue",
+    "description": "Crackling fire inspires your team."
+  },
+  {
+    "cardId": 387,
+    "name": "WATER STREAM",
+    "ElementType": "Water",
+    "value": 2,
+    "CardColor": "Red",
+    "description": "A stream of water flows quickly."
+  },
+  {
+    "cardId": 388,
+    "name": "SNOW COVER",
+    "ElementType": "Snow",
+    "value": 9,
+    "CardColor": "Orange",
+    "description": "Snow cover hides your intentions."
+  },
+  {
+    "cardId": 389,
+    "name": "FIRE DASH",
+    "ElementType": "Fire",
+    "value": 5,
+    "CardColor": "Yellow",
+    "description": "Dash through fire for a surprise attack."
+  },
+  {
+    "cardId": 390,
+    "name": "WATER SWEEP",
+    "ElementType": "Water",
+    "value": 6,
+    "CardColor": "Purple",
+    "description": "Sweep with water for a clean round."
+  },
+  {
+    "cardId": 391,
+    "name": "SNOW TRAIL",
+    "ElementType": "Snow",
+    "value": 1,
+    "CardColor": "Green",
+    "description": "Leave a snowy trail to confuse rivals."
+  },
+  {
+    "cardId": 392,
+    "name": "FIRE POP",
+    "ElementType": "Fire",
+    "value": 8,
+    "CardColor": "Blue",
+    "description": "A pop of fire startles your opponent."
+  },
+  {
+    "cardId": 393,
+    "name": "WATER WHIRL",
+    "ElementType": "Water",
+    "value": 7,
+    "CardColor": "Red",
+    "description": "Whirl of water spins the opposition."
+  },
+  {
+    "cardId": 394,
+    "name": "SNOW BLIZZARD",
+    "ElementType": "Snow",
+    "value": 4,
+    "CardColor": "Orange",
+    "description": "A blizzard of snow covers the arena."
+  },
+  {
+    "cardId": 395,
+    "name": "FIRE SHIMMER",
+    "ElementType": "Fire",
+    "value": 2,
+    "CardColor": "Yellow",
+    "description": "Shimmering fire dazzles your foes."
+  },
+  {
+    "cardId": 396,
+    "name": "WATER DANCE",
+    "ElementType": "Water",
+    "value": 3,
+    "CardColor": "Purple",
+    "description": "Dance with water for style."
+  },
+  {
+    "cardId": 397,
+    "name": "SNOW PATCH",
+    "ElementType": "Snow",
+    "value": 8,
+    "CardColor": "Green",
+    "description": "A patch of snow slows down the enemy."
+  },
+  {
+    "cardId": 398,
+    "name": "FIRE WHIRL",
+    "ElementType": "Fire",
+    "value": 5,
+    "CardColor": "Blue",
+    "description": "Whirl of fire spins the round."
+  },
+  {
+    "cardId": 399,
+    "name": "WATER BURST",
+    "ElementType": "Water",
+    "value": 4,
+    "CardColor": "Red",
+    "description": "A burst of water surprises everyone."
+  },
+  {
+    "cardId": 400,
+    "name": "SNOW LAYER",
+    "ElementType": "Snow",
+    "value": 7,
+    "CardColor": "Orange",
+    "description": "Snow layers on top for protection."
+  },
+  {
+    "cardId": 401,
+    "name": "FIRE WALL",
+    "ElementType": "Fire",
+    "value": 11,
+    "CardColor": "Orange",
+    "description": "A wall of fire blocks your opponent's next move.",
+    "PowerCardEffectType": "BlockWaterNextTurnOpponent"
+  },
+  {
+    "cardId": 402,
+    "name": "SNOWSTORM",
+    "ElementType": "Snow",
+    "value": 10,
+    "CardColor": "Purple",
+    "description": "A sudden snowstorm covers the arena, changing the game.",
+    "PowerCardEffectType": "ChangeFireToSnowThisTurnOpponent"
+  },
+  {
+    "cardId": 403,
+    "name": "WATERFALL",
+    "ElementType": "Water",
+    "value": 12,
+    "CardColor": "Blue",
+    "description": "A powerful waterfall sweeps away obstacles.",
+    "PowerCardEffectType": "DiscardRandomFireCardOpponent"
+  },
+  {
+    "cardId": 404,
+    "name": "FIRE SPIN",
+    "ElementType": "Fire",
+    "value": 9,
+    "CardColor": "Red",
+    "description": "Spin of fire reverses the flow of battle.",
+    "PowerCardEffectType": "PowerReverse"
+  },
+  {
+    "cardId": 405,
+    "name": "SNOW SHIELD",
+    "ElementType": "Snow",
+    "value": 12,
+    "CardColor": "Green",
+    "description": "A shield of snow protects you from harm.",
+    "PowerCardEffectType": "BlockFireNextTurnOpponent"
+  },
+  {
+    "cardId": 406,
+    "name": "WATER BLAST",
+    "ElementType": "Water",
+    "value": 10,
+    "CardColor": "Yellow",
+    "description": "A blast of water clears the way.",
+    "PowerCardEffectType": "NextCardValueUp2User"
+  },
+  {
+    "cardId": 407,
+    "name": "FIRE WHIRL",
+    "ElementType": "Fire",
+    "value": 12,
+    "CardColor": "Purple",
+    "description": "Whirling fire disrupts your opponent.",
+    "PowerCardEffectType": "DiscardAllRedOpponentCards"
+  },
+  {
+    "cardId": 408,
+    "name": "SNOW BLOCK",
+    "ElementType": "Snow",
+    "value": 9,
+    "CardColor": "Blue",
+    "description": "Block with snow and slow your foe.",
+    "PowerCardEffectType": "BlockSnowNextTurnOpponent"
+  },
+  {
+    "cardId": 409,
+    "name": "WATER SHIELD",
+    "ElementType": "Water",
+    "value": 11,
+    "CardColor": "Red",
+    "description": "A shield of water protects you.",
+    "PowerCardEffectType": "DiscardRandomGreenCardOpponent"
+  },
+  {
+    "cardId": 410,
+    "name": "FIRE STORM",
+    "ElementType": "Fire",
+    "value": 10,
+    "CardColor": "Orange",
+    "description": "A storm of fire changes the battle.",
+    "PowerCardEffectType": "LowerValueCardWins"
+  },
+  {
+    "cardId": 411,
+    "name": "WATER PULSE",
+    "ElementType": "Water",
+    "value": 10,
+    "CardColor": "Purple",
+    "description": "A powerful water pulse shakes the ground.",
+    "PowerCardEffectType": "ChangeSnowToWaterThisTurnOpponent"
+  },
+  {
+    "cardId": 412,
+    "name": "SNOW FRENZY",
+    "ElementType": "Snow",
+    "value": 11,
+    "CardColor": "Green",
+    "description": "A snow frenzy takes over the arena.",
+    "PowerCardEffectType": "DiscardRandomBlueCardOpponent"
+  },
+  {
+    "cardId": 413,
+    "name": "FIRE WISP",
+    "ElementType": "Fire",
+    "value": 12,
+    "CardColor": "Blue",
+    "description": "A wisp of fire forces a discard.",
+    "PowerCardEffectType": "DiscardRandomFireCardOpponent"
+  },
+  {
+    "cardId": 414,
+    "name": "WATER BARRIER",
+    "ElementType": "Water",
+    "value": 9,
+    "CardColor": "Red",
+    "description": "A water barrier blocks all snow cards.",
+    "PowerCardEffectType": "BlockSnowNextTurnOpponent"
+  },
+  {
+    "cardId": 415,
+    "name": "SNOW ROLL",
+    "ElementType": "Snow",
+    "value": 10,
+    "CardColor": "Orange",
+    "description": "Roll of snow changes strategy.",
+    "PowerCardEffectType": "PowerReverse"
+  },
+  {
+    "cardId": 416,
+    "name": "FIRE SHIELD",
+    "ElementType": "Fire",
+    "value": 11,
+    "CardColor": "Yellow",
+    "description": "A shield of fire protects you.",
+    "PowerCardEffectType": "BlockWaterNextTurnOpponent"
+  },
+  {
+    "cardId": 417,
+    "name": "WATER VORTEX",
+    "ElementType": "Water",
+    "value": 12,
+    "CardColor": "Purple",
+    "description": "The vortex pulls in fire cards.",
+    "PowerCardEffectType": "DiscardRandomFireCardOpponent"
+  },
+  {
+    "cardId": 418,
+    "name": "SNOW CRUSH",
+    "ElementType": "Snow",
+    "value": 9,
+    "CardColor": "Green",
+    "description": "Crush the enemy with snow.",
+    "PowerCardEffectType": "DiscardRandomYellowCardOpponent"
+  },
+  {
+    "cardId": 419,
+    "name": "FIRE PULSE",
+    "ElementType": "Fire",
+    "value": 10,
+    "CardColor": "Blue",
+    "description": "Pulse through fire for a strong attack.",
+    "PowerCardEffectType": "NextCardValueDown2Opponent"
+  },
+  {
+    "cardId": 420,
+    "name": "WATER SHOWER",
+    "ElementType": "Water",
+    "value": 11,
+    "CardColor": "Red",
+    "description": "A water shower blocks fire.",
+    "PowerCardEffectType": "BlockFireNextTurnOpponent"
+  },
+  {
+    "cardId": 421,
+    "name": "SNOW FLARE",
+    "ElementType": "Snow",
+    "value": 12,
+    "CardColor": "Orange",
+    "description": "Flare of snow wins the round.",
+    "PowerCardEffectType": "LowerValueCardWins"
+  },
+  {
+    "cardId": 422,
+    "name": "FIRE SPARKLE",
+    "ElementType": "Fire",
+    "value": 9,
+    "CardColor": "Yellow",
+    "description": "Sparkle of fire changes snow to water.",
+    "PowerCardEffectType": "ChangeSnowToWaterThisTurnOpponent"
+  },
+  {
+    "cardId": 423,
+    "name": "WATER SPIN",
+    "ElementType": "Water",
+    "value": 10,
+    "CardColor": "Purple",
+    "description": "Spin water to discard blue cards.",
+    "PowerCardEffectType": "DiscardAllBlueOpponentCards"
+  },
+  {
+    "cardId": 424,
+    "name": "SNOW BARRIER",
+    "ElementType": "Snow",
+    "value": 11,
+    "CardColor": "Green",
+    "description": "A snow barrier blocks water.",
+    "PowerCardEffectType": "BlockWaterNextTurnOpponent"
+  },
+  {
+    "cardId": 425,
+    "name": "FIRE WHIRL",
+    "ElementType": "Fire",
+    "value": 12,
+    "CardColor": "Blue",
+    "description": "Whirl of fire discards green cards.",
+    "PowerCardEffectType": "DiscardAllGreenOpponentCards"
+  },
+  {
+    "cardId": 426,
+    "name": "WATER SHIELD",
+    "ElementType": "Water",
+    "value": 9,
+    "CardColor": "Red",
+    "description": "Water shield blocks fire cards.",
+    "PowerCardEffectType": "BlockFireNextTurnOpponent"
+  },
+  {
+    "cardId": 427,
+    "name": "SNOW BLAST",
+    "ElementType": "Snow",
+    "value": 10,
+    "CardColor": "Orange",
+    "description": "Blast of snow reverses play.",
+    "PowerCardEffectType": "PowerReverse"
+  },
+  {
+    "cardId": 428,
+    "name": "FIRE SHIELD",
+    "ElementType": "Fire",
+    "value": 11,
+    "CardColor": "Yellow",
+    "description": "A shield of fire blocks snow cards.",
+    "PowerCardEffectType": "BlockSnowNextTurnOpponent"
+  },
+  {
+    "cardId": 429,
+    "name": "WATER WHIRLPOOL",
+    "ElementType": "Water",
+    "value": 12,
+    "CardColor": "Purple",
+    "description": "Whirlpool discards orange cards.",
+    "PowerCardEffectType": "DiscardAllOrangeOpponentCards"
+  },
+  {
+    "cardId": 430,
+    "name": "SNOW SHOWER",
+    "ElementType": "Snow",
+    "value": 9,
+    "CardColor": "Green",
+    "description": "Shower of snow changes fire to snow.",
+    "PowerCardEffectType": "ChangeFireToSnowThisTurnOpponent"
+  },
+  {
+    "cardId": 431,
+    "name": "FIRE BLAST",
+    "ElementType": "Fire",
+    "value": 10,
+    "CardColor": "Blue",
+    "description": "Fire blast discards yellow cards.",
+    "PowerCardEffectType": "DiscardAllYellowOpponentCards"
+  },
+  {
+    "cardId": 432,
+    "name": "WATER VORTEX",
+    "ElementType": "Water",
+    "value": 11,
+    "CardColor": "Red",
+    "description": "Vortex discards purple cards.",
+    "PowerCardEffectType": "DiscardAllPurpleOpponentCards"
+  },
+  {
+    "cardId": 433,
+    "name": "SNOW PULSE",
+    "ElementType": "Snow",
+    "value": 12,
+    "CardColor": "Orange",
+    "description": "Pulse of snow discards random fire card.",
+    "PowerCardEffectType": "DiscardRandomFireCardOpponent"
+  },
+  {
+    "cardId": 434,
+    "name": "FIRE SPARK",
+    "ElementType": "Fire",
+    "value": 9,
+    "CardColor": "Yellow",
+    "description": "Spark of fire discards random snow card.",
+    "PowerCardEffectType": "DiscardRandomSnowCardOpponent"
+  },
+  {
+    "cardId": 435,
+    "name": "WATER SHIELD",
+    "ElementType": "Water",
+    "value": 10,
+    "CardColor": "Purple",
+    "description": "Shield of water discards random blue card.",
+    "PowerCardEffectType": "DiscardRandomBlueCardOpponent"
+  },
+  {
+    "cardId": 436,
+    "name": "SNOW BARRIER",
+    "ElementType": "Snow",
+    "value": 11,
+    "CardColor": "Green",
+    "description": "Snow barrier discards random orange card.",
+    "PowerCardEffectType": "DiscardRandomOrangeCardOpponent"
+  },
+  {
+    "cardId": 437,
+    "name": "FIRE WHIRL",
+    "ElementType": "Fire",
+    "value": 12,
+    "CardColor": "Blue",
+    "description": "Whirl of fire discards random green card.",
+    "PowerCardEffectType": "DiscardRandomGreenCardOpponent"
+  },
+  {
+    "cardId": 438,
+    "name": "WATER BLAST",
+    "ElementType": "Water",
+    "value": 9,
+    "CardColor": "Red",
+    "description": "Blast of water discards random yellow card.",
+    "PowerCardEffectType": "DiscardRandomYellowCardOpponent"
+  },
+  {
+    "cardId": 439,
+    "name": "SNOW SHIELD",
+    "ElementType": "Snow",
+    "value": 10,
+    "CardColor": "Orange",
+    "description": "Shield of snow discards random purple card.",
+    "PowerCardEffectType": "DiscardRandomPurpleCardOpponent"
+  },
+  {
+    "cardId": 440,
+    "name": "FIRE BLAST",
+    "ElementType": "Fire",
+    "value": 11,
+    "CardColor": "Yellow",
+    "description": "Blast of fire reverses effect.",
+    "PowerCardEffectType": "PowerReverse"
+  },
+  {
+    "cardId": 441,
+    "name": "WATER VORTEX",
+    "ElementType": "Water",
+    "value": 12,
+    "CardColor": "Purple",
+    "description": "Vortex of water blocks fire.",
+    "PowerCardEffectType": "BlockFireNextTurnOpponent"
+  },
+  {
+    "cardId": 442,
+    "name": "SNOW SHOWER",
+    "ElementType": "Snow",
+    "value": 9,
+    "CardColor": "Green",
+    "description": "Shower of snow blocks water.",
+    "PowerCardEffectType": "BlockWaterNextTurnOpponent"
+  },
+  {
+    "cardId": 443,
+    "name": "FIRE BARRIER",
+    "ElementType": "Fire",
+    "value": 10,
+    "CardColor": "Blue",
+    "description": "Barrier of fire blocks snow.",
+    "PowerCardEffectType": "BlockSnowNextTurnOpponent"
+  },
+  {
+    "cardId": 444,
+    "name": "WATER BLAST",
+    "ElementType": "Water",
+    "value": 11,
+    "CardColor": "Red",
+    "description": "Blast of water raises next card value.",
+    "PowerCardEffectType": "NextCardValueUp2User"
+  },
+  {
+    "cardId": 445,
+    "name": "SNOW SHIELD",
+    "ElementType": "Snow",
+    "value": 12,
+    "CardColor": "Orange",
+    "description": "Shield of snow lowers next card value.",
+    "PowerCardEffectType": "NextCardValueDown2Opponent"
+  },
+  {
+    "cardId": 446,
+    "name": "FIRE BLAST",
+    "ElementType": "Fire",
+    "value": 9,
+    "CardColor": "Yellow",
+    "description": "Blast of fire causes discard of all fire cards.",
+    "PowerCardEffectType": "DiscardAllRedOpponentCards"
+  },
+  {
+    "cardId": 447,
+    "name": "WATER VORTEX",
+    "ElementType": "Water",
+    "value": 10,
+    "CardColor": "Purple",
+    "description": "Vortex of water causes discard of a water card.",
+    "PowerCardEffectType": "DiscardRandomWaterCardOpponent"
+  },
+  {
+    "cardId": 448,
+    "name": "SNOW SHOWER",
+    "ElementType": "Snow",
+    "value": 11,
+    "CardColor": "Green",
+    "description": "Shower of snow causes discard of a snow card.",
+    "PowerCardEffectType": "DiscardRandomSnowCardOpponent"
+  },
+  {
+    "cardId": 449,
+    "name": "FIRE BARRIER",
+    "ElementType": "Fire",
+    "value": 12,
+    "CardColor": "Blue",
+    "description": "Barrier of fire changes water to fire.",
+    "PowerCardEffectType": "ChangeWaterToFireThisTurnOpponent"
+  },
+  {
+    "cardId": 450,
+    "name": "WATER BLAST",
+    "ElementType": "Water",
+    "value": 9,
+    "CardColor": "Red",
+    "description": "Blast of water changes fire to snow.",
+    "PowerCardEffectType": "ChangeFireToSnowThisTurnOpponent"
+  },
+  {
+    "cardId": 451,
+    "name": "SNOW SHIELD",
+    "ElementType": "Snow",
+    "value": 10,
+    "CardColor": "Orange",
+    "description": "Shield of snow changes snow to water.",
+    "PowerCardEffectType": "ChangeSnowToWaterThisTurnOpponent"
+  },
+  {
+    "cardId": 452,
+    "name": "FIRE BLAST",
+    "ElementType": "Fire",
+    "value": 11,
+    "CardColor": "Yellow",
+    "description": "Blast of fire changes water to fire.",
+    "PowerCardEffectType": "ChangeWaterToFireThisTurnOpponent"
+  },
+  {
+    "cardId": 453,
+    "name": "WATER VORTEX",
+    "ElementType": "Water",
+    "value": 12,
+    "CardColor": "Purple",
+    "description": "Vortex of water blocks next snow card.",
+    "PowerCardEffectType": "BlockSnowNextTurnOpponent"
+  },
+  {
+    "cardId": 454,
+    "name": "SNOW SHOWER",
+    "ElementType": "Snow",
+    "value": 9,
+    "CardColor": "Green",
+    "description": "Shower of snow blocks next fire card.",
+    "PowerCardEffectType": "BlockFireNextTurnOpponent"
+  },
+  {
+    "cardId": 455,
+    "name": "FIRE BARRIER",
+    "ElementType": "Fire",
+    "value": 10,
+    "CardColor": "Blue",
+    "description": "Barrier of fire blocks next water card.",
+    "PowerCardEffectType": "BlockWaterNextTurnOpponent"
+  },
+  {
+    "cardId": 456,
+    "name": "WATER BLAST",
+    "ElementType": "Water",
+    "value": 11,
+    "CardColor": "Red",
+    "description": "Blast of water reverses play.",
+    "PowerCardEffectType": "PowerReverse"
+  },
+  {
+    "cardId": 457,
+    "name": "SNOW SHIELD",
+    "ElementType": "Snow",
+    "value": 12,
+    "CardColor": "Orange",
+    "description": "Shield of snow causes random discard.",
+    "PowerCardEffectType": "DiscardRandomFireCardOpponent"
+  },
+  {
+    "cardId": 458,
+    "name": "FIRE BLAST",
+    "ElementType": "Fire",
+    "value": 9,
+    "CardColor": "Yellow",
+    "description": "Blast of fire causes random discard.",
+    "PowerCardEffectType": "DiscardRandomWaterCardOpponent"
+  },
+  {
+    "cardId": 459,
+    "name": "WATER VORTEX",
+    "ElementType": "Water",
+    "value": 10,
+    "CardColor": "Purple",
+    "description": "Vortex of water causes random discard.",
+    "PowerCardEffectType": "DiscardRandomSnowCardOpponent"
+  },
+  {
+    "cardId": 460,
+    "name": "SNOW SHOWER",
+    "ElementType": "Snow",
+    "value": 11,
+    "CardColor": "Green",
+    "description": "Shower of snow causes random discard.",
+    "PowerCardEffectType": "DiscardRandomRedCardOpponent"
+  },
+  {
+    "cardId": 461,
+    "name": "FIRE BARRIER",
+    "ElementType": "Fire",
+    "value": 12,
+    "CardColor": "Blue",
+    "description": "Barrier of fire causes random discard.",
+    "PowerCardEffectType": "DiscardRandomBlueCardOpponent"
+  },
+  {
+    "cardId": 462,
+    "name": "WATER BLAST",
+    "ElementType": "Water",
+    "value": 9,
+    "CardColor": "Red",
+    "description": "Blast of water causes random discard.",
+    "PowerCardEffectType": "DiscardRandomYellowCardOpponent"
+  },
+  {
+    "cardId": 463,
+    "name": "SNOW SHIELD",
+    "ElementType": "Snow",
+    "value": 10,
+    "CardColor": "Orange",
+    "description": "Shield of snow causes random discard.",
+    "PowerCardEffectType": "DiscardRandomGreenCardOpponent"
+  },
+  {
+    "cardId": 464,
+    "name": "FIRE BLAST",
+    "ElementType": "Fire",
+    "value": 11,
+    "CardColor": "Yellow",
+    "description": "Blast of fire causes random discard.",
+    "PowerCardEffectType": "DiscardRandomOrangeCardOpponent"
+  },
+  {
+    "cardId": 465,
+    "name": "WATER VORTEX",
+    "ElementType": "Water",
+    "value": 12,
+    "CardColor": "Purple",
+    "description": "Vortex of water causes random discard.",
+    "PowerCardEffectType": "DiscardRandomPurpleCardOpponent"
+  },
+  {
+    "cardId": 466,
+    "name": "SNOW SHOWER",
+    "ElementType": "Snow",
+    "value": 9,
+    "CardColor": "Green",
+    "description": "Shower of snow reverses play.",
+    "PowerCardEffectType": "PowerReverse"
+  },
+  {
+    "cardId": 467,
+    "name": "FIRE BARRIER",
+    "ElementType": "Fire",
+    "value": 10,
+    "CardColor": "Blue",
+    "description": "Barrier of fire blocks next snow card.",
+    "PowerCardEffectType": "BlockSnowNextTurnOpponent"
+  },
+  {
+    "cardId": 468,
+    "name": "WATER BLAST",
+    "ElementType": "Water",
+    "value": 11,
+    "CardColor": "Red",
+    "description": "Blast of water blocks next fire card.",
+    "PowerCardEffectType": "BlockFireNextTurnOpponent"
+  },
+  {
+    "cardId": 469,
+    "name": "SNOW SHIELD",
+    "ElementType": "Snow",
+    "value": 12,
+    "CardColor": "Orange",
+    "description": "Shield of snow blocks next water card.",
+    "PowerCardEffectType": "BlockWaterNextTurnOpponent"
+  },
+  {
+    "cardId": 470,
+    "name": "FIRE BLAST",
+    "ElementType": "Fire",
+    "value": 9,
+    "CardColor": "Yellow",
+    "description": "Blast of fire changes water to fire.",
+    "PowerCardEffectType": "ChangeWaterToFireThisTurnOpponent"
+  },
+  {
+    "cardId": 471,
+    "name": "WATER VORTEX",
+    "ElementType": "Water",
+    "value": 10,
+    "CardColor": "Purple",
+    "description": "Vortex of water changes fire to snow.",
+    "PowerCardEffectType": "ChangeFireToSnowThisTurnOpponent"
+  },
+  {
+    "cardId": 472,
+    "name": "SNOW SHOWER",
+    "ElementType": "Snow",
+    "value": 11,
+    "CardColor": "Green",
+    "description": "Shower of snow changes snow to water.",
+    "PowerCardEffectType": "ChangeSnowToWaterThisTurnOpponent"
+  },
+  {
+    "cardId": 473,
+    "name": "FIRE BARRIER",
+    "ElementType": "Fire",
+    "value": 12,
+    "CardColor": "Blue",
+    "description": "Barrier of fire lowers next card value.",
+    "PowerCardEffectType": "NextCardValueDown2Opponent"
+  },
+  {
+    "cardId": 474,
+    "name": "WATER BLAST",
+    "ElementType": "Water",
+    "value": 9,
+    "CardColor": "Red",
+    "description": "Blast of water raises next card value.",
+    "PowerCardEffectType": "NextCardValueUp2User"
+  },
+  {
+    "cardId": 475,
+    "name": "SNOW SHIELD",
+    "ElementType": "Snow",
+    "value": 10,
+    "CardColor": "Orange",
+    "description": "Shield of snow causes discard of all snow cards.",
+    "PowerCardEffectType": "DiscardRandomSnowCardOpponent"
+  },
+  {
+    "cardId": 476,
+    "name": "FIRE BLAST",
+    "ElementType": "Fire",
+    "value": 11,
+    "CardColor": "Yellow",
+    "description": "Blast of fire causes discard of all fire cards.",
+    "PowerCardEffectType": "DiscardRandomFireCardOpponent"
+  },
+  {
+    "cardId": 477,
+    "name": "WATER VORTEX",
+    "ElementType": "Water",
+    "value": 12,
+    "CardColor": "Purple",
+    "description": "Vortex of water causes discard of a water card.",
+    "PowerCardEffectType": "DiscardRandomWaterCardOpponent"
+  },
+  {
+    "cardId": 478,
+    "name": "SNOW SHOWER",
+    "ElementType": "Snow",
+    "value": 9,
+    "CardColor": "Green",
+    "description": "Shower of snow blocks next fire card.",
+    "PowerCardEffectType": "BlockFireNextTurnOpponent"
+  },
+  {
+    "cardId": 479,
+    "name": "FIRE BARRIER",
+    "ElementType": "Fire",
+    "value": 10,
+    "CardColor": "Blue",
+    "description": "Barrier of fire blocks next water card.",
+    "PowerCardEffectType": "BlockWaterNextTurnOpponent"
+  },
+  {
+    "cardId": 480,
+    "name": "WATER BLAST",
+    "ElementType": "Water",
+    "value": 11,
+    "CardColor": "Red",
+    "description": "Blast of water blocks next snow card.",
+    "PowerCardEffectType": "BlockSnowNextTurnOpponent"
+  },
+  {
+    "cardId": 481,
+    "name": "SNOW SHIELD",
+    "ElementType": "Snow",
+    "value": 12,
+    "CardColor": "Orange",
+    "description": "Shield of snow reverses play.",
+    "PowerCardEffectType": "PowerReverse"
+  },
+  {
+    "cardId": 482,
+    "name": "FIRE BLAST",
+    "ElementType": "Fire",
+    "value": 9,
+    "CardColor": "Yellow",
+    "description": "Blast of fire causes random discard.",
+    "PowerCardEffectType": "DiscardRandomRedCardOpponent"
+  },
+  {
+    "cardId": 483,
+    "name": "WATER VORTEX",
+    "ElementType": "Water",
+    "value": 10,
+    "CardColor": "Purple",
+    "description": "Vortex of water causes random discard.",
+    "PowerCardEffectType": "DiscardRandomBlueCardOpponent"
+  },
+  {
+    "cardId": 484,
+    "name": "SNOW SHOWER",
+    "ElementType": "Snow",
+    "value": 11,
+    "CardColor": "Green",
+    "description": "Shower of snow causes random discard.",
+    "PowerCardEffectType": "DiscardRandomYellowCardOpponent"
+  },
+  {
+    "cardId": 485,
+    "name": "FIRE BARRIER",
+    "ElementType": "Fire",
+    "value": 12,
+    "CardColor": "Blue",
+    "description": "Barrier of fire causes random discard.",
+    "PowerCardEffectType": "DiscardRandomGreenCardOpponent"
+  },
+  {
+    "cardId": 486,
+    "name": "WATER BLAST",
+    "ElementType": "Water",
+    "value": 9,
+    "CardColor": "Red",
+    "description": "Blast of water causes random discard.",
+    "PowerCardEffectType": "DiscardRandomOrangeCardOpponent"
+  },
+  {
+    "cardId": 487,
+    "name": "SNOW SHIELD",
+    "ElementType": "Snow",
+    "value": 10,
+    "CardColor": "Orange",
+    "description": "Shield of snow causes random discard.",
+    "PowerCardEffectType": "DiscardRandomPurpleCardOpponent"
+  },
+  {
+    "cardId": 488,
+    "name": "FIRE BLAST",
+    "ElementType": "Fire",
+    "value": 11,
+    "CardColor": "Yellow",
+    "description": "Blast of fire causes random discard.",
+    "PowerCardEffectType": "DiscardRandomFireCardOpponent"
+  },
+  {
+    "cardId": 489,
+    "name": "WATER VORTEX",
+    "ElementType": "Water",
+    "value": 12,
+    "CardColor": "Purple",
+    "description": "Vortex of water causes random discard.",
+    "PowerCardEffectType": "DiscardRandomWaterCardOpponent"
+  },
+  {
+    "cardId": 490,
+    "name": "SNOW SHOWER",
+    "ElementType": "Snow",
+    "value": 9,
+    "CardColor": "Green",
+    "description": "Shower of snow causes random discard.",
+    "PowerCardEffectType": "DiscardRandomSnowCardOpponent"
+  },
+  {
+    "cardId": 491,
+    "name": "FIRE BARRIER",
+    "ElementType": "Fire",
+    "value": 10,
+    "CardColor": "Blue",
+    "description": "Barrier of fire blocks next snow card.",
+    "PowerCardEffectType": "BlockSnowNextTurnOpponent"
+  },
+  {
+    "cardId": 492,
+    "name": "WATER BLAST",
+    "ElementType": "Water",
+    "value": 11,
+    "CardColor": "Red",
+    "description": "Blast of water blocks next fire card.",
+    "PowerCardEffectType": "BlockFireNextTurnOpponent"
+  },
+  {
+    "cardId": 493,
+    "name": "SNOW SHIELD",
+    "ElementType": "Snow",
+    "value": 12,
+    "CardColor": "Orange",
+    "description": "Shield of snow blocks next water card.",
+    "PowerCardEffectType": "BlockWaterNextTurnOpponent"
+  },
+  {
+    "cardId": 494,
+    "name": "FIRE BLAST",
+    "ElementType": "Fire",
+    "value": 9,
+    "CardColor": "Yellow",
+    "description": "Blast of fire changes water to fire.",
+    "PowerCardEffectType": "ChangeWaterToFireThisTurnOpponent"
+  },
+  {
+    "cardId": 495,
+    "name": "WATER VORTEX",
+    "ElementType": "Water",
+    "value": 10,
+    "CardColor": "Purple",
+    "description": "Vortex of water changes fire to snow.",
+    "PowerCardEffectType": "ChangeFireToSnowThisTurnOpponent"
+  },
+  {
+    "cardId": 496,
+    "name": "SNOW SHOWER",
+    "ElementType": "Snow",
+    "value": 11,
+    "CardColor": "Green",
+    "description": "Shower of snow changes snow to water.",
+    "PowerCardEffectType": "ChangeSnowToWaterThisTurnOpponent"
+  },
+  {
+    "cardId": 497,
+    "name": "FIRE BARRIER",
+    "ElementType": "Fire",
+    "value": 12,
+    "CardColor": "Blue",
+    "description": "Barrier of fire lowers next card value.",
+    "PowerCardEffectType": "NextCardValueDown2Opponent"
+  },
+  {
+    "cardId": 498,
+    "name": "WATER BLAST",
+    "ElementType": "Water",
+    "value": 9,
+    "CardColor": "Red",
+    "description": "Blast of water raises next card value.",
+    "PowerCardEffectType": "NextCardValueUp2User"
+  },
+  {
+    "cardId": 499,
+    "name": "SNOW SHIELD",
+    "ElementType": "Snow",
+    "value": 10,
+    "CardColor": "Orange",
+    "description": "Shield of snow causes discard of all snow cards.",
+    "PowerCardEffectType": "DiscardRandomSnowCardOpponent"
+  },
+  {
+    "cardId": 500,
+    "name": "FIRE BLAST",
+    "ElementType": "Fire",
+    "value": 11,
+    "CardColor": "Yellow",
+    "description": "Blast of fire causes discard of all fire cards.",
+    "PowerCardEffectType": "DiscardRandomFireCardOpponent"
+  }
+]

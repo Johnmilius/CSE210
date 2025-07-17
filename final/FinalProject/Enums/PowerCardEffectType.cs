@@ -9,33 +9,33 @@ public enum PowerCardEffectType
 
     LowerValueCardWins,
 
-    DiscardRandomFireCardOppenent,
-    DiscardRandomWaterCardOppenent,
-    DiscardRandomSnowCardOppenent,
+    DiscardRandomFireCardOpponent,
+    DiscardRandomWaterCardOpponent,
+    DiscardRandomSnowCardOpponent,
 
-    DiscardRandomRedCardOppenent,
+    DiscardRandomRedCardOpponent,
     DiscardAllRedOpponentCards,
 
-    DiscardRandomBlueCardOppenent,
+    DiscardRandomBlueCardOpponent,
     DiscardAllBlueOpponentCards,
 
-    DiscardRandomYellowCardOppenent,
+    DiscardRandomYellowCardOpponent,
     DiscardAllYellowOpponentCards,
 
-    DiscardRandomGreenCardOppenent,
+    DiscardRandomGreenCardOpponent,
     DiscardAllGreenOpponentCards,
 
-    DiscardRandomOrangeCardOppenent,
+    DiscardRandomOrangeCardOpponent,
     DiscardAllOrangeOpponentCards,
 
-    DiscardRandomPurpleCardOppenent,
+    DiscardRandomPurpleCardOpponent,
     DiscardAllPurpleOpponentCards,
 
-    ChangeFireToSnowThisTurnOppenent,
-    ChangeSnowToWaterThisTurnOppenent,
-    ChangeWaterToFireThisTurnOppenent,
+    ChangeFireToSnowThisTurnOpponent,
+    ChangeSnowToWaterThisTurnOpponent,
+    ChangeWaterToFireThisTurnOpponent,
 
-    BlockFireNextTurnOppenent,
-    BlockWaterNextTurnOppenent,
-    BlockSnowNextTurnOppenent
+    BlockFireNextTurnOpponent,
+    BlockWaterNextTurnOpponent,
+    BlockSnowNextTurnOpponent
 }

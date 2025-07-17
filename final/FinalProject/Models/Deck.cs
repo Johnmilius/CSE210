@@ -61,4 +61,9 @@ public class Deck
     {
         return _playableHand;
     }
+
+    public void RemoveCardFromPlayableHand(int cardID)
+    {
+        this._playableHand.Remove(cardID);
+    }
 }

@@ -1,6 +1,6 @@
 using System;
 
-public class Character
+public abstract class Character
 {
     protected string _playerName { get; set; }
     protected BeltRank _beltRank { get; set; } // You level up when you beat the sensi at that belt rank. 
@@ -16,9 +16,11 @@ public class Character
         _playerName = playerName;
         _beltRank = beltRank;
     }
-    
+
     public Deck GetHand()
     {
         return _hand;
     }
+
+    public abstract int PlayCard();
 }

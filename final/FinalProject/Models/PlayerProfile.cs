@@ -44,7 +44,7 @@ public class PlayerProfile : Character
         string profileSummary = $"    Player Name: {_playerName}\n    Belt Rank: {_beltRank}\n    MMR: {_MMR}\n    Level: {_level}";
         Console.WriteLine(profileSummary);
     }
-    
+
     public BeltRank GetBeltRank()
     {
         return _beltRank;
@@ -78,5 +78,16 @@ public class PlayerProfile : Character
 
             return new PlayerProfile(playerName, beltRank, hand, cardCollection, mmr, level, experiencePoints);
         }
+    }
+
+    public override int PlayCard()
+    {
+        Console.WriteLine(this.GetHand().DisplayPlayableHand());
+        Console.Write("Select Card by CardID: ");
+        int cardChoice = int.Parse(Console.ReadLine());
+
+         this.GetHand().RemoveCardFromPlayableHand(cardChoice);
+        return cardChoice;
+
     }
 }

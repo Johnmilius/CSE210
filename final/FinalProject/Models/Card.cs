@@ -23,9 +23,12 @@ public abstract class Card
     }
 
     public abstract string DisplayCardStats();
-    public ElementType GetEffectivenessAgainst(int CardID)
-    {
-        // unfinished
-        return ElementType.Snow;
-    }
+
+    public int GetCardId() => _cardId;
+    public string GetName() => _name;
+    public ElementType GetElement() => _element;
+    public int GetValue() => _value;
+    public CardColor GetColor() => _color;
+    public string GetImageUrl() => _imageUrl;
+    public string GetDescription() => _description;
 }

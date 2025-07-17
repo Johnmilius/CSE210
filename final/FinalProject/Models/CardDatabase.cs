@@ -34,4 +34,9 @@ public static class CardDatabase
         }
         AllCards = allCards;
     }
+
+    public static Card GetCardById(int cardId)
+    {
+        return AllCards[cardId];
+    }
 }

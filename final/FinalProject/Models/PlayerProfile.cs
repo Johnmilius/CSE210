@@ -104,5 +104,20 @@ public class PlayerProfile : Character
         }
     }
 
+    public void SaveToFile(string filePath)
+    {
+        var playerData = new
+        {
+            playerName = _playerName,
+            beltRank = _beltRank.ToString(),
+            hand = _hand, // or whatever represents the hand
+            cardCollection = _cardCollection,
+            mmr = _MMR,
+            level = _level,
+            experiencePoints = _experiencePoints
+        };
+        string json = JsonSerializer.Serialize(playerData, new JsonSerializerOptions { WriteIndented = true });
+        File.WriteAllText(filePath, json);
+    }
 
 }

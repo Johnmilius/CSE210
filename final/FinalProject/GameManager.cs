@@ -24,7 +24,7 @@ public class GameManager
     {
         _player1 = player1;
         _player2 = null;
-        _npcSensi = new Sensi($"{(BeltRank)((int)this._player1.GetBeltRank() + 1)} Sensi", (BeltRank)((int)this._player1.GetBeltRank() + 1));
+        _npcSensi = null;
     }
 
     public void Run() // Game Menu 
@@ -35,11 +35,11 @@ public class GameManager
             string menuSTR = $"What would you like to do?\n  1. Player vs Player\n  2. Player vs Sensi\n  3. See {_player1.GetName()} stats";
             if (!(_player2 is null))
             {
-                menuSTR += $"\n   4. See ${_player2.GetName()} stats\n  5. Quit";
+                menuSTR += $"\n  4. See {_player2.GetName()} stats\n  5. Save and Quit";
             }
             else
             {
-                menuSTR += "\n  4. Load 2nd Player\n  5. Quit";
+                menuSTR += "\n  4. Load 2nd Player\n  5. Save and Quit";
             }
             menuSTR += "\nEnter your Choice: ";
             Console.WriteLine(menuSTR);
@@ -85,7 +85,7 @@ public class GameManager
             {
                 Console.WriteLine("Enter Player 2's FilePath");
                 string prePlayer2FilePath = Console.ReadLine();
-                string player2FilePath = @$"{prePlayer2FilePath}";
+                string player2FilePath = $@"{prePlayer2FilePath}";
 
                 _player2 = PlayerProfile.LoadPlayerProfile(player2FilePath);
                 Console.WriteLine($"{_player2.GetName()} has been loaded.");
@@ -95,6 +95,10 @@ public class GameManager
             {
                 Console.WriteLine("Exiting game. Goodbye!");
                 gameRunning = false;
+
+                _player1.SaveToFile(@"C:\Users\jwmil\OneDrive\Desktop\BYU-I Spring 2025\CSE210\final\FinalProject\playerFiles\player1.json");
+                if (_player2 != null)
+                    _player2.SaveToFile(@"C:\Users\jwmil\OneDrive\Desktop\BYU-I Spring 2025\CSE210\final\FinalProject\playerFiles\player2.json");
                 break;
             }
             else
@@ -109,6 +113,8 @@ public class GameManager
         bool gameRunning = true;
         bool player1Won = false;
 
+        GenerateSensi();
+
         _player1.GetHand().RefillPlayableHand();
         _npcSensi.GetHand().RefillPlayableHand();
 
@@ -122,8 +128,6 @@ public class GameManager
             GameVisuals.LoadingSpinner(3);
 
             int roundWinner = GameMechanics.CompareCards(player1CardChoice, npcSensiCardChoice);
-
-
 
             if (roundWinner == 1)
             {
@@ -324,9 +328,14 @@ public class GameManager
         if (_player2 != null)
             _player2.GetHand().ClearPlayableHand();
         if (_npcSensi != null)
-            _npcSensi.GetHand().ClearPlayableHand();
+            _npcSensi = null;
 
         _player1Wins.Clear();
         _opponentWins.Clear();
+    }
+
+    public void GenerateSensi()
+    {
+        _npcSensi = new Sensi($"{(BeltRank)((int)this._player1.GetBeltRank() + 1)} Sensi", (BeltRank)((int)this._player1.GetBeltRank() + 1));
     }
 }

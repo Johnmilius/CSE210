@@ -1,27 +1,36 @@
+using System.Dynamic;
 using System.Xml.XPath;
 
 public static class GameMechanics
 {
-
-    public static int CompareCards(int player1CardId, int player2CardId)
+    public static int CompareCards(Card player1Card, Card player2Card)
     {
-        var card1 = CardDatabase.AllCards[player1CardId];
-        var card2 = CardDatabase.AllCards[player2CardId];
 
-        if (CompareElements(card1.GetElement(), card2.GetElement()))
+        ElementType p1Element = player1Card.GetElement();
+        ElementType p2Element = player2Card.GetElement();
+
+        if (player1Card.GetPowerCardEffectType() != PowerCardEffectType.None)
+        {
+            PowerCardEffectMechanics.PlayedPowerCardEffect(player1Card, player2Card, ref p2Element);
+        }
+        if (player2Card.GetPowerCardEffectType() != PowerCardEffectType.None)
+        {
+            PowerCardEffectMechanics.PlayedPowerCardEffect(player2Card, player1Card, ref p1Element);
+        }
+
+        if (CompareElements(p1Element, p2Element))
             return 1; // player 1 wins by element
-        if (CompareElements(card2.GetElement(), card1.GetElement()))
+        if (CompareElements(p2Element, p1Element))
             return -1; // player 2 wins by element
 
         // If elements are equal or neither wins, compare values
-        if (card1.GetValue() > card2.GetValue())
+        if (player1Card.GetValue() > player2Card.GetValue())
             return 1;
-        if (card2.GetValue() > card1.GetValue())
+        if (player2Card.GetValue() > player1Card.GetValue())
             return -1;
 
         return 0; // tie
     }
-
 
     public static bool CompareElements(ElementType elementA, ElementType elementB)
     {
@@ -43,7 +52,4 @@ public static class GameMechanics
             return -1;
         return 0;
     }
-
-
-    
 }

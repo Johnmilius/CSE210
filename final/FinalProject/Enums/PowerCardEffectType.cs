@@ -1,14 +1,12 @@
 public enum PowerCardEffectType
 {
     None,
-
-    PowerReverse,
-
     NextCardValueUp2User,
     NextCardValueDown2Opponent,
 
     LowerValueCardWins,
 
+    // scored effects
     DiscardRandomFireCardOpponent,
     DiscardRandomWaterCardOpponent,
     DiscardRandomSnowCardOpponent,
@@ -30,12 +28,15 @@ public enum PowerCardEffectType
 
     DiscardRandomPurpleCardOpponent,
     DiscardAllPurpleOpponentCards,
+    BlockFireNextTurnOpponent,
+    BlockWaterNextTurnOpponent,
+    BlockSnowNextTurnOpponent,
 
+    // played effects
     ChangeFireToSnowThisTurnOpponent,
     ChangeSnowToWaterThisTurnOpponent,
     ChangeWaterToFireThisTurnOpponent,
 
-    BlockFireNextTurnOpponent,
-    BlockWaterNextTurnOpponent,
-    BlockSnowNextTurnOpponent
+    //currently isnt in the game
+    PowerReverse
 }

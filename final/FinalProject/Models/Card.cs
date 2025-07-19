@@ -31,4 +31,5 @@ public abstract class Card
     public CardColor GetColor() => _color;
     public string GetImageUrl() => _imageUrl;
     public string GetDescription() => _description;
+    public abstract PowerCardEffectType GetPowerCardEffectType();
 }

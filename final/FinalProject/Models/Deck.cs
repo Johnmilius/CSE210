@@ -71,4 +71,56 @@ public class Deck
     {
         _playableHand.Clear();
     }
+
+    public void RemoveRandomCardOfColor(CardColor color)
+    {
+        List<int> matchingCardIds = new List<int>();
+        foreach (int cardId in _playableHand)
+        {
+            if (CardDatabase.AllCards[cardId].GetColor() == color)
+            {
+                matchingCardIds.Add(cardId);
+            }
+        }
+        if (matchingCardIds.Count > 0)
+        {
+            var random = new Random();
+            int cardToRemove = matchingCardIds[random.Next(matchingCardIds.Count)];
+            _playableHand.Remove(cardToRemove);
+        }
+    }
+
+    public void RemoveAllCardsOfColor(CardColor color)
+    {
+        List<int> cardsToRemove = new List<int>();
+        foreach (int cardId in _playableHand)
+        {
+            if (CardDatabase.AllCards[cardId].GetColor() == color)
+            {
+                cardsToRemove.Add(cardId);
+            }
+        }
+        foreach (int cardId in cardsToRemove)
+        {
+            _playableHand.Remove(cardId);
+        }
+    }
+
+    public void RemoveRandomCardOfElement(ElementType element)
+    {
+        List<int> matchingCardIds = new List<int>();
+        foreach (int cardId in _playableHand)
+        {
+            if (CardDatabase.AllCards[cardId].GetElement() == element)
+            {
+                matchingCardIds.Add(cardId);
+            }
+        }
+        if (matchingCardIds.Count > 0)
+        {
+            var random = new Random();
+            int cardToRemove = matchingCardIds[random.Next(matchingCardIds.Count)];
+            _playableHand.Remove(cardToRemove);
+        }
+    }
 }

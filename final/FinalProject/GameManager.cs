@@ -2,6 +2,8 @@ using System.ComponentModel;
 using System.Data.SqlTypes;
 using System.Diagnostics.Tracing;
 using System.Globalization;
+using System.IO.Pipes;
+using System.Reflection.Metadata.Ecma335;
 
 public class GameManager
 {
@@ -12,7 +14,8 @@ public class GameManager
     // Track round wins for each player: List of (element, color) tuples
     private List<(ElementType element, CardColor color)> _player1Wins = new List<(ElementType, CardColor)>();
     private List<(ElementType element, CardColor color)> _opponentWins = new List<(ElementType, CardColor)>();
-
+    private Card _currentPlayer1Card;
+    private Card _currentOpponentCard;
     public GameManager(PlayerProfile player1, PlayerProfile player2) // Player vs Player constructor
     {
         _player1 = player1;
@@ -42,7 +45,7 @@ public class GameManager
                 menuSTR += "\n  4. Load 2nd Player\n  5. Save and Quit";
             }
             menuSTR += "\nEnter your Choice: ";
-            Console.WriteLine(menuSTR);
+            Console.Write(menuSTR);
             int inputStr = int.Parse(Console.ReadLine());
 
             if (inputStr == 1) // PvP
@@ -120,28 +123,35 @@ public class GameManager
 
         while (gameRunning)
         {
-            int player1CardChoice = _player1.PlayCard();
-            int npcSensiCardChoice = _npcSensi.PlayCard();
+            _currentPlayer1Card = CardDatabase.AllCards[_player1.PlayCard()];
+            _currentOpponentCard = CardDatabase.AllCards[_npcSensi.PlayCard()];
 
             GameVisuals.LoadingSpinner(3);
-            Console.WriteLine($"{_player1.GetName()} Played: {CardDatabase.GetCardById(player1CardChoice).DisplayCardStats()}\n\n{_npcSensi.GetName()} Played: {CardDatabase.GetCardById(npcSensiCardChoice).DisplayCardStats()}");
+            Console.WriteLine($"{_player1.GetName()} Played: {_currentPlayer1Card.DisplayCardStats()}\n\n{_npcSensi.GetName()} Played: {_currentOpponentCard.DisplayCardStats()}");
             GameVisuals.LoadingSpinner(3);
 
-            int roundWinner = GameMechanics.CompareCards(player1CardChoice, npcSensiCardChoice);
+            int roundWinner = GameMechanics.CompareCards(_currentPlayer1Card, _currentOpponentCard);
 
             if (roundWinner == 1)
             {
                 // player1 won logic
-                var card = CardDatabase.GetCardById(player1CardChoice);
-                _player1Wins.Add((card.GetElement(), card.GetColor()));
-                Console.WriteLine($"You won the round with {card.GetElement()} ({card.GetColor()})!");
+
+                _player1Wins.Add((_currentPlayer1Card.GetElement(), _currentPlayer1Card.GetColor()));
+                Console.WriteLine($"You won the round with {_currentPlayer1Card.GetElement()} ({_currentPlayer1Card.GetColor()})!");
+                if (_currentPlayer1Card.GetPowerCardEffectType() != PowerCardEffectType.None)
+                {
+                    PowerCardEffectMechanics.ScoredPowerCardEffect(_currentPlayer1Card, _player1, _npcSensi);
+                }
             }
             else if (roundWinner == -1)
             {
                 // sensi win logic
-                var card = CardDatabase.GetCardById(npcSensiCardChoice);
-                _opponentWins.Add((card.GetElement(), card.GetColor()));
-                Console.WriteLine($"Sensei won the round with {card.GetElement()} ({card.GetColor()})!");
+                _opponentWins.Add((_currentOpponentCard.GetElement(), _currentOpponentCard.GetColor()));
+                Console.WriteLine($"Sensei won the round with {_currentOpponentCard.GetElement()} ({_currentOpponentCard.GetColor()})!");
+                if (_currentOpponentCard.GetPowerCardEffectType() != PowerCardEffectType.None)
+                {
+                    PowerCardEffectMechanics.ScoredPowerCardEffect(_currentOpponentCard, _npcSensi, _player1);
+                }
             }
             else
             {
@@ -196,31 +206,40 @@ public class GameManager
 
         while (gameRunning)
         {
-            int player1CardChoice = _player1.PlayCard();
+            _currentPlayer1Card = CardDatabase.AllCards[_player1.PlayCard()];
             GameVisuals.WhiteSpaceCreater();
-            int player2CardChoice = _player2.PlayCard();
+            _currentOpponentCard = CardDatabase.AllCards[_player2.PlayCard()];
             GameVisuals.WhiteSpaceCreater();
 
             GameVisuals.LoadingSpinner(3);
-            Console.WriteLine($"{_player1.GetName()} Played: {CardDatabase.GetCardById(player1CardChoice).DisplayCardStats()}\n\n{_npcSensi.GetName()} Played: {CardDatabase.GetCardById(player2CardChoice).DisplayCardStats()}");
+            Console.WriteLine($"{_player1.GetName()} Played: {_currentPlayer1Card.DisplayCardStats()}\n\n{_player2.GetName()} Played: {_currentOpponentCard.DisplayCardStats()}");
             GameVisuals.LoadingSpinner(3);
 
-            int roundWinner = GameMechanics.CompareCards(player1CardChoice, player2CardChoice);
+            int roundWinner = GameMechanics.CompareCards(_currentPlayer1Card, _currentOpponentCard);
 
             // Displays the round winner
             if (roundWinner == 1)
             {
                 // player1 win logic
-                var card = CardDatabase.GetCardById(player1CardChoice);
+                var card = _currentPlayer1Card;
                 _player1Wins.Add((card.GetElement(), card.GetColor()));
                 Console.WriteLine($"{_player1.GetName()} won the round with {card.GetElement()} ({card.GetColor()})!");
+                if (_currentPlayer1Card.GetPowerCardEffectType() != PowerCardEffectType.None)
+                {
+                    PowerCardEffectMechanics.ScoredPowerCardEffect(_currentPlayer1Card, _player1, _player2);
+                }
+
             }
             else if (roundWinner == -1)
             {
                 // player2 win logic
-                var card = CardDatabase.GetCardById(player2CardChoice);
+                var card = _currentOpponentCard;
                 _opponentWins.Add((card.GetElement(), card.GetColor()));
                 Console.WriteLine($"{_player2.GetName()} won the round with {card.GetElement()} ({card.GetColor()})!");
+                if (_currentOpponentCard.GetPowerCardEffectType() != PowerCardEffectType.None)
+                {
+                    PowerCardEffectMechanics.ScoredPowerCardEffect(_currentOpponentCard, _player2, _player1);
+                }
             }
             else
             {
@@ -231,7 +250,6 @@ public class GameManager
             // Reset Hands and Check if someone won
             _player1.GetHand().RefillPlayableHand();
             _player2.GetHand().RefillPlayableHand();
-
 
             int winner = this.CheckWinner();
             // Displays end screen if someone wins
@@ -337,5 +355,20 @@ public class GameManager
     public void GenerateSensi()
     {
         _npcSensi = new Sensi($"{(BeltRank)((int)this._player1.GetBeltRank() + 1)} Sensi", (BeltRank)((int)this._player1.GetBeltRank() + 1));
+    }
+
+    public PlayerProfile GetPlayer1()
+    {
+        return _player1;
+    }
+
+    public PlayerProfile GetPlayer2()
+    {
+        return _player2;
+    }
+
+    public Sensi GetSensi()
+    {
+        return _npcSensi;
     }
 }

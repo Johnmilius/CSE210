@@ -12,7 +12,11 @@ public class PlayerProfile : Character
     private int _experiencePoints { get; set; } // Associated with level when you hit x amount of xp then you level up. 
 
     public PlayerProfile(string playerName) : base(playerName) // new player empty hands etc.
-    { }
+    {
+        _MMR = 1000;
+        _level = 1;
+        _experiencePoints = 0;
+    }
 
     public PlayerProfile(string playerName, BeltRank beltrank, Deck hand, List<int> cardCollection, int mmr, int level, int experiencePoints)
         : base(playerName, beltrank)
@@ -67,7 +71,6 @@ public class PlayerProfile : Character
 
         this.GetHand().RemoveCardFromPlayableHand(cardChoice);
         return cardChoice;
-
     }
 
     public void AlterMMR(bool didWin)
@@ -106,11 +109,12 @@ public class PlayerProfile : Character
 
     public void SaveToFile(string filePath)
     {
+        this._hand.ClearPlayableHand();
         var playerData = new
         {
             playerName = _playerName,
             beltRank = _beltRank.ToString(),
-            hand = _hand, // or whatever represents the hand
+            hand = _hand.GetHand(),
             cardCollection = _cardCollection,
             mmr = _MMR,
             level = _level,
@@ -119,5 +123,4 @@ public class PlayerProfile : Character
         string json = JsonSerializer.Serialize(playerData, new JsonSerializerOptions { WriteIndented = true });
         File.WriteAllText(filePath, json);
     }
-
 }

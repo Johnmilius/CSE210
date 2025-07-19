@@ -1,7 +1,7 @@
 public class RegularCard : Card
 {
-    public RegularCard(int cardId, string name, ElementType element, int value, CardColor color, string imageUrl, string description)
-        : base(cardId, name, element, value, color, imageUrl, description)
+    public RegularCard(int cardId, string name, ElementType element, int value, CardColor color, string description)
+        : base(cardId, name, element, value, color, description)
     {
         // No additional fields for RegularCard
     }

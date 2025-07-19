@@ -54,7 +54,6 @@ public class GameManager
             }
             else if (inputStr == 2) // PvE
             {
-
                 BeltRank nextBeltRank = (BeltRank)((int)_player1.GetBeltRank() + 1);
                 _npcSensi = new Sensi($"{nextBeltRank}Sensi", nextBeltRank);
 
@@ -74,17 +73,17 @@ public class GameManager
                     Console.WriteLine("Returning to Menu...");
                 }
             }
-            else if (inputStr == 3)
+            else if (inputStr == 3) // Show player1 Stats
             {
                 Console.WriteLine("Showing player stats...");
                 _player1.GetProfileSummary();
             }
-            else if ((inputStr == 4) && (!(_player2 is null)))
+            else if ((inputStr == 4) && (!(_player2 is null))) // Load player or Show player 2 stats
             {
                 Console.WriteLine("Showing player stats...");
                 _player2.GetProfileSummary();
             }
-            else if ((inputStr == 4) && (_player2 is null))
+            else if ((inputStr == 4) && (_player2 is null)) // Load player or Show player 2 stats
             {
                 Console.WriteLine("Enter Player 2's FilePath");
                 string prePlayer2FilePath = Console.ReadLine();
@@ -93,8 +92,7 @@ public class GameManager
                 _player2 = PlayerProfile.LoadPlayerProfile(player2FilePath);
                 Console.WriteLine($"{_player2.GetName()} has been loaded.");
             }
-
-            else if (inputStr == 5)
+            else if (inputStr == 5) // Exit and Save Game
             {
                 Console.WriteLine("Exiting game. Goodbye!");
                 gameRunning = false;
@@ -121,14 +119,22 @@ public class GameManager
         _player1.GetHand().RefillPlayableHand();
         _npcSensi.GetHand().RefillPlayableHand();
 
+        int roundNumber = 1;
+
         while (gameRunning)
         {
+            Console.WriteLine($"Round {roundNumber}.");
+            Console.WriteLine();
+            Console.WriteLine($"{_player1.GetName()} Choose a Card to Play: ");
             _currentPlayer1Card = CardDatabase.AllCards[_player1.PlayCard()];
+            Console.Write("Sensi Thinking  ");
+            GameVisuals.LoadingSpinner(2);
             _currentOpponentCard = CardDatabase.AllCards[_npcSensi.PlayCard()];
 
-            GameVisuals.LoadingSpinner(3);
+            GameVisuals.LoadingSpinner(2);
             Console.WriteLine($"{_player1.GetName()} Played: {_currentPlayer1Card.DisplayCardStats()}\n\n{_npcSensi.GetName()} Played: {_currentOpponentCard.DisplayCardStats()}");
-            GameVisuals.LoadingSpinner(3);
+            GameVisuals.LoadingSpinner(2);
+            Console.WriteLine();
 
             int roundWinner = GameMechanics.CompareCards(_currentPlayer1Card, _currentOpponentCard);
 
@@ -181,6 +187,7 @@ public class GameManager
                 break;
             }
             DisplayRoundStanding();
+            roundNumber++;
         }
 
         // End game logic
@@ -194,7 +201,6 @@ public class GameManager
         {
             return false;
         }
-
     }
 
     public void StartPlayerVSPlayerGame()
@@ -204,16 +210,25 @@ public class GameManager
         _player1.GetHand().RefillPlayableHand();
         _player2.GetHand().RefillPlayableHand();
 
+        int roundNumber = 1;
+
         while (gameRunning)
         {
+            Console.WriteLine($"Round {roundNumber}.");
+            Console.WriteLine();
+            Console.WriteLine($"{_player1.GetName()} Choose a Card to Play: ");
             _currentPlayer1Card = CardDatabase.AllCards[_player1.PlayCard()];
             GameVisuals.WhiteSpaceCreater();
+
+            Console.WriteLine($"{_player2.GetName()} Choose a Card to Play: ");
             _currentOpponentCard = CardDatabase.AllCards[_player2.PlayCard()];
             GameVisuals.WhiteSpaceCreater();
 
-            GameVisuals.LoadingSpinner(3);
+            GameVisuals.LoadingSpinner(2);
             Console.WriteLine($"{_player1.GetName()} Played: {_currentPlayer1Card.DisplayCardStats()}\n\n{_player2.GetName()} Played: {_currentOpponentCard.DisplayCardStats()}");
-            GameVisuals.LoadingSpinner(3);
+            Console.WriteLine();
+
+            GameVisuals.LoadingSpinner(2);
 
             int roundWinner = GameMechanics.CompareCards(_currentPlayer1Card, _currentOpponentCard);
 
@@ -272,6 +287,7 @@ public class GameManager
                 _player2.AddExperiancePoints();
             }
             DisplayRoundStanding();
+            roundNumber++;
         }
 
         //End game logic
@@ -281,11 +297,29 @@ public class GameManager
     private void DisplayRoundStanding() // Displays the current round standing for both players
     {
         Console.WriteLine("\n--- Round Standing ---");
-        Console.WriteLine($"Player Wins: {_player1Wins.Count}");
-        Console.WriteLine($"Sensei Wins: {_opponentWins.Count}");
-        Console.WriteLine("Player Element Wins:");
+        Console.WriteLine($"{_player1.GetName()} Wins: {_player1Wins.Count}");
+
+        if (!(_npcSensi == null))
+        {
+            Console.WriteLine($"{_npcSensi.GetName()} Wins: {_opponentWins.Count}");
+        }
+        else
+        {
+            Console.WriteLine($"{_player2.GetName()} Wins: {_opponentWins.Count}");
+        }
+
+        Console.WriteLine($"{_player1.GetName()} Element Wins:");
         DisplayElementColorWins(_player1Wins);
-        Console.WriteLine("Sensei Element Wins:");
+
+        if (!(_npcSensi == null))
+        {
+            Console.WriteLine($"{_npcSensi.GetName()} Element Wins:");
+        }
+        else
+        {
+            Console.WriteLine($"{_player2.GetName()} Element Wins:");
+        }
+
         DisplayElementColorWins(_opponentWins);
         Console.WriteLine("----------------------\n");
     }
@@ -330,16 +364,6 @@ public class GameManager
         return false;
     }
 
-    public void SetTextColor(ConsoleColor color)
-    {
-        Console.ForegroundColor = color;
-    }
-
-    public void ResetTextColor()
-    {
-        Console.ResetColor();
-    }
-
     public void ClearGame()
     {
         _player1.GetHand().ClearPlayableHand();
@@ -350,6 +374,9 @@ public class GameManager
 
         _player1Wins.Clear();
         _opponentWins.Clear();
+
+        _currentPlayer1Card = null;
+        _currentOpponentCard = null;
     }
 
     public void GenerateSensi()
@@ -357,18 +384,30 @@ public class GameManager
         _npcSensi = new Sensi($"{(BeltRank)((int)this._player1.GetBeltRank() + 1)} Sensi", (BeltRank)((int)this._player1.GetBeltRank() + 1));
     }
 
-    public PlayerProfile GetPlayer1()
-    {
-        return _player1;
-    }
+    // UNUSED CODE THAT I MAY NEED LATER
 
-    public PlayerProfile GetPlayer2()
-    {
-        return _player2;
-    }
+    // public PlayerProfile GetPlayer1()
+    // {
+    //     return _player1;
+    // }
 
-    public Sensi GetSensi()
-    {
-        return _npcSensi;
-    }
+    // public PlayerProfile GetPlayer2()
+    // {
+    //     return _player2;
+    // }
+
+    // public Sensi GetSensi()
+    // {
+    //     return _npcSensi;
+    // }
+
+    // public void SetTextColor(ConsoleColor color)
+    // {
+    //     Console.ForegroundColor = color;
+    // }
+
+    // public void ResetTextColor()
+    // {
+    //     Console.ResetColor();
+    // }
 }

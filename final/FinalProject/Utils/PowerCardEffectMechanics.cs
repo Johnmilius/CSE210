@@ -24,7 +24,6 @@ public static class PowerCardEffectMechanics
                     opponentElement = ElementType.Water;
                 }
                 break;
-                // Add more cases as needed for other effects
         }
     }
 
@@ -92,7 +91,6 @@ public static class PowerCardEffectMechanics
             case PowerCardEffectType.NextCardValueDown2Opponent:
                 // Implement next card value down logic
                 break;
-                // Add more cases as needed
         }
     }
 

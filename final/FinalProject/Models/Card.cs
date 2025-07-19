@@ -8,17 +8,15 @@ public abstract class Card
     protected ElementType _element { get; }
     protected int _value { get; }
     protected CardColor _color { get; }
-    protected string _imageUrl { get; }
     protected string _description { get; }
 
-    public Card(int cardId, string name, ElementType element, int value, CardColor color, string imageUrl, string description)
+    public Card(int cardId, string name, ElementType element, int value, CardColor color, string description)
     {
         _cardId = cardId;
         _name = name;
         _element = element;
         _value = value;
         _color = color;
-        _imageUrl = imageUrl;
         _description = description;
     }
 
@@ -29,7 +27,6 @@ public abstract class Card
     public ElementType GetElement() => _element;
     public int GetValue() => _value;
     public CardColor GetColor() => _color;
-    public string GetImageUrl() => _imageUrl;
     public string GetDescription() => _description;
     public abstract PowerCardEffectType GetPowerCardEffectType();
 }

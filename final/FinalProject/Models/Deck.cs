@@ -15,14 +15,8 @@ public class Deck
         _hand = new List<int>();
     }
 
-    public void ShuffleDeck()
-    {
-        // unfinished
-    }
-
     public int GetRandomCardID()
     {
-        // unfinished
         int cardID = 0;
         return cardID;
     }
@@ -49,7 +43,7 @@ public class Deck
         int cardIndex = 1;
         foreach (int cardID in _playableHand)
         {
-            formatedSTR += $"  {cardIndex}. {CardDatabase.AllCards[cardID].DisplayCardStats()}\n";
+            formatedSTR += $"     {CardDatabase.AllCards[cardID].DisplayCardStats()}\n";
             cardIndex++;
         }
         return formatedSTR;
@@ -60,6 +54,10 @@ public class Deck
     public List<int> GetPlayableHand()
     {
         return _playableHand;
+    }
+    public List<int> GetHand()
+    {
+        return _hand;
     }
 
     public void RemoveCardFromPlayableHand(int cardID)

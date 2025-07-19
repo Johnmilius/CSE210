@@ -5,7 +5,6 @@ public static class GameMechanics
 {
     public static int CompareCards(Card player1Card, Card player2Card)
     {
-
         ElementType p1Element = player1Card.GetElement();
         ElementType p2Element = player2Card.GetElement();
 
@@ -41,6 +40,7 @@ public static class GameMechanics
             return true;
         if (elementA == ElementType.Water && elementB == ElementType.Fire)
             return true;
+
         return false;
     }
 
@@ -50,6 +50,7 @@ public static class GameMechanics
             return 1;
         if (value2 > value1)
             return -1;
+            
         return 0;
     }
 }

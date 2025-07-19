@@ -97,9 +97,9 @@ public class GameManager
                 Console.WriteLine("Exiting game. Goodbye!");
                 gameRunning = false;
 
-                _player1.SaveToFile(@"C:\Users\jwmil\OneDrive\Desktop\BYU-I Spring 2025\CSE210\final\FinalProject\playerFiles\player1.json");
+                _player1.SaveToFile(@"playerFiles\player1.json");
                 if (_player2 != null)
-                    _player2.SaveToFile(@"C:\Users\jwmil\OneDrive\Desktop\BYU-I Spring 2025\CSE210\final\FinalProject\playerFiles\player2.json");
+                    _player2.SaveToFile(@"playerFiles\player2.json");
                 break;
             }
             else

@@ -1,6 +1,7 @@
 using System.ComponentModel;
 using System.Data.SqlTypes;
 using System.Diagnostics.Tracing;
+using System.Globalization;
 
 public class GameManager
 {
@@ -12,153 +13,21 @@ public class GameManager
     private List<(ElementType element, CardColor color)> _player1Wins = new List<(ElementType, CardColor)>();
     private List<(ElementType element, CardColor color)> _opponentWins = new List<(ElementType, CardColor)>();
 
-    // Player vs Player constructor
-    public GameManager(PlayerProfile player1, PlayerProfile player2)
+    public GameManager(PlayerProfile player1, PlayerProfile player2) // Player vs Player constructor
     {
         _player1 = player1;
         _player2 = player2;
         _npcSensi = null;
     }
 
-    // Player vs Sensei constructor
-    public GameManager(PlayerProfile player1)
+    public GameManager(PlayerProfile player1)    // Player vs Sensei constructor
     {
         _player1 = player1;
         _player2 = null;
         _npcSensi = new Sensi($"{(BeltRank)((int)this._player1.GetBeltRank() + 1)} Sensi", (BeltRank)((int)this._player1.GetBeltRank() + 1));
     }
 
-    public void StartPlayerVSPlayerGame() { /* ...use _player1 and _player2... */ }
-
-    public bool ChallengeSensei()
-    {
-        bool gameRunning = true;
-
-        _player1.GetHand().RefillPlayableHand();
-        _npcSensi.GetHand().RefillPlayableHand();
-        while (gameRunning)
-        {
-            int player1CardChoice = _player1.PlayCard();
-            int npcSensiCardChoice = _npcSensi.PlayCard();
-
-            GameVisuals.LoadingSpinner(3);
-            Console.WriteLine($"{_player1.GetName()} Played: {CardDatabase.GetCardById(player1CardChoice).DisplayCardStats()}\n\n{_npcSensi.GetName()} Played: {CardDatabase.GetCardById(npcSensiCardChoice).DisplayCardStats()}");
-            GameVisuals.LoadingSpinner(3);
-
-            int whoWon = GameMechanics.CompareCards(player1CardChoice, npcSensiCardChoice);
-
-
-
-            if (whoWon == 1)
-            {
-                // player1 won logic
-                var card = CardDatabase.GetCardById(player1CardChoice);
-                _player1Wins.Add((card.GetElement(), card.GetColor()));
-                Console.WriteLine($"You won the round with {card.GetElement()} ({card.GetColor()})!");
-            }
-            else if (whoWon == -1)
-            {
-                // sensi win logic
-                var card = CardDatabase.GetCardById(npcSensiCardChoice);
-                _opponentWins.Add((card.GetElement(), card.GetColor()));
-                Console.WriteLine($"Sensei won the round with {card.GetElement()} ({card.GetColor()})!");
-            }
-            else
-            {
-                // tie logic
-                Console.WriteLine("It's a tie!");
-            }
-
-            // Reset Hands and Check if someone won
-            _player1.GetHand().RefillPlayableHand();
-            _npcSensi.GetHand().RefillPlayableHand();
-
-            int winner = this.CheckWinner();
-
-            if (winner == 1)
-            {
-                Console.WriteLine($"{_player1.GetName()} has Won!");
-                gameRunning = false;
-                Console.WriteLine($"{_player1.GetName()} Since you have beat the me the, {_npcSensi.GetBeltRank()} Sensi, you now recieve the {_npcSensi.GetBeltRank()} Belt");
-                return true;
-            }
-            else if (winner == -1)
-            {
-                Console.WriteLine($"{_npcSensi.GetName()} has Won!");
-                gameRunning = false;
-                Console.WriteLine($"{_player1.GetName()} Since you have did not beat the me the, {_npcSensi.GetBeltRank()} Sensi, you do not recieve the {_npcSensi.GetBeltRank()} Belt try again...");
-                return false;
-            }
-            DisplayRoundStanding();
-        }
-        return false;
-    }
-
-    // Displays the current round standing for both players
-    private void DisplayRoundStanding()
-    {
-        Console.WriteLine("\n--- Round Standing ---");
-        Console.WriteLine($"Player Wins: {_player1Wins.Count}");
-        Console.WriteLine($"Sensei Wins: {_opponentWins.Count}");
-        Console.WriteLine("Player Element Wins:");
-        DisplayElementColorWins(_player1Wins);
-        Console.WriteLine("Sensei Element Wins:");
-        DisplayElementColorWins(_opponentWins);
-        Console.WriteLine("----------------------\n");
-    }
-
-    // Helper to display which elements/colors have been won
-    private void DisplayElementColorWins(List<(ElementType element, CardColor color)> wins)
-    {
-        var elementGroups = wins.GroupBy(w => w.element);
-        foreach (var group in elementGroups)
-        {
-            var colors = string.Join(", ", group.Select(w => w.color.ToString()).Distinct());
-            Console.WriteLine($"  {group.Key}: {colors}");
-        }
-        if (!wins.Any())
-            Console.WriteLine("  None");
-    }
-
-    public int CheckWinner()
-    {
-        // Check player
-        if (HasWinningSet(_player1Wins))
-            return 1;
-        // Check opponent
-        if (HasWinningSet(_opponentWins))
-            return -1;
-        return 0;
-    }
-
-    private bool HasWinningSet(List<(ElementType element, CardColor color)> wins)
-    {
-        // Check for 3 different elements
-        var uniqueElements = wins.Select(w => w.element).Distinct().ToList();
-        if (uniqueElements.Count >= 3)
-            return true;
-
-        // Check for 3 different colors of the same element
-        var elementGroups = wins.GroupBy(w => w.element);
-        foreach (var group in elementGroups)
-        {
-            if (group.Select(w => w.color).Distinct().Count() >= 3)
-                return true;
-        }
-        return false;
-    }
-
-    public void SetTextColor(ConsoleColor color)
-    {
-        Console.ForegroundColor = color;
-    }
-
-    public void ResetTextColor()
-    {
-        Console.ResetColor();
-    }
-
-    public void Run()
+    public void Run() // Game Menu 
     {
         bool gameRunning = true;
         while (gameRunning)
@@ -233,5 +102,231 @@ public class GameManager
                 Console.WriteLine("Invalid choice. Please select 1, 2, 3, 4, or 5.");
             }
         }
+    }
+
+    public bool ChallengeSensei()
+    {
+        bool gameRunning = true;
+        bool player1Won = false;
+
+        _player1.GetHand().RefillPlayableHand();
+        _npcSensi.GetHand().RefillPlayableHand();
+
+        while (gameRunning)
+        {
+            int player1CardChoice = _player1.PlayCard();
+            int npcSensiCardChoice = _npcSensi.PlayCard();
+
+            GameVisuals.LoadingSpinner(3);
+            Console.WriteLine($"{_player1.GetName()} Played: {CardDatabase.GetCardById(player1CardChoice).DisplayCardStats()}\n\n{_npcSensi.GetName()} Played: {CardDatabase.GetCardById(npcSensiCardChoice).DisplayCardStats()}");
+            GameVisuals.LoadingSpinner(3);
+
+            int roundWinner = GameMechanics.CompareCards(player1CardChoice, npcSensiCardChoice);
+
+
+
+            if (roundWinner == 1)
+            {
+                // player1 won logic
+                var card = CardDatabase.GetCardById(player1CardChoice);
+                _player1Wins.Add((card.GetElement(), card.GetColor()));
+                Console.WriteLine($"You won the round with {card.GetElement()} ({card.GetColor()})!");
+            }
+            else if (roundWinner == -1)
+            {
+                // sensi win logic
+                var card = CardDatabase.GetCardById(npcSensiCardChoice);
+                _opponentWins.Add((card.GetElement(), card.GetColor()));
+                Console.WriteLine($"Sensei won the round with {card.GetElement()} ({card.GetColor()})!");
+            }
+            else
+            {
+                // tie logic
+                Console.WriteLine("It's a tie!");
+            }
+
+            // Reset Hands and Check if someone won
+            _player1.GetHand().RefillPlayableHand();
+            _npcSensi.GetHand().RefillPlayableHand();
+
+            int winner = this.CheckWinner();
+
+            if (winner == 1)
+            {
+                Console.WriteLine($"{_player1.GetName()} has Won!");
+                gameRunning = false;
+                Console.WriteLine($"{_player1.GetName()} Since you have beat the me the, {_npcSensi.GetBeltRank()} Sensi, you now recieve the {_npcSensi.GetBeltRank()} Belt");
+                player1Won = true;
+                break;
+            }
+            else if (winner == -1)
+            {
+                Console.WriteLine($"{_npcSensi.GetName()} has Won!");
+                gameRunning = false;
+                Console.WriteLine($"{_player1.GetName()} Since you have did not beat the me the, {_npcSensi.GetBeltRank()} Sensi, you do not recieve the {_npcSensi.GetBeltRank()} Belt try again...");
+                break;
+            }
+            DisplayRoundStanding();
+        }
+
+        // End game logic
+        ClearGame();
+
+        if (player1Won)
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+
+    }
+
+    public void StartPlayerVSPlayerGame()
+    {
+        bool gameRunning = true;
+
+        _player1.GetHand().RefillPlayableHand();
+        _player2.GetHand().RefillPlayableHand();
+
+        while (gameRunning)
+        {
+            int player1CardChoice = _player1.PlayCard();
+            GameVisuals.WhiteSpaceCreater();
+            int player2CardChoice = _player2.PlayCard();
+            GameVisuals.WhiteSpaceCreater();
+
+            GameVisuals.LoadingSpinner(3);
+            Console.WriteLine($"{_player1.GetName()} Played: {CardDatabase.GetCardById(player1CardChoice).DisplayCardStats()}\n\n{_npcSensi.GetName()} Played: {CardDatabase.GetCardById(player2CardChoice).DisplayCardStats()}");
+            GameVisuals.LoadingSpinner(3);
+
+            int roundWinner = GameMechanics.CompareCards(player1CardChoice, player2CardChoice);
+
+            // Displays the round winner
+            if (roundWinner == 1)
+            {
+                // player1 win logic
+                var card = CardDatabase.GetCardById(player1CardChoice);
+                _player1Wins.Add((card.GetElement(), card.GetColor()));
+                Console.WriteLine($"{_player1.GetName()} won the round with {card.GetElement()} ({card.GetColor()})!");
+            }
+            else if (roundWinner == -1)
+            {
+                // player2 win logic
+                var card = CardDatabase.GetCardById(player2CardChoice);
+                _opponentWins.Add((card.GetElement(), card.GetColor()));
+                Console.WriteLine($"{_player2.GetName()} won the round with {card.GetElement()} ({card.GetColor()})!");
+            }
+            else
+            {
+                // tie logic
+                Console.WriteLine("It's a tie!");
+            }
+
+            // Reset Hands and Check if someone won
+            _player1.GetHand().RefillPlayableHand();
+            _player2.GetHand().RefillPlayableHand();
+
+
+            int winner = this.CheckWinner();
+            // Displays end screen if someone wins
+            if (winner == 1)
+            {
+                Console.WriteLine($"{_player1.GetName()} has Won!");
+                gameRunning = false;
+                _player1.AlterMMR(true);
+                _player2.AlterMMR(false);
+
+                _player1.AddExperiancePoints();
+            }
+            else if (winner == -1)
+            {
+                Console.WriteLine($"{_player2.GetName()} has Won!");
+                gameRunning = false;
+                _player2.AlterMMR(true);
+                _player1.AlterMMR(false);
+
+                _player2.AddExperiancePoints();
+            }
+            DisplayRoundStanding();
+        }
+
+        //End game logic
+        ClearGame();
+    }
+
+    private void DisplayRoundStanding() // Displays the current round standing for both players
+    {
+        Console.WriteLine("\n--- Round Standing ---");
+        Console.WriteLine($"Player Wins: {_player1Wins.Count}");
+        Console.WriteLine($"Sensei Wins: {_opponentWins.Count}");
+        Console.WriteLine("Player Element Wins:");
+        DisplayElementColorWins(_player1Wins);
+        Console.WriteLine("Sensei Element Wins:");
+        DisplayElementColorWins(_opponentWins);
+        Console.WriteLine("----------------------\n");
+    }
+
+    private void DisplayElementColorWins(List<(ElementType element, CardColor color)> wins)  // Helper to display which elements/colors have been won
+    {
+        var elementGroups = wins.GroupBy(w => w.element);
+        foreach (var group in elementGroups)
+        {
+            var colors = string.Join(", ", group.Select(w => w.color.ToString()).Distinct());
+            Console.WriteLine($"  {group.Key}: {colors}");
+        }
+        if (!wins.Any())
+            Console.WriteLine("  None");
+    }
+
+    public int CheckWinner()
+    {
+        // Check player
+        if (HasWinningSet(_player1Wins))
+            return 1;
+        // Check opponent
+        if (HasWinningSet(_opponentWins))
+            return -1;
+        return 0;
+    }
+
+    private bool HasWinningSet(List<(ElementType element, CardColor color)> wins)
+    {
+        // Check for 3 different elements
+        var uniqueElements = wins.Select(w => w.element).Distinct().ToList();
+        if (uniqueElements.Count >= 3)
+            return true;
+
+        // Check for 3 different colors of the same element
+        var elementGroups = wins.GroupBy(w => w.element);
+        foreach (var group in elementGroups)
+        {
+            if (group.Select(w => w.color).Distinct().Count() >= 3)
+                return true;
+        }
+        return false;
+    }
+
+    public void SetTextColor(ConsoleColor color)
+    {
+        Console.ForegroundColor = color;
+    }
+
+    public void ResetTextColor()
+    {
+        Console.ResetColor();
+    }
+
+    public void ClearGame()
+    {
+        _player1.GetHand().ClearPlayableHand();
+        if (_player2 != null)
+            _player2.GetHand().ClearPlayableHand();
+        if (_npcSensi != null)
+            _npcSensi.GetHand().ClearPlayableHand();
+
+        _player1Wins.Clear();
+        _opponentWins.Clear();
     }
 }

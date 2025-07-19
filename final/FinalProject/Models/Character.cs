@@ -17,12 +17,16 @@ public abstract class Character
         _beltRank = beltRank;
     }
 
+    public abstract int PlayCard();
+    public void UpgradeBeltRank()
+    {
+        _beltRank = (BeltRank)((int)this._beltRank + 1);
+    }
+
     public Deck GetHand()
     {
         return _hand;
     }
-
-    public abstract int PlayCard();
 
     public string GetName()
     {
@@ -31,10 +35,5 @@ public abstract class Character
     public BeltRank GetBeltRank()
     {
         return _beltRank;
-    }
-
-    public void UpgradeBeltRank()
-    {
-        _beltRank = (BeltRank)((int)this._beltRank + 1);
     }
 }

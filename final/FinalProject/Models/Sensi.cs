@@ -33,11 +33,6 @@ public class Sensi : Character
         _hand = newHand;
     }
 
-    public void GiveChallengeText()
-    {
-        // unfinished
-    }
-
     public override int PlayCard()
     {
         Random ran = new Random();
@@ -47,6 +42,5 @@ public class Sensi : Character
         this.GetHand().RemoveCardFromPlayableHand(cardChoice);
 
         return cardChoice;
-    }
-    
+    }   
 }

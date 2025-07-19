@@ -7,6 +7,12 @@ class Program
         string cardsFilePath = @"C:\Users\jwmil\OneDrive\Desktop\BYU-I Spring 2025\CSE210\final\FinalProject\card_Data\cj_fakeAllCards.json";
         CardDatabase.LoadAllCards(cardsFilePath);
 
+        //PvE
+        string player1File = @"C:\Users\jwmil\OneDrive\Desktop\BYU-I Spring 2025\CSE210\final\FinalProject\playerFiles\player1.json";
+        PlayerProfile player1 = PlayerProfile.LoadPlayerProfile(player1File);
+
+        var gm = new GameManager(player1);
+        gm.Run();
 
 
         // PvP
@@ -17,14 +23,6 @@ class Program
 
         // var gm = new GameManager(player1, player2);
         // gm.Run();
-
-
-        //PvE
-        string player1File = @"C:\Users\jwmil\OneDrive\Desktop\BYU-I Spring 2025\CSE210\final\FinalProject\playerFiles\player1.json";
-        PlayerProfile player1 = PlayerProfile.LoadPlayerProfile(player1File);
-
-        var gm = new GameManager(player1);
-        gm.Run();
 
     }
 }

@@ -66,4 +66,9 @@ public class Deck
     {
         this._playableHand.Remove(cardID);
     }
+
+    public void ClearPlayableHand()
+    {
+        _playableHand.Clear();
+    }
 }

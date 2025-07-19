@@ -24,21 +24,6 @@ public class PlayerProfile : Character
         _experiencePoints = experiencePoints;
     }
 
-    public void AddExperiancePoints()
-    {
-        // unfinished
-    }
-
-    public void IncreaseLevel()
-    {
-        // unfinished
-    }
-
-    public void AlterMMR(bool win)
-    {
-        // unfinished
-    }
-
     public void GetProfileSummary()
     {
         string profileSummary = $"    Player Name: {_playerName}\n    Belt Rank: {_beltRank}\n    MMR: {_MMR}\n    Level: {_level}";
@@ -80,8 +65,44 @@ public class PlayerProfile : Character
         Console.Write("Select Card by CardID: ");
         int cardChoice = int.Parse(Console.ReadLine());
 
-         this.GetHand().RemoveCardFromPlayableHand(cardChoice);
+        this.GetHand().RemoveCardFromPlayableHand(cardChoice);
         return cardChoice;
 
     }
+
+    public void AlterMMR(bool didWin)
+    {
+        Random ran = new Random();
+        int mmrIncrement = ran.Next(9, 12); // 9, 10, or 11
+        if (didWin)
+        {
+            _MMR += mmrIncrement;
+        }
+        else
+        {
+            _MMR -= mmrIncrement;
+        }
+    }
+
+    public int GetXPForNextLevel()
+    {
+        int baseXP = 100;
+        double levelMultiplier = 1.2;
+        return (int)(baseXP * Math.Pow(levelMultiplier, _level - 1));
+    }
+
+    public void AddExperiancePoints()
+    {
+        Random rand = new Random();
+        int amount = rand.Next(30, 61);
+        _experiencePoints += amount;
+        while (_experiencePoints >= GetXPForNextLevel())
+        {
+            _experiencePoints -= GetXPForNextLevel();
+            _level++;
+            Console.WriteLine($"Level up! You are now level {_level}!");
+        }
+    }
+
+
 }
